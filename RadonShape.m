@@ -709,5 +709,4 @@ for part=1:a
     F(5) = mvnpdf([nrt(part,1) nrt(part,2)],medias(:,5)',cova(:,:,5));
     [~,o]=max(F);
     assi(part)=o;
-    
 end
