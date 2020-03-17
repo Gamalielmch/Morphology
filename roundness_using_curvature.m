@@ -47,7 +47,6 @@ dth=linspace(1e-10,2*pi,10000);
 xc=x+r*cos(dth);
 yc=y+r*sin(dth);
 plot(xc,yc,'y')
-
 %%% Set up axis
 xmin=min(peri(:,2));
 xmax=max(peri(:,2));
@@ -61,13 +60,16 @@ axis equal
 axis ij
 
 %%% key points
-c=regionprops(I,'centroid');
-c=c.Centroid;
-PCD= max(sqrt((peri(:,2)-c(1)).^2+(peri(:,1)-c(2)).^2));
+X=peri;
+circle = enclosingCircle(X);
+c(1)=circle(2);
+c(2)=circle(1);
+PCD=circle(3);
 xc=c(1)+PCD*cos(dth);
 yc=c(2)+PCD*sin(dth);
-% plot(c(1),c(2),'go','MarkerEdgeColor','g',...
-%     'MarkerFaceColor',[0 1 0])
+hold on
+plot(c(1),c(2),'go','MarkerEdgeColor','g','MarkerFaceColor',[0 1 0])
 plot(xc,yc,'g')
-delta=PCD*0.0003;
-delta
+
+
+
