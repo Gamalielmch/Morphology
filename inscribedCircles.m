@@ -1,6 +1,6 @@
 close all;
 load franke
-im = imread('im_pruebas/c1.jpg');
+im = imread('im_pruebas/d4.jpg');
 %im = imrotate(im,25,'bicubic');
 %imshow(im);
 BW = imbinarize(im(:,:,1));
@@ -18,6 +18,11 @@ for k = 1:size(B,1)
    boundary = B{k};
    %figure,plot(boundary(:,2),boundary(:,1))
 end
+
+Ibw = imfill(BW,'holes');
+Ilabel = bwlabel(Ibw);
+stat = regionprops(Ilabel,'centroid');
+centroid = stat.Centroid;
 
 res = boundary - [x,y]; %Se resta las posiciones del centroide, para poner la figura en el origen
 [theta,rho] = cart2pol(res(:,1),res(:,2));
@@ -76,8 +81,31 @@ for j = 1:size(nX,1)
     end
 end
 
+
+puntosEliminar = [];
+count = 1;
+for  i = 1:2:size(parPuntos,1)
+    puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
+    [xi,yi] = polyxpoly([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)],nX,nY); %Se revisa si intersecta la linea entre el punto medio de los 2 puntos y el centroide de la figura
+    %Si estas variables traen algo?, ya no cumple porque estan
+    %intersectando antes la figura que la linea generada, y se sacan del
+    %arreglo
+    if(~isempty(xi))
+        puntosEliminar(count) = i;
+        puntosEliminar(count+1) = i+1;
+        count = count +2;
+    end
+end
+parPuntos(puntosEliminar,:) = []; %Se eliminan los puntos que no cumplen
 hold on
 scatter(parPuntos(:,1),parPuntos(:,2));
+scatter(centroid(2),centroid(1)); %Centroide de la figura
+
+for  i = 1:2:size(parPuntos,1)
+    plot(parPuntos(i:i+1,1),parPuntos(i:i+1,2))
+    puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
+    plot([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)])
+end
 
 %Acumulado de la distancia euclidiana de los puntos
 function ac_dist = get_ac_dist(points)
