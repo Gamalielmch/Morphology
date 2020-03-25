@@ -1,4 +1,4 @@
-
+function main
 close all;
 %load franke
 im = imread('testimage/d4.jpg');
@@ -34,7 +34,9 @@ theta = theta * 180/pi;%Se transforma a grados
 
 %PASO 2
 %LOESS Regression
+%Ysmooth = smooth(theta,rho,0.2,'rloess');
 Ysmooth = malowess(theta,rho,'Order',2);
+Ysmooth = smooth(theta,Ysmooth,0.2,'moving');
 % y = fLOESS([sorTheta,rho],.2);
 figure,plot(sorTheta,Ysmooth)
 hold on
@@ -45,9 +47,49 @@ plot(sorTheta,rho)
 theta = theta * pi/180;
 theta = theta - pi;
 [nX,nY] = pol2cart(theta,Ysmooth);
+[nXr,nYr] = pol2cart(theta,rho);
 nX = nX + x;
 nY = nY + y;
-figure,plot(nX,nY);
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Obtener puntos que rebasen un delta
+len=length(nX); %numero de pixeles en el contorno
+puntos=1;
+i=1;
+cont=1;
+delta=0.3;
+figure, plot(Ysmooth)
+hold on
+plot(i,Ysmooth(i),'ks')
+while i<len
+    for xi=len:-1:i
+        c = polyfit([i,xi],[Ysmooth(i),Ysmooth(xi)],1);
+        ylin = polyval(c,i:xi)';
+        maxi_div=max(abs(Ysmooth(i:xi)-ylin));
+        if maxi_div<delta
+            plot(xi,Ysmooth(xi),'ks')
+            plot([i,xi],[ylin(1),ylin(end)])
+            drawnow
+            cont=cont+1;
+            puntos(cont)=xi;
+            i=xi;
+            break
+        end
+    end
+end
+figx=figure;
+plot(nXr,nYr)
+hold on
+for i=1:length(puntos)
+   plot(nXr(puntos),nYr(puntos),'ks') 
+end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %PASO 3
 %Obtener los puntos del contorno que tengan una distancia euclidiana que no
@@ -108,7 +150,7 @@ for  i = 1:2:size(parPuntos,1)
     puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
     plot([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)])
 end
-
+end
 
 %Acumulado de la distancia euclidiana de los puntos
 function ac_dist = get_ac_dist(points)

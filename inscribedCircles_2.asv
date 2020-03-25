@@ -1,4 +1,4 @@
-
+function main
 close all;
 %load franke
 im = imread('testimage/d4.jpg');
@@ -34,7 +34,7 @@ theta = theta * 180/pi;%Se transforma a grados
 
 %PASO 2
 %LOESS Regression
-Ysmooth = malowess(theta,rho,'Order',2);
+Ysmooth = smooth(theta,rho,0.2,'rloess');
 % y = fLOESS([sorTheta,rho],.2);
 figure,plot(sorTheta,Ysmooth)
 hold on
@@ -47,7 +47,39 @@ theta = theta - pi;
 [nX,nY] = pol2cart(theta,Ysmooth);
 nX = nX + x;
 nY = nY + y;
-figure,plot(nX,nY);
+figx=figure;
+plot(nX,nY)
+hold on
+%Obtener puntos que rebasen un delt
+len=length(nX); %numero de pixeles en el contorno
+puntos=1;
+i=1;
+cont=1;
+delta=0.3;
+figure, plot(Ysmooth)
+hold on
+plot(i,Ysmooth(i),'ks')
+while i<len
+    for xi=len:-1:i
+        c = polyfit([i,xi],[Ysmooth(i),Ysmooth(xi)],1);
+        ylin = polyval(c,i:xi)';
+        maxi_div=max(abs(Ysmooth(i:xi)-ylin));
+        if maxi_div<delta
+            plot(xi,Ysmooth(xi),'ks')
+            plot([i,xi],[ylin(1),ylin(end)])
+            drawnow
+            cont=cont+1;
+            puntos(cont)=xi;
+            i=xi;
+            break
+        end
+    end
+end
+figure(figx)
+for i=1:length(puntos)
+   plot(nX(puntos),nY(puntos),'ks') 
+end
+
 
 %PASO 3
 %Obtener los puntos del contorno que tengan una distancia euclidiana que no
@@ -108,7 +140,7 @@ for  i = 1:2:size(parPuntos,1)
     puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
     plot([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)])
 end
-
+end
 
 %Acumulado de la distancia euclidiana de los puntos
 function ac_dist = get_ac_dist(points)
