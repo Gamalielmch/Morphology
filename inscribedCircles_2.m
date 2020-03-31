@@ -1,7 +1,7 @@
 function main
 close all;
 %load franke
-im = imread('testimage/d4.jpg');
+im = imread('testimage/e1.jpg');
 %im = imrotate(im,25,'bicubic');
 %imshow(im);
 BW = imbinarize(im(:,:,1));
@@ -25,132 +25,114 @@ Ilabel = bwlabel(Ibw);
 stat = regionprops(Ilabel,'centroid');
 centroid = stat.Centroid;
 
-res = boundary - [x,y]; %Se resta las posiciones del centroide, para poner la figura en el origen
-[theta,rho] = cart2pol(res(:,1),res(:,2));
-theta = theta + pi;
-theta = theta * 180/pi;%Se transforma a grados
-[sorTheta,pos] = sort(theta);
+% res = boundary - [x,y]; %Se resta las posiciones del centro del círuclo mas grande, para poner la figura en el origen
+% [theta,rho] = cart2pol(res(:,1),res(:,2));
+% theta = theta + pi;
+% theta = theta * 180/pi;%Se transforma a grados
+% [sorTheta,pos] = sort(theta);
 %rho = rho(pos);
 
 %PASO 2
 %LOESS Regression
 %Ysmooth = smooth(theta,rho,0.2,'rloess');
-Ysmooth = malowess(theta,rho,'Order',2);
-Ysmooth = smooth(theta,Ysmooth,0.2,'moving');
-% y = fLOESS([sorTheta,rho],.2);
-figure,plot(sorTheta,Ysmooth)
-hold on
-plot(sorTheta,rho)
+imSmooth = bw_chain_fil(BW,30,0); % Fourier eliptico smooth
+%imSmooth(size(imSmooth,1)+1,:) = imSmooth(1,:); %Para eliminar el hueco que se genera entre el primero y el ultimo punto, solo se agrega el primer punto al final
+% Ysmooth = malowess(theta,rho,'Order',2);
+% Ysmooth = smooth(theta,Ysmooth,0.2,'moving');
+% % y = fLOESS([sorTheta,rho],.2);
+% figure,plot(sorTheta,Ysmooth)
+% hold on
+plot(imSmooth(:,2),imSmooth(:,1))
 
 %Se Invierte la forma polar a cartesiana, para obtener la figura, pero con
 %suavidad
-theta = theta * pi/180;
-theta = theta - pi;
-[nX,nY] = pol2cart(theta,Ysmooth);
-[nXr,nYr] = pol2cart(theta,rho);
-nX = nX + x;
-nY = nY + y;
+% theta = theta * pi/180;
+% theta = theta - pi;
+% [nX,nY] = pol2cart(theta,Ysmooth);
+% [nXr,nYr] = pol2cart(theta,rho);
+% nX = nX + x;
+% nY = nY + y;
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PASO 3
 %Obtener puntos que rebasen un delta
-len=length(nX); %numero de pixeles en el contorno
-puntos=1;
-i=1;
-cont=1;
-delta=0.3;
-figure, plot(Ysmooth)
-hold on
-plot(i,Ysmooth(i),'ks')
+len = size(imSmooth,1); %numero de pixeles en el contorno
+puntos = 1;
+i = 1;
+cont = 1;
+delta = 0.4;
+%figure, plot(Ysmooth)
+%hold on
+%plot(i,Ysmooth(i),'ks')
 while i<len
-    for xi=len:-1:i
-        c = polyfit([i,xi],[Ysmooth(i),Ysmooth(xi)],1);
+    for xi = len:-1:i
+        c = polyfit([i,xi],[imSmooth(i,2),imSmooth(xi,2)],1);
         ylin = polyval(c,i:xi)';
-        maxi_div=max(abs(Ysmooth(i:xi)-ylin));
+        maxi_div=max(abs(imSmooth(i:xi,2)-ylin));
         if maxi_div<delta
-            plot(xi,Ysmooth(xi),'ks')
-            plot([i,xi],[ylin(1),ylin(end)])
-            drawnow
+            %plot(xi,imSmooth(xi,2),'ks')
+            %plot([i,xi],[ylin(1),ylin(end)])
+            %
             cont=cont+1;
             puntos(cont)=xi;
-            i=xi;
+            i = xi;
             break
         end
     end
 end
-figx=figure;
-plot(nXr,nYr)
+%figx=figure;
+plot(imSmooth(:,2),imSmooth(:,1))
 hold on
 for i=1:length(puntos)
-   plot(nXr(puntos),nYr(puntos),'ks') 
+   plot(imSmooth(puntos(i),2),imSmooth(puntos(i),1),'ks') 
+   drawnow
 end
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+for  i = 1:length(puntos)-1
+    plot([imSmooth(puntos(i),2),imSmooth(puntos(i+1),2)],[imSmooth(puntos(i),1),imSmooth(puntos(i+1),1)])
+    %puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
+    %plot([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)])
+end
+puntosSeleccionados = [];
+count = 1;
 
-
-%PASO 3
-%Obtener los puntos del contorno que tengan una distancia euclidiana que no
-%rebase un valor epsilon
-ep = .3;
-parPuntos = [];
-first_point = [];
-count_par_points = 1;
-evaluado = 0;
-for j = 1:size(nX,1)
-    if(isempty(first_point))
-        first_point = [nX(j),nY(j)];
-        last_points = first_point;
-        count_points = 2;
-    else
-        second_point = [nX(j),nY(j)];
-        last_points(count_points,:) = second_point;
-        ec_dist = get_ec_dist(first_point,second_point);
-        ac_dist = get_ac_dist(last_points);
-        if abs(ec_dist-ac_dist) <= ep
-            evaluado = 1;
-            count_points = count_points + 1;
-        else
-            if(evaluado)
-                parPuntos(count_par_points,:) = first_point;
-                parPuntos(count_par_points+1,:) = second_point;
-                count_par_points = count_par_points + 2;
-                evaluado = 0;
-            end
-            first_point = [];
+for  i = 1:length(puntos)-1
+    puntoMedio = [sum(imSmooth(puntos(i:i+1),1))/2,sum(imSmooth(puntos(i:i+1),2))/2];
+    [xi,yi] = polyxpoly(imSmooth(puntos(i:i+1),1),imSmooth(puntos(i:i+1),2),imSmooth(:,1),imSmooth(:,2)); %Se revisa si intersecta la linea entre el punto medio de los 2 puntos y el centroide de la figura
+    [xi2,~] = polyxpoly([puntoMedio(1),centroid(1)],[puntoMedio(2),centroid(2)],imSmooth(:,1),imSmooth(:,2));
+    %plot(yi,xi,'md');
+    %Si estas variables traen algo?, ya no cumple porque estan
+    %intersectando antes la figura que la linea generada, y se sacan del
+    xi([1,length(xi)]) = [];
+    %arreglo
+    if(isempty(xi) && isempty(xi2))
+        %if(puntosEliminar.ismember()
+        if(~ any(puntosSeleccionados == i)) 
+            puntosSeleccionados(count) = i;
+            count = count + 1;
+        end
+        
+        if(~ any(puntosSeleccionados == i+1)) 
+            puntosSeleccionados(count) = i + 1;
+            count = count + 1;
         end
     end
 end
-
-
-puntosEliminar = [];
-count = 1;
-
-for  i = 1:2:size(parPuntos,1)
-    puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
-    [xi,yi] = polyxpoly([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)],nX,nY); %Se revisa si intersecta la linea entre el punto medio de los 2 puntos y el centroide de la figura
-    %Si estas variables traen algo?, ya no cumple porque estan
-    %intersectando antes la figura que la linea generada, y se sacan del
-    %arreglo
-    if(~isempty(xi))
-        puntosEliminar(count) = i;
-        puntosEliminar(count+1) = i+1;
-        count = count +2;
-    end
-end
-parPuntos(puntosEliminar,:) = []; %Se eliminan los puntos que no cumplen
+figure,plot(imSmooth(:,2),imSmooth(:,1))
+puntos = puntos(puntosSeleccionados); %Se eliminan los puntos que no cumplen
 hold on
-scatter(parPuntos(:,1),parPuntos(:,2));
-scatter(centroid(2),centroid(1)); %Centroide de la figura
+plot(imSmooth(puntos,2),imSmooth(puntos,1),'ks');
+title("Puntos seleccionados")
+%scatter(centroid(2),centroid(1)); %Centroide de la figura
 
-for  i = 1:2:size(parPuntos,1)
-    plot(parPuntos(i:i+1,1),parPuntos(i:i+1,2))
-    puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
-    plot([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)])
-end
-end
+% for  i = 1:2:length(puntos)
+%     plot([imSmooth(puntos(i),2),imSmooth(puntos(i+1),2)],[imSmooth(puntos(i),1),imSmooth(puntos(i+1),1)])
+%     %puntoMedio = [sum(parPuntos(i:i+1,1))/2,sum(parPuntos(i:i+1,2))/2];
+%     %plot([puntoMedio(1),centroid(2)],[puntoMedio(2),centroid(1)])
+% end
+end% main
 
 %Acumulado de la distancia euclidiana de los puntos
 function ac_dist = get_ac_dist(points)
