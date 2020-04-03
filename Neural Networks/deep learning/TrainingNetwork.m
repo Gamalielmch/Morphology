@@ -37,7 +37,7 @@ correct_input = [1 0 0 0 0;
                  0 0 1 0 0;
                  0 0 0 1 0;
                  0 0 0 0 1];
- %primera capa tiene 25 nodos,
+ %primera capa tiene 20 nodos,
  %segunda capa tiene 20
  %tercera capa tiene 20
  %capa de salida tiene 5 nodos, porque son las respectivas salidas que puede tomar
