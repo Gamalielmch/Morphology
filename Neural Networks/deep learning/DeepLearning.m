@@ -1,4 +1,6 @@
-
+%%w es una celda donde se le agregan la cantidad de capas que se quieran usar,
+%%input_image, la imagen que se va a analizar, y 
+%%correct_output, la salida o el numero al que corresponde la imagen
 function [w] = DeepLearning (w,input_image,correct_output)
     alpha = 0.01;
     N = size(correct_output,1);
