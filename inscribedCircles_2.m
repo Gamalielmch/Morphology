@@ -1,7 +1,7 @@
 function main
 close all;
 %load franke
-im = imread('testimage/e1.jpg');
+im = imread('testimage/c1.jpg');
 %im = imrotate(im,25,'bicubic');
 %imshow(im);
 BW = imbinarize(im(:,:,1));
