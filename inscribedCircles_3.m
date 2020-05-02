@@ -1,4 +1,4 @@
-function roundness = inscribedCircles_3 (img_route,armon,delta,dist_max)
+function roundness = inscribedCircles_3 (img_route,armon,delta,dist_max,im_name)
     close all;
     % read and binarization image
     inscribedRadii = 0;
@@ -29,7 +29,7 @@ function roundness = inscribedCircles_3 (img_route,armon,delta,dist_max)
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%% show results
-    figure
+    fig1 = figure("Name","fig1")
     %%%%% contour
     plot(imSmooth(:,2),imSmooth(:,1),'k')
     hold on
@@ -56,7 +56,7 @@ function roundness = inscribedCircles_3 (img_route,armon,delta,dist_max)
         plot(xtt+cent(1),yyt+cent(2),'g--')
     end
     roundness = (inscribedRadii/size(results,1))/radii;
-
+    saveas(fig1,"resultados/"+im_name)
 end
 
 
