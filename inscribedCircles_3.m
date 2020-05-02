@@ -1,56 +1,61 @@
-function inscribedCircles_3
-close all;
-% read and binarization image
-im = imread('testimage/d1.jpg');
-im=imresize(im,1);
-BW = imbinarize(im(:,:,1));
+function roundness = inscribedCircles_3 (img_route,armon,delta,dist_max)
+    close all;
+    % read and binarization image
+    inscribedRadii = 0;
+    im = imread(img_route);
+    im = imresize(im,1.5);
+    im = imrotate(im,90);
+    BW = imbinarize(im(:,:,1));
+    
 
-%Finding maximum circunscribed circle
-[cx,cy,radii]=max_circun_circle(BW,0);
+    %Finding maximum circunscribed circle
+    [cx,cy,radii]=max_circun_circle(BW,0);
 
-% Fourier eliptico smoothing
-imSmooth = bw_chain_fil(BW,60,0);
+    % Fourier eliptico smoothing
+    imSmooth = bw_chain_fil(BW,armon,0);
 
-% Getting points of curvature
-points = points_curvature(imSmooth,0.20,0);
+    % Getting points of curvature
+    points = points_curvature(imSmooth,delta,0);
 
-% removing convex curvature points
-Seleted_points=points_convex(imSmooth,points,cx,cy,0);
-points = points(Seleted_points); %Se eliminan los points que no cumplen
-x=imSmooth(points,2); y=imSmooth(points,1);
+    % removing convex curvature points
+    Seleted_points=points_convex(imSmooth,points,cx,cy,0);
+    points = points(Seleted_points); %Se eliminan los points que no cumplen
+    x=imSmooth(points,2); y=imSmooth(points,1);
 
-% fitting circles
-[results]=fitting_circ(x,y,radii,25);
-
+    % fitting circles
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% show results
-figure
-%%%%% contour
-plot(imSmooth(:,2),imSmooth(:,1),'k')
-hold on
-% selected points
-plot(imSmooth(points,2),imSmooth(points,1),'rx');
-% plot maximum circunscribed circle
-theta=linspace(0,2*pi,2000);
-[xr,yr]=pol2cart(theta, repmat(radii,1,2000));
-plot(yr+cx,xr+cy,'b')
-% plot curvature circle
-for i=1:size(results,1)
-    R=results{i,1};
-    cent=results{i,2};
-    rt=R*ones(1,2000);
-    [xtt,yyt]=pol2cart(theta,rt);
-    plot(cent(1),cent(2),'r*')
-    plot([cent(1),cent(1)+R],[cent(2),cent(2)],'b')
-    d=sqrt((imSmooth(:,2)-cent(1)).^2 + (imSmooth(:,1)-cent(2)).^2 );
-    [d,minr]=min(d);
-    plot([cent(1),imSmooth(minr,2)],[cent(2),imSmooth(minr,1)],'r')
-    plot(xtt+cent(1),yyt+cent(2),'g--')
-end
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%% show results
+    figure
+    %%%%% contour
+    plot(imSmooth(:,2),imSmooth(:,1),'k')
+    hold on
+    % selected points
+    plot(imSmooth(points,2),imSmooth(points,1),'rx');
+    % plot maximum circunscribed circle
+    theta=linspace(0,2*pi,2000);
+    [xr,yr]=pol2cart(theta, repmat(radii,1,2000));
+    plot(yr+cx,xr+cy,'b')
+    
+    [results]=fitting_circ(x,y,radii,dist_max,imSmooth);
+    % plot curvature circle
+    for i=1:size(results,1)
+        R=results{i,1};
+        inscribedRadii = inscribedRadii + R;
+        cent=results{i,2};
+        rt=R*ones(1,2000);
+        [xtt,yyt]=pol2cart(theta,rt);
+        plot(cent(1),cent(2),'r*')
+        plot([cent(1),cent(1)+R],[cent(2),cent(2)],'b')
+        d=sqrt((imSmooth(:,2)-cent(1)).^2 + (imSmooth(:,1)-cent(2)).^2 );
+        [d,minr]=min(d);
+        plot([cent(1),imSmooth(minr,2)],[cent(2),imSmooth(minr,1)],'r')
+        plot(xtt+cent(1),yyt+cent(2),'g--')
+    end
+    roundness = (inscribedRadii/size(results,1))/radii;
 
 end
 
@@ -189,29 +194,43 @@ end
 %fitting_circule
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function  [result]=fitting_circ(x,y,radii,dist_max)
+function  [result]=fitting_circ(x,y,radii,dist_max,imSmooth)
 
 result=cell(1,2);
 cont=1;
 lenx=length(x);
 while lenx>2
+    dist_actual = dist_max;
+    generoCir = 0;
     
-    re=1;
-    dif=1;
-    d2=1;
-    while dif>0
-        re=distance(x,y,dist_max,re);
-        re=unique(re);
-        dif=length(re)-length(d2);
-        d2=re;
-    end
-    if length(re)>2
-        [xc,yc,R,~] = circfit(x(re),y(re));
-        if R<=radii
-            cent=[xc,yc];
-            result(cont,1)={R};
-            result(cont,2)={cent};
-            cont=cont+1;
+    while generoCir == 0
+        
+        re=1;
+        dif=1;
+        d2=1;
+        while dif>0
+            re=distance(x,y,dist_actual,re);
+            re=unique(re);
+            dif=length(re)-length(d2);
+            d2=re;
+        end
+        if length(re)>2
+            [xc,yc,R,~] = circfit(x(re),y(re));
+            if R<=radii
+                if(inpolygon(xc,yc,imSmooth(:,2),imSmooth(:,1))) %%Se dejan pasar todos los círculos dentro de la figura
+                    cent=[xc,yc];
+                    result(cont,1)={R};
+                    result(cont,2)={cent};
+                    cont=cont+1;
+                    generoCir = 1;
+                else
+                    dist_actual = dist_actual - 1;
+                end
+            end
+        end
+        
+        if(dist_actual == 0 | length(re) < 3)
+           break; 
         end
     end
     x(re)=[];
