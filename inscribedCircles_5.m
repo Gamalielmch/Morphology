@@ -25,7 +25,7 @@ temp=imfill(bwmorph(temp,'bridge'),'holes');
 
 X = [x,y];
 [L2,R2,K2] = curvature(X);
-
+mag=sqrt(K2(:,1).^2+K2(:,2).^2);
 Si=sign(K2);
 temp2=false(size(temp));
 LX=false(length(x),1);
@@ -35,7 +35,7 @@ for i=2:length(x)-1
     temp2(L(i,1)+Si(i,1),L(i,2)+Si(i,2))=1;
     t=and(temp2,temp);
     LX(i)=sum(t(:));
-    if LX(i)>0
+    if LX(i)>0 && mag(i)>0.001
         xt=[xt x(i)];
         yt=[yt y(i)];
         points=[points, i];
@@ -46,9 +46,12 @@ end
 
 
 [results]=fitting_circ(xt,yt,radii,dist_max,imSmooth,0);
-
-
-
+if size(results,1)>10
+[~,ind]= min([results{:,1}]);
+results(ind,:)=[];
+[~,ind]= max([results{:,1}]);
+results(ind,:)=[];
+end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% show results
 fig1=figure('color',[1 1 1]);
@@ -96,8 +99,8 @@ end
 %     view(axes2,[-180 90]);
 dim = [.15 .85 .05 .05];
 roundness = (inscribedRadii/size(results,1))/radii;
-annotation('textbox',dim,'String',"Roundness:"+(roundness*10)/10,'FitBoxToText','on');
-saveas(fig2,"resultados2/"+im_name)
+annotation('textbox',dim,'String',"Roundness:"+roundness,'FitBoxToText','on');
+saveas(fig2,"results/"+im_name)
 close (fig1)
 end
 
@@ -168,7 +171,7 @@ while lenx>2
             
             [~,gof,~]=fit(x(re)',y(re)','poly1');
             
-            if gof.rsquare<0.9
+            if gof.rsquare<0.95
                 cent=[xc,yc];
                 result(cont,1)={R};
                 result(cont,2)={cent};
