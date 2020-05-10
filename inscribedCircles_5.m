@@ -3,8 +3,10 @@ function roundness = inscribedCircles_5 (img_route,armon,dist_max,im_name)
 % read and binarization image
 inscribedRadii = 0;
 im = imread(img_route);
+im = imbinarize(im(:,:,1));
+im = padarray(im,[10 10],'both');
 im=imresize(im,1.5);
-BW = imbinarize(im(:,:,1));
+BW = im;
 BW=imrotate(BW,90);
 [nx,ny]=size(BW);
 %Finding maximum circunscribed circle
@@ -56,7 +58,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% show results
 fig1=figure('color',[1 1 1]);
 axes1 = axes('Parent',fig1);
-BW = imbinarize(im(:,:,1));
+BW = im;
 imshow(flip(~BW,2))
 hold on
 %%%%% contour
