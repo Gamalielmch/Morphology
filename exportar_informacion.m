@@ -1,28 +1,38 @@
-function exportar_informacion
-    
-    images ='testimage';
+%function exportar_informacion
+    pathi=[pwd,'\testimage'];
+    [file,path] = uigetfile({'*.jpg;*.png;*.bmp;*.jpeg;'},'Select One or More Files','MultiSelect', 'on',pathi);
+    if iscell(file)
+        n=length(file);
+    else
+        n=1;
+        file={file};
+    end
+    %images ='testimage';
     filename = 'excentricidad_data.xlsx'; 
-    jpgfiles = dir(fullfile(images,'\*.jpg'));
+    %jpgfiles = dir(fullfile(images,'\*.jpg'));
     
-    n = numel(jpgfiles); %Numero de imagenes en el directorio im_pruebas
-    N = 20;
+    %n = numel(jpgfiles); %Numero de imagenes en el directorio im_pruebas
+    N = 40;
 
-    cellExcentricity = zeros([n N]);
+    cellExcentricity = zeros([n N*4]);
     roundClassifications = cell([n,1]);
+    spherClassifications = cell([n,1]);
+    %shper = zeros(1,n);
     
+    %roundness=zeros(1,n);
     for imnum = 1:n
-        imname = jpgfiles(imnum).name;
-        img_route = fullfile(images,imname);
-        excen = armonicosFourierEliptico(N,img_route);
-        roundness = inscribedCircles_4(img_route,N,20,imname);
-        
-        rClass = round(roundness*10)/10; %Se obtiene el valor del primer decimal, debido a que solo existen 9 clases 0.1 - 0.9
+        spher = sphericity([path, file{imnum}],1);
+        cons = armonicosFourierEliptico(N,[path, file{imnum}]);
+        roundness = inscribedCircles_5([path, file{imnum}],N,15,file{imnum});
+       
+        rClass = roundness; %Se obtiene el valor del primer decimal, debido a que solo existen 9 clases 0.1 - 0.9
         roundClassifications{imnum} = rClass;
-        cellExcentricity(imnum,:) = excen';
+        spherClassifications{imnum} = spher;
+        cellExcentricity(imnum,:) = cons';
     end
     
-    finalCell = [roundClassifications  num2cell(cellExcentricity)]; %Combinamos las celdas de excentricidad y clasificaciones
+    finalCell = [roundClassifications spherClassifications num2cell(cellExcentricity)]; %Combinamos las celdas de excentricidad y clasificaciones
     tableExcen = cell2table(finalCell);
     writetable(tableExcen,filename,'Sheet',1,'Range','A1')
-end
+%end
 

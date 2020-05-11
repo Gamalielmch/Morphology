@@ -57,7 +57,7 @@ end
 fig1=figure('color',[1 1 1]);
 axes1 = axes('Parent',fig1);
 BW = imbinarize(im(:,:,1));
-imshow(flip(~BW,2))
+%imshow(flip(~BW,2))
 hold on
 %%%%% contour
 fig2=figure('color',[1 1 1]);
@@ -99,9 +99,13 @@ end
 %     view(axes2,[-180 90]);
 dim = [.15 .85 .05 .05];
 roundness = (inscribedRadii/size(results,1))/radii;
+if(roundness > 1)
+   roundness = 1; 
+end
 annotation('textbox',dim,'String',"Roundness:"+roundness,'FitBoxToText','on');
 saveas(fig2,"results/"+im_name)
 close (fig1)
+close (fig2)
 end
 
 

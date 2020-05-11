@@ -5,7 +5,7 @@
 % [xGrid,yGrid] = meshgrid(1:200,1:200);
 % BW = isinterior(pgon,xGrid(:),yGrid(:));
 % BW = reshape(BW,size(xGrid));
-function excen = armonicosFourierEliptico(armon,img_route)
+function cons = armonicosFourierEliptico(armon,img_route)
 
     N = armon; %Numero de armonicos
     im=imread(img_route);
@@ -64,7 +64,7 @@ function excen = armonicosFourierEliptico(armon,img_route)
     %     t(p) = get_tp(chain_code_array,p);
     % end
 
-    [yN,xN,excen] = get_both_xN_yN(chain_code_array,t,N);
+    [yN,xN,excen,cons] = get_both_xN_yN(chain_code_array,t,N);
     %xN = get_function_xN(chain_code_array,t,N);
     %yN = get_function_yN(chain_code_array,t,N);
 
@@ -76,7 +76,7 @@ function excen = armonicosFourierEliptico(armon,img_route)
     %figure,plot(boundary(:,2), boundary(:,1), 'r', 'LineWidth', 1)
     %hold on
     %figure,plot(xN,yN);
-
+    cons = cons(:);
 end
 
 %%%%%%Functions
@@ -286,13 +286,14 @@ function yN = get_function_yN(chain_code_array,t_array,N)
     yN = C0 + yN;
 end
 
-function [yN,xN,excen] = get_both_xN_yN(chain_code_array,t_array,N)
+function [yN,xN,excen,cons] = get_both_xN_yN(chain_code_array,t_array,N)
     T = get_tp(chain_code_array,size(chain_code_array,1)); 
     C0 = get_C0(T,chain_code_array);
     A0 = get_A0(T,chain_code_array);
     excen = zeros(N,1);
     xN = zeros(size(t_array));
     yN = zeros(size(t_array));
+    cons = zeros(N,4);
     
     for n = 1:N
        a = get_a_n(T,chain_code_array,n);
@@ -331,6 +332,7 @@ function [yN,xN,excen] = get_both_xN_yN(chain_code_array,t_array,N)
        res_1=[cos(phi1),sin(phi1);-sin(phi1),cos(phi1)]*[a,b;c,d]*[cos(n*theta1),-sin(n*theta1);sin(n*theta1),cos(n*theta1)];
        %res_2 = res_1;
        res_2 = res_1/E;
+       cons(n,:) = res_2(:);
        xN = xN + res_2(1,1) * (cos((2*n*pi).*t_array/T)) + res_2(1,2) * (sin((2*n*pi).*t_array/T));
        yN = yN + res_2(2,1) * (cos(2*n*pi.*t_array/T)) + res_2(2,2) * (sin(2*n*pi.*t_array/T));
        %figure,plot(res_2(1,1) * (cos((2*n*pi).*t_array/T)) + res_2(1,2) * (sin((2*n*pi).*t_array/T)),res_2(2,1) * (cos(2*n*pi.*t_array/T)) + res_2(2,2) * (sin(2*n*pi.*t_array/T)))
