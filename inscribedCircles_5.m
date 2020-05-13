@@ -1,14 +1,30 @@
-function roundness = inscribedCircles_5 (img_route,armon,dist_max,im_name)
+function roundness = inscribedCircles_5 (img_route,armon,dist_max,im_name,display)
+%display=0 no se muestra nada, display=1 se muestra contorno, diaplay=2 se
+%muestra contornos e imagen
 %close all;
 % read and binarization image
-inscribedRadii = 0;
+
+%%%%%%%%% Read and area normalization 
 im = imread(img_route);
 im = imbinarize(im(:,:,1));
-im = padarray(im,[10 10],'both');
-im=imresize(im,1.5);
+im=regionprops(im,'Image');
+im=im(1).Image;
+fac=450/size(im,1)
+im=imresize(im,fac);
+im = padarray(im,[15 15],'both');
+
+
+%%%%%%%%% spur contour remove 
+windowSize = 5;
+kernel = ones(windowSize) / windowSize ^ 2;
+im = conv2(single(im), kernel, 'same');
+im = im > 0.5; % Rethreshold
+
+%%%% rotate 
 BW = im;
 BW=imrotate(BW,90);
 [nx,ny]=size(BW);
+
 %Finding maximum circunscribed circle
 [cx,cy,radii]=max_circun_circle(BW,0);
 
@@ -26,8 +42,8 @@ end
 temp=imfill(bwmorph(temp,'bridge'),'holes');
 
 X = [x,y];
-[L2,R2,K2] = curvature(X);
-mag=sqrt(K2(:,1).^2+K2(:,2).^2);
+[~,~,K2] = curvature(X);
+% mag=sqrt(K2(:,1).^2+K2(:,2).^2);
 Si=sign(K2);
 temp2=false(size(temp));
 LX=false(length(x),1);
@@ -37,7 +53,7 @@ for i=2:length(x)-1
     temp2(L(i,1)+Si(i,1),L(i,2)+Si(i,2))=1;
     t=and(temp2,temp);
     LX(i)=sum(t(:));
-    if LX(i)>0 && mag(i)>0.001
+    if LX(i)>0 %&& mag(i)>0.0008
         xt=[xt x(i)];
         yt=[yt y(i)];
         points=[points, i];
@@ -48,19 +64,34 @@ end
 
 
 [results]=fitting_circ(xt,yt,radii,dist_max,imSmooth,0);
-if size(results,1)>10
+if size(results,1)>7
+[~,ind]= min([results{:,1}]);
+results(ind,:)=[];
+[~,ind]= max([results{:,1}]);
+results(ind,:)=[];
 [~,ind]= min([results{:,1}]);
 results(ind,:)=[];
 [~,ind]= max([results{:,1}]);
 results(ind,:)=[];
 end
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% show results
+if display==0
+    
+        roundness = mean([results{:,1}])/radii;
+        if roundness>1
+            roundness=1;
+        end
+        return
+end
+if display>1
 fig1=figure('color',[1 1 1]);
 axes1 = axes('Parent',fig1);
 BW = im;
 %imshow(flip(~BW,2))
 hold on
+end
 %%%%% contour
 fig2=figure('color',[1 1 1]);
 axes2 = axes('Parent',fig2);
@@ -72,13 +103,13 @@ plot(imSmooth(points,2),imSmooth(points,1),'r.');
 theta=linspace(0,2*pi,2000);
 [xr,yr]=pol2cart(theta, repmat(radii,1,2000));
 plot(yr+cx,xr+cy,'b')
+if display>1
 plot(axes1,yr+cx,xr+cy,'y')
-
+end
 % plot curvature circle
 for i=1:size(results,1)
     R=results{i,1};
     if(~isempty(R))
-        inscribedRadii = inscribedRadii + R;
         cent=results{i,2};
         rt=R*ones(1,2000);
         [xtt,yyt]=pol2cart(theta,rt);
@@ -89,25 +120,31 @@ for i=1:size(results,1)
         %[d,minr]=min(d);
         %plot(axes2,[cent(1),imSmooth(minr,2)],[cent(2),imSmooth(minr,1)],'r')
         plot(axes2,xtt+cent(1),yyt+cent(2),'color',[0.5,0.25,0])
+        if display>1
         plot(axes1,xtt+cent(1),yyt+cent(2),'g')
+        end
     end
 end
 
 
-
-%     set (axes1, 'xdir', 'reverse' )
-%     axes(axes2)
-%     axis equal
-%     view(axes2,[-180 90]);
 dim = [.15 .85 .05 .05];
+<<<<<<< Updated upstream
 roundness = (inscribedRadii/size(results,1))/radii;
 if(roundness > 1)
    roundness = 1; 
 end
+=======
+roundness = mean([results{:,1}])/radii;
+roundness(roundness>1)=1; 
+>>>>>>> Stashed changes
 annotation('textbox',dim,'String',"Roundness:"+roundness,'FitBoxToText','on');
+axis equal
 saveas(fig2,"results/"+im_name)
+<<<<<<< Updated upstream
 close (fig1)
 close (fig2)
+=======
+>>>>>>> Stashed changes
 end
 
 
@@ -177,7 +214,7 @@ while lenx>2
             
             [~,gof,~]=fit(x(re)',y(re)','poly1');
             
-            if gof.rsquare<0.95
+            if gof.rsquare<0.94
                 cent=[xc,yc];
                 result(cont,1)={R};
                 result(cont,2)={cent};
@@ -189,7 +226,6 @@ while lenx>2
                     rt=R*ones(1,2000);
                     [xtt,yyt]=pol2cart(theta,rt);
                     plot(xtt+cent(1),yyt+cent(2),'color',[0.5,0.25,0])
-                    show
                 end
             end
         end
