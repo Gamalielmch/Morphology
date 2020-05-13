@@ -1,4 +1,4 @@
-function roundness = inscribedCircles_5 (img_route,armon,dist_max,im_name,display)
+function roundness = inscribedCircles_5 (img_route,armon,dist_max,im_name,folder,display)
 %display=0 no se muestra nada, display=1 se muestra contorno, diaplay=2 se
 %muestra contornos e imagen
 %close all;
@@ -9,7 +9,7 @@ im = imread(img_route);
 im = imbinarize(im(:,:,1));
 im=regionprops(im,'Image');
 im=im(1).Image;
-fac=450/size(im,1)
+fac=450/size(im,1);
 im=imresize(im,fac);
 im = padarray(im,[15 15],'both');
 
@@ -88,8 +88,8 @@ end
 if display>1
 fig1=figure('color',[1 1 1]);
 axes1 = axes('Parent',fig1);
-BW = im;
-%imshow(flip(~BW,2))
+% BW = im;
+imshow(flip(~im,2))
 hold on
 end
 %%%%% contour
@@ -115,10 +115,6 @@ for i=1:size(results,1)
         [xtt,yyt]=pol2cart(theta,rt);
         figure(fig2)
         plot(axes2,cent(1),cent(2),'r.')
-        %plot(axes2,[cent(1),cent(1)+R],[cent(2),cent(2)],'b')
-        %d=sqrt((imSmooth(:,2)-cent(1)).^2 + (imSmooth(:,1)-cent(2)).^2 );
-        %[d,minr]=min(d);
-        %plot(axes2,[cent(1),imSmooth(minr,2)],[cent(2),imSmooth(minr,1)],'r')
         plot(axes2,xtt+cent(1),yyt+cent(2),'color',[0.5,0.25,0])
         if display>1
         plot(axes1,xtt+cent(1),yyt+cent(2),'g')
@@ -127,24 +123,21 @@ for i=1:size(results,1)
 end
 
 
-dim = [.15 .85 .05 .05];
-<<<<<<< Updated upstream
-roundness = (inscribedRadii/size(results,1))/radii;
+% dim = [.15 .85 .05 .05];
+dim=[0.125 0.923809525015809 0.253571421546596 0.0642857130794299];
+roundness = mean([results{:,1}])/radii;
 if(roundness > 1)
    roundness = 1; 
 end
-=======
-roundness = mean([results{:,1}])/radii;
-roundness(roundness>1)=1; 
->>>>>>> Stashed changes
+view(axes2,[180 90]);
+if display>1
+view(axes1,[-180 -90]);
+end
 annotation('textbox',dim,'String',"Roundness:"+roundness,'FitBoxToText','on');
 axis equal
-saveas(fig2,"results/"+im_name)
-<<<<<<< Updated upstream
-close (fig1)
-close (fig2)
-=======
->>>>>>> Stashed changes
+saveas(fig2,[folder,'/',im_name])
+% close (fig1)
+% close (fig2)
 end
 
 
@@ -250,16 +243,16 @@ R  =  sqrt((a(1)^2+a(2)^2)/4-a(3));
 end
 
 
-function   indmax = puntos_lejanos(x,y)
-dist=zeros(length(x));
-maximo=0;
-indmax=[];
-for i=1:length(x)
-    dist(:,i)= sqrt((x(i)-x).^2 + (y(i)-y).^2);
-    if max(dist(:,i))>maximo
-        [maximo,im]=max(dist(:,i));
-        indmax=[i,im];
-    end
-end
-end
+% function   indmax = puntos_lejanos(x,y)
+% dist=zeros(length(x));
+% maximo=0;
+% indmax=[];
+% for i=1:length(x)
+%     dist(:,i)= sqrt((x(i)-x).^2 + (y(i)-y).^2);
+%     if max(dist(:,i))>maximo
+%         [maximo,im]=max(dist(:,i));
+%         indmax=[i,im];
+%     end
+% end
+% end
 

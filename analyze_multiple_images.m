@@ -1,7 +1,7 @@
 % function analyze_multiple_images
 %%%Read multiple image
 
-pathi=[pwd,'\database1'];
+pathi=[pwd,'\database2'];
 [file,path] = uigetfile({'*.jpg;*.png;*.bmp;*.jpeg;'},'Select One or More Files','MultiSelect', 'on',pathi);
 if iscell(file)
     ni=length(file);
@@ -15,7 +15,7 @@ dist_max=15;
 
 roundness=zeros(1,ni);
 for i=1:ni
-roundness(i) = inscribedCircles_5 ([path, file{i}],armon,dist_max,file{i},1);
+roundness(i) = inscribedCircles_5 ([path, file{i}],armon,dist_max,file{i},'results_db3',1);
 end
 
 
