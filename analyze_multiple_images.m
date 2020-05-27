@@ -10,12 +10,12 @@ else
     file={file};
 end
 armon=35;
-dist_max=15;
+dist_max=18;
 
 
 roundness=zeros(1,ni);
 for i=1:ni
-roundness(i) = inscribedCircles_5 ([path, file{i}],armon,dist_max,file{i},'results_db3',1);
+roundness(i) = inscribedCircles_5 ([path, file{i}],armon,dist_max,file{i},'results_db4',1);
 end
 
 
