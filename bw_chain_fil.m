@@ -59,11 +59,20 @@ for i=1:longitud-1
         end
     end
     neigh(neigh==0)=2;
-    [~,mino]=min(neigh);
-    cadena(i)= mino(1)-1;
-    BW(yi,xi)=0;
-    xi=pos(mino,2);
-    yi=pos(mino,1);
+    if(all(neigh == 2))
+        BW(yi,xi)=0;
+        [ynn,xnn] = find(BW);
+        D = sqrt( (xi-xnn).^2 + (yi-ynn).^2 );
+        [val,pos] = min(D);
+        xi = xnn(pos);
+        yi = ynn(pos);
+    else
+        [~,mino]=min(neigh);
+        cadena(i)= mino(1)-1;
+        BW(yi,xi)=0;
+        xi=pos(mino,2);
+        yi=pos(mino,1);
+    end
 end
 
 pos=[yi,xi+1;yi-1,xi+1;yi-1,xi;yi-1,xi-1;yi,xi-1;yi+1,xi-1;yi+1,xi;yi+1,xi+1];

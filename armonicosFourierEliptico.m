@@ -5,7 +5,7 @@
 % [xGrid,yGrid] = meshgrid(1:200,1:200);
 % BW = isinterior(pgon,xGrid(:),yGrid(:));
 % BW = reshape(BW,size(xGrid));
-function excen = armonicosFourierEliptico(armon,img_route)
+function cons = armonicosFourierEliptico(armon,img_route)
 
     N = armon; %Numero de armonicos
     im=imread(img_route);
@@ -77,11 +77,12 @@ function excen = armonicosFourierEliptico(armon,img_route)
     % get_xp(chain_code_array,272);
     % get_yp(chain_code_array,3)
 
-    rec_im = reconstructe_im(shape,chain_code_array,initial_point);
-    figure,imshow(rec_im);
+   % rec_im = reconstructe_im(shape,chain_code_array,initial_point);
+    %figure,imshow(rec_im);
     %figure,plot(boundary(:,2), boundary(:,1), 'r', 'LineWidth', 1)
     %hold on
     %figure,plot(xN,yN);
+    %cons = cons';
     cons = cons(:);
 end
 
