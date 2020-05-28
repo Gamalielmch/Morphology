@@ -1,7 +1,7 @@
 % function analyze_multiple_images
 %%%Read multiple image
 
-pathi=[pwd,'\database2'];
+pathi=[pwd,'\database8'];
 [file,path] = uigetfile({'*.jpg;*.png;*.bmp;*.jpeg;'},'Select One or More Files','MultiSelect', 'on',pathi);
 if iscell(file)
     ni=length(file);
@@ -9,7 +9,7 @@ else
     ni=1;
     file={file};
 end
-armon=35;
+armon=30;
 dist_max=18;
 
 
