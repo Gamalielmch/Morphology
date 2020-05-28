@@ -31,24 +31,29 @@ function cons = armonicosFourierEliptico(armon,img_route)
     count = 1;
 
     while count <= size(boundary,1)
-        ac_bin_i = and(boundary(:,1)==actual_point(1),boundary(:,2)==actual_point(2));
+        ac_bin_i = and(boundary(:,1)==actual_point(1,1),boundary(:,2)==actual_point(1,2));
         actual_indexes = find(ac_bin_i==1);
         rel_indexes = find_relational_indexes(actual_indexes,length);
         rel_points = boundary(rel_indexes,:);
         rel_codes = obtain_codes(rel_points,actual_point);
+        [rel_codes, pos] = unique(rel_codes);
+        rel_points = rel_points(pos,:);
 
         if(actual_point == initial_point)
             %if(all(ismember(rel_codes,[0,1,2,6,7]))) %Cuadrante derecho
-            [code,pos]=min(rel_codes);
+            [code,pos]=max(rel_codes);
             actual_point = rel_points(pos,:);
             chain_code = strcat(chain_code,int2str(code));
             chain_code_array(count) = code;
             %end
         else
+%             if(count == 117)
+%                chain_code 
+%             end
             next_code = obtain_codes_no_proc(rel_codes,chain_code_array(count-1));
-            actual_point = rel_points(rel_codes == next_code,:);
-            chain_code = strcat(chain_code,int2str(next_code));
-            chain_code_array(count) = next_code;
+            actual_point = rel_points(rel_codes == next_code(1),:);
+            chain_code = strcat(chain_code,int2str(next_code(1)));
+            chain_code_array(count) = next_code(1);
         end
 
         count = count + 1;
@@ -72,10 +77,12 @@ function cons = armonicosFourierEliptico(armon,img_route)
     % get_xp(chain_code_array,272);
     % get_yp(chain_code_array,3)
 
-    %rec_im = reconstructe_im(shape,chain_code_array,initial_point);
+   % rec_im = reconstructe_im(shape,chain_code_array,initial_point);
+    %figure,imshow(rec_im);
     %figure,plot(boundary(:,2), boundary(:,1), 'r', 'LineWidth', 1)
     %hold on
     %figure,plot(xN,yN);
+    %cons = cons';
     cons = cons(:);
 end
 
@@ -118,9 +125,14 @@ end
 function codes_wop = obtain_codes_no_proc (rel_codes , past_code)
     codes_procedence = [4,5,6,7,0,1,2,3];
     codes_wop = rel_codes;
-    for i = 1:size(rel_codes,1)
-        if(codes_procedence(past_code + 1)==rel_codes(i))
-            codes_wop(i) = [];
+    if(size(codes_wop,1)>1)
+        for i = 1:size(rel_codes,1)
+            if(codes_procedence(past_code + 1)==rel_codes(i))
+                codes_wop(i) = [];
+            end
+        end
+        if(codes_procedence(past_code + 1) == 4)
+            codes_wop = codes_wop(size(codes_wop,1));
         end
     end
 end

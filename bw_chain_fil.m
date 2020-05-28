@@ -39,15 +39,40 @@ cadena=zeros(1,longitud);
 for i=1:longitud-1
     
     pos=[yi,xi+1;yi-1,xi+1;yi-1,xi;yi-1,xi-1;yi,xi-1;yi+1,xi-1;yi+1,xi;yi+1,xi+1];
-    neigh=[BW(pos(1,1),pos(1,2)),BW(pos(2,1),pos(2,2))*le,BW(pos(3,1),pos(3,2)),...
-        BW(pos(4,1),pos(4,2))*le,BW(pos(5,1),pos(5,2)),BW(pos(6,1),pos(6,2))*le,...
-        BW(pos(7,1),pos(7,2)),BW(pos(8,1),pos(8,2))*le];
+    if((all(pos(:,1)>0) && all(pos(:,2)>0)) && (all(pos(:,1)<=size(BW,1)) && all(pos(:,2)<=size(BW,2))))
+        
+        neigh=[BW(pos(1,1),pos(1,2)),BW(pos(2,1),pos(2,2))*le,BW(pos(3,1),pos(3,2)),...
+            BW(pos(4,1),pos(4,2))*le,BW(pos(5,1),pos(5,2)),BW(pos(6,1),pos(6,2))*le,...
+            BW(pos(7,1),pos(7,2)),BW(pos(8,1),pos(8,2))*le];
+    else
+        neigh = zeros(1,size(pos,1));
+        for m = 1:size(pos,1)
+            if(all(pos(m,:)~=0) && all(pos(m,:)<=size(BW)))
+               if mod(m,2) == 1
+                   neigh(m) = BW(pos(m,1),pos(m,2));
+               else
+                   neigh(m) = BW(pos(m,1),pos(m,2))*le;
+               end
+            else
+                neigh(m) = 0;
+            end
+        end
+    end
     neigh(neigh==0)=2;
-    [~,mino]=min(neigh);
-    cadena(i)= mino(1)-1;
-    BW(yi,xi)=0;
-    xi=pos(mino,2);
-    yi=pos(mino,1);
+    if(all(neigh == 2))
+        BW(yi,xi)=0;
+        [ynn,xnn] = find(BW);
+        D = sqrt( (xi-xnn).^2 + (yi-ynn).^2 );
+        [val,pos] = min(D);
+        xi = xnn(pos);
+        yi = ynn(pos);
+    else
+        [~,mino]=min(neigh);
+        cadena(i)= mino(1)-1;
+        BW(yi,xi)=0;
+        xi=pos(mino,2);
+        yi=pos(mino,1);
+    end
 end
 
 pos=[yi,xi+1;yi-1,xi+1;yi-1,xi;yi-1,xi-1;yi,xi-1;yi+1,xi-1;yi+1,xi;yi+1,xi+1];
