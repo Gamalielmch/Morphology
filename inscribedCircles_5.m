@@ -1,4 +1,4 @@
-function roundness = inscribedCircles_5 (img_route,armon,dist_max,im_name,folder,display)
+function roundness= inscribedCircles_5 (img_route,armon,dist_max,im_name,folder,display)
 %display=0 no se muestra nada, display=1 se muestra contorno, diaplay=2 se
 %muestra contornos e imagen
 %close all;
@@ -9,6 +9,7 @@ im = imread(img_route);
 im = imbinarize(im(:,:,1));
 im=regionprops(im,'Image');
 im=im(1).Image;
+% area=sum(im(:));
 fac=450/size(im,1);
 im=imresize(im,fac);
 im = padarray(im,[15 15],'both');

@@ -1,7 +1,7 @@
 % function analyze_multiple_images
 %%%Read multiple image
 
-pathi=[pwd,'\testimage'];
+pathi=[pwd,'\krumbein2'];
 [file,path] = uigetfile({'*.jpg;*.png;*.bmp;*.jpeg;'},'Select One or More Files','MultiSelect', 'on',pathi);
 if iscell(file)
     ni=length(file);
@@ -9,13 +9,43 @@ else
     ni=1;
     file={file};
 end
-armon=35;
-dist_max=15;
+% %%% for class one
+%  armon=40;
+%  dist_max=10;
 
+%% for class two
+% armon=25;
+% dist_max=10;
+
+% %%% for class three
+% armon=40;
+% dist_max=10;
+
+%%% for class four 
+% armon=25;
+% dist_max=15;
+
+%%% for class five 
+% armon=25;
+% dist_max=15;
+
+% %%% for class six 
+% armon=35;
+% dist_max=10;
+
+% %%% for class seven
+% armon=25;
+% dist_max=15;
+
+
+% %%% for class eigth 
+armon=25;
+dist_max=15;
+cont=1;
 roundness=zeros(9,9);
 for j=1:9
     for i=1:9
-        roundness(j,i) = inscribedCircles_5 ([path, file{i+(j-1)*9}],armon,dist_max,file{i+(j-1)*9},0);
+        roundness(j,i) = forclass7([path, file{i+(j-1)*9}],armon,dist_max,file{i+(j-1)*9},'results_krumbein',0);
     end
 end
 color=lines(9);
