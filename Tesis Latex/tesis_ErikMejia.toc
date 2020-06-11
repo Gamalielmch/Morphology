@@ -1,0 +1,22 @@
+\contentsline {chapter}{Lista de Figuras}{ii}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}{ {Introducci\'on}}}{1}{chapter.1}%
+{\ifnum \value {tocdepth} > 0 {\vskip 1.0em plus 1pt} \fi }
+\contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Planteamiento del problema de investigaci\'on}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Justificaci\'on}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Preguntas de Investigaci\'on}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objetivo General}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Objetivos Espec\IeC {\'\i }ficos}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Hip\'otesis}{5}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Estructura de la tesis}{5}{section.1.8}%
+\contentsline {chapter}{\numberline {2}{ {Marco Te\'orico}}}{7}{chapter.2}%
+{\ifnum \value {tocdepth} > 0 {\vskip 1.0em plus 1pt} \fi }
+\contentsline {section}{\numberline {2.1}La geolog\IeC {\'\i }a y el machine learning}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Principales estudios relacionados}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Contribuciones y limitaciones de estudios previos}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Comparaci\'on entre los trabajos relacionados y la propuesta de investigaci\'on}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Modelo o esquema general de investigaci\'on}{9}{section.2.5}%
+\contentsline {chapter}{\numberline {3}{ {Modelo y propuesta de Investigaci\'on}}}{10}{chapter.3}%
+{\ifnum \value {tocdepth} > 0 {\vskip 1.0em plus 1pt} \fi }
+\contentsline {section}{\numberline {3.1}Modelo de Investigaci\'on}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Descripci\'on de la propuesta}{11}{section.3.2}%

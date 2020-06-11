@@ -1,0 +1,276 @@
+\chapter{Marco Teórico}
+\section{La geología y el machine learning}
+La geología ha estudiado que la generación de estás rocas sedimentarias se forma a partir de la acumulación de materiales ya sean minerales, restos vegetales o restos animales, estás rocas al verse afectadas por los desastres naturales, cambian su esfericidad y redondez de una manera específica dependiendo del evento que se suscitó. Debido a lo dependiente que suele ser la clasificación de estás rocas, por el hecho de que la persona tiene que ser muy experimentada para poder hacerlo sin errores, hace que se vuelva complicada su clasificación, tratando de buscar alternativas para poder hacerlo.
+
+El machine learning encuentra una gran oportunidad dentro de este ámbito para poder ayudar a clasificar, ya que la capacidad de aprendizaje en base a los ejemplos que tienen las técnicas es muy buena, como es el caso de las redes neuronales, como es una simulación del funcionamiento del cerebro humano, resulta útil su capacidad de aprendizaje y el poderse manipular y configurarse según se va requiriendo, y no nada más son capaces de clasificar, si no también de predecir.
+
+(SHANE, 1969) habla de que, al momento de llevar una imagen de una roca sedimentaria al espacio de frecuencia de Fourier, se puede observar que los primeros armónicos de dicha sumatoria infinita se encuentra la información con la cual se puede definir la esfericidad, ya que son los cambios más grandes y lentos, por lo que después de estos armónicos deben de componer la información de la redondez, porque son cambios mucho más precisos, para así poder obtener los datos de las 2 características que se desean predecir totalmente separada una de la otra.
+
+\section{Principales estudios relacionados}
+(Pascual, 2019) habla de los estudios que se han realizado recientemente en la clasificación de imágenes (everyday objects) y que realiza un mejor trabajo las CNN que otros algoritmos, además, con una CNN de 5 capas, consiguió una precisión del 89.43 \% en imágenes de rocas que se encuentran en la escena natural o en el ambiente.
+
+(Guo, 2017) obtiene una precisión del 98.5 \% en la clasificación de la granularidad de imágenes de secciones delgadas (thin sections) de rocas en los espacios de color HSV, YCbCr o RGB como entrada, con una CNN de 6 capas.
+
+(LIU Ye, 2014) obtiene una precisión del 95\% en la clasificación del tipo de roca con imágenes de secciones delgadas (thin sections) en espacios de color RGB, HSV, YIQ y YCbCr como entrada, con una red neuronal artificial (ANN).
+
+\section{Contribuciones y limitaciones de estudios previos}
+(Pascual, 2019) demuestra que las CNN se desempeña mejor que las máquinas de soporte vectorial (SVM) en clasificar imágenes limpias y uniformes de rocas, además que poseen una potencial alto en clasificar rocas en su ambiente.
+
+(Guo, 2017) demuestra que se clasifica con gran confianza en los espacios de color HSV, YCbCr y RGB, pero, sus resultados siguen estando sesgados debido a que solo se usaron imágenes single polarized.
+
+(LIU Ye, 2014) muestra una forma de clasificar los tipos de rocas, pero el número de imágenes para entrenar la red neuronal no es el adecuado.
+
+\section{Comparación entre los trabajos relacionados y la propuesta de investigación}
+Las redes neuronales convolucionales (CNN) necesitan una entrada N x M x S (la S puede variar debido a si la imagen está en escala de grises o en algún espacio de color) debido a la naturaleza de la convolución y dependiendo de la cantidad de capas ocultas que se tengan, serían muchísimas más operaciones que una red neuronal profunda, por lo que se propone reducir esa cantidad de entrada a 4 x N, con lo que se reduciría mucho la información que se entrega de la imagen a la red, donde la N será el número de armónicos, y el 4 son los coeficientes que son obtenidos mediante Fourier Elíptico (GIARDINA, 1981), como estamos tratando una señal bidimensional, el método entregará 2 coeficientes por cada grado de dimensionalidad.
+
+\section{Modelo o esquema general de investigación}
+Este trabajo tiene un enfoque de investigación de tipo Aplicada, debido a que busca la manera de poder crear un modelo de redes neuronales junto con los armónicos de Fourier como entrada de imágenes de rocas sedimentarias, y que a su vez, este modelo sea mejor que los trabajos que ya existen relacionados a la clasificación de la esfericidad y redondez de las rocas sedimentarias . 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\section{Modelos Ocultos de Markov}
+%A continuacion abordaremos la teoría de los Modelos Ocultos de Markov, que ha demostrado
+%ser la que mejores resultados produce a la hora de implementar reconocedores de voz. Los introducimos
+%a partir de los procesos más sencillos, a los que iremos añadiendo elementos para obtener los
+%modelos finales. Gran parte de este tema se dedica a resolver analíticamente los problemas
+%fundamentales que se presentarán al intentar aplicar estas ideas al reconocimiento de voz.
+%
+%\subsection{Procesos de Markov}
+%\subsubsection{Definición}
+%Un proceso de Markov es un proceso aleatorio {q (n)} discreto en el tiempo, con la particularidad
+%de que la probabilidad del valor de cada muestra sólo depende del valor de la anterior:
+%
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%Se usará la notación [q\_{n}] = q (n) para denotar al estado del proceso en el instante n o muestra
+%n -ésima , pues resume la información que toda la historia del proceso aporta al futuro del
+%mismo.
+%
+%\textbf{Ejemplo}
+%Un modelo AR(1) (Autorregresivo de orden 1) es un proceso de Markov:
+%
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark2.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%\subsection{Probabilidad de una secuencia concreta}
+%Para calcular ahora la probabilidad de una secuencia concreta de muestras, debemos primero obtener el siguiente resultado válido para cualquier proceso aleatorio discreto.
+%
+%Sea {q=o... hasta la e-nesima} una secuencia concreta, obtenida al observar el proceso aleatorio
+%{ } n q durante T muestras. Utilizando el Teorema de Bayes, podemos descomponer la probabilidad
+%de obtener esa secuencia en términos de un producto de las probabilidades de cada muestra,
+%condicionadas por las muestras pasadas:
+%
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark3.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%Siempre se puede descomponer de la siguiente forma:
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark4.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%Si seguimos descomponiendo, se puede inducir: 
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark5.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%Los modelos anteriormente vistos son demasiado restrictivos para aplicarlos a una gran variedad
+%de problemas de interés, puesto que cada estado se corresponde con un evento físico observable.
+%Podemos extender el concepto de modelo de Markov para incluir el caso en el que la observación
+%es aleatoria, dependiente del estado en el que se encuentra el sistema.
+%El modelo resultante se conoce como Modelo Oculto de Markov (HMM), y es un proceso
+%doblemente estocástico con:
+%
+%\begin{itemize}
+%\item Un proceso estocástico subyacente que no es observable (está oculto), sino que sólo puede
+%ser observado a través de otro proceso (que sí es observable). Conforma la secuencia de
+%estados por la que pasa el sistema.
+%\item Un conjunto de procesos estocásticos que producen la secuencia de observación.
+%\end{itemize}
+%
+%Por lo tanto, un Modelo Oculto de Markov es una cadena de Markov en la que la observación no
+%es la propia secuencia de estados (que permanece oculta), sino que es el resultado de ciertos
+%procesos estocásticos que se producen en cada estado.
+%
+%\subsection{Elementos de un Modelo Oculto de Markov}
+%
+%Un modelo oculto de Markov esta caracterizado por: 
+%
+%\begin{itemize}
+%\item El número de estados en el modelo (N ). Aunque los estados estén ocultos, para muchas
+%aplicaciones prácticas hay un significado físico asociado a los estados del modelo.
+%Normalmente los estados están interconectados tal que cada uno puede ser alcanzado
+%desde cualquier otro estado (modelo ergódico). Sin embargo, como veremos más tarde,
+%existen otros tipos de conexión entre estados que resultarán de interés en el caso
+%concreto del reconocimiento de voz.
+%
+%\item El número de símbolos distintos observables en cada estado (M), es decir, el tamaño
+%del alfabeto. Aquí, los símbolos observados corresponden con la salida física del sistema.
+%
+%\item La distribución de probabilidades de transición entre estados ( A ).
+%
+%\item La distribución de probabilidades de los símbolos observados en el estado.
+%
+%\item La distribución inicial de estados.
+%\end{itemize}
+%
+%\subsubsection{Representacion mediante rejilla}
+%
+%Podemos añadir elementos a la representación del trellis para modelar HMMs:
+%
+%\begin{itemize}
+%\item Probabilidades iniciales de cada estado.
+%\item Probabilidades de observación de símbolos en cada estado.
+%\end{itemize}
+%
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.8]{trellis.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%\section{Modelado del Habla para el reconocimiento de voz}
+%
+%\subsection{Fundamentos}
+%Para el reconocimiento de palabras aisladas, los modelos ocultos de Markov han demostrado en
+%aplicaciones prácticas ser aquellos que mejores resultados producen. La idea es asignar a cada
+%posible palabra del vocabulario (de tamaño W ) un modelo de estructura similar pero de
+%diferentes parámetros:
+%
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark6.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%Cada modelo está formado por distintos estados, en los cuales se generan los símbolos que
+%constituyen la secuencia de observación. Por otro lado, cada palabra está formada por distintos
+%fonemas. La relación entre estados y fonemas no es directa y será abordada más adelante. La
+%secuencia de estados es desconocida a priori:
+%
+%\begin{figure}[H]
+%\centering 
+%\includegraphics[scale=.7]{mark7.PNG}
+%%\caption{Diagrama preprocesado de la señal}
+%\label{fig3}
+%\end{figure}
+%
+%Por último la palabra recibida (y que queremos reconocer) se corresponderá, después de un
+%análisis que extrae sus características más importantes (MFCC), con la secuencia observada. Ésta
+%es conocida en las etapas de entrenamiento, validación y reconocimiento.
+%
+%\subsection{Procedimiento para el modelado}
+%
+%Consideremos el siguiente reconocedor de palabras aisladas. Para cada palabra de un vocabulario
+%(de W palabras) queremos diseñar un HMM diferente, de N estados. Representamos la señal de
+%voz de una palabra dada como una secuencia discreta de vectores que codifican las
+%características esenciales de la palabra: los coeficientes MFCC.
+%
+%La primera tarea es construir modelos individuales para cada palabra, usando la solución al
+%problema 3 para estimar los parámetros óptimos.
+%
+%Para la comprensión del significado físico de los estados del modelo, usamos la solución al
+%problema 2. Con esto conseguimos segmentar cada modelo en estados, y entonces estudiar las
+%propiedades de los vectores de observación. El objetivo es refinar el modelo para mejorar su
+%capacidad de modelar la secuencia recibida.
+%
+%Finalmente, una vez el conjunto de W modelos han sido diseñados y optimizados, el
+%reconocimiento de una palabra se realiza usando la solución al problema 1. Se asigna una
+%puntuación a cada modelo basada en la secuencia observada de entrada, y se elige como palabra
+%reconocida aquella cuya puntuación sea máxima.
+%
+%En la práctica, la verosimilitud puede computarse a través de la secuencia de estados más
+%probable (problema 2), sin recurrir al cálculo minucioso de todas las combinaciones posibles
+%(problema 1).
+%
+%
+%
+%\section{Trabajos Relacionados}
+%
+%Dentro de la literatura que se ha estado recolectando para la escritura de esta tesis se ha encontrado un gran avance en cuanto a los Sistemas de Reconocimiento Automático del Habla, los cuales se listan a continuación y mas adelante serán abordados cada uno de ellos mas profundamente y obtener la información mas relevante que ayude al desarrollo de este trabajo de tesis. 
+%
+%\begin{itemize}
+%\item Algoritmos y Métodos para el Reconocimiento de Voz en Español Mediante Sílabas (2006)
+%\item Reconocimiento de Voz Usando HTK (Universidad de Sevilla)
+%\item Sistema de control activado por voz para uso en domotica (Enero 2016)
+%\item Aplicaciones en reconocimento de voz utilizando HTK (Bogota, 2005)
+%\item Modelo Acústico y de Lenguaje del Idioma Espa?nol para el dialecto Cucute?no, Orientado al Reconocimiento Automatico del Habla (2017)
+%\item Reconomiento de Voz de niños para el español hablado en Mexico usando SONIC
+%\item Un programa de reconocimiento de voz ayuda a los niños a aprender a leer (2004)
+%\item El reconocimiento de voz mejora el rendimiento escolar de los niños con dislexia (2017)
+%\item Implementación de un módulo de reconocimiento de voz para niños mediante el procesamiento de señales aplicado en un caso práctico (2017)\
+%\item Efectos de un sistema de reconocimiento de voz en la conciencia fonológica y las
+%habilidades de lectura de niños preescolares españoles (2016)
+%\item Usabilidad en sistemas lúdicos infantiles con reconocimiento de voz como apoyo en la terapia de
+%rehabilitación de niños con problemas de lenguaje (2008)
+%\item Reconocimiento de Voz para Niños con Discapacidad en el Habla (2004)
+%
+%\end{itemize}
+
+
+
+
+

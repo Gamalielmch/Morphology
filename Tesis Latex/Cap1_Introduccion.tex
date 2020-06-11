@@ -1,0 +1,71 @@
+\chapter{Introducción}
+
+\section{Antecedentes}
+
+Nuestro planeta está conformado por la hidrosfera, atmosfera, biosfera y tierra sólida. El componente principal de la tierra solida son las rocas (Tarbuck, 2005).  Las rocas son agregados naturales de uno o más minerales. Estas pueden clasificarse por su origen y proceso en tres clases: ígneas, metamórficas y sedimentarias (Jürgen, 2015). Las rocas ígneas son las que se forman a partir del enfriamiento de minerales fundidos (magma) entre la corteza terrestre y el manto superior. Las rocas ígneas algunas veces pueden alcanzar la parte superior de la  corteza terrestre por medio de volcanes o por el ascenso de capas de la corteza. En la corteza existe un proceso llamado meteorización que consiste en la fragmentación de rocas por alteraciones físicas y químicas (como la gravedad, erosión, materia orgánica). Estas rocas se transportan generalmente por gravedad y se depositan en las zonas más bajas de la corteza terrestres (la mayoría en los océanos). Estos sedimentos son nuevas rocas y se les conocen como rocas sedimentarias. Las rocas metamórficas se generan a partir de rocas ígneas, sedimentarias o mismas rocas metamórficas. Como su nombre lo indica estas rocas se generan por el cambio (metamorfosis) de una roca madre, este cambio es generado por altas presiones y temperaturas, pero sin lleguen a fundirse (Tarbuck, 2005). 
+
+De estos tres tipos de rocas, las más importantes son las rocas sedimentarias por las siguientes razones: (1) representan el 80\% de la corteza terrestre, (2) permiten conocer los procesos e historia de la tierra, (3) son de gran importancia en el sector económico porque de ellas derivan el petróleo, gas natural, carbón, sal, azufre, potasio, yeso, caliza, fosfato, uranio y más minerales (Folk, 1980), (4) en algunos casos representan un riesgo para poblaciones como la asentadas en las cercanías de volcanes o grandes sedimentos, (5) en el estudio de suelo para la construcción (Rodriguez, et. al., 2014).  
+
+Las rocas sedimentarias se estudian por su composición física, química  y mineralógica. El estudio físico se conforma por tres parámetros; tamaño, morfología y orientación. El conocer estos parámetros son permite deducir el origen, los diversos procesos transporte, el entorno reológico y climático y su deposición. Para medición de tamaño y la orientación existen diversas técnicas muy bien establecidas y muy precisas (Tucker, 2009). Por otro lado la morfología es un concepto reciente, en comparación a los otros y aún se encuentra en desarrollo y búsqueda de conceptos universales (Diepenbroek, 1992).  
+
+La morfología describe la forma (shape) de objetos o partículas mediante mediciones de su contorno. La morfología no sólo es importante en el estudio de rocas sedimentarios sino que se extienda a otros campos científicos y productivos como la nanomedicina, agricultura, biología, neurociencias, arte visual, entre otros (Fontoura and Marcondes, 2009, Samar, et. al., 2011, Randall, et. al., 2014).  ha sido y es una rama muy importante de nuestra vida, ya que ella se ha encargado de entender y estudiar la razón del porque tienen cierto aspecto externo todos y cada uno de los objetos o seres vivos. La morfología de rocas sedimentarias se describe por tres parámetros: forma general (form), redondez (roundness) y textura superficial (roughness), los cuales se relacionan a procesos geológicos. Estos tres parámetros son jerárquicos y de escalas diferentes, por lo que uno no afecta al otro. La forma es la característica de mayor jerarquía que está relacionada con los aspectos más generales. La forma se calcula mediante relaciones axiales adimensionales o relaciones de circularidad. La redondez es una característica intermedia superpuesta a la forma. El grado de redondez o angularidad está relacionado con las curvas y las esquinas principales del contorno. La rugosidad o textura se refiere a irregularidades más finas superpuestas en la redondez y la forma (Barrett, 1980; Blott y Pye, 2008; Powers, 1953). Estas propiedades se muestran en la Figura 1.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.2]{figuras/fig1.png}
+	\caption{Forma, redondez y  textura superficial  propuestas por Barrett (1980).}
+	\label{fig1}
+\end{figure}
+
+Existen diversas expresiones para medir forma, una de las más usadas en el campo geológico es la propuesta por Wadell (1935), la cual se obtiene de la relación entre el radio del círculo cuya área es igual a la de la partícula y el radio del círculo más pequeño que inscribe a la partícula (Wadell, 1935). Existen tres enfoques para medir la redondez; los basados en curvatura, los que emplean Fourier y los relacionados con Fractales.  El método basado en curvatura es simple y preciso, sin embargo es un método que depende de la escala. Los métodos basados en Fourier son muy populares sin embargo analizar el espectro es complicado y de un alto costo computacional. El uso de fractales para describir la forma se ha vuelto popular sin embargo tiene problemas para identificar algunos tipos de redondez y son muy sensibles al suavizado de contornos.
+
+En la presente tesis nos planteamos usar redes neuronales para estimar la forma y redondez de rocas sedimentarias. La variable de entrada a la red neuronal es el PCA del espectro de Fourier elíptico. Se eligió esta variable por ser invariante a la escala, la rotación y traslación.  Como objetivo para la forma se empleó la circularidad propuesta por Wadell (1935) descrita anteriormente. Para la redondez, se eligió como objetivo el grado de angulosidad calculado con el método propuesto por Wadell (1933), el cual define el grado de redondez como la relación entre el radio de curvatura promedio de las esquinas de una partícula y el radio del círculo circunscrito más grande posible. La red neuronal utilizada tiene tales características. La base de datos para entrenar la red neuronal se compone de 1000 imágenes de rocas reales de diversos fenómenos geológicos. La estimación de la red tiene una precisión de X\%. El resultado fue comparado con clasificaciones visual realizadas por Pettijohn y Krumbein. La red neuronal nos permite tener la redondez en tiempo x veces menores al método de Walled (1935), además de ser invariante a la escala, rotación y traslación. 
+
+
+
+\section{Planteamiento del problema de investigación}
+\label{Sec12}
+
+Dentro de IEEE y Google scholar, se encontró que no se posee una manera en la cual se obtenga la clasificación de las 2 primeras escalas por medio de redes neuronales con el análisis de Fourier elíptico como entrada, pero, se encontró que una forma reciente de clasificar rocas, es por medio del uso de redes neuronales convolucionales (CNN) (Pascual, 2019) (Guo, 2017) (LIU Ye, 2014).
+
+
+\section{Justificación}
+
+Las redes neuronales convolucionales requieren la información de toda la imagen, resultando en más tiempo de procesamiento, pero utilizando Fourier elíptico (GIARDINA, 1981).
+
+
+\section{Preguntas de Investigación}
+\begin{itemize}
+\item ¿Cuál será el desempeño del modelo basado en red neuronales en comparación con el método de (Hryciw, 2016)?
+\item ¿Cuáles son los mejores rangos de armónicos para predecir la redondez y la esfericidad utilizando un modelo basado en redes neuronales?
+\end{itemize}
+
+\section{Objetivo General}
+Obtener un modelo basado en redes neuronales para clasificar las escalas (Esfericidad y redondez) (Krumbein, 1941) de las rocas sedimentarias de reunidas de diferentes bases de datos de internet, así como sintéticas, por medio del análisis de Fourier Elíptico como entrada para facilitarle el estudio de las mismas a los geólogos.
+
+\section{Objetivos Específicos}
+
+\begin{itemize}
+\item Estudiar y aplicar el método de los círculos circunscritos de (Hryciw, 2016), para generar una base de datos de imágenes donde se relacione la imagen original con el resultado de este método.
+\item Estudiar y aplicar el método para medir la esfericidad (Wadell, 1935). 
+\item Entrenar la red neuronal con los armónicos de Fourier Elíptico (GIARDINA, 1981), y las escalas a la que pertenecen como salida.
+\item Contrastar los resultados de la red neuronal de la clasificación del conjunto de imágenes de prueba con los que se obtienen en el objetivo específico 1.
+
+\end{itemize}
+
+\section{Hipótesis}
+La esfericidad y la redondez de una imagen se clasifica con los armónicos de Fourier Elíptico con un 80 % de accuracy.
+
+\section{Estructura de la tesis}
+La estructura de esta tesis va a estar distribuida en 5 capítulos, los cuales son:
+\begin{itemize}
+
+\item Introducción: Se explica el contenido a grandes rasgos de este trabajo.
+\item Marco teórico: Se exponen las teorías base del trabajo, como a su vez la comparación de los trabajos relacionados contra el planteamiento en este.
+\item Método y propuesta de investigación: Se explican a fondo los métodos que se usaron durante el trabajo.
+\item Resultados y limitaciones: Se desarrollan los casos de prueba que se usaron para la experimentación y se exponen las limitaciones que se tienen.
+\item Conclusiones: Se habla si la hipótesis fue cumplida, y si los objetivos propuestos para este trabajo fueron alcanzados o no.
+	
+\end{itemize}
+
+
