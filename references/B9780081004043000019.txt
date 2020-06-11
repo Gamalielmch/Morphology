@@ -1,0 +1,14 @@
+Jürgen H. Schön,
+Chapter 1 - Rocks—Their Classification and General Properties,
+Editor(s): Jürgen H. Schön,
+Developments in Petroleum Science,
+Elsevier,
+Volume 65,
+2015,
+Pages 1-19,
+ISSN 0376-7361,
+ISBN 9780081004043,
+https://doi.org/10.1016/B978-0-08-100404-3.00001-9.
+(http://www.sciencedirect.com/science/article/pii/B9780081004043000019)
+Abstract: Rocks are naturally occurring aggregates of one or more minerals. In the case of porosity or fracturing, they also contain fluid phases. With respect to their geological genesis and processes, rocks are divided into three major groups:–igneous rocks (magmatites),–metamorphic rocks (metamorphites), and–sedimentary rocks (sediments). Rocks are characterized by their composition (minerals, fluids), texture, and structure. Of specific interest are sedimentary rocks with respect to their reservoir properties. Clastic (sandstone) and carbonate (limestone, dolomite) rocks are the most common reservoir rocks. Clay and shale have a strong influence upon rock properties and are discussed. Some core measurement techniques for laboratory determination are compiled.
+Keywords: Igneous rocks; Metamorphic rocks; Sedimentary rocks; Clastic rocks; Sandstone; Shale; Carbonate rocks; Limestone; Dolomite; Core analysis
