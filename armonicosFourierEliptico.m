@@ -5,7 +5,7 @@
 % [xGrid,yGrid] = meshgrid(1:200,1:200);
 % BW = isinterior(pgon,xGrid(:),yGrid(:));
 % BW = reshape(BW,size(xGrid));
-function cons = armonicosFourierEliptico(armon,img_route)
+function [cons,excen] = armonicosFourierEliptico(armon,img_route)
 
     N = armon; %Numero de armonicos
     im=imread(img_route);
