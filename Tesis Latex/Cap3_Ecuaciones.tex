@@ -1,0 +1,45 @@
+\chapter{Modelo y propuesta de Investigación}
+
+\section{Modelo de Investigación}
+El trabajo de investigación está dividido en 6 etapas de las cuales se van a describir a continuación:
+\begin{itemize}
+\item La primera etapa consiste en conseguir 1500 imágenes de todas las clases de esfericidad y redondez para poder entrenar de manera equitativa la red, y después probar con las imágenes de (Krumbein, 1941) y verificar los resultados.
+\item La segunda etapa se obtiene el valor de redondez y esfericidad de cada una de las imágenes de entrenamiento con los métodos propuestos.
+\item La tercera etapa se saca el valor de las constantes de los primeros 40 armónicos de la serie de Fourier elíptico de cada una de las imágenes de entrenamiento, aparte, relacionar estos armónicos con su valor de esfericidad y redondez.
+\item La cuarta etapa consiste entrenar las 2 redes neuronales, la que va a clasificar la esfericidad, y la que va a clasificar la redondez, con los valores de entrada que será los armónicos de Fourier elíptico y su respectiva salida.
+\item Una vez entrenada cada red, obtener los armónicos de Fourier elíptico de las imágenes de prueba.
+\item La última etapa es clasificar las imágenes de prueba y observar los resultados.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1]{figuras/modeloInvestigacion.png}
+	\caption{Modelo de Investigación}
+	\label{fig1}
+\end{figure}
+
+\section{Descripción de la propuesta}
+El método de los círculos circunscritos para medir la redondez de una imagen (Hryciw, 2016) es para encontrar el círculo que mejor se ajusta en cada parte del contorno, con ciertas restricciones para ser tomado en cuenta o no, y al final poder relacionar todos esos círculos con el círculo circunscrito mayor de la figura, y poder obtener el valor de redondez que posee (Figura 1). (Se seleccionó a partir del grado de curvatura).
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.7]{figuras/metodoCirculos.png}
+	\caption{Exposición del resultado del método de círculos circunscritos.}
+	\label{fig1}
+\end{figure}
+
+Se decidió usar por encima de otros porque es el uso del método propuesto por (Krumbein, 1941) para medir la redondez pero llevado de forma digital, además de ser un método muy bien aceptado en el ambiente de la geología.
+
+Fourier elíptico (GIARDINA, 1981) es un método en el cual se descompone la señal de una imagen en una sumatoria infinita de términos, donde cada término es una elipse con sus características específicas, independientes de las demás, haciendo más fácil la tarea de analizar dicha información por separado, y presuntamente encontrar patrones que difícilmente o con más trabajo se podrían encontrar analizando la imagen completa.
+
+La decisión de usar Fourier elíptico por encima de Fourier es el hecho de que no puede describir la esfericidad de una figura elongada (Figura 1) con tan pocos armónicos, por el hecho de usar una sumatoria infinita de círculos (Por estar trabajando en 2 dimensiones), en cambio Fourier elíptico solo le bastarían unos cuantos armónicos para hacerlo, como su nombre lo dice, usa elipses para aproximar la figura, por lo que resulta en una reducción de información para describir absolutamente lo mismo, además de ser invariante a la escala y rotación, este hecho nos permite no preocuparnos que los valores resultantes cambien debido a que las imágenes están escaladas, o, giradas.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1]{figuras/particulaElongada.png}
+	\caption{Imagen blanco y negro de una roca sedimentaria elongada.}
+	\label{fig1}
+\end{figure}
+
+La decisión de usar las redes neuronales (NN) como la forma para poder clasificar nuestros datos fue por el hecho de la capacidad que tienen para aprender solas con los ejemplos que se le dan, pueden usarse para clasificar múltiples clases, y la versatilidad que tienen para configurarse de manera interna, estás fueron las razones por las que se usaron NN, pero al final se podría cuestionar el hecho de usar NN en vez de las redes neuronales convolucionales (CNN), ya que estamos trabajando en el dominio de las imágenes y las CNN son excelente para ello, bueno, el hecho de usarlas requiere que el parámetro de entrada sea totalmente toda la imagen resultando en que absolutamente cada una tenga que tener el mismo tamaño, por lo que se optó en buscar una forma en la cual se pueda sustituir esa entrada y ahí es cuando entra Fourier elíptico, como se mencionó en el párrafo anterior, básicamente se va a entregar la misma información de la imagen pero de una manera distinta y con menos parámetros de entrada.
+

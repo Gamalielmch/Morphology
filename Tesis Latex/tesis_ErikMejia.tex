@@ -1,0 +1,166 @@
+% ==================================================================
+%               FORMATO DE TESIS DE LICENCIATURA UAIE
+% ==================================================================
+% Este formato de tesis fue diseñado por Manuel Reta Hernández como
+% modelo de documento de tesis de licenciatura, propuesto para la
+% Unidad Académica de Ingeniería Eléctrica de la Universidad Autónoma
+% de Zacatecas.
+% El archivo utiliza el paquete uaztesism.cls y fue adaptado de los
+% paquetes de tesis de "the Purdue University" y de "the University of
+% Wisconsin-Madison".
+
+% ==================================================================
+% INICIA PREÁMBULO DEL DOCUMENTO
+% ==================================================================
+
+% -----------DECLARACIÓN DE TIPO DE DOCUMENTO A DISEÑAR-------------
+
+\documentclass[12pt,tesis]{uaztesis}
+
+% --------------DECLARACIÓN DE PAQUETES A UTILIZAR------------------
+%(se pueden agregar a la lista cuantos paquetes sean necesarios)
+\usepackage[latin1]{inputenc}
+\usepackage[nottoc]{tocbibind}
+\usepackage{amssymb,amsmath,amsfonts}
+\usepackage{color,graphicx,curves}
+\usepackage{subfigure}
+\usepackage{multirow,rotating}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{float}
+
+
+% --DECLARACIÓN DE RUTA DE CARPETA DONDE SE ENCUENTRAN LAS FIGURAS--
+\graphicspath{{Figuras/}}
+
+% --------------OPCIONES DE IMPRESIÓN DE FIGURAS--------------------
+% Con la instrucción \psdraft se crea un espacio en blanco en donde van
+% las figuras. Esto ahorra toner en la impresión del borrador de tesis.
+%
+% Con la instrucción \psfull se incluyen a todas las figuras.
+\psfull
+
+% --------------DECLARACIÓN DEL ESTILO DE PÁGINA--------------------
+% El estilo de página \pagestyle{thesis} coloca los encabezados
+% correctos de la versión final del documento.
+
+\pagestyle{thesis}
+%\noappendixfigures
+\noappendixtables
+
+
+% ===================================================================
+% INICIA EL CONTENIDO DEL DOCUMENTO
+% ===================================================================
+
+\begin{document}
+
+% Para opción de tesis de licenciatura
+\thesis
+
+% Introducción en sílabas de palabras desconocidas por LaTeX
+% Declaración de número de páginas en números Romanos
+\clearpage\pagenumbering{roman}
+
+% ------------------INTRODUCCIÓN DE DATOS----------------------------
+
+% Título de la tesis, autor, y grado a recibir:
+\title{An\'Alisis de Fourier El\'iptico en rocas sedimentarias para la clasificaci\'on de su forma b\'asica y redondez con redes neuronales}
+\author{Erik Mej\'ia Hern\'andez}
+\degree{Maestr\'ia en Ciencias del Procesamiento de la Informaci\'on}
+\carrera{Ingenier\'ia El\'ectrica}
+
+% Grado y nombre de asesores de tesis:
+\advisortitle{Dr.} \advisorname{}
+\gradoasesor2{Dr.} \nombreasesor2{Gamaliel Ch\'avez Moreno}
+
+% Fecha de solicitud de tema de tesis:
+\fechasol{12 de septiembre de 2008}
+
+% Fecha de aprobación de tema de tesis:
+\fecharev{18 de octubre de 2008}
+
+%Fecha de autorización de impresión de tesis:
+\fechaaut{19 de enero de 2009}
+
+% Fecha de Examen profesional:
+\date{Algun dia de 2020}
+
+% Grado y nombre de director de la Unidad Académica:
+\dirtitle{M. en C.} \dirname{José Manuel Cervantes Viramontes}
+
+% Grado y nombre de los tres vocales restantes, miembros del jurado:
+\vocalbtitle{Dr.} \vocalbname{Jorge de la Torre y Ramos}
+\vocalctitle{Ing.} \vocalcname{Amando Castañeda Carrillo}
+\vocaldtitle{M. en A.} \vocaldname{Manuel Haro Macías}
+
+% ---------GENERACIÓN DE PÁGINAS PRELIMINARES DEL DOCUMENTO----------
+
+% Genera página de presentación
+\maketitle
+
+% Genera oficio de autorización de tema de tesis
+%\begin{revision}
+%\end{revision}
+
+% Genera oficio de autorización de impresión de tesis
+%\begin{autorizacion}
+%\end{autorizacion}
+
+% Genera oficio de aprobación del Examen
+%\begin{aprobacion}
+%\end{aprobacion}
+
+% Genera páginas de resumen
+%\begin{resumenespa}
+%  \input{resumen}              % incluye al archivo resumen.tex
+%\end{resumenespa}
+
+% Genera página de dedicatoria (opcional)
+%\begin{dedicatoria}
+%  \input{dedicatoria}          % incluye al archivo dedicatoria.tex
+%\end{dedicatoria}
+
+% Genera página de agradecimientos (opcional)
+%\include{agradecimientos}      % incluye al archivo agradecimientos.tex
+
+% Genera páginas del contenido general y lista de figuras y tablas
+\tableofcontents
+\renewcommand{\listfigurename}{Lista de Figuras}
+\listoffigures                 % se indica sólo si hay figuras
+
+%\listoftables                  % se indica sólo si hay tablas
+
+% Genera páginas del nomenclatura
+%\include{nomenclatura}    % incluye al archivo nomenclatura.tex
+
+%--------INCLUSIÓN DE LOS ARCHIVOS (CAPÍTULOS) DEL DOCUMENTO--------
+
+% Declaración de número de páginas en números Arábigos
+\clearpage\pagenumbering{arabic}
+
+\include{Cap1_Introduccion}       % incluye al archivo introduccion.tex
+\include{Cap2_Cuerpo_tesis}       % incluye al archivo cuerpo_tesis.tex
+\include{Cap3_Ecuaciones}         % incluye al archivo Ecuaciones.tex
+%\include{Cap4_Introd_referencias} % incluye al archivo Ecuaciones.tex
+%\include{Conclusiones}            % incluye al archivo Conclusiones.tex
+
+% ---------------------INTRODUCCIÓN DE APÉNDICES--------------------
+% usar \begin{appendix}..\end{appendix} para sólo un apéndice
+% usar \begin{appendices}..\end{appendices} para varios apéndices
+
+%\begin{appendices}
+%%\include{apenA}                   % incluye al archivo apendA.tex
+%%\include{apenB}                   % incluye al archivo apendB.tex
+%\end{appendices}
+
+% ------------------INTRODUCCIÓN DE REFERENCIAS---------------------
+%\begin{thebibliography}[99]
+%\input{referencias}               % incluye al archivo 
+%\end{thebibliography}
+
+% ===================================================================
+% FINALIZA EL CONTENIDO DEL DOCUMENTO
+% ===================================================================
+
+\end{document}
