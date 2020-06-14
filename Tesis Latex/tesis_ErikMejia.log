@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  11 JUN 2020 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  13 JUN 2020 19:12
 entering extended mode
 **./tesis_ErikMejia.tex
 (tesis_ErikMejia.tex
@@ -440,6 +440,9 @@ LaTeX Warning: Label `fig1' multiply defined.
 
 LaTeX Warning: Label `fig1' multiply defined.
 
+
+LaTeX Warning: Label `fig1' multiply defined.
+
 ))
 \openout1 = `tesis_ErikMejia.aux'.
 
@@ -517,7 +520,7 @@ Package epstopdf Info: Source file: <logoUAZnuevo.eps>
 to.pdf logoUAZnuevo.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
-<logoUAZnuevo-eps-converted-to.pdf, id=79, 149.358pt x 134.30174pt>
+<logoUAZnuevo-eps-converted-to.pdf, id=91, 149.358pt x 134.30174pt>
 File: logoUAZnuevo-eps-converted-to.pdf Graphic file (type pdf)
 <use logoUAZnuevo-eps-converted-to.pdf>
 Package pdftex.def Info: logoUAZnuevo-eps-converted-to.pdf  used on input line 
@@ -527,7 +530,7 @@ Package pdftex.def Info: logoUAZnuevo-eps-converted-to.pdf  used on input line
 
 
 {C:/Users/HeavyRain350/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lo
-goUAZnuevo-eps-converted-to.pdf>] [2] (tesis_ErikMejia.toc
+goUAZnuevo-eps-converted-to.pdf>] (tesis_ErikMejia.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
@@ -554,12 +557,7 @@ l.128 \tableofcontents
 \tf@lof=\write5
 \openout5 = `tesis_ErikMejia.lof'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.140 \clearpage
-                \pagenumbering{arabic} [2
+ [2
 
 ]
 \openout2 = `Cap1_Introduccion.aux'.
@@ -571,7 +569,7 @@ Cap\IeC {\'\i }tulo 1. Introducci\'on
 
 
 ]
-<figuras/fig1.png, id=127, 1485.75075pt x 1332.77925pt>
+<figuras/fig1.png, id=141, 1485.75075pt x 1332.77925pt>
 File: figuras/fig1.png Graphic file (type png)
 <use figuras/fig1.png>
 Package pdftex.def Info: figuras/fig1.png  used on input line 15.
@@ -596,7 +594,7 @@ Cap\IeC {\'\i }tulo 2. Marco Te\'orico
 
  (Cap3_Ecuaciones.tex
 Cap\IeC {\'\i }tulo 3. Modelo y propuesta de Investigaci\'on
-<figuras/modeloInvestigacion.png, id=164, 362.5545pt x 142.131pt>
+<figuras/modeloInvestigacion.png, id=181, 362.5545pt x 142.131pt>
 File: figuras/modeloInvestigacion.png Graphic file (type png)
 <use figuras/modeloInvestigacion.png>
 Package pdftex.def Info: figuras/modeloInvestigacion.png  used on input line 16
@@ -607,7 +605,7 @@ Package pdftex.def Info: figuras/modeloInvestigacion.png  used on input line 16
 
 
 ]
-<figuras/metodoCirculos.png, id=169, 526.96875pt x 395.076pt>
+<figuras/metodoCirculos.png, id=187, 526.96875pt x 395.076pt>
 File: figuras/metodoCirculos.png Graphic file (type png)
 <use figuras/metodoCirculos.png>
 Package pdftex.def Info: figuras/metodoCirculos.png  used on input line 26.
@@ -619,7 +617,7 @@ Package pdftex.def Info: figuras/metodoCirculos.png  used on input line 26.
                                                   \fi \fi 
 l.30 
       <./figuras/modeloInvestigacion.png>]
-<figuras/particulaElongada.png, id=174, 98.16675pt x 214.401pt>
+<figuras/particulaElongada.png, id=192, 98.16675pt x 214.401pt>
 File: figuras/particulaElongada.png Graphic file (type png)
 <use figuras/particulaElongada.png>
 Package pdftex.def Info: figuras/particulaElongada.png  used on input line 39.
@@ -638,15 +636,15 @@ plicate ignored
                                                   \fi \fi 
 l.144 \include{Cap3_Ecuaciones}
                                         % incluye al archivo Ecuaciones.tex <./
-figuras/particulaElongada.png>]
+figuras/particulaElongada.png>] [14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
- (tesis_ErikMejia.aux (Cap1_Introduccion.aux)
-(Cap2_Cuerpo_tesis.aux) (Cap3_Ecuaciones.aux))
+ (tesis_ErikMejia.aux
+(Cap1_Introduccion.aux) (Cap2_Cuerpo_tesis.aux) (Cap3_Ecuaciones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `tesis_ErikMejia.out' has not changed.
-(rerunfilecheck)             Checksum: 9AFBC82BF5C71DFA86FDC4916845E747;1405.
+(rerunfilecheck)             Checksum: 5110ADFB9A634CB421E4F55C903F1520;1598.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -654,21 +652,21 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 7546 strings out of 480799
- 113759 string characters out of 2892516
- 373695 words of memory out of 3000000
- 23310 multiletter control sequences out of 15000+200000
+ 7558 strings out of 480799
+ 113868 string characters out of 2892516
+ 374696 words of memory out of 3000000
+ 23313 multiletter control sequences out of 15000+200000
  556927 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,35p,1567b,430s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,7n,35p,1590b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base
 /8r.enc}<C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HeavyRain350/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tesis_ErikMejia.pdf (17 pages, 607324 bytes).
+Output written on tesis_ErikMejia.pdf (17 pages, 610125 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 

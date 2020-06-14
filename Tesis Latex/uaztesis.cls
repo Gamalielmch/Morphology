@@ -714,11 +714,11 @@ Eléctrica} % Default is Electrical Engineering
      \vspace*{48pt}
       {\bf\expandafter\uppercase\expandafter{\@degree}} \\
 %       \\[\@thesistitlemedskip]
-     \vspace*{48pt}
+     \vspace*{20pt}
       \small{Directores de tesis: \\ 
       \@advisortitle\ \@advisorname\ y 
       \@gradoasesor2\ \@nombreasesor2}\\
-     \vspace*{36pt}     
+     \vspace*{20pt}     
       \small{UNIDAD ACADÉMICA DE INGENIERÍA ELÉCTRICA \\
       \vspace*{8pt}
       Zacatecas, Zac.,} \@date \\
@@ -1039,7 +1039,7 @@ presentado el \@date\ para obtener el título de:
 % width \textwidth.
 %
 % To make headings determined by the sectioning commands, the page style
-% defines the commands \chaptermark, \sectionmark, ... , where
+% defines the commands \chaptermark, mark, ... , where
 % \chaptermark{TEXT} is called by \chapter to set a mark, and so on.
 % The \...mark commands and the \...head macros are defined with the
 % help of the following macros.  (All the \...mark commands should be

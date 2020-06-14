@@ -18,7 +18,7 @@ El trabajo de investigación está dividido en 6 etapas de las cuales se van a des
 	\label{fig1}
 \end{figure}
 
-\section{Descripción de la propuesta}
+\section{Fourier elíptico}
 El método de los círculos circunscritos para medir la redondez de una imagen (Hryciw, 2016) es para encontrar el círculo que mejor se ajusta en cada parte del contorno, con ciertas restricciones para ser tomado en cuenta o no, y al final poder relacionar todos esos círculos con el círculo circunscrito mayor de la figura, y poder obtener el valor de redondez que posee (Figura 1). (Se seleccionó a partir del grado de curvatura).
 
 \begin{figure}[H]
@@ -42,4 +42,7 @@ La decisión de usar Fourier elíptico por encima de Fourier es el hecho de que no
 \end{figure}
 
 La decisión de usar las redes neuronales (NN) como la forma para poder clasificar nuestros datos fue por el hecho de la capacidad que tienen para aprender solas con los ejemplos que se le dan, pueden usarse para clasificar múltiples clases, y la versatilidad que tienen para configurarse de manera interna, estás fueron las razones por las que se usaron NN, pero al final se podría cuestionar el hecho de usar NN en vez de las redes neuronales convolucionales (CNN), ya que estamos trabajando en el dominio de las imágenes y las CNN son excelente para ello, bueno, el hecho de usarlas requiere que el parámetro de entrada sea totalmente toda la imagen resultando en que absolutamente cada una tenga que tener el mismo tamaño, por lo que se optó en buscar una forma en la cual se pueda sustituir esa entrada y ahí es cuando entra Fourier elíptico, como se mencionó en el párrafo anterior, básicamente se va a entregar la misma información de la imagen pero de una manera distinta y con menos parámetros de entrada.
+
+\section{Algoritmo para estimar la redondez}
+\section{Redes neuronales}
 

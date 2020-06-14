@@ -1,26 +1,28 @@
 \chapter{Marco Teórico}
-\section{La geología y el machine learning}
+\section{La importancia del estudio de rocas sedimentarias}
 La geología ha estudiado que la generación de estás rocas sedimentarias se forma a partir de la acumulación de materiales ya sean minerales, restos vegetales o restos animales, estás rocas al verse afectadas por los desastres naturales, cambian su esfericidad y redondez de una manera específica dependiendo del evento que se suscitó. Debido a lo dependiente que suele ser la clasificación de estás rocas, por el hecho de que la persona tiene que ser muy experimentada para poder hacerlo sin errores, hace que se vuelva complicada su clasificación, tratando de buscar alternativas para poder hacerlo.
 
 El machine learning encuentra una gran oportunidad dentro de este ámbito para poder ayudar a clasificar, ya que la capacidad de aprendizaje en base a los ejemplos que tienen las técnicas es muy buena, como es el caso de las redes neuronales, como es una simulación del funcionamiento del cerebro humano, resulta útil su capacidad de aprendizaje y el poderse manipular y configurarse según se va requiriendo, y no nada más son capaces de clasificar, si no también de predecir.
 
 (SHANE, 1969) habla de que, al momento de llevar una imagen de una roca sedimentaria al espacio de frecuencia de Fourier, se puede observar que los primeros armónicos de dicha sumatoria infinita se encuentra la información con la cual se puede definir la esfericidad, ya que son los cambios más grandes y lentos, por lo que después de estos armónicos deben de componer la información de la redondez, porque son cambios mucho más precisos, para así poder obtener los datos de las 2 características que se desean predecir totalmente separada una de la otra.
 
-\section{Principales estudios relacionados}
+\section{Morfología de rocas sedimentarias}
+
+\section{Forma, redondez y rugosidad}
 (Pascual, 2019) habla de los estudios que se han realizado recientemente en la clasificación de imágenes (everyday objects) y que realiza un mejor trabajo las CNN que otros algoritmos, además, con una CNN de 5 capas, consiguió una precisión del 89.43 \% en imágenes de rocas que se encuentran en la escena natural o en el ambiente.
 
 (Guo, 2017) obtiene una precisión del 98.5 \% en la clasificación de la granularidad de imágenes de secciones delgadas (thin sections) de rocas en los espacios de color HSV, YCbCr o RGB como entrada, con una CNN de 6 capas.
 
 (LIU Ye, 2014) obtiene una precisión del 95\% en la clasificación del tipo de roca con imágenes de secciones delgadas (thin sections) en espacios de color RGB, HSV, YIQ y YCbCr como entrada, con una red neuronal artificial (ANN).
 
-\section{Contribuciones y limitaciones de estudios previos}
+\section{Métodos para obtener la forma}
 (Pascual, 2019) demuestra que las CNN se desempeña mejor que las máquinas de soporte vectorial (SVM) en clasificar imágenes limpias y uniformes de rocas, además que poseen una potencial alto en clasificar rocas en su ambiente.
 
 (Guo, 2017) demuestra que se clasifica con gran confianza en los espacios de color HSV, YCbCr y RGB, pero, sus resultados siguen estando sesgados debido a que solo se usaron imágenes single polarized.
 
 (LIU Ye, 2014) muestra una forma de clasificar los tipos de rocas, pero el número de imágenes para entrenar la red neuronal no es el adecuado.
 
-\section{Comparación entre los trabajos relacionados y la propuesta de investigación}
+\section{Métodos para obtener la redondez}
 Las redes neuronales convolucionales (CNN) necesitan una entrada N x M x S (la S puede variar debido a si la imagen está en escala de grises o en algún espacio de color) debido a la naturaleza de la convolución y dependiendo de la cantidad de capas ocultas que se tengan, serían muchísimas más operaciones que una red neuronal profunda, por lo que se propone reducir esa cantidad de entrada a 4 x N, con lo que se reduciría mucho la información que se entrega de la imagen a la red, donde la N será el número de armónicos, y el 4 son los coeficientes que son obtenidos mediante Fourier Elíptico (GIARDINA, 1981), como estamos tratando una señal bidimensional, el método entregará 2 coeficientes por cada grado de dimensionalidad.
 
 \section{Modelo o esquema general de investigación}
