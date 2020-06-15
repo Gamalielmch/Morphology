@@ -14,12 +14,12 @@
 \contentsline {section}{\numberline {2.1}La importancia del estudio de rocas sedimentarias}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Morfolog\IeC {\'\i }a de rocas sedimentarias}{8}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Forma, redondez y rugosidad}{8}{section.2.3}%
-\contentsline {section}{\numberline {2.4}M\'etodos para obtener la forma}{8}{section.2.4}%
-\contentsline {section}{\numberline {2.5}M\'etodos para obtener la redondez}{9}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Modelo o esquema general de investigaci\'on}{9}{section.2.6}%
-\contentsline {chapter}{\numberline {3}{ {Modelo y propuesta de Investigaci\'on}}}{10}{chapter.3}%
+\contentsline {section}{\numberline {2.4}M\'etodos para obtener la forma}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}M\'etodos para obtener la redondez}{11}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Modelo o esquema general de investigaci\'on}{11}{section.2.6}%
+\contentsline {chapter}{\numberline {3}{ {Modelo y propuesta de Investigaci\'on}}}{12}{chapter.3}%
 {\ifnum \value {tocdepth} > 0 {\vskip 1.0em plus 1pt} \fi }
-\contentsline {section}{\numberline {3.1}Modelo de Investigaci\'on}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Fourier el\IeC {\'\i }ptico}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Algoritmo para estimar la redondez}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Redes neuronales}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.1}Modelo de Investigaci\'on}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Fourier el\IeC {\'\i }ptico}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Algoritmo para estimar la redondez}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Redes neuronales}{16}{section.3.4}%

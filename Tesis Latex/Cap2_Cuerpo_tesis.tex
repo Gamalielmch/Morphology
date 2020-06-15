@@ -9,24 +9,64 @@ El machine learning encuentra una gran oportunidad dentro de este ámbito para po
 \section{Morfología de rocas sedimentarias}
 
 \section{Forma, redondez y rugosidad}
-(Pascual, 2019) habla de los estudios que se han realizado recientemente en la clasificación de imágenes (everyday objects) y que realiza un mejor trabajo las CNN que otros algoritmos, además, con una CNN de 5 capas, consiguió una precisión del 89.43 \% en imágenes de rocas que se encuentran en la escena natural o en el ambiente.
+La silueta¿? es la expresión de la morfología externa. Sin embargo, la silueta puede tener 2 significados diferentes para la misma persona. Por ejemplo, Griffiths (1967) tiene 2 nociones sobre la silueta, siendo una la expresión de la morfología externa, y la otra como "silueta general" relacionada a la forma original de la partícula, excluyendo la redondez y la rugosidad. (Barrett,1980)
 
-(Guo, 2017) obtiene una precisión del 98.5 \% en la clasificación de la granularidad de imágenes de secciones delgadas (thin sections) de rocas en los espacios de color HSV, YCbCr o RGB como entrada, con una CNN de 6 capas.
+La silueta incluye cada una de las características de la morfología externa, que son, la forma general, redondez (suavidad) y la rugosidad. Según Snned \& Folk (1958), la forma es usada para describir la silueta general de una partícula, y es independiente de la redondez y rugosidad. (Barrett, 1980)
 
-(LIU Ye, 2014) obtiene una precisión del 95\% en la clasificación del tipo de roca con imágenes de secciones delgadas (thin sections) en espacios de color RGB, HSV, YIQ y YCbCr como entrada, con una red neuronal artificial (ANN).
+La forma, redondez y rugosidad son propiedades independientes entre sí de la silueta, porque alguna puede variar sin necesidad de afectar las otras 2 propiedades, se muestran en la Figura 2.1. La rugosidad a veces genera dificultades cuando se quiere medir la silueta, pero no suele ser considerada al hablar sobre la misma. La rugosidad tiene la misma relación con la redondez, que la redondez con la forma. Estás 3 propiedades son distinguidas al menos por sus diferentes escalas con respecto al tamaño de la partícula, esta característica ayuda a poder ordenarlas, se muestran en la Figura 2.2. Forma, la propiedad de primer orden, refleja los grandes cambios que tiene la partícula; redondez, la propiedad de segundo orden, refleja los cambios en las esquinas, las variaciones que se encuentran superpuestas en la forma; rugosidad, la propiedad de tercer orden, son las variaciones superpuestas en la superficie y en las esquinas. (Barrett, 1980)
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1]{Forma,redondez,rugosidad.png}
+	\caption{Una representación simplificada de la forma, redondez y rugosidad en 3 dimensiones para ilustrar su independencia. Barrett (1980).}
+\end{figure}
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.2]{figuras/fig1.png}
+	\caption{Forma, redondez y  textura superficial  propuestas por Barrett (1980).}
+\end{figure}
+
+Redondez es un concepto que no debe confundirse con Esfericidad (Krynine 1956; Sneed and Folk 1958), es la estimación de la suavidad superficial de la partícula. (Resentini,2018)
+
+Este modo jerárquico de la forma, redondez y rugosidad es apoyado por el comportamiento geológico de partículas de roca. Cambios en la rugosidad no necesariamente afectan a la redondez. La meteorización puede aumentar la rugosidad de una roca, aunque permanecerán las esquinas que son muy redondeadas. Estrías, quebraduras y otras características se pueden obtener sin cambiar la redondez. Esto no imposibilita que este proceso haga que la rugosidad cambie la redondez después de un largo período de tiempo. La redondez de una partícula de roca, puede incrementar a través de la abrasión, sin afectar mucho a la forma. En contraste, un cambio en la forma inevitablemente afectará a la redondez y rugosidad, porque las superficies nuevas son expuestas, y nuevas esquinas aparecen, y un cambio en la redondez debería afectar a la rugosidad, así que por cada cambio resulta en una nueva superficie. (Barrett, 1980)
+
+¿Preguntar? La rugosidad está descrita junto a la redondez y la forma, pero, hay un acuerdo entre los autores de ese tiempo que sigue sin poder ser medida. (Rodriguez, 2013)
+
+Los diferentes métodos para medir la forma y redondez se discutirán en los siguientes 2 subtemas.
+
 
 \section{Métodos para obtener la forma}
-(Pascual, 2019) demuestra que las CNN se desempeña mejor que las máquinas de soporte vectorial (SVM) en clasificar imágenes limpias y uniformes de rocas, además que poseen una potencial alto en clasificar rocas en su ambiente.
 
-(Guo, 2017) demuestra que se clasifica con gran confianza en los espacios de color HSV, YCbCr y RGB, pero, sus resultados siguen estando sesgados debido a que solo se usaron imágenes single polarized.
+La forma se va a medir a partir de la cantidad de esfericidad que posea la partícula.
 
-(LIU Ye, 2014) muestra una forma de clasificar los tipos de rocas, pero el número de imágenes para entrenar la red neuronal no es el adecuado.
+Las siguientes métricas representan las formas más comunes para medir la esfericidad:
+
+\begin{equation}
+\text{Esfericidad por el área} \colon S_A = \frac{\text{Área de la partícula}}{\text{Área del mínimo círculo que inscribe a la partícula}}
+\end{equation}
+
+\begin{equation}
+\text{Esfericidad por el diámetro} \colon S_D = \frac{\text{Diámetro del círculo con la misma área que la partícula}}{\text{Diámetro del mínimo círculo que inscribe a la partícula}}
+\end{equation}
+
+\begin{equation}
+\text{Esfericidad por larelación de círculos} \colon S_C = \frac{\text{Diámetro del máximo círculo inscrito}}{\text{Diámetro del mínimo círculo que inscribe a la partícula}}
+\end{equation}
+
+\begin{equation}
+\text{Esfericidad por el Perímetro} \colon S_P = \frac{\text{Perímetro del círculo con la misma área que la partícula}}{\text{Perímetro de la partícula}}
+\end{equation}
+
+\begin{equation}
+\text{Esfericidad por relación entre altura y anchura} \colon S_WL = \frac{\text{Altura de la partícula}}{\text{Anchura de la partícula}}
+\end{equation}
 
 \section{Métodos para obtener la redondez}
 Las redes neuronales convolucionales (CNN) necesitan una entrada N x M x S (la S puede variar debido a si la imagen está en escala de grises o en algún espacio de color) debido a la naturaleza de la convolución y dependiendo de la cantidad de capas ocultas que se tengan, serían muchísimas más operaciones que una red neuronal profunda, por lo que se propone reducir esa cantidad de entrada a 4 x N, con lo que se reduciría mucho la información que se entrega de la imagen a la red, donde la N será el número de armónicos, y el 4 son los coeficientes que son obtenidos mediante Fourier Elíptico (GIARDINA, 1981), como estamos tratando una señal bidimensional, el método entregará 2 coeficientes por cada grado de dimensionalidad.
 
 \section{Modelo o esquema general de investigación}
-Este trabajo tiene un enfoque de investigación de tipo Aplicada, debido a que busca la manera de poder crear un modelo de redes neuronales junto con los armónicos de Fourier como entrada de imágenes de rocas sedimentarias, y que a su vez, este modelo sea mejor que los trabajos que ya existen relacionados a la clasificación de la esfericidad y redondez de las rocas sedimentarias . 
+Este trabajo tiene un enfoque de investigación de tipo Aplicada, ya que busca la manera de crear un modelo de redes neuronales junto con el espectro de Fourier elíptico de las rocas sedimentarias. El modelo que se busca debe de ser preciso, rápido y fácil de usar, además, que sea invariante a la escala, rotación y traslación.
  
 
 

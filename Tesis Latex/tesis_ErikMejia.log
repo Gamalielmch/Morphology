@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  13 JUN 2020 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  15 JUN 2020 13:11
 entering extended mode
 **./tesis_ErikMejia.tex
 (tesis_ErikMejia.tex
@@ -440,9 +440,6 @@ LaTeX Warning: Label `fig1' multiply defined.
 
 LaTeX Warning: Label `fig1' multiply defined.
 
-
-LaTeX Warning: Label `fig1' multiply defined.
-
 ))
 \openout1 = `tesis_ErikMejia.aux'.
 
@@ -569,7 +566,7 @@ Cap\IeC {\'\i }tulo 1. Introducci\'on
 
 
 ]
-<figuras/fig1.png, id=141, 1485.75075pt x 1332.77925pt>
+<figuras/fig1.png, id=146, 1485.75075pt x 1332.77925pt>
 File: figuras/fig1.png Graphic file (type png)
 <use figuras/fig1.png>
 Package pdftex.def Info: figuras/fig1.png  used on input line 15.
@@ -579,7 +576,7 @@ Package pdftex.def Info: figuras/fig1.png  used on input line 15.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
+l.22 
       <./figuras/fig1.png>] [4] [5]) [6]
 \openout2 = `Cap2_Cuerpo_tesis.aux'.
 
@@ -589,46 +586,77 @@ Cap\IeC {\'\i }tulo 2. Marco Te\'orico
 
 
 
-] [8]) [9]
+]
+<Figuras/Forma,redondez,rugosidad.png, id=178, 287.8755pt x 258.36525pt>
+File: Figuras/Forma,redondez,rugosidad.png Graphic file (type png)
+<use Figuras/Forma,redondez,rugosidad.png>
+Package pdftex.def Info: Figuras/Forma,redondez,rugosidad.png  used on input li
+ne 20.
+(pdftex.def)             Requested size: 287.87479pt x 258.36461pt.
+ [8]
+File: figuras/fig1.png Graphic file (type png)
+<use figuras/fig1.png>
+Package pdftex.def Info: figuras/fig1.png  used on input line 26.
+(pdftex.def)             Requested size: 297.14488pt x 266.55113pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 E
+      ste modo jerárquico de la forma, redondez y rugosidad es apoyado por e...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.32 E
+      ste modo jerárquico de la forma, redondez y rugosidad es apoyado por e...
+ <./Figuras/Forma,redondez,rugosidad.png>]
+Overfull \hbox (34.69536pt too wide) detected at line 55
+[][] [] [] \OML/cmm/m/it/12 S[] \OT1/cmr/m/n/12 = []
+ []
+
+[10]) [11]
 \openout2 = `Cap3_Ecuaciones.aux'.
 
  (Cap3_Ecuaciones.tex
 Cap\IeC {\'\i }tulo 3. Modelo y propuesta de Investigaci\'on
-<figuras/modeloInvestigacion.png, id=181, 362.5545pt x 142.131pt>
+<figuras/modeloInvestigacion.png, id=204, 362.5545pt x 142.131pt>
 File: figuras/modeloInvestigacion.png Graphic file (type png)
 <use figuras/modeloInvestigacion.png>
 Package pdftex.def Info: figuras/modeloInvestigacion.png  used on input line 16
 .
 (pdftex.def)             Requested size: 362.55362pt x 142.13063pt.
-[10
+[12
 
 
 
 ]
-<figuras/metodoCirculos.png, id=187, 526.96875pt x 395.076pt>
+<figuras/metodoCirculos.png, id=209, 526.96875pt x 395.076pt>
 File: figuras/metodoCirculos.png Graphic file (type png)
 <use figuras/metodoCirculos.png>
 Package pdftex.def Info: figuras/metodoCirculos.png  used on input line 26.
 (pdftex.def)             Requested size: 368.8756pt x 276.5513pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.30 
       <./figuras/modeloInvestigacion.png>]
-<figuras/particulaElongada.png, id=192, 98.16675pt x 214.401pt>
+<figuras/particulaElongada.png, id=214, 98.16675pt x 214.401pt>
 File: figuras/particulaElongada.png Graphic file (type png)
 <use figuras/particulaElongada.png>
 Package pdftex.def Info: figuras/particulaElongada.png  used on input line 39.
 (pdftex.def)             Requested size: 98.1665pt x 214.40047pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.42 \end{figure}
-                  <./figuras/metodoCirculos.png>]) [13pdfTeX warning (ext4): de
+                  <./figuras/metodoCirculos.png>]) [15pdfTeX warning (ext4): de
 stination with the same identifier (name{figure.3.3}) has been already used, du
 plicate ignored
 
@@ -636,7 +664,7 @@ plicate ignored
                                                   \fi \fi 
 l.144 \include{Cap3_Ecuaciones}
                                         % incluye al archivo Ecuaciones.tex <./
-figuras/particulaElongada.png>] [14]
+figuras/particulaElongada.png>] [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (tesis_ErikMejia.aux
@@ -652,21 +680,25 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 7558 strings out of 480799
- 113868 string characters out of 2892516
+ 7575 strings out of 480799
+ 114215 string characters out of 2892516
  374696 words of memory out of 3000000
- 23313 multiletter control sequences out of 15000+200000
- 556927 words of font info for 56 fonts, out of 3000000 for 9000
+ 23320 multiletter control sequences out of 15000+200000
+ 560215 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,35p,1590b,389s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base
 /8r.enc}<C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/HeavyRain350/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tesis_ErikMejia.pdf (17 pages, 610125 bytes).
+blic/amsfonts/cm/cmmi12.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HeavyRain350/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Hea
+vyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
+/times/utmb8a.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/times/utmr8a.pfb>
+Output written on tesis_ErikMejia.pdf (19 pages, 681040 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
