@@ -1,69 +1,195 @@
 \chapter{Marco Teórico}
-\section{La importancia del estudio de rocas sedimentarias}
-La geología ha estudiado que la generación de estás rocas sedimentarias se forma a partir de la acumulación de materiales ya sean minerales, restos vegetales o restos animales, estás rocas al verse afectadas por los desastres naturales, cambian su esfericidad y redondez de una manera específica dependiendo del evento que se suscitó. Debido a lo dependiente que suele ser la clasificación de estás rocas, por el hecho de que la persona tiene que ser muy experimentada para poder hacerlo sin errores, hace que se vuelva complicada su clasificación, tratando de buscar alternativas para poder hacerlo.
+\section{La tierra como sistema}
+La geología, ciencia de la tierra, estudia nuestro planeta como un sistema que engloba cuatro esferas; hidrosfera, atmosfera, biosfera y tierra sólida. En la figura 2.1 se muestran ejemplos ilustrativos de cada esfera. La hidrosfera es una masa de agua dinámica que está en movimiento continuo, evaporándose de los océanos a la atmósfera, precipitándose sobre la Tierra y volviendo de nuevo al océano por medio de los ríos. La atmósfera  es una capa gaseosa que rodea a la Tierra. A pesar de sus modestas dimensiones, este delgado manto de aire es una parte integral del planeta. No sólo proporciona el aire que respiramos, sino que también nos protege del intenso calor solar y de las peligrosas radiaciones ultravioletas. La biosfera incluye toda la vida en la Tierra. Está concentrada cerca de la superficie en una zona que se extiende desde el suelo oceánico hasta varios kilómetros de la atmósfera. Debajo de la atmósfera y los océanos se encuentra la Tierra sólida. Gran parte del estudio de la Tierra sólida se concentra en los eventos geográficos superficiales (más accesibles). Por fortuna, estos eventos externos se relacionan directamente con lo que ocurre debajo de la superficie. Examinando los rasgos superficiales más destacados y su extensión global, podemos obtener pistas para explicar los procesos dinámicos que han conformado nuestro planeta Se dice que es un sistema debido a que estas cuatro esferas interactúan constantemente (\cite{Lutgens2005}; Raffereti, 2012).
 
-El machine learning encuentra una gran oportunidad dentro de este ámbito para poder ayudar a clasificar, ya que la capacidad de aprendizaje en base a los ejemplos que tienen las técnicas es muy buena, como es el caso de las redes neuronales, como es una simulación del funcionamiento del cerebro humano, resulta útil su capacidad de aprendizaje y el poderse manipular y configurarse según se va requiriendo, y no nada más son capaces de clasificar, si no también de predecir.
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1]{figuras/geologia.png}
+	\caption{Ejemplo de las cuatro esferas de la tierra: hidrosfera, atmósfera, biosfera y tierra sólida.}
+\end{figure}
 
-(SHANE, 1969) habla de que, al momento de llevar una imagen de una roca sedimentaria al espacio de frecuencia de Fourier, se puede observar que los primeros armónicos de dicha sumatoria infinita se encuentra la información con la cual se puede definir la esfericidad, ya que son los cambios más grandes y lentos, por lo que después de estos armónicos deben de componer la información de la redondez, porque son cambios mucho más precisos, para así poder obtener los datos de las 2 características que se desean predecir totalmente separada una de la otra.
+La tierra solida se divide en tres capas la corteza, el manto y el núcleo.  La corteza, capa rocosa externa, comparativamente fina de la Tierra, se divide generalmente en corteza oceánica y corteza continental. El Manto representa más del 82 por ciento del volumen de la Tierra está, una envoltura rocosa sólida que se extiende hasta una profundidad de 2.900 kilómetros. El límite entre la corteza y el manto representa un cambio de composición química. Núcleo. Se cree que la composición del núcleo es una aleación de hierro y níquel con cantidades menores de oxígeno, silicio y azufre, elementos que forman fácilmente compuestos con el hierro (\cite{Lutgens2005}; Raffereti, 2012). En la Figura 2.2 se detalla las subdivisiones de las  tres capas.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1]{composicion_tierra.png}
+	\caption{Estructura en capas de la Tierra.}
+\end{figure}
+
+De todas las capas existe un alto interés por la corteza ya que en ella se desvuelve la vida humana y la biosfera en general. Esta superficie terrestre es divida en continentes y las cuencas oceánicas. Estas dos superficies tienen diferentes características físicas y químicas. Para la superficie terrestre continental el elemento fundamental de mayor abundancia son las rocas. Al examinar una roca con atención, encontramos que consta de cristales o granos más pequeños denominados minerales. Los minerales son compuestos químicos (o en algunas ocasiones elementos únicos), cada uno de ellos con su propia composición y sus propiedades físicas. La naturaleza de la roca está definida por su composición química y por sus propiedades texturales (tamaño, forma y orientación). Estos dos aspectos son reflejo de los procesos geológicos que la crearon. Esta comprensión tiene muchas aplicaciones prácticas, como en la búsqueda de recursos minerales y energéticos básicos y la solución de problemas ambientales. 
+
+\section{Las rocas y su ciclo}
+
+Los geólogos dividen las rocas en tres grandes grupos: ígneas, sedimentarias y metamórfica, algunos ejemplos de cada tipo de roca se muestran en la Figura 2.3. Rocas ígneas. Las rocas ígneas (ignis = fuego) se forman cuando la roca fundida, denominada magma, se enfría y se solidifica. El magma es roca fundida que se puede formar a varios niveles de profundidad en el interior de la corteza de la Tierra y el manto superior. A medida que se enfría el magma, se van formando y creciendo los cristales de varios minerales. Cuando el magma permanece en el interior profundo de la corteza, se enfría lentamente durante miles de años. Las rocas ígneas de grano grueso que se forman muy por debajo de la superficie se denominan plutónicas. Las rocas ígneas que se forman en la superficie terrestre se denominan volcánicas y suelen ser de grano fino. 
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1.1]{tiposderocas.png}
+	\caption{Ejemplos de los tres tipos de rocas.}
+\end{figure}
+
+Las rocas sedimentarias se forman por acumulación de sedimentos, en la figura 2.4 se muestra un tipo de sedimento. Los sedimentos están compuestos de partículas de diversos tamaños transportadas y son sometidos a procesos físicos y químicos (diagénesis), que dan lugar a materiales consolidados. El agua, el viento o el hielo glacial suelen transportar los productos de la meteorización (fragmentación de rocas) a lugares de sedimentación donde éstos forman capas relativamente planas. Normalmente los sedimentos se convierten en roca o se litifican por la compactación y cementación. La compactación tiene lugar a medida que el peso de los materiales suprayacentes comprime los sedimentos en masas más densas. La cementación se produce conforme el agua que contiene sustancias disueltas se filtra a través de los espacios intergranulares del sedimento. Con el tiempo, el material disuelto en agua precipita entre los granos y los cementa en una masa sólida.
+
+El tercer tipo son las rocas metamórficas. Estas se producen a partir de rocas ígneas, sedimentarias o incluso otras rocas metamórficas. Así, cada roca metamórfica tiene una roca madre, la roca a partir de la que se ha formado. Metamórfico es un adjetivo adecuado porque su significado literal es «cambiar la forma». La mayoría de cambios tienen lugar a temperaturas y presiones elevadas que se dan en la profundidad de la corteza terrestre y el manto superior. Los procesos que crean las rocas metamórficas a menudo progresan de una manera incremental, desde cambios ligeros (metamorfismo de grado bajo) hasta cambios sustanciales (metamorfismo de grado alto).
+
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1.1]{rocasedimentaria.png}
+	\caption{Sedimento ubicado en Métlili, en la provincia de Ghardaïa, Argelia.}
+\end{figure}
+
+Estos tres tipos de rocas interactúan, de hecho forman un ciclo, véase la 2.5. Las rocas pueden pasar por cualquiera de los tres estados cuando son forzadas a romper el equilibrio. Una roca ígnea como el basalto puede disgregarse y alterarse cuando se expone a la atmósfera, o volver a fundirse al subducir por debajo de un continente. Debido a las fuerzas generadoras del ciclo de las rocas, las placas tectónicas y el ciclo del agua, las rocas no pueden mantenerse en equilibrio y son forzadas a cambiar ante los nuevos ambientes. 
+
+Podemos iniciar explicando el ciclo con el magma. El magma que es la roca fundida que se forma a una gran profundidad por debajo de la superficie de la Tierra. Con el tiempo, el magma se enfría y se solidifica. Este proceso, denominado cristalización, puede ocurrir debajo de la superficie terrestre o, después de una erupción volcánica, en la superficie. En cualquiera de las dos situaciones, las rocas resultantes se denominan rocas ígneas.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1.1]{ciclo_rocas.png}
+	\caption{Ciclo de las rocas.}
+\end{figure}
+
+Si las rocas ígneas afloran en la superficie experimentarán meteorización, en la cual la acción de la atmósfera desintegra y descompone lentamente las rocas. Los materiales resultantes pueden ser desplazados pendiente abajo por la gravedad antes de ser captados y transportados por algún agente erosivo como las aguas superficiales, los glaciares, el viento o las olas. Por fin, estas partículas y sustancias disueltas, denominadas sedimentos, son depositadas. Aunque la mayoría de los sedimentos acaba llegando al océano, otras zonas de acumulación son las llanuras de inundación de los ríos, los desiertos, los pantanos y las dunas. A continuación, los sedimentos experimentan litificación, un término que significa «conversión en roca». El sedimento suele litificarse dando lugar a una roca sedimentaria cuando es compactado por el peso de las capas suprayacentes o cuando es cementado conforme el agua subterránea de infiltración llena los poros con materia mineral. Si la roca sedimentaria resultante se entierra profundamente dentro de la tierra e interviene en la dinámica de formación de montañas, o si es intruida por una masa de magma, estará sometida a grandes presiones o a un calor intenso, o a ambas cosas. La roca sedimentaria reaccionará ante el ambiente cambiante y se convertirá en un tercer tipo de roca, una roca metamórfica. Cuando la roca metamórfica es sometida a cambios de presión adicionales o a temperaturas aún mayores, se fundirá, creando un magma, que acabará cristalizando en rocas ígneas. Los procesos impulsados por el calor desde el interior de la Tierra son responsables de la creación de las rocas ígneas y metamórficas. La meteorización y la erosión, procesos externos alimentados por una combinación de energía procedente del Sol y la gravedad, producen el sedimento a partir del cual se forman las rocas sedimentarias. Caminos alternativos. Las vías mostradas en el ciclo básico no son las únicas posibles. Al contrario, es exactamente igual de probable que puedan seguirse otras vías distintas de las descritas en la sección precedente. Esas alternativas se indican mediante las líneas azules en la Figura 2.5. Las rocas ígneas, en vez de ser expuestas a la meteorización y a la erosión en la superficie terrestre, pueden permanecer enterradas profundamente. Esas masas pueden acabar siendo sometidas a fuertes fuerzas de compresión y a temperaturas elevadas asociadas con la formación de montañas. Cuando esto ocurre, se transforman directamente en rocas metamórficas. Las rocas metamórficas y sedimentarias, así como los sedimentos, no siempre permanecen enterrados. Antes bien, las capas superiores pueden ser eliminadas, dejando expuestas las rocas que antes estaban enterradas. Cuando esto ocurre, los materiales son meteorizados y convertidos en nueva materia prima para las rocas sedimentarias. Las rocas pueden parecer masas invariables, pero el ciclo de las rocas demuestra que no es así. Los cambios, sin embargo, requieren tiempo; grandes cantidades de tiempo.   
+
+\section{Rocas sedimentarias}
+
+Las rocas sedimentarias son de gran interés por las siguientes razones: (1) Cubren alrededor del 80\% de la corteza terrestre, que es la parte de la tierra sólida con la que más interactuamos. (2) Representan la base del conocimiento de otras áreas geológicas como la estratigrafía y la geología estructural. (3) Un alto porcentaje de la actividad económica está relacionada con depósitos de rocas sedimentarias, algunos ejemplos son: el petróleo, el gas natural, carbón, sal, sulfuro, potasio, yeso, caliza, fosfato, uranio, hierro, magnesio y una numerosa lista de elementos en la construcción. (4) En la geotecnia son una parte importante para caracterizar el tipo de suelo. (5) En la petrología sedimentaria es clave para determinar la litología, relieve, clima y actividad tectónica.     
+
+Como se describió anteriormente las rocas sedimentarias son resultante del depósito de material solido producto de la meteorización mecánica y química. La transformación del sedimento en roca sedimentaria se conoce como  litificación. El sedimento puede experimentar grandes cambios desde el momento en que fue depositado hasta que se convierte en una roca sedimentaria y posteriormente es sometido a las temperaturas y las presiones que lo transforman en una roca metamórfica. El término diagénesis (dia =cambio; genesis=origen) es un término general para todos los cambios químicos, físicos y biológicos que tienen lugar después de la deposición de los sedimentos, así como durante y después de la litificación. La litificación se refiere a los procesos mediante los cuales los sedimentos no consolidados se transforman en rocas sedimentarias sólidas (lithos =piedra; fic =hacer). Los procesos básicos de litificación son la compactación y la cementación, véase la figura 2.6.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1.1]{procesosRocas.png}
+	\caption{Formación de rocas sedimentarias. Litificación de sedimentos. Compactación y cementación.}
+\end{figure}
+
+El cambio diagenético físico más habitual es la compactación. Conforme el sedimento se acumula a través del tiempo, el peso del material suprayacente comprime los sedimentos más profundos. Cuanto mayor es la profundidad a la que está enterrado el sedimento, más se compacta y más firme se vuelve. Al inducirse cada vez más la aproximación de los granos, hay una reducción considerable del espacio poroso (el espacio abierto entre las partículas). Conforme se reduce el espacio del poro, se expulsa gran parte del agua que estaba atrapada en los sedimentos. Dado que las arenas y otros sedimentos gruesos son sólo ligeramente compresibles, la compactación, como proceso de litificación, es más significativa en las rocas sedimentarias de grano fino.  La cementación es el proceso más importante mediante el cual los sedimentos se convierten en rocas sedimentarias. Es un cambio diagenético químico que implica la precipitación de los minerales entre los granos sedimentarios individuales. Los materiales cementantes son transportados en solución por el agua que percola a través de los espacios abiertos entre las partículas. A lo largo del tiempo, el cemento precipita sobre los granos de sedimento, llena los espacios vacíos y une los clastos. De la misma manera que el espacio del poro se reduce durante la compactación, la adición de cemento al depósito sedimentario reduce también su porosidad.
+
+El sedimento tiene dos orígenes principales. En primer lugar, el sedimento puede ser una acumulación de material que se origina y es transportado en forma de clastos sólidos derivados de la meteorización mecánica y química. Los depósitos de este tipo se denominan detríticos y las rocas sedimentarias que forman, rocas sedimentarias detríticas. En la Figura 2.7 se muestran algunos tipos 
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1.1]{rocasSedimentariasDetriticas.png}
+	\caption{Rocas sedimentarias detríticas.}
+\end{figure}
+
+La segunda fuente principal de sedimento es el material soluble producido en gran medida mediante meteorización química. Cuando estas sustancias disueltas son precipitadas mediante procesos orgánicos o inorgánicos, el material se conoce como sedimento químico y las rocas formadas a partir de él se denominan rocas sedimentarias químicas.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=1.1]{rocasSedimentariasQuimicas.png}
+	\caption{Rocas sedimentarias químicas.}
+\end{figure}
 
 \section{Morfología de rocas sedimentarias}
 
+El análisis de las rocas sedimentarias contempla aspectos físicos, químicos y mineralógicos. Dentro de los físicos existen tres descriptores; el tamaño, la morfología y la orientación. El tamaño y la orientación de la roca es un tema bien establecido. Sin embargo la morfología es un tema relativamente reciente y se encuentra en desarrollo. 
+
+En la morfología de la roca se graban la configuración de la génesis, el ambiente, transporte y deposición. Por ejemplo, cuando las corrientes de agua, el viento o las olas mueven la arena y otros clastos sedimentarios, los granos pierden sus bordes y esquinas angulosos y se van redondeando más a medida que colisionan con otras partículas durante el transporte. Por tanto, es probable que los granos redondeados hayan sido transportados por el aire o por el agua. Además, el grado de redondez indica la distancia o el tiempo transcurrido en el transporte del sedimento por corrientes de aire o agua. Granos muy redondeados indican que se ha producido una gran abrasión y, por consiguiente, un prolongado transporte. Los granos muy angulosos, por otro lado, significan dos cosas: que los materiales sufrieron transporte durante una distancia corta antes de su depósito, y que quizá los haya transportado algún otro medio. Por ejemplo, cuando los glaciares mueven los sedimentos, los clastos suelen volverse más irregulares por la acción de trituración y molienda del hielo. Además de afectar al grado de redondez y al grado de selección que los clastos experimentan, la duración del transporte a través de corrientes de agua y aire turbulentas influye también en la composición mineral de un depósito sedimentario. Una meteorización sustancial y un transporte prolongado llevan a la destrucción gradual de los minerales más débiles y menos estable. Así en la morfología esta parte de la clave para reconstruir la historia y características de procesos sedimentarios.  
+
+
 \section{Forma, redondez y rugosidad}
-La silueta¿? es la expresión de la morfología externa. Sin embargo, la silueta puede tener 2 significados diferentes para la misma persona. Por ejemplo, Griffiths (1967) tiene 2 nociones sobre la silueta, siendo una la expresión de la morfología externa, y la otra como "silueta general" relacionada a la forma original de la partícula, excluyendo la redondez y la rugosidad. (Barrett,1980)
 
-La silueta incluye cada una de las características de la morfología externa, que son, la forma general, redondez (suavidad) y la rugosidad. Según Snned \& Folk (1958), la forma es usada para describir la silueta general de una partícula, y es independiente de la redondez y rugosidad. (Barrett, 1980)
-
-La forma, redondez y rugosidad son propiedades independientes entre sí de la silueta, porque alguna puede variar sin necesidad de afectar las otras 2 propiedades, se muestran en la Figura 2.1. La rugosidad a veces genera dificultades cuando se quiere medir la silueta, pero no suele ser considerada al hablar sobre la misma. La rugosidad tiene la misma relación con la redondez, que la redondez con la forma. Estás 3 propiedades son distinguidas al menos por sus diferentes escalas con respecto al tamaño de la partícula, esta característica ayuda a poder ordenarlas, se muestran en la Figura 2.2. Forma, la propiedad de primer orden, refleja los grandes cambios que tiene la partícula; redondez, la propiedad de segundo orden, refleja los cambios en las esquinas, las variaciones que se encuentran superpuestas en la forma; rugosidad, la propiedad de tercer orden, son las variaciones superpuestas en la superficie y en las esquinas. (Barrett, 1980)
+La forma, redondez y rugosidad son propiedades independientes entre sí, porque alguna puede variar sin necesidad de afectar las otras 2 propiedades, se muestran en la Figura 2.9. La rugosidad a veces genera dificultades cuando se quiere medir la silueta, pero no suele ser considerada al hablar sobre la misma. Estás 3 propiedades son distinguidas al menos por sus diferentes escalas con respecto al tamaño de la partícula, esta característica ayuda ordenarlas, se muestra en la Figura 2.10. Forma, la propiedad de primer orden, refleja los grandes rasgos que tiene la partícula; redondez, la propiedad de segundo orden, refleja los cambios en las esquinas, las variaciones que se encuentran superpuestas en la forma;y la rugosidad, la propiedad de tercer orden, son las variaciones superpuestas en la superficie y en las esquinas. [\cite{BARRETT1980}]
 
 \begin{figure}[H]
 	\centering 
 	\includegraphics[scale=1]{Forma,redondez,rugosidad.png}
-	\caption{Una representación simplificada de la forma, redondez y rugosidad en 3 dimensiones para ilustrar su independencia. Barrett (1980).}
+	\caption{Una representación simplificada de la forma, redondez y rugosidad en 3 dimensiones para ilustrar su independencia. [\cite{BARRETT1980}].}
 \end{figure}
 
 \begin{figure}[H]
 	\centering 
 	\includegraphics[scale=.2]{figuras/fig1.png}
-	\caption{Forma, redondez y  textura superficial  propuestas por Barrett (1980).}
+	\caption{Forma, redondez y  textura superficial  propuestas por \cite{BARRETT1980}.}
 \end{figure}
 
-Redondez es un concepto que no debe confundirse con Esfericidad (Krynine 1956; Sneed and Folk 1958), es la estimación de la suavidad superficial de la partícula. (Resentini,2018)
+Este modo jerárquico de la forma, redondez y rugosidad es apoyado por el comportamiento geológico de partículas de roca. Cambios en la rugosidad no necesariamente afectan a la redondez. La meteorización puede aumentar la rugosidad de una roca, pero las esquinas muy redondeas se mantendrán igual. Estrías, quebraduras y otras características se pueden obtener sin cambiar la redondez. Esto no imposibilita que este proceso haga que la rugosidad cambie la redondez después de un largo período de tiempo. La redondez de una partícula de roca, puede incrementar a través de la abrasión, sin afectar mucho a la forma. En contraste, un cambio en la forma inevitablemente afectará a la redondez y rugosidad, porque las superficies nuevas son expuestas, y aparecerían nuevas esquinas, y un cambio en la redondez debería afectar a la rugosidad, así que por cada cambio resulta en una nueva morfología. [\cite{BARRETT1980}]
 
-Este modo jerárquico de la forma, redondez y rugosidad es apoyado por el comportamiento geológico de partículas de roca. Cambios en la rugosidad no necesariamente afectan a la redondez. La meteorización puede aumentar la rugosidad de una roca, aunque permanecerán las esquinas que son muy redondeadas. Estrías, quebraduras y otras características se pueden obtener sin cambiar la redondez. Esto no imposibilita que este proceso haga que la rugosidad cambie la redondez después de un largo período de tiempo. La redondez de una partícula de roca, puede incrementar a través de la abrasión, sin afectar mucho a la forma. En contraste, un cambio en la forma inevitablemente afectará a la redondez y rugosidad, porque las superficies nuevas son expuestas, y nuevas esquinas aparecen, y un cambio en la redondez debería afectar a la rugosidad, así que por cada cambio resulta en una nueva superficie. (Barrett, 1980)
-
-¿Preguntar? La rugosidad está descrita junto a la redondez y la forma, pero, hay un acuerdo entre los autores de ese tiempo que sigue sin poder ser medida. (Rodriguez, 2013)
+La rugosidad está descrita junto a la redondez y la forma, pero, hay un acuerdo entre los autores de que sigue sin poder ser medida,a pesar de que ya existan métodos propuestos. [\cite{Rodriguez2013}]
 
 Los diferentes métodos para medir la forma y redondez se discutirán en los siguientes 2 subtemas.
 
 
 \section{Métodos para obtener la forma}
 
-La forma se va a medir a partir de la cantidad de esfericidad que posea la partícula.
+La forma se va a medir a partir del grado de esfericidad que posea la partícula. La esfericidad es una medida de forma, que cuantifica el grado de similitud entre la partícula y una esfera. Una de las métricas más usadas para medir la esfericidad es la propuesta por \cite{Wadell1932}, que define la esfericidad como la relación entre el área de superficie de la esfera del mismo volumen y el área de la superficie real de la partícula, una métrica usada para partículas en 3 dimensiones, pero también existe su equivalente que se usa para partículas en 2 dimensiones. [\cite{Altuhafi2013}]
 
-Las siguientes métricas representan las formas más comunes para medir la esfericidad:
-
-\begin{equation}
-\text{Esfericidad por el área} \colon S_A = \frac{\text{Área de la partícula}}{\text{Área del mínimo círculo que inscribe a la partícula}}
-\end{equation}
+Las siguientes métricas representan las formas más comunes para medir la esfericidad en 2 dimensiones son:
 
 \begin{equation}
-\text{Esfericidad por el diámetro} \colon S_D = \frac{\text{Diámetro del círculo con la misma área que la partícula}}{\text{Diámetro del mínimo círculo que inscribe a la partícula}}
+\text{Esfericidad por el área} \colon S_A = \frac{A_s}{A_{cir}}
 \end{equation}
+ donde \(A_s\) es el área proyectada de la partícula y \(A_{cir}\) es el área del círculo mínimo que inscribe a la partícula, fórmula propuesta por \cite{tickell1939examination}.
 
 \begin{equation}
-\text{Esfericidad por larelación de círculos} \colon S_C = \frac{\text{Diámetro del máximo círculo inscrito}}{\text{Diámetro del mínimo círculo que inscribe a la partícula}}
+\text{Esfericidad por el diámetro} \colon S_D = \frac{d_c}{D_{cir}}
 \end{equation}
 
-\begin{equation}
-\text{Esfericidad por el Perímetro} \colon S_P = \frac{\text{Perímetro del círculo con la misma área que la partícula}}{\text{Perímetro de la partícula}}
-\end{equation}
+ donde \(d_c\) es el diámetro del círculo igual en área a la de la partícula en el tamaño original cuando descansa en una de sus caras más largas, más o menos paralela a el plano con los diámetros más largos e intermedios, y \(D_{cir}\) es el diámetro del círculo más pequeño que inscribe a la partícula en su tamaño original. Los rangos de valor de está fórmula están distribuidos de 0.54 a 1, fórmula propuesta por \cite{Wadell1935}.
 
 \begin{equation}
-\text{Esfericidad por relación entre altura y anchura} \colon S_WL = \frac{\text{Altura de la partícula}}{\text{Anchura de la partícula}}
+\text{Esfericidad por la relación de círculos} \colon S_C = \frac{D_{ins}}{D_{cir}}
 \end{equation}
+
+ donde \(D_{ins}\) es el diámetro del mínimo círculo circunscrito en la partícula y \(D_{cir}\) es el diámetro del círculo más pequeño que inscribe a la partícula, fórmula propuesta por \cite{Santamarina2004}.
+
+\begin{equation}
+\text{Esfericidad por el Perímetro} \colon S_P = \frac{P_c}{P_s}
+\end{equation}
+
+donde \(P_c\) es el perímetro del círculo que tiene la misma área que la partícula y \(P_s\) es el perímetro de la partícula, fórmula propuesta por \cite{Altuhafi2013}.
+
+\begin{equation}
+\text{Esfericidad por relación entre anchura y altura} \colon S_{WL} = \frac{d_1}{d_2}
+\end{equation}
+
+donde \(d_1\) y \(d_2\) son el ancho y el largo de la partícula respectivamente, fórmula propuesta por \cite{krumbein1951stratigraphy}.
+
+Existen más definiciones para la esfericidad que se basan en el volumen, como la propuesta por \cite{wadell1933sphericity}, pero no se toman en cuenta porque en este trabajo las partículas que serán caracterizadas son en dos dimensiones.
+
+Para fines de este trabajo, la esfericidad que se usa es la propuesta por \cite{Wadell1935} para 2 dimensiones, debido a que es una de las más conocidas y usadas para categorizar la forma de una partícula.
 
 \section{Métodos para obtener la redondez}
-Las redes neuronales convolucionales (CNN) necesitan una entrada N x M x S (la S puede variar debido a si la imagen está en escala de grises o en algún espacio de color) debido a la naturaleza de la convolución y dependiendo de la cantidad de capas ocultas que se tengan, serían muchísimas más operaciones que una red neuronal profunda, por lo que se propone reducir esa cantidad de entrada a 4 x N, con lo que se reduciría mucho la información que se entrega de la imagen a la red, donde la N será el número de armónicos, y el 4 son los coeficientes que son obtenidos mediante Fourier Elíptico (GIARDINA, 1981), como estamos tratando una señal bidimensional, el método entregará 2 coeficientes por cada grado de dimensionalidad.
+Redondez es un concepto que no debe confundirse con Esfericidad (\cite{krynine19561}; \cite{sneed1958pebbles}), es la estimación de la suavidad superficial de la partícula. [\cite{Resentini2018}]
+
+Las 3 formas más comunes para medir la redondez se basan en círculos circunscritos, espectro de Fourier, y fractales.
+
+El método que se basa en círculos circunscritos parte de que el radio de curvatura de una esquina no puede ser mayor al radio del máximo círculo circunscrito en la partícula, por lo que la redondez de una esquina puede ser expresada como \(\frac{r}{R}\), donde \(r\) es el radio de curvatura de la esquina y \(R\) es el radio del máximo círculo circunscrito. [\cite{Wadell1932}]
+
+La redondez total de un sólido en un solo plano (2 dimensiones) se obtiene usando la media de la redondez de cada una de las esquinas en ese plano. Por lo que la fórmula queda así:
+
+\begin{equation}
+\frac{\sum{\frac{r}{R}}}{N} = \text{Grado de redondez}
+\end{equation}
+
+donde \(\sum{\frac{r}{R}}\) es la sumatoria de los valores de redondez de cada esquina, y \(N\) es el número de esquinas de la partícula en el plano dado. El máximo valor de redondez que puede ser obtenido es de \(1\), fórmula propuesta por \cite{Wadell1932}. 
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.6]{figuras/wadellRoundness.png}
+	\caption{Clasificaciones para la redondez de una partícula propuestas por \cite{Wadell1932}.}
+\end{figure}
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.5]{figuras/krumbeinRoundness.png}
+	\caption{Clasificaciones para la redondez de una partícula propuestas por \cite{Krumbein1941}.}
+\end{figure}
+
+En la figura 2.11 se observan las clasificaciones propuestas , proponiendo 6 clases, mientras que la clasificación de figura 2.12 propone 9 clases.
+
+El método que se basa en el espectro de Fourier parte de que se puede descomponer todas las frecuencias que posee una imagen de una partícula, obteniendo claramente cuales pertenecen a la redondez. 
+
+\cite{ehrlich1970exact} propusieron el uso de la transformada de Fourier para medir la rugosidad,
+
+\begin{equation}
+P = [\frac{1}{2}\sum_{u=1}^{N-1}{[R^2(u)+I^2(u)]}]^{\frac{1}{2}}
+\end{equation}
+
+El método de \cite{DIEPENBROEK1992} esta basado en el coeficiente de rugosidad (Eq. (2.7)). Este método fue probado usando los  \(N=5,6,...,60\) armónicos de la transformada de Fourier. Obteniendo que los primeros 23 armónicos fueron los que dieron un mejor resultado para caracterizar la redondez de una partícula. [\cite{Drevin2006}]
+
+El método a utilizar para la redondez va a ser el propuesto por \cite{Wadell1932}, debido a su simplicidad con respecto a los métodos basados en Fourier y Fractales, a su vez, la escala que se utilizará será la de \cite{Krumbein1941} por el hecho de ser más interesante de trabajar con más clases.
 
 \section{Modelo o esquema general de investigación}
 Este trabajo tiene un enfoque de investigación de tipo Aplicada, ya que busca la manera de crear un modelo de redes neuronales junto con el espectro de Fourier elíptico de las rocas sedimentarias. El modelo que se busca debe de ser preciso, rápido y fácil de usar, además, que sea invariante a la escala, rotación y traslación.

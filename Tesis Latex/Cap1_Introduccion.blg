@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7440 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Cap1_Introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Database file #1: bibliografia.bib
+You've used 5 entries,
+            1935 wiz_defined-function locations,
+            510 strings with 4371 characters,
+and the built_in function-call counts, 1769 in all, are:
+= -- 182
+> -- 47
+< -- 5
++ -- 14
+- -- 14
+* -- 149
+:= -- 312
+add.period$ -- 14
+call.type$ -- 5
+change.case$ -- 32
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 66
+empty$ -- 134
+format.name$ -- 23
+if$ -- 340
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 27
+num.names$ -- 15
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 54
+stack$ -- 0
+substring$ -- 154
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 30
+warning$ -- 0
+while$ -- 18
+width$ -- 0
+write$ -- 64

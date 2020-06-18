@@ -1,24 +1,7 @@
-% ==================================================================
-%               FORMATO DE TESIS DE LICENCIATURA UAIE
-% ==================================================================
-% Este formato de tesis fue diseñado por Manuel Reta Hernández como
-% modelo de documento de tesis de licenciatura, propuesto para la
-% Unidad Académica de Ingeniería Eléctrica de la Universidad Autónoma
-% de Zacatecas.
-% El archivo utiliza el paquete uaztesism.cls y fue adaptado de los
-% paquetes de tesis de "the Purdue University" y de "the University of
-% Wisconsin-Madison".
 
-% ==================================================================
-% INICIA PREÁMBULO DEL DOCUMENTO
-% ==================================================================
-
-% -----------DECLARACIÓN DE TIPO DE DOCUMENTO A DISEÑAR-------------
 
 \documentclass[12pt,tesis]{uaztesis}
 
-% --------------DECLARACIÓN DE PAQUETES A UTILIZAR------------------
-%(se pueden agregar a la lista cuantos paquetes sean necesarios)
 \usepackage[latin1]{inputenc}
 \usepackage[nottoc]{tocbibind}
 \usepackage{amssymb,amsmath,amsfonts}
@@ -28,6 +11,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
 \usepackage{float}
+\usepackage[backend=bibtex,style=ieee,
+citestyle=authoryear-ibid,sorting=nty]{biblatex}
+\addbibresource{bibliografia.bib}
 
 
 % --DECLARACIÓN DE RUTA DE CARPETA DONDE SE ENCUENTRAN LAS FIGURAS--
@@ -54,7 +40,6 @@
 % ===================================================================
 
 \begin{document}
-
 % Para opción de tesis de licenciatura
 \thesis
 
@@ -125,6 +110,7 @@
 %\include{agradecimientos}      % incluye al archivo agradecimientos.tex
 
 % Genera páginas del contenido general y lista de figuras y tablas
+
 \tableofcontents
 \renewcommand{\listfigurename}{Lista de Figuras}
 \listoffigures                 % se indica sólo si hay figuras
@@ -139,8 +125,9 @@
 % Declaración de número de páginas en números Arábigos
 \clearpage\pagenumbering{arabic}
 
+
 \include{Cap1_Introduccion}       % incluye al archivo introduccion.tex
-\include{Cap2_Cuerpo_tesis}       % incluye al archivo cuerpo_tesis.tex
+\include{Cap2_Cuerpo_tesis}       % incluye al archivo cuerpo_tesis.tex%
 \include{Cap3_Ecuaciones}         % incluye al archivo Ecuaciones.tex
 %\include{Cap4_Introd_referencias} % incluye al archivo Ecuaciones.tex
 %\include{Conclusiones}            % incluye al archivo Conclusiones.tex
@@ -155,9 +142,10 @@
 %\end{appendices}
 
 % ------------------INTRODUCCIÓN DE REFERENCIAS---------------------
-%\begin{thebibliography}[99]
-%\input{referencias}               % incluye al archivo 
-%\end{thebibliography}
+    
+\input{referencias} 
+%\bibliography{bibliografia}
+%\bibliographystyle{apalike}
 
 % ===================================================================
 % FINALIZA EL CONTENIDO DEL DOCUMENTO

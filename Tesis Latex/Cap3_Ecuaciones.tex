@@ -15,34 +15,108 @@ El trabajo de investigación está dividido en 6 etapas de las cuales se van a des
 	\centering 
 	\includegraphics[scale=1]{figuras/modeloInvestigacion.png}
 	\caption{Modelo de Investigación}
-	\label{fig1}
 \end{figure}
 
 \section{Fourier elíptico}
-El método de los círculos circunscritos para medir la redondez de una imagen (Hryciw, 2016) es para encontrar el círculo que mejor se ajusta en cada parte del contorno, con ciertas restricciones para ser tomado en cuenta o no, y al final poder relacionar todos esos círculos con el círculo circunscrito mayor de la figura, y poder obtener el valor de redondez que posee (Figura 1). (Se seleccionó a partir del grado de curvatura).
+
+Los coeficientes de Fourier han sido muy utilizados para caracterizar contornos cerrados. Fourier elíptico es una manera simple de obtener los coeficientes de Fourier del código de cadena de un contorno cerrado. Los coeficientes resultantes son invariantes a la escala, rotación y traslación.
+
+El código de cadena es el primer paso en Fourier elíptico, fue descrito inicialmente por \cite{freeman1974computer}, aproximando un contorno cerrado por una secuencia en partes con 8 posibles valores. El código de un contorno es la cadena \(V\) de longitud \(K\)
+
+\begin{equation}
+V = a_1a_2a_3...a_K,
+\end{equation}
+
+donde cada unión \(a_i\) es un entero del 0 al 7 orientado en la dirección \((\frac{\pi}{r})a_i\).[\cite{Kuhl1982}]
+
+En la figura 3.2 se puede observar como un contorno cerrado separado en píxeles, se puede obtener el código de cadena, trazando una trayectoria desde un punto inicial, hasta volver a llegar a ese mismo punto, pasando por todo el contorno. El código de cadena de la figura 3.2a iniciando de el extremo superior izquierdo es:
+
+\begin{equation}
+V = 0005676644422123
+\end{equation}
 
 \begin{figure}[H]
 	\centering 
-	\includegraphics[scale=.7]{figuras/metodoCirculos.png}
-	\caption{Exposición del resultado del método de círculos circunscritos.}
-	\label{fig1}
+	\includegraphics[scale=1]{codigoCadena.png}
+	\caption{Representación gráfica del código de cadena de un contorno cerrado [\cite{Kuhl1982}]}
 \end{figure}
 
-Se decidió usar por encima de otros porque es el uso del método propuesto por (Krumbein, 1941) para medir la redondez pero llevado de forma digital, además de ser un método muy bien aceptado en el ambiente de la geología.
+Debido a que el cambio en el código de cadena esa constante y no varía, los coeficientes pueden ser encontrados más fácilmente. Por lo que los coeficientes de la componente \(x\) son:
 
-Fourier elíptico (GIARDINA, 1981) es un método en el cual se descompone la señal de una imagen en una sumatoria infinita de términos, donde cada término es una elipse con sus características específicas, independientes de las demás, haciendo más fácil la tarea de analizar dicha información por separado, y presuntamente encontrar patrones que difícilmente o con más trabajo se podrían encontrar analizando la imagen completa.
+\begin{equation}
+a_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}]
+\end{equation}
 
-La decisión de usar Fourier elíptico por encima de Fourier es el hecho de que no puede describir la esfericidad de una figura elongada (Figura 1) con tan pocos armónicos, por el hecho de usar una sumatoria infinita de círculos (Por estar trabajando en 2 dimensiones), en cambio Fourier elíptico solo le bastarían unos cuantos armónicos para hacerlo, como su nombre lo dice, usa elipses para aproximar la figura, por lo que resulta en una reducción de información para describir absolutamente lo mismo, además de ser invariante a la escala y rotación, este hecho nos permite no preocuparnos que los valores resultantes cambien debido a que las imágenes están escaladas, o, giradas.
+\begin{equation}
+b_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}]
+\end{equation}
 
-\begin{figure}[H]
-	\centering 
-	\includegraphics[scale=1]{figuras/particulaElongada.png}
-	\caption{Imagen blanco y negro de una roca sedimentaria elongada.}
-	\label{fig1}
-\end{figure}
+donde, la K es el número de píxeles del contorno, \(T\) el período fundamental, \(\Delta x_p\) el cambio en el eje de las x, \(\Delta t_p\) el cambio en el tiempo, que básicamente va a ser 1 constante.
 
-La decisión de usar las redes neuronales (NN) como la forma para poder clasificar nuestros datos fue por el hecho de la capacidad que tienen para aprender solas con los ejemplos que se le dan, pueden usarse para clasificar múltiples clases, y la versatilidad que tienen para configurarse de manera interna, estás fueron las razones por las que se usaron NN, pero al final se podría cuestionar el hecho de usar NN en vez de las redes neuronales convolucionales (CNN), ya que estamos trabajando en el dominio de las imágenes y las CNN son excelente para ello, bueno, el hecho de usarlas requiere que el parámetro de entrada sea totalmente toda la imagen resultando en que absolutamente cada una tenga que tener el mismo tamaño, por lo que se optó en buscar una forma en la cual se pueda sustituir esa entrada y ahí es cuando entra Fourier elíptico, como se mencionó en el párrafo anterior, básicamente se va a entregar la misma información de la imagen pero de una manera distinta y con menos parámetros de entrada.
+Con eso obtendríamos los coeficientes de la componente \(x\), pero como una imagen es una señal en dos dimensiones necesitamos también obtener los coeficientes de la componente \(y\).
 
+\begin{equation}
+c_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}]
+\end{equation}
+
+\begin{equation}
+d_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}]
+\end{equation}
+
+Con eso ya se tendría los coeficientes necesarios, debido a que el cambio de la \(x\) no siempre sera igual al cambio en las \(y\), Fourier elíptico generaría elipses en vez de círculos como el método tradicional.
+
+Para que este método obtenga la invarianza a la escala, rotación y traslación, es necesario aplicar una normalización y ajustar los ángulos en los que va a iniciar cada elipse, para que independientemente la escala, rotación y traslación que tenga el contorno cerrado, siempre de el mismo resultado.
+
+\begin{equation}
+E_p = ((A_0-x_p)^2 + (C_0-y_p)^2)^\frac{1}{2}
+\end{equation}
+
+donde \(A_0\) y \(C_0\) son el promedio de la energía de las componentes \(x\) y \(y\) respectivamente. Para obtener el ángulo de rotación inicial \(\theta_p\) a el índice \(p\):
+
+\begin{equation}
+\theta_p = \frac{2\pi t_p}{T}, 0<\theta_p\le2\pi
+\end{equation}
+
+y para obtener el ángulo de rotación espacial \(\psi_p\)
+
+\begin{equation}
+\psi_p=\arctan[\frac{y_p-C_0}{x_p-A_0}], 0\le\psi_p<2\pi
+\end{equation}
+
+Al iniciar el cálculo de los coeficientes, se tendría que obtener \(E_1\), \(\theta_1\) y \(\psi_1\) para influir en los siguiente coeficientes a que se reajusten de acuerdo a estos ángulos iniciales, y dividirlo entre \(E_0\) para mantener la invarianza a la escala, por lo que la obtención de los nuevos coeficientes sería:
+
+\begin{equation}
+\begin{bmatrix}
+1a^{**}_n & 1b^{**}_n\\
+1c^{**}_n & 1d^{**}_n
+\end{bmatrix} =
+\begin{bmatrix}
+\cos{\psi_1} & \sin{\psi_1}\\
+-\sin{\psi_1} & \cos{\psi_1}
+\end{bmatrix}
+\begin{bmatrix}
+a_n & b_n\\
+c_n & d_n
+\end{bmatrix}
+\begin{bmatrix}
+\cos{n\theta_1} & -\sin{n\theta_1}\\
+\sin{n\theta_1} & \cos{n\theta_1}
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+\begin{bmatrix}
+2a^{**}_n & 2b^{**}_n\\
+2c^{**}_n & 2d^{**}_n
+\end{bmatrix} =
+(-1)^{n+1}
+\begin{bmatrix}
+1a^{**}_n & 1b^{**}_n\\
+1c^{**}_n & 1d^{**}_n
+\end{bmatrix}
+\end{equation}
+
+El resultado de la ecuación 3.11 nos daría los coeficientes \(a,b,c,d\) para el \(n\) armónico que se está calculando. Siendo invariante a la escala, rotación y traslación. Para más información, consultar \cite{Kuhl1982}.
 \section{Algoritmo para estimar la redondez}
 \section{Redes neuronales}
 
