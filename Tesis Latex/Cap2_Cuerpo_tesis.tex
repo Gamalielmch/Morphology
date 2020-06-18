@@ -1,6 +1,6 @@
 \chapter{Marco Teórico}
 \section{La tierra como sistema}
-La geología, ciencia de la tierra, estudia nuestro planeta como un sistema que engloba cuatro esferas; hidrosfera, atmosfera, biosfera y tierra sólida. En la figura 2.1 se muestran ejemplos ilustrativos de cada esfera. La hidrosfera es una masa de agua dinámica que está en movimiento continuo, evaporándose de los océanos a la atmósfera, precipitándose sobre la Tierra y volviendo de nuevo al océano por medio de los ríos. La atmósfera  es una capa gaseosa que rodea a la Tierra. A pesar de sus modestas dimensiones, este delgado manto de aire es una parte integral del planeta. No sólo proporciona el aire que respiramos, sino que también nos protege del intenso calor solar y de las peligrosas radiaciones ultravioletas. La biosfera incluye toda la vida en la Tierra. Está concentrada cerca de la superficie en una zona que se extiende desde el suelo oceánico hasta varios kilómetros de la atmósfera. Debajo de la atmósfera y los océanos se encuentra la Tierra sólida. Gran parte del estudio de la Tierra sólida se concentra en los eventos geográficos superficiales (más accesibles). Por fortuna, estos eventos externos se relacionan directamente con lo que ocurre debajo de la superficie. Examinando los rasgos superficiales más destacados y su extensión global, podemos obtener pistas para explicar los procesos dinámicos que han conformado nuestro planeta Se dice que es un sistema debido a que estas cuatro esferas interactúan constantemente (\cite{Lutgens2005}; Raffereti, 2012).
+La geología, ciencia de la tierra, estudia nuestro planeta como un sistema que engloba cuatro esferas; hidrosfera, atmosfera, biosfera y tierra sólida. En la figura 2.1 se muestran ejemplos ilustrativos de cada esfera. La hidrosfera es una masa de agua dinámica que está en movimiento continuo, evaporándose de los océanos a la atmósfera, precipitándose sobre la Tierra y volviendo de nuevo al océano por medio de los ríos. La atmósfera  es una capa gaseosa que rodea a la Tierra. A pesar de sus modestas dimensiones, este delgado manto de aire es una parte integral del planeta. No sólo proporciona el aire que respiramos, sino que también nos protege del intenso calor solar y de las peligrosas radiaciones ultravioletas. La biosfera incluye toda la vida en la Tierra. Está concentrada cerca de la superficie en una zona que se extiende desde el suelo oceánico hasta varios kilómetros de la atmósfera. Debajo de la atmósfera y los océanos se encuentra la Tierra sólida. Gran parte del estudio de la Tierra sólida se concentra en los eventos geográficos superficiales (más accesibles). Por fortuna, estos eventos externos se relacionan directamente con lo que ocurre debajo de la superficie. Examinando los rasgos superficiales más destacados y su extensión global, podemos obtener pistas para explicar los procesos dinámicos que han conformado nuestro planeta Se dice que es un sistema debido a que estas cuatro esferas interactúan constantemente (\cite{Lutgens2005};\cite{rafferty2011geological}).
 
 \begin{figure}[H]
 	\centering 
@@ -166,20 +166,6 @@ La redondez total de un sólido en un solo plano (2 dimensiones) se obtiene usand
 
 donde \(\sum{\frac{r}{R}}\) es la sumatoria de los valores de redondez de cada esquina, y \(N\) es el número de esquinas de la partícula en el plano dado. El máximo valor de redondez que puede ser obtenido es de \(1\), fórmula propuesta por \cite{Wadell1932}. 
 
-\begin{figure}[H]
-	\centering 
-	\includegraphics[scale=.6]{figuras/wadellRoundness.png}
-	\caption{Clasificaciones para la redondez de una partícula propuestas por \cite{Wadell1932}.}
-\end{figure}
-
-\begin{figure}[H]
-	\centering 
-	\includegraphics[scale=.5]{figuras/krumbeinRoundness.png}
-	\caption{Clasificaciones para la redondez de una partícula propuestas por \cite{Krumbein1941}.}
-\end{figure}
-
-En la figura 2.11 se observan las clasificaciones propuestas , proponiendo 6 clases, mientras que la clasificación de figura 2.12 propone 9 clases.
-
 El método que se basa en el espectro de Fourier parte de que se puede descomponer todas las frecuencias que posee una imagen de una partícula, obteniendo claramente cuales pertenecen a la redondez. 
 
 \cite{ehrlich1970exact} propusieron el uso de la transformada de Fourier para medir la rugosidad,
@@ -189,6 +175,23 @@ P = [\frac{1}{2}\sum_{u=1}^{N-1}{[R^2(u)+I^2(u)]}]^{\frac{1}{2}}
 \end{equation}
 
 El método de \cite{DIEPENBROEK1992} esta basado en el coeficiente de rugosidad (Eq. (2.7)). Este método fue probado usando los  \(N=5,6,...,60\) armónicos de la transformada de Fourier. Obteniendo que los primeros 23 armónicos fueron los que dieron un mejor resultado para caracterizar la redondez de una partícula. [\cite{Drevin2006}]
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.6]{figuras/wadellRoundness.png}
+	\caption{Clasificaciones para la redondez de una partícula propuestas por \cite{Wadell1932}.}
+\end{figure}
+
+Desde un punto de vista práctico, no es suficiente solo medir el grado de redondez sino también clasificarla. Una herramienta muy usada por los sedimentologos para clasificar la morfología de clastos es un gráfico visual comparativo. Russell, Taylor y Pettijohn (Müller,1967) desarrolló un gráfico visual comparativo de un conjunto de referencias de partículas de la redondez conocidas. Este gráfico ofrecía un manera fácil y rápida para estimar la redondez de partículas en dos dimensiones. The Russell, Taylor y Pettijohn (RTP) referenciaban la figura con 25 partículas organizadas en 5 diferentes categorías de redondez; angular, sub-angular, sub-redondeada, redondeada y bien redondeada (Boggs,2012).
+
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.5]{figuras/krumbeinRoundness.png}
+	\caption{Clasificaciones para la redondez de una partícula propuestas por \cite{Krumbein1941}.}
+\end{figure}
+
+En la figura 2.11 se observan las clasificaciones propuestas , proponiendo 6 clases, mientras que la clasificación de figura 2.12 propone 9 clases.
 
 El método a utilizar para la redondez va a ser el propuesto por \cite{Wadell1932}, debido a su simplicidad con respecto a los métodos basados en Fourier y Fractales, a su vez, la escala que se utilizará será la de \cite{Krumbein1941} por el hecho de ser más interesante de trabajar con más clases.
 

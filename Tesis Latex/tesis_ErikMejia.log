@@ -1,203 +1,215 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.9)  18 JUN 2020 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  18 JUN 2020 17:51
 entering extended mode
 **./tesis_ErikMejia.tex
 (tesis_ErikMejia.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-(uaztesis.cls
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15> (uaztesis.cls
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inpute
+nc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2015/03/17 v1.2c Input encoding file
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latin1
+.def"
+File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.st
-y"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
+ssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.s
-ty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
+sfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks16
+\@emptytoks=\toks17
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
-"
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip41
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+math.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
-"
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+text.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
- ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+gen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen102
+\@emptytoks=\toks18
+\ex@=\dimen134
 ))
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+bsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen103
-) ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.st
-y"
+\pmbraise@=\dimen135
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
+opn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count79
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count80
-\leftroot@=\count81
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count82
-\DOTSCASE@=\count83
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen104
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count84
-\c@MaxMatrixCols=\count85
-\dotsspace@=\muskip10
-\c@parentequation=\count86
-\dspbrk@lvl=\count87
-\tag@help=\toks18
-\row@=\count88
-\column@=\count89
-\maxfields@=\count90
-\andhelp@=\toks19
-\eqnshift@=\dimen105
-\alignsep@=\dimen106
-\tagshift@=\dimen107
-\tagwidth@=\dimen108
-\totwidth@=\dimen109
-\lineht@=\dimen110
-\@envbody=\toks20
-\multlinegap=\skip42
-\multlinetaggap=\skip43
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+\inf@bad=\count167
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count168
+\leftroot@=\count169
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count170
+\DOTSCASE@=\count171
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count172
+\c@MaxMatrixCols=\count173
+\dotsspace@=\muskip16
+\c@parentequation=\count174
+\dspbrk@lvl=\count175
+\tag@help=\toks19
+\row@=\count176
+\column@=\count177
+\maxfields@=\count178
+\andhelp@=\toks20
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\co
+lor.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.
-cfg"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
+g\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex
-.def"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-de
+f\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.s
-ty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
+aphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
-"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ke
+yval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks23
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.s
-ty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
+aphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tr
+ig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphi
-cs.cfg"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
+g\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\curves\curves.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/curves\curv
+es.sty"
 Package: curves 2017/08/25 1.55 Curves for LaTeX picture environment
-\;sc=\count91
-\;scp=\count92
-\;t=\count93
-\;cc=\count94
-\;cnd=\count95
-\;mcnd=\count96
-\;np=\count97
-\;overhang=\count98
-\;pbs=\count99
-\;pns=\count100
-\;psc=\count101
-\;rc=\count102
-\;rtc=\count103
-\;tc=\count104
-\csdiameter=\skip44
-\curvelength=\skip45
-\overhang=\skip46
-\;x=\skip47
-\;dx=\skip48
-\;ddx=\skip49
-\;y=\skip50
-\;dy=\skip51
-\;ddy=\skip52
-\;pl=\skip53
-\;ucd=\skip54
-\;csbox=\box28
-\;pt=\box29
-\;strline=\toks23
-\m;ssingcoord=\toks24
-\;negdash=\toks25
-\;oddcoord=\toks26
-\;wc=\count105
-\;X=\skip55
-\;Y=\skip56
-) ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\epsfig.s
-ty"
+\;sc=\count179
+\;scp=\count180
+\;t=\count181
+\;cc=\count182
+\;cnd=\count183
+\;mcnd=\count184
+\;np=\count185
+\;overhang=\count186
+\;pbs=\count187
+\;pns=\count188
+\;psc=\count189
+\;rc=\count190
+\;rtc=\count191
+\;tc=\count192
+\csdiameter=\skip50
+\curvelength=\skip51
+\overhang=\skip52
+\;x=\skip53
+\;dx=\skip54
+\;ddx=\skip55
+\;y=\skip56
+\;dy=\skip57
+\;ddy=\skip58
+\;pl=\skip59
+\;ucd=\skip60
+\;csbox=\box47
+\;pt=\box48
+\;strline=\toks24
+\m;ssingcoord=\toks25
+\;negdash=\toks26
+\;oddcoord=\toks27
+\;wc=\count193
+\;X=\skip61
+\;Y=\skip62
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ep
+sfig.sty"
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen113
-\epsfysize=\dimen114
-) ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\times.sty"
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+\epsfxsize=\dimen145
+\epsfysize=\dimen146
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\time
+s.sty"
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
 Usando m\'argenes y defaults de Tesis de maestr\IeC {\'\i }a
 (withe12.sty
 Style Option `mythe12' v1.0 <24 May 00>
-\majorheadskip=\skip57
-\@appendlen=\skip58
-\@appendnumlen=\skip59
+\majorheadskip=\skip63
+\@appendlen=\skip64
+\@appendnumlen=\skip65
 )
-\descriptionmargin=\dimen115
-\c@part=\count106
-\c@chapter=\count107
-\c@section=\count108
-\c@subsection=\count109
-\c@subsubsection=\count110
-\c@paragraph=\count111
-\c@subparagraph=\count112
-\c@tocpage=\count113
-\c@lofpage=\count114
-\c@lotpage=\count115
-\c@listofheading=\count116
-\c@figure=\count117
-\c@table=\count118
-\c@@ipfilectr=\count119
-\c@@includefilectr=\count120
-\c@currenthour=\count121
-\c@currentminute=\count122
-\@testday=\count123
-\c@theorem=\count124
+\descriptionmargin=\dimen147
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@tocpage=\count267
+\c@lofpage=\count268
+\c@lotpage=\count269
+\c@listofheading=\count270
+\c@figure=\count271
+\c@table=\count272
+\c@@ipfilectr=\count273
+\c@@includefilectr=\count274
+\c@currenthour=\count275
+\c@currentminute=\count276
+\@testday=\count277
+\c@theorem=\count278
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocbibind\tocbibind
-.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\t
+ocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
@@ -205,368 +217,407 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigure
-.sty"
+Runaway argument?
+{\newcommand {\bibsection }{\t@cb@bchapsec } \renewenvironment {thebi\ETC.
+! File ended while scanning use of \@secondoftwo.
+<inserted text> 
+                \par 
+l.7 \usepackage
+               {amssymb,amsmath,amsfonts}
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\s
+ubfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip60
-\subfigcapskip=\skip61
-\subfigcaptopadj=\dimen116
-\subfigbottomskip=\skip62
-\subfigcapmargin=\dimen117
-\subfiglabelskip=\skip63
-\c@subfigure=\count125
-\c@lofdepth=\count126
-\c@subtable=\count127
-\c@lotdepth=\count128
+\subfigtopskip=\skip66
+\subfigcapskip=\skip67
+\subfigcaptopadj=\dimen148
+\subfigbottomskip=\skip68
+\subfigcapmargin=\dimen149
+\subfiglabelskip=\skip69
+\c@subfigure=\count279
+\c@lofdepth=\count280
+\c@subtable=\count281
+\c@lotdepth=\count282
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfigure
-.cfg")
-\subfig@top=\skip64
-\subfig@bottom=\skip65
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\s
+ubfigure.cfg")
+\subfig@top=\skip70
+\subfig@bottom=\skip71
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.s
-ty"
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip66
-\multirow@cntb=\count129
-\multirow@dima=\skip67
-\bigstrutjot=\dimen118
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\mu
+ltirow.sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip72
+\multirow@cntb=\count283
+\multirow@dima=\skip73
+\bigstrutjot=\dimen150
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.s
-ty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ro
+tating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
- ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen
+.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count130
-\rotFPtop=\skip68
-\rotFPbot=\skip69
-\rot@float@box=\box30
-\rot@mess@toks=\toks27
-) ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.s
-ty"
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
-
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-h
-yperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-g
-eneric.sty"
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+\c@r@tfl@t=\count284
+\rotFPtop=\skip74
+\rotFPbot=\skip75
+\rot@float@box=\box49
+\rot@mess@toks=\toks28
 )
-Package pdftexcmds Info: LuaTeX not detected.
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fonten
+c.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pt
+m.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hy
+perref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\l
+txcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ift
+ex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\
+pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr
+\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys
+\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinek
+eys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.s
-ty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape
+\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.st
-y"
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hyc
+olor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.
-sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro
+\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-\@linkdim=\dimen119
-\Hy@linkcounter=\count131
-\Hy@pagecounter=\count132
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\aux
+hook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\k
+voptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
-"
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd
+1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count133
-
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.c
-fg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\i
+ntcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\
+etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count287
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count134
- ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
-\Urlmuskip=\muskip11
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count288
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty
+"
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen120
-\Fld@menulength=\count135
-\Field@Width=\dimen121
-\Fld@charsize=\dimen122
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count136
-\c@Item=\count137
-\c@Hfootnote=\count138
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen152
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bi
+tset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcal
+c\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count289
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\
+atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.de
-f"
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count139
-\c@bookmark@seq@number=\count140
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hp
+dftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilec
-heck.sty"
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\a
+tveryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilech
+eck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecou
+nter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+86.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip76
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float
+.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count141
-\float@exts=\toks28
-\float@box=\box31
-\@float@everytoks=\toks29
-\@floatcapt=\box32
+\c@float@type=\count295
+\float@exts=\toks29
+\float@box=\box50
+\@float@everytoks=\toks30
+\@floatcapt=\box51
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.s
-ty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
+blatex.sty"
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-
-LaTeX Warning: You have requested, on input line 37, version
-               `2018/01/30' of package pdftexcmds,
-               but only version
-               `2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)'
-               is available.
-
-
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.s
-ty"
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count142
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\et
+oolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logr
+eq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count143
+\lrq@indent=\count297
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logr
+eq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count144
-\c@listtotal=\count145
-\c@listcount=\count146
-\c@liststart=\count147
-\c@liststop=\count148
-\c@citecount=\count149
-\c@citetotal=\count150
-\c@multicitecount=\count151
-\c@multicitetotal=\count152
-\c@instcount=\count153
-\c@maxnames=\count154
-\c@minnames=\count155
-\c@maxitems=\count156
-\c@minitems=\count157
-\c@citecounter=\count158
-\c@maxcitecounter=\count159
-\c@savedcitecounter=\count160
-\c@uniquelist=\count161
-\c@uniquename=\count162
-\c@refsection=\count163
-\c@refsegment=\count164
-\c@maxextratitle=\count165
-\c@maxextratitleyear=\count166
-\c@maxextraname=\count167
-\c@maxextradate=\count168
-\c@maxextraalpha=\count169
-\c@abbrvpenalty=\count170
-\c@highnamepenalty=\count171
-\c@lownamepenalty=\count172
-\c@maxparens=\count173
-\c@parenlevel=\count174
-\blx@tempcnta=\count175
-\blx@tempcntb=\count176
-\blx@tempcntc=\count177
-\blx@maxsection=\count178
-\blx@maxsegment@0=\count179
-\blx@notetype=\count180
-\blx@parenlevel@text=\count181
-\blx@parenlevel@foot=\count182
-\blx@sectionciteorder@0=\count183
-\blx@entrysetcounter=\count184
-\labelnumberwidth=\skip71
-\labelalphawidth=\skip72
-\biblabelsep=\skip73
-\bibitemsep=\skip74
-\bibnamesep=\skip75
-\bibinitsep=\skip76
-\bibparsep=\skip77
-\bibhang=\skip78
-\blx@bcfin=\read1
+\c@tabx@nest=\count298
+\c@listtotal=\count299
+\c@listcount=\count300
+\c@liststart=\count301
+\c@liststop=\count302
+\c@citecount=\count303
+\c@citetotal=\count304
+\c@multicitecount=\count305
+\c@multicitetotal=\count306
+\c@instcount=\count307
+\c@maxnames=\count308
+\c@minnames=\count309
+\c@maxitems=\count310
+\c@minitems=\count311
+\c@citecounter=\count312
+\c@maxcitecounter=\count313
+\c@savedcitecounter=\count314
+\c@uniquelist=\count315
+\c@uniquename=\count316
+\c@refsection=\count317
+\c@refsegment=\count318
+\c@maxextratitle=\count319
+\c@maxextratitleyear=\count320
+\c@maxextraname=\count321
+\c@maxextradate=\count322
+\c@maxextraalpha=\count323
+\c@abbrvpenalty=\count324
+\c@highnamepenalty=\count325
+\c@lownamepenalty=\count326
+\c@maxparens=\count327
+\c@parenlevel=\count328
+\blx@tempcnta=\count329
+\blx@tempcntb=\count330
+\blx@tempcntc=\count331
+\blx@maxsection=\count332
+\blx@maxsegment@0=\count333
+\blx@notetype=\count334
+\blx@parenlevel@text=\count335
+\blx@parenlevel@foot=\count336
+\blx@sectionciteorder@0=\count337
+\blx@entrysetcounter=\count338
+\labelnumberwidth=\skip77
+\labelalphawidth=\skip78
+\biblabelsep=\skip79
+\bibitemsep=\skip80
+\bibnamesep=\skip81
+\bibinitsep=\skip82
+\bibparsep=\skip83
+\bibhang=\skip84
+\blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language76
-\c@mincomprange=\count185
-\c@maxcomprange=\count186
-\c@mincompwidth=\count187
+\blx@langwohyphens=\language78
+\c@mincomprange=\count339
+\c@maxcomprange=\count340
+\c@mincompwidth=\count341
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
-"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bl
+x-dm.def"
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count188
-\c@savedafterword=\count189
-\c@annotator=\count190
-\c@savedannotator=\count191
-\c@author=\count192
-\c@savedauthor=\count193
-\c@bookauthor=\count194
-\c@savedbookauthor=\count195
-\c@commentator=\count196
-\c@savedcommentator=\count197
-\c@editor=\count198
-\c@savededitor=\count199
-\c@editora=\count266
-\c@savededitora=\count267
-\c@editorb=\count268
-\c@savededitorb=\count269
-\c@editorc=\count270
-\c@savededitorc=\count271
-\c@foreword=\count272
-\c@savedforeword=\count273
-\c@holder=\count274
-\c@savedholder=\count275
-\c@introduction=\count276
-\c@savedintroduction=\count277
-\c@namea=\count278
-\c@savednamea=\count279
-\c@nameb=\count280
-\c@savednameb=\count281
-\c@namec=\count282
-\c@savednamec=\count283
-\c@translator=\count284
-\c@savedtranslator=\count285
-\c@shortauthor=\count286
-\c@savedshortauthor=\count287
-\c@shorteditor=\count288
-\c@savedshorteditor=\count289
-\c@labelname=\count290
-\c@savedlabelname=\count291
-\c@institution=\count292
-\c@savedinstitution=\count293
-\c@lista=\count294
-\c@savedlista=\count295
-\c@listb=\count296
-\c@savedlistb=\count297
-\c@listc=\count298
-\c@savedlistc=\count299
-\c@listd=\count300
-\c@savedlistd=\count301
-\c@liste=\count302
-\c@savedliste=\count303
-\c@listf=\count304
-\c@savedlistf=\count305
-\c@location=\count306
-\c@savedlocation=\count307
-\c@organization=\count308
-\c@savedorganization=\count309
-\c@origlocation=\count310
-\c@savedoriglocation=\count311
-\c@origpublisher=\count312
-\c@savedorigpublisher=\count313
-\c@publisher=\count314
-\c@savedpublisher=\count315
-\c@language=\count316
-\c@savedlanguage=\count317
-\c@origlanguage=\count318
-\c@savedoriglanguage=\count319
-\c@pageref=\count320
-\c@savedpageref=\count321
-\shorthandwidth=\skip79
-\shortjournalwidth=\skip80
-\shortserieswidth=\skip81
-\shorttitlewidth=\skip82
-\shortauthorwidth=\skip83
-\shorteditorwidth=\skip84
-\locallabelnumberwidth=\skip85
-\locallabelalphawidth=\skip86
-\localshorthandwidth=\skip87
-\localshortjournalwidth=\skip88
-\localshortserieswidth=\skip89
-\localshorttitlewidth=\skip90
-\localshortauthorwidth=\skip91
-\localshorteditorwidth=\skip92
+\c@afterword=\count342
+\c@savedafterword=\count343
+\c@annotator=\count344
+\c@savedannotator=\count345
+\c@author=\count346
+\c@savedauthor=\count347
+\c@bookauthor=\count348
+\c@savedbookauthor=\count349
+\c@commentator=\count350
+\c@savedcommentator=\count351
+\c@editor=\count352
+\c@savededitor=\count353
+\c@editora=\count354
+\c@savededitora=\count355
+\c@editorb=\count356
+\c@savededitorb=\count357
+\c@editorc=\count358
+\c@savededitorc=\count359
+\c@foreword=\count360
+\c@savedforeword=\count361
+\c@holder=\count362
+\c@savedholder=\count363
+\c@introduction=\count364
+\c@savedintroduction=\count365
+\c@namea=\count366
+\c@savednamea=\count367
+\c@nameb=\count368
+\c@savednameb=\count369
+\c@namec=\count370
+\c@savednamec=\count371
+\c@translator=\count372
+\c@savedtranslator=\count373
+\c@shortauthor=\count374
+\c@savedshortauthor=\count375
+\c@shorteditor=\count376
+\c@savedshorteditor=\count377
+\c@labelname=\count378
+\c@savedlabelname=\count379
+\c@institution=\count380
+\c@savedinstitution=\count381
+\c@lista=\count382
+\c@savedlista=\count383
+\c@listb=\count384
+\c@savedlistb=\count385
+\c@listc=\count386
+\c@savedlistc=\count387
+\c@listd=\count388
+\c@savedlistd=\count389
+\c@liste=\count390
+\c@savedliste=\count391
+\c@listf=\count392
+\c@savedlistf=\count393
+\c@location=\count394
+\c@savedlocation=\count395
+\c@organization=\count396
+\c@savedorganization=\count397
+\c@origlocation=\count398
+\c@savedoriglocation=\count399
+\c@origpublisher=\count400
+\c@savedorigpublisher=\count401
+\c@publisher=\count402
+\c@savedpublisher=\count403
+\c@language=\count404
+\c@savedlanguage=\count405
+\c@origlanguage=\count406
+\c@savedoriglanguage=\count407
+\c@pageref=\count408
+\c@savedpageref=\count409
+\shorthandwidth=\skip85
+\shortjournalwidth=\skip86
+\shortserieswidth=\skip87
+\shorttitlewidth=\skip88
+\shortauthorwidth=\skip89
+\shorteditorwidth=\skip90
+\locallabelnumberwidth=\skip91
+\locallabelalphawidth=\skip92
+\localshorthandwidth=\skip93
+\localshortjournalwidth=\skip94
+\localshortserieswidth=\skip95
+\localshorttitlewidth=\skip96
+\localshortauthorwidth=\skip97
+\localshorteditorwidth=\skip98
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat
-.def"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bl
+x-compat.def"
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex
-.def"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bl
+x-bibtex.def"
 File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 
 
@@ -577,55 +628,55 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.d
-ef"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
+blatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count322
-\c@textcitetotal=\count323
-\c@textcitemaxnames=\count324
-\c@biburlbigbreakpenalty=\count325
-\c@biburlbreakpenalty=\count326
-\c@biburlnumpenalty=\count327
-\c@biburlucpenalty=\count328
-\c@biburllcpenalty=\count329
-\biburlbigskip=\muskip12
-\biburlnumskip=\muskip13
-\biburlucskip=\muskip14
-\biburllcskip=\muskip15
-\c@smartand=\count330
+\c@textcitecount=\count410
+\c@textcitetotal=\count411
+\c@textcitemaxnames=\count412
+\c@biburlbigbreakpenalty=\count413
+\c@biburlbreakpenalty=\count414
+\c@biburlnumpenalty=\count415
+\c@biburlucpenalty=\count416
+\c@biburllcpenalty=\count417
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count418
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee.
-bbx"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-ie
+ee\ieee.bbx"
 File: ieee.bbx 2020/02/26 v1.3b biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numeri
-c-comp.bbx"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
+x\numeric-comp.bbx"
 File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numeri
-c.bbx"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
+x\numeric.bbx"
 File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standa
-rd.bbx"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
+x\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count331
-\c@bbx:relatedtotal=\count332
+\c@bbx:relatedcount=\count419
+\c@bbx:relatedtotal=\count420
 ))))
 Package biblatex Info: Trying to load citation style 'authoryear-ibid'...
 Package biblatex Info: ... file 'authoryear-ibid.cbx' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\author
-year-ibid.cbx"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cb
+x\authoryear-ibid.cbx"
 File: authoryear-ibid.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -638,29 +689,37 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.c
-fg"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
+blatex.cfg"
 File: biblatex.cfg 
 ))
-\@quotelevel=\count333
-\@quotereset=\count334
+\@quotelevel=\count421
+\@quotereset=\count422
 
 
 Package biblatex Warning: Conflicting options.
 (biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
 (biblatex)                Setting 'uniquename=init' on input line 42.
 
-(tesis_ErikMejia.aux (Cap1_Introduccion.aux) (Cap2_Cuerpo_tesis.aux)
-(Cap3_Ecuaciones.aux))
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l
+3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count423
+\l__pdf_internal_box=\box52
+) (tesis_ErikMejia.aux (Cap1_Introduccion.aux)
+(Cap2_Cuerpo_tesis.aux) (Cap3_Ecuaciones.aux))
 \openout1 = `tesis_ErikMejia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -668,53 +727,53 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 42.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
-i"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
+\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count335
-\scratchdimen=\dimen123
-\scratchbox=\box33
-\nofMPsegments=\count336
-\nofMParguments=\count337
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count338
-\MPscratchDim=\dimen124
-\MPnumerator=\count339
-\makeMPintoPDFobject=\count340
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count424
+\scratchdimen=\dimen155
+\scratchbox=\box53
+\nofMPsegments=\count425
+\nofMParguments=\count426
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count427
+\MPscratchDim=\dimen156
+\MPnumerator=\count428
+\makeMPintoPDFobject=\count429
+\everyMPtoPDFconversion=\toks32
 )
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
-ase.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pk
+g\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
-"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfe
+xt.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+85.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+(grfext)             \AppendGraphicsExtensions on input line 504.
 )
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring OFF on input line 42.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.st
-y"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
+meref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitle
-string.sty"
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\re
+fcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\c@section@level=\count341
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitles
+tring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count430
 )
 LaTeX Info: Redefining \ref on input line 42.
 LaTeX Info: Redefining \pageref on input line 42.
@@ -726,8 +785,8 @@ LaTeX Info: Redefining \nameref on input line 42.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\englis
-h.lbx"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lb
+x\english.lbx"
 File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'latin1' detected.
@@ -743,15 +802,13 @@ Package biblatex Info: ... file 'tesis_ErikMejia.bbl' found.
  (tesis_ErikMejia.bbl)
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 
 
 LaTeX Warning: File `logoUAZnuevo.eps' not found on input line 86.
 
 Package epstopdf Info: Source file: <logoUAZnuevo.eps>
 (epstopdf)             Output file: <logoUAZnuevo-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-16 21:52:34
+(epstopdf)                    date: 2020-06-11 10:00:15
 (epstopdf)                    size: 59590 bytes
 (epstopdf)             Command: <epstopdf --outfile=logoUAZnuevo-eps-converted-
 to.pdf logoUAZnuevo.eps>
@@ -763,24 +820,21 @@ File: logoUAZnuevo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: logoUAZnuevo-eps-converted-to.pdf  used on input line 
 86.
 (pdftex.def)             Requested size: 122.85876pt x 110.4765pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 [1
 
 
-{C:/Users/Gama/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logoUAZnue
-vo-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 114.
- (tesis_ErikMejia.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+{C:/Users/HeavyRain350/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lo
+goUAZnuevo-eps-converted-to.pdf>] (tesis_ErikMejia.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
+sb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write5
@@ -793,25 +847,23 @@ been already used, duplicate ignored
 l.114 \tableofcontents
                        [1
 
-] (tesis_ErikMejia.lof [2
-
-])
+] (tesis_ErikMejia.lof)
 \tf@lof=\write6
 \openout6 = `tesis_ErikMejia.lof'.
 
- [3]
+ [2
+
+]
 \openout2 = `Cap1_Introduccion.aux'.
 
  (Cap1_Introduccion.tex
 Cap\IeC {\'\i }tulo 1. Introducci\'on
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <25> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
 [1
 
 
 
 ]
-<figuras/fig1.png, id=205, 1485.75075pt x 1332.77925pt>
+<figuras/fig1.png, id=201, 1485.75075pt x 1332.77925pt>
 File: figuras/fig1.png Graphic file (type png)
 <use figuras/fig1.png>
 Package pdftex.def Info: figuras/fig1.png  used on input line 15.
@@ -827,7 +879,7 @@ l.22
 
  (Cap2_Cuerpo_tesis.tex
 Cap\IeC {\'\i }tulo 2. Marco Te\'orico
-<figuras/geologia.png, id=261, 354.72525pt x 253.54726pt>
+<figuras/geologia.png, id=257, 354.72525pt x 253.54726pt>
 File: figuras/geologia.png Graphic file (type png)
 <use figuras/geologia.png>
 Package pdftex.def Info: figuras/geologia.png  used on input line 7.
@@ -837,7 +889,7 @@ Package pdftex.def Info: figuras/geologia.png  used on input line 7.
 
 
 ]
-<Figuras/composicion_tierra.png, id=267, 301.72725pt x 301.72725pt>
+<Figuras/composicion_tierra.png, id=263, 301.72725pt x 301.72725pt>
 File: Figuras/composicion_tierra.png Graphic file (type png)
 <use Figuras/composicion_tierra.png>
 Package pdftex.def Info: Figuras/composicion_tierra.png  used on input line 15.
@@ -856,7 +908,7 @@ ame identifier (name{figure.2.2}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.24 
       <./Figuras/composicion_tierra.png>]
-<Figuras/tiposderocas.png, id=277, 347.49825pt x 145.7445pt>
+<Figuras/tiposderocas.png, id=272, 347.49825pt x 145.7445pt>
 File: Figuras/tiposderocas.png Graphic file (type png)
 <use Figuras/tiposderocas.png>
 Package pdftex.def Info: Figuras/tiposderocas.png  used on input line 27.
@@ -868,7 +920,7 @@ Package pdftex.def Info: Figuras/tiposderocas.png  used on input line 27.
                                                   \fi \fi 
 l.32 
       <./Figuras/tiposderocas.png>]
-<Figuras/rocasedimentaria.png, id=282, 354.72525pt x 266.1945pt>
+<Figuras/rocasedimentaria.png, id=278, 354.72525pt x 266.1945pt>
 File: Figuras/rocasedimentaria.png Graphic file (type png)
 <use Figuras/rocasedimentaria.png>
 Package pdftex.def Info: Figuras/rocasedimentaria.png  used on input line 38.
@@ -880,7 +932,7 @@ Package pdftex.def Info: Figuras/rocasedimentaria.png  used on input line 38.
                                                   \fi \fi 
 l.43 
       <./Figuras/rocasedimentaria.png>]
-<Figuras/ciclo_rocas.png, id=287, 354.72525pt x 365.56575pt>
+<Figuras/ciclo_rocas.png, id=283, 354.72525pt x 365.56575pt>
 File: Figuras/ciclo_rocas.png Graphic file (type png)
 <use Figuras/ciclo_rocas.png>
 Package pdftex.def Info: Figuras/ciclo_rocas.png  used on input line 48.
@@ -892,7 +944,7 @@ Package pdftex.def Info: Figuras/ciclo_rocas.png  used on input line 48.
                                                   \fi \fi 
 l.53 
       <./Figuras/ciclo_rocas.png>] [13]
-<Figuras/procesosRocas.png, id=296, 245.718pt x 312.56775pt>
+<Figuras/procesosRocas.png, id=292, 245.718pt x 312.56775pt>
 File: Figuras/procesosRocas.png Graphic file (type png)
 <use Figuras/procesosRocas.png>
 Package pdftex.def Info: Figuras/procesosRocas.png  used on input line 62.
@@ -904,13 +956,13 @@ re.2.6}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.67 
       <./Figuras/procesosRocas.png>]
-<Figuras/rocasSedimentariasDetriticas.png, id=306, 354.72525pt x 186.09525pt>
+<Figuras/rocasSedimentariasDetriticas.png, id=301, 354.72525pt x 186.09525pt>
 File: Figuras/rocasSedimentariasDetriticas.png Graphic file (type png)
 <use Figuras/rocasSedimentariasDetriticas.png>
 Package pdftex.def Info: Figuras/rocasSedimentariasDetriticas.png  used on inpu
 t line 72.
 (pdftex.def)             Requested size: 390.19897pt x 204.70538pt.
-<Figuras/rocasSedimentariasQuimicas.png, id=307, 354.72525pt x 186.09525pt>
+<Figuras/rocasSedimentariasQuimicas.png, id=302, 354.72525pt x 186.09525pt>
 File: Figuras/rocasSedimentariasQuimicas.png Graphic file (type png)
 <use Figuras/rocasSedimentariasQuimicas.png>
 Package pdftex.def Info: Figuras/rocasSedimentariasQuimicas.png  used on input 
@@ -930,7 +982,7 @@ uplicate ignored
                                                   \fi \fi 
 l.89 
       <./Figuras/rocasSedimentariasQuimicas.png>]
-<Figuras/Forma,redondez,rugosidad.png, id=317, 287.8755pt x 258.36525pt>
+<Figuras/Forma,redondez,rugosidad.png, id=313, 287.8755pt x 258.36525pt>
 File: Figuras/Forma,redondez,rugosidad.png Graphic file (type png)
 <use Figuras/Forma,redondez,rugosidad.png>
 Package pdftex.def Info: Figuras/Forma,redondez,rugosidad.png  used on input li
@@ -956,13 +1008,13 @@ licate ignored
 l.119 L
        as siguientes métricas representan las formas más comunes para medir ...
 ] [21]
-<figuras/wadellRoundness.png, id=368, 474.77374pt x 190.7125pt>
+<figuras/wadellRoundness.png, id=363, 474.77374pt x 190.7125pt>
 File: figuras/wadellRoundness.png Graphic file (type png)
 <use figuras/wadellRoundness.png>
 Package pdftex.def Info: figuras/wadellRoundness.png  used on input line 171.
 (pdftex.def)             Requested size: 284.86644pt x 114.42838pt.
  [22]
-<figuras/krumbeinRoundness.png, id=379, 853.1875pt x 500.87125pt>
+<figuras/krumbeinRoundness.png, id=375, 853.1875pt x 500.87125pt>
 File: figuras/krumbeinRoundness.png Graphic file (type png)
 <use figuras/krumbeinRoundness.png>
 Package pdftex.def Info: figuras/krumbeinRoundness.png  used on input line 177.
@@ -986,7 +1038,7 @@ ss.png>]) [24]
 
  (Cap3_Ecuaciones.tex
 Cap\IeC {\'\i }tulo 3. Modelo y propuesta de Investigaci\'on
-<figuras/modeloInvestigacion.png, id=401, 362.5545pt x 142.131pt>
+<figuras/modeloInvestigacion.png, id=397, 362.5545pt x 142.131pt>
 File: figuras/modeloInvestigacion.png Graphic file (type png)
 <use figuras/modeloInvestigacion.png>
 Package pdftex.def Info: figuras/modeloInvestigacion.png  used on input line 16
@@ -997,7 +1049,7 @@ Package pdftex.def Info: figuras/modeloInvestigacion.png  used on input line 16
 
 
 ]
-<Figuras/codigoCadena.png, id=408, 486.01575pt x 186.09525pt>
+<Figuras/codigoCadena.png, id=404, 486.01575pt x 186.09525pt>
 File: Figuras/codigoCadena.png Graphic file (type png)
 <use Figuras/codigoCadena.png>
 Package pdftex.def Info: Figuras/codigoCadena.png  used on input line 40.
@@ -1022,10 +1074,12 @@ ignored
 l.68 P
       ara que este método obtenga la invarianza a la escala, rotación y tras...
  <./Figuras/codigoCadena.png>]) [28] [29] (referencias.tex
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 3.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+.
 
-("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt
+.fd"
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1090,43 +1144,41 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
 Package rerunfilecheck Info: File `tesis_ErikMejia.out' has not changed.
-(rerunfilecheck)             Checksum: 20843B411865DF0CFF6DE15A7DD179B4;1728.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: F3EE417F61B69904DA50D1F34B8271E0;1704.
 Package logreq Info: Writing requests to 'tesis_ErikMejia.run.xml'.
 \openout1 = `tesis_ErikMejia.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
- ) 
+ )
+(\end occurred when \iftrue on line 154 was incomplete) 
 Here is how much of TeX's memory you used:
- 14542 strings out of 493305
- 248977 string characters out of 3130238
- 538739 words of memory out of 3000000
- 17747 multiletter control sequences out of 15000+200000
- 40658 words of font info for 54 fonts, out of 3000000 for 9000
+ 14998 strings out of 480799
+ 261443 string characters out of 2892516
+ 724305 words of memory out of 3000000
+ 30590 multiletter control sequences out of 15000+200000
+ 568592 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,7n,58p,3126b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Gama\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ctt1200.pk>{C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
-e/8r.enc}<C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmex10.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Gama/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Gama/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Gama
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
-Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/times/utmb8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmr8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on tesis_ErikMejia.pdf (36 pages, 3734876 bytes).
+ 43i,7n,61p,3117b,1316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\HeavyRain350\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Use
+rs/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
+C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmex10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HeavyRain350/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HeavyRain35
+0/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HeavyRain350/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HeavyRain350/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Us
+ers/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
+.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmr8a.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on tesis_ErikMejia.pdf (35 pages, 3734202 bytes).
 PDF statistics:
- 567 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
+ 563 PDF objects out of 1000 (max. 8388607)
+ 127 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
