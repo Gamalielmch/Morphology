@@ -402,7 +402,7 @@ Sedimentary rocks are characterized by their physical, chemical, and mineralogic
 
 Form describes the general appearance of the rock, it is a coarse sketch of contour. There are some expressions to measure form,  the most used, in the geological field, is the proposed by Wadell \cite{b6} which is obtained from the relationship between the radius of the circle whose area is equal to the particle and the radius of the smallest circle that inscribes the particle. Form is a well-established concept. On the other hand, roundness is a complex concept that is difficult to estimate. For this reason, we dedicate the present work to this parameter. To measure the degree of roundness, there are two approaches; those based on curvature \cite{b7} and those using frequency analysis \cite{b8}. The curvature-based method defines the degree of roundness as the ratio of the mean radius of curvature of the corners of a particle to the radius of the largest circumscribed circle possible. This method is simple and accurate, however it is a scale dependent method. The Fourier-based methods are invariant to scale, rotation and translation, however analyzing the spectrum is a complicated subject and of high computational cost \cite{b8}.
 
-In this work, we propose to use neural networks to estimate the roundness of sedimentary rocks. The input variable to the neural network is the first component of principal components analysis (PCA) of the elliptical Fourier spectrum. The Fourier spectrum was chosen as the input variable because it is invariant to scale, rotation, and translation. The degree of roundness, calculated with the curvature method proposed by Wadell \cite{b6}, was used as the objective of the neural network. To calculate the roundness, we use the algorithm developed by Zheng \cite{b7}. The proposed neural network has the following architecture: 6-layer neural network, the input layer with 40 neurons and Rectified Linear Unit (ReLU) activation function, 4 hidden layers with 40 neurons each, with ReLU activation function. The output layer with a single neuron with a linear activation function. The database to train the neural network contains 1125 real-rocks images from some geological phenomena. The neural network model has a mean squared error of 0.029 and a mean error of 0.017. The neural network enables much faster processing. The roundness is estimated at 2800 times faster than the algorithm developed by Zheng. In addition, the method proposed is invariant to scale, rotation, and translation. Using a neural network we have combined the potentialities of the method based on curvature and frequency analysis.
+In this work, we propose to use neural networks to estimate the roundness of sedimentary rocks. The input variable to the neural network is the first component of principal components analysis (PCA) of the elliptical Fourier spectrum. The Fourier spectrum was chosen as the input variable because it is invariant to scale, rotation, and translation. The degree of roundness, calculated with the curvature method proposed by Wadell \cite{b6}, was used as the objective of the neural network. To calculate the roundness, we use the algorithm developed by Zheng and Hryciw \cite{b7}. The proposed neural network has the following architecture: 6-layer neural network, the input layer with 40 neurons and Rectified Linear Unit (ReLU) activation function, 4 hidden layers with 40 neurons each, with ReLU activation function. The output layer with a single neuron with a linear activation function. The database to train the neural network contains 1125 real-rocks images from some geological phenomena. The neural network model has a mean squared error of 0.029 and a mean error of 0.017. The neural network enables much faster processing. The roundness is estimated at 2800 times faster than the algorithm developed by Zheng and Hryciw. In addition, the method proposed is invariant to scale, rotation, and translation. Using a neural network we have combined the potentialities of the method based on curvature and frequency analysis.
 
 
 \section{Materials and Methods}
@@ -418,13 +418,13 @@ Roundness is a second-order property that superimposed on the form. Roundness is
 \label{fig2}
 \end{figure}
 
-No radius of curvature can be greater than the radius of the maximum circumscribed circle in the particle. This fact is important because the maximum circumscribed circle can be used to normalize.  Thus the degree of roundness of a corner can be expressed as $r_{n}/R$, where $r_{n}$ is the radius of curvature of the corner $n$ y $R$ is the radius of the maximum circumscribed circle. Wadell expressed the total roundness of a particle as
+No radius of curvature can be greater than the radius of the maximum circumscribed circle in the particle. This fact is important because the maximum circumscribed circle can be used to normalize.  Thus the degree of roundness of a corner can be expressed as $r_{n}/R$, where $r_{n}$ is the radius of curvature of the corner $n$ and $R$ is the radius of the maximum circumscribed circle. Wadell \cite{b6} expressed the total roundness of a particle as
 
 \begin{equation}
-D_{g} = \sum_{n=0}^{N-1}{ \frac{r_{n}}{R}} \label{eq1}
+D_{g} = \sum_{n=0}^{N-1}{ \frac{r_{n}}{R}}, \label{eq1}
 \end{equation}
 
-where $ N $ is the number of total corners in the contour. In this way, the range of roundness is between 0 and 1, being 0 a contour without corners (perfect circle) and 1 a contour with the possible maximum number of corners. The concept is clear; however the algorithm to estimate this roundness is not easy to implement. Zheng developed an algorithm to estimate roundness under this approach \cite{b6}. However, the parameters depend on the scale and if they are not well tuned the degree of roundness can have a high variance.
+\noindent where $ N $ is the number of total corners in the contour. In this way, the range of roundness is between 0 and 1, being 0 a contour without corners (perfect circle) and 1 a contour with the possible maximum number of corners. The concept is clear; however the algorithm to estimate this roundness is not easy to implement. Zheng and Hryciw developed an algorithm to estimate roundness under this approach \cite{b7}. However, the parameters depend on the scale and if they are not well tuned the degree of roundness can have a high variance.
 
 
 \subsection{Elliptic Fourier}
@@ -432,7 +432,7 @@ where $ N $ is the number of total corners in the contour. In this way, the rang
 Frequency analysis consists in obtaining the Fourier transform of the contour. In frequency, the three morphological characteristics are divided into frequency ranges. The low-frequency range is related to form, the medium-frequency range to roundness, and the high-frequency to roughness \cite{b8}. However, determining the limits of different morphological orders is not an easy task. It has been an unsolvable problem since the method was first proposed. To date, these limits are obtained empirically, with high uncertainty.
 
 
-Because the particle contour is closed, elliptical Fourier is used. elliptical Fourier method was proposed by Kuhl which consists in obtaining the Fourier coefficients directly from the chain code of contour \cite{b9}. The chain code approximates the contour by a sequence of lines consisting of eight directions, Fig.~\ref{fig3}.
+Because the particle contour is closed, elliptical Fourier is used. The elliptical Fourier method was proposed by Kuhl \cite{b9} which consists in obtaining the Fourier coefficients directly from the chain code of the contour. The chain code approximates the contour by a sequence of lines consisting of eight directions, Fig.~\ref{fig3}.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.6]{fig3.png}}
@@ -440,27 +440,27 @@ Because the particle contour is closed, elliptical Fourier is used. elliptical F
 \label{fig3}
 \end{figure}
 
-Chain code can be expressed in two coordinates; eje $x$ y $y$, so the elements x and y of the chain are independent.  The expressions for the fourier coefficients of the component \(x\) are
+Chain code can be expressed in two coordinates; $x$ y $y$ axis, so the elements $x$ and $y$ of the chain are independent.  The expressions for the Fourier coefficients of the component \(x\) are
 
 \begin{equation}
-a_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}] \label{eq2}
+a_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}], \label{eq2}
 \end{equation}
 
 \begin{equation}
-b_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}] \label{eq3}
+b_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}], \label{eq3}
 \end{equation}
 
-where, K is the number of pixels of contour, \(T\) the fundamental period, \(\Delta x_p\) incremental change on the x axis, \(\Delta t_p\) time incremental change. In a similar way, the coefficients of the component \(y\) are calculated by the following expressions
+\noindent where, $K$ is the number of pixels of contour, \(T\) the fundamental period, \(\Delta x_p\) incremental change on the $x$ axis, \(\Delta t_p\) time incremental change. In a similar way, the coefficients of the component \(y\) are calculated by the following expressions
 
 \begin{equation}
-c_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}] \label{eq4}
+c_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}], \label{eq4}
 \end{equation}
 
 \begin{equation}
-d_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}] \label{eq5}
+d_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}], \label{eq5}
 \end{equation}
 
-These four series of coefficients can be expressed by circular phasor, one for each axis; however, they can be drawn by a single elliptical phasor, hence its name. The invariance to scale, rotation, and translation are reached by normalization and rotation of angle of the first ellipse to zero, the expressions to achieve this can be consulted in the source manuscrit \cite{b9}. The elliptical Fourier result is two dependent spectra. Dependence complicates the delimitation of frequency ranges corresponding to form and roundness.
+These four series of coefficients can be expressed by circular phasors, one for each axis; however, they can be drawn by a single elliptical phasor, hence its name. The invariance to scale, rotation, and translation are reached by normalization and rotation of angle of the first ellipse to zero, the expressions to achieve this can be consulted in \cite{b9}. The elliptical Fourier result is two dependent spectra. Dependence complicates the delimitation of frequency ranges corresponding to form and roundness.
 
   
 \subsection{Using deep neural networks to determine form and roundness}\label{AA}
@@ -504,7 +504,7 @@ As can be seen from Fig.~\ref{fig6}, almost all model predictions simulate the r
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.3]{fig7.png}}
-\caption{Absolute differences Histogram. Diference between the predicted value of the neural network and the roundness measured by the Zheng algorithm}
+\caption{Absolute differences Histogram. Diference between the predicted value of the neural network and the roundness measured by the Zheng and Hryciw algorithm}
 \label{fig7}
 \end{figure}
 

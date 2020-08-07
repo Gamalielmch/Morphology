@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.9)  7 AUG 2020 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.9)  7 AUG 2020 15:28
 entering extended mode
 **./ROPEC20_english.tex
 (ROPEC20_english.tex
@@ -958,12 +958,12 @@ Before submitting the final camera ready copy, remember to:
 ] (ROPEC20_english.aux) ) 
 Here is how much of TeX's memory you used:
  13473 strings out of 493305
- 246765 string characters out of 3130238
+ 246685 string characters out of 3130238
  447294 words of memory out of 3000000
  16908 multiletter control sequences out of 15000+200000
  573096 words of font info for 109 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 47i,14n,65p,1475b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,14n,65p,1476b,307s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/base/8r.enc}<C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX
@@ -978,7 +978,7 @@ ype1/urw/times/utmb8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/urw/times/utmbi8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/urw/times/utmr8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ROPEC20_english.pdf (5 pages, 995112 bytes).
+Output written on ROPEC20_english.pdf (5 pages, 995862 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
