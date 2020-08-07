@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.9)  24 JUL 2020 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.9)  7 AUG 2020 14:35
 entering extended mode
-**./ROPEC20LatexTemplate.tex
-(ROPEC20LatexTemplate.tex
+**./ROPEC20_english.tex
+(ROPEC20_english.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
 (IEEEtran.cls
@@ -778,8 +778,8 @@ s
 \f@nch@O@erf=\skip67
 \f@nch@O@olf=\skip68
 \f@nch@O@orf=\skip69
-) (ROPEC20LatexTemplate.aux)
-\openout1 = `ROPEC20LatexTemplate.aux'.
+) (ROPEC20_english.aux)
+\openout1 = `ROPEC20_english.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 338.
 LaTeX Font Info:    ... okay on input line 338.
@@ -890,15 +890,15 @@ LaTeX Font Info:    Calculating math sizes for size <11> on input line 367.
 <fig1.png, id=1, 361.35pt x 324.0105pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 396.
+Package pdftex.def Info: fig1.png  used on input line 398.
 (pdftex.def)             Requested size: 144.53743pt x 129.6019pt.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 402.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 404.
 
 ("C:\Users\Gama\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 402.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 404.
 
 [1{C:/Users/Gama/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -907,50 +907,39 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 <fig2.png, id=12, 393.72093pt x 429.85594pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 427.
+Package pdftex.def Info: fig2.png  used on input line 416.
 (pdftex.def)             Requested size: 157.48558pt x 171.93933pt.
 <fig3.png, id=14, 423.7431pt x 181.27725pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 450.
+Package pdftex.def Info: fig3.png  used on input line 438.
 (pdftex.def)             Requested size: 254.2478pt x 108.76718pt.
  [2 <./fig2.png>]
-<fig4.png, id=25, 285.4665pt x 184.5294pt>
+<fig4.png, id=25, 285.4665pt x 151.0443pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 486.
-(pdftex.def)             Requested size: 171.2812pt x 110.71849pt.
-<fig5.png, id=26, 314.3745pt x 373.1541pt>
+Package pdftex.def Info: fig4.png  used on input line 472.
+(pdftex.def)             Requested size: 171.2812pt x 90.62726pt.
+<fig5.png, id=26, 408.8073pt x 363.9999pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 498.
-(pdftex.def)             Requested size: 251.49992pt x 298.52368pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
-\OT1/ptm/m/n/10 https://github.com/Gamalielmch/SedimentaryRocksImageDB.
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 503--504
-\OT1/ptm/m/n/10 nue-stro prop[]osito; prob-lema de es-ti-maci[]on con-tinuo. El
-
- []
-
-[3 <./fig3.png> <./fig4.png>]
+Package pdftex.def Info: fig5.png  used on input line 485.
+(pdftex.def)             Requested size: 245.28625pt x 218.40161pt.
+ [3 <./fig3.png> <./fig4.png>]
 <fig6.png, id=32, 922.19531pt x 475.02469pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 506.
+Package pdftex.def Info: fig6.png  used on input line 497.
 (pdftex.def)             Requested size: 276.66072pt x 142.5085pt.
 <fig7.png, id=33, 817.55438pt x 262.73157pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 514.
+Package pdftex.def Info: fig7.png  used on input line 506.
 (pdftex.def)             Requested size: 245.2682pt x 78.82007pt.
 <fig8.png, id=34, 963.6pt x 475.7775pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 524.
+Package pdftex.def Info: fig8.png  used on input line 516.
 (pdftex.def)             Requested size: 289.08223pt x 142.73434pt.
  [4 <./fig5.png> <./fig6.png> <./fig7.png> <./fig8.png>]
 
@@ -966,30 +955,30 @@ Before submitting the final camera ready copy, remember to:
 
 [5
 
-] (ROPEC20LatexTemplate.aux) ) 
+] (ROPEC20_english.aux) ) 
 Here is how much of TeX's memory you used:
- 13472 strings out of 493305
- 246717 string characters out of 3130238
- 447304 words of memory out of 3000000
- 16907 multiletter control sequences out of 15000+200000
+ 13473 strings out of 493305
+ 246765 string characters out of 3130238
+ 447294 words of memory out of 3000000
+ 16908 multiletter control sequences out of 15000+200000
  573096 words of font info for 109 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 47i,14n,65p,1426b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/
-fonts/enc/dvips/base/8r.enc}<C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Gama/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Gama/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Gama/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/urw/times/utmb8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ROPEC20LatexTemplate.pdf (5 pages, 974063 bytes).
+ 47i,14n,65p,1475b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts
+/enc/dvips/base/8r.enc}<C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Gama/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Gama/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/urw/times/utmb8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/urw/times/utmbi8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/times/utmr8a.pfb><C:/Users/Gama/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ROPEC20_english.pdf (5 pages, 995112 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
