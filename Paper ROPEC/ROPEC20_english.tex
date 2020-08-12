@@ -400,7 +400,7 @@ Sedimentary rocks are characterized by their physical, chemical, and mineralogic
 \label{fig1}
 \end{figure}
 
-Form describes the general appearance of the rock, it is a coarse sketch of contour. There are some expressions to measure form,  the most used, in the geological field, is the proposed by Wadell \cite{b6} which is obtained from the relationship between the radius of the circle whose area is equal to the particle and the radius of the smallest circle that inscribes the particle. Form is a well-established concept. On the other hand, roundness is a complex concept that is difficult to estimate. For this reason, we dedicate the present work to this parameter. To measure the degree of roundness, there are two approaches; those based on curvature \cite{b7} and those using frequency analysis \cite{b8}. The curvature-based method defines the degree of roundness as the ratio of the mean radius of curvature of the corners of a particle to the radius of the largest circumscribed circle possible. This method is simple and accurate, however it is a scale dependent method. The Fourier-based methods are invariant to scale, rotation and translation, however analyzing the spectrum is a complicated subject and of high computational cost \cite{b8}.
+Form describes the general appearance of the rock, it is a coarse sketch of contour. There are some expressions to measure form,  the most used, in the geological field, is the proposed by Wadell \cite{b6} which is obtained from the relationship between the radius of the circle whose area is equal to the particle and the radius of the smallest circle that inscribes the particle. Form is a well-established concept. On the other hand, roundness is a complex concept that is difficult to estimate. For this reason, we dedicate the present work to this parameter. To measure the degree of roundness, there are two approaches; those based on curvature \cite{b7} and those using frequency analysis \cite{b8}. The curvature-based method defines the degree of roundness as the ratio of the mean radius of curvature of the corners of a particle to the radius of the largest circumscribed circle possible. This method is simple and accurate, however it is a scale dependent method. The Fourier-based methods are invariant to scale, rotation and translation, however analyzing the spectrum is a complicated issue and of high computational cost \cite{b8}.
 
 In this work, we propose to use neural networks to estimate the roundness of sedimentary rocks. The input variable to the neural network is the first component of principal components analysis (PCA) of the elliptical Fourier spectrum. The Fourier spectrum was chosen as the input variable because it is invariant to scale, rotation, and translation. The degree of roundness, calculated with the curvature method proposed by Wadell \cite{b6}, was used as the objective of the neural network. To calculate the roundness, we use the algorithm developed by Zheng and Hryciw \cite{b7}. The proposed neural network has the following architecture: 6-layer neural network, the input layer with 40 neurons and Rectified Linear Unit (ReLU) activation function, 4 hidden layers with 40 neurons each, with ReLU activation function. The output layer with a single neuron with a linear activation function. The database to train the neural network contains 1125 real-rocks images from some geological phenomena. The neural network model has a mean squared error of 0.029 and a mean error of 0.017. The neural network enables much faster processing. The roundness is estimated at 2800 times faster than the algorithm developed by Zheng and Hryciw. In addition, the method proposed is invariant to scale, rotation, and translation. Using a neural network we have combined the potentialities of the method based on curvature and frequency analysis.
 
@@ -409,22 +409,23 @@ In this work, we propose to use neural networks to estimate the roundness of sed
 In this section, we explain the concepts and mathematical expressions to estimate the roundness. The input variable to the neural network, elliptical Fourier, is described too.
 
 \subsection{Roundness}
-Roundness is a second-order property that superimposed on the form. Roundness is related to the smoothness (or angularity) of particles. These variations are expressed in corners and edges. The degree of roundness can be estimated by two approaches: curvature and frequency contour analysis. Frequency analysis is described in section elliptical Fourier. The curvature approach was proposed Wadell\cite{b6}.  The curvature approach consists of finding the most significant curvatures in the contour. These curvatures are associated with the angularity of the particle. The smaller radius of curvature, the greater corner angle.  The more significant curvatures there are, the more angular the contour will be. An example is shown in Fig.~\ref{fig2}.
+%Roundness is a second-order property which is independent of the form. Roundness is related to the smoothness (or angularity) of particles. These variations are expressed in corners and edges. The degree of roundness can be estimated by two approaches: curvature and frequency contour analysis. Frequency analysis is described in section elliptical Fourier. The curvature approach was proposed Wadell\cite{b6}.  The curvature approach consists of finding the most significant curvatures in the contour. These curvatures are associated with the angularity of the particle. The smaller radius of curvature, the greater corner angle.  The more significant curvatures there are, the more angular the contour will be. An example is shown in Fig.~\ref{fig2}.
+Roundness is a second-order property which is independent of the form. Roundness is related to the smoothness (or angularity) of particles. These variations are expressed in corners and edges. The degree of roundness can be estimated by two approaches: curvature and frequency contour analysis. Frequency analysis is described in section elliptical Fourier. Wadell's procedure \cite{b6} consists of finding the corners and fitting of circles to them. The concept is clear; however the algorithm to estimate this roundness is not easy to implement. Zheng and Hryciw \cite{b7} developed an algorithm which has four main steps: (1) find the maximum inscribed circle, (2) noise reduction, (3) identify the corners, and (4) fit circles to the corners. An example is shown in Fig.~\ref{fig2}.
 
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.4]{fig2.png}}
-\caption{Illustration of the method, proposed by Wadell, to measure the degree of roundness. The circles correspond to the significant radii of curvature in the contour.}
+\caption{Illustration of the method, proposed by Wadell, to measure the degree of roundness. The circle dotted line corresponds to maximum inscribed circle and the circles solid line correspond to main corners.}
 \label{fig2}
 \end{figure}
 
-No radius of curvature can be greater than the radius of the maximum circumscribed circle in the particle. This fact is important because the maximum circumscribed circle can be used to normalize.  Thus the degree of roundness of a corner can be expressed as $r_{n}/R$, where $r_{n}$ is the radius of curvature of the corner $n$ and $R$ is the radius of the maximum circumscribed circle. Wadell \cite{b6} expressed the total roundness of a particle as
+The maximum inscribed circle is used to normalize. This fact is important because the maximum circumscribed circle can be used to normalize.  Thus the degree of roundness of a corner can be expressed as $r_{n}/R$, where $r_{n}$ is the radius of curvature of the corner $n$ and $R$ is the radius of the maximum circumscribed circle. Wadell \cite{b6} expressed the total roundness of a particle as
 
 \begin{equation}
 D_{g} = \sum_{n=0}^{N-1}{ \frac{r_{n}}{R}}, \label{eq1}
 \end{equation}
 
-\noindent where $ N $ is the number of total corners in the contour. In this way, the range of roundness is between 0 and 1, being 0 a contour without corners (perfect circle) and 1 a contour with the possible maximum number of corners. The concept is clear; however the algorithm to estimate this roundness is not easy to implement. Zheng and Hryciw developed an algorithm to estimate roundness under this approach \cite{b7}. However, the parameters depend on the scale and if they are not well tuned the degree of roundness can have a high variance.
+\noindent where $ N $ is the number of total corners in the contour. In this way, the range of roundness is between 0 and 1, being 0 a contour without corners (perfect circle) and 1 a contour with the possible maximum number of corners. The algorithm works properly, however, the threshold to identify between corners and non-corners depends on the scale. An inappropriate value, for this threshold, can lead to a considerable error.
 
 
 \subsection{Elliptic Fourier}
@@ -460,12 +461,12 @@ c_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\cos{\fra
 d_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}], \label{eq5}
 \end{equation}
 
-These four series of coefficients can be expressed by circular phasors, one for each axis; however, they can be drawn by a single elliptical phasor, hence its name. The invariance to scale, rotation, and translation are reached by normalization and rotation of angle of the first ellipse to zero, the expressions to achieve this can be consulted in \cite{b9}. The elliptical Fourier result is two dependent spectra. Dependence complicates the delimitation of frequency ranges corresponding to form and roundness.
+These four series of coefficients can be expressed by circular phasors, one for each axis; however, they can be drawn by a single elliptical phasor, hence its name. The invariance to scale, rotation, and translation are reached by normalization and rotation of angle of the first ellipse to zero, the expressions to achieve this can be consulted in \cite{b9}. The elliptical Fourier is two dependent spectra. Dependence complicates the delimitation of frequency ranges corresponding to form and roundness.
 
   
 \subsection{Using deep neural networks to determine form and roundness}\label{AA}
 
-A neural network is a type of machine learning which simulates the human learning mechanism. The neuron is the basic unit. A neural network contains a large number of neurons connected to each other. The connection between the neurons is known as synapse and its strength is determined by an external stimulus. In the artificial and biological neural network, the change in synaptic weight enables learning. The stimulus in artificial neural networks is provided by the training data containing input-output pairs of the function to be learned \cite{b10}. Neuron should be activated or not depending on whether it is relevant to the prediction. The function that performs this process is known as the activation function. The neural network is organized in layers. A layer consists of several neurons and has a specific order in relation to the others. The first layer receives the input data, the last layer provides the result. The intermediate layers are called hidden layers \ cite {b11}.
+A neural network is a type of machine learning which simulates the human learning mechanism. The neuron is the basic unit. A neural network contains a large number of neurons connected to each other. The connection between the neurons is known as synapse and its strength is determined by an external stimulus. In the artificial and biological neural network, the change in synaptic weight enables learning. The stimulus in artificial neural networks is provided by the training data containing input-output pairs of the function to be learned \cite{b10}. Neuron should be activated or not depending on whether it is relevant to the prediction. The function that performs this process is known as the activation function. The neural network is organized in layers. A layer consists of several neurons and has a specific order in relation to the others. The first layer receives the input data, the last layer provides the result. The intermediate layers are called hidden layers \cite{b11}.
 
 
 \begin{figure}[htbp]
@@ -474,12 +475,12 @@ A neural network is a type of machine learning which simulates the human learnin
 	\label{fig4}
 \end{figure}
 
-A deep neural network is consists of calculations carried out by many layers. In Fig. ~ \ Ref{fig4} shows a deep neural network architecture with 4 hidden layers, the nodes of a layer are connected to the nodes of the previous and next layer. These types of networks are used to adjust complex models that requires a more sophisticated estimation \cite{b12}.
+A deep neural network consists of calculations carried out by many layers. Fig.~\ref{fig4} shows a deep neural network architecture with 4 hidden layers. The nodes of a layer are connected to the nodes of the previous and next layer. These types of networks are used to adjust complex models that requires a more sophisticated estimation \cite{b12}.
 
-To link curvatures and frequency approaches, we proposed using deep neural networks to estimate the roundness of sedimentary rocks. The input variable to the neural network is PC 1of the elliptical Fourier spectrum. We chose the spectrum as the input variable because it is invariant to scale, rotation, and translation. PCA was applied to reduce the dimensionality of the spectra resulting from elliptical Fourier. The degree of roundness obtained by the radius of the curvature (method described above) is used as the target value.
+To link curvatures and frequency approaches, we proposed using deep neural networks to estimate the roundness of sedimentary rocks. The input variable to the neural network is PC 1 of the elliptical Fourier magnitude spectrum. We chose the spectrum as the input variable because it is invariant to scale, rotation, and translation. PCA was applied to reduce the dimensionality of the spectra resulting from elliptical Fourier. The degree of roundness obtained by the radius of the curvature (method described above) is used as the target value.
 
 \section{Results and Discussion}
-We have described the definitions and expressions that are used in the deep neural network; However, we need to explain the method as a whole. Fig. ~ \ Ref {fig5} summarizes the flow of the proposed method.
+To explain the methodology used, Fig.~\ref{fig5} sketches the flow diagram of the proposed method.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.6]{fig5.png}}
@@ -490,16 +491,16 @@ We have described the definitions and expressions that are used in the deep neur
 The database to train and test the deep neural network was built from 1125 images of real rocks. The rocks analyzed correspond to pyroclastic falls, block and ash flow, debris avalanche and lahars. The database is available at https://github.com/Gamalielmch/SedimentaryRocksImageDB.
 
 Results of analysis reveal that the deep neural network with 6 layers, single input and output layer and four hidden layers, is the most appropriate architecture. The input layer with 40 neurons with ReLU activation function, 4 hidden layers with 40 neurons each with ReLU activation function and the output layer with a single neuron with activation function linear is the most appropriate approach to measure roundness dregree. The input layer consists of 40 neurons with ReLU activation function, the number of neurons is equal to the number of coefficients of the fourier series. The hidden layers consist of 40 neurons each with ReLU activation function.
-The ReLU activation function was chosen for hidden layers because the gradient of the Sigmoid and the TanH function can disappear with each iteration, which would affect the error propagation. The output layer consist of single neuron with linear activation function because the degree of roundness is a real number.Deep neural network training was performed in Python v3.7.3 using the Jupyter Notebook v5.7.8 platform, using the keras and sklearn libraries \cite{b13}. The result of the training is shown in  Fig.~\ref{fig6}.
+The ReLU activation function was chosen for hidden layers because the gradient of the Sigmoid and the TanH function can disappear with each iteration, which would affect the error propagation. The output layer consists of single neuron with linear activation function because the degree of roundness is a real number. Deep neural network training was performed in Python v3.7.3 using the Jupyter Notebook v5.7.8 platform, using the keras and sklearn libraries \cite{b13}. The result of the training is shown in Fig.~\ref{fig6}.
 
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.3]{fig6.png}}
-\caption{Fitting of deep neural network training}
+\caption{Result of deep neural network training}
 \label{fig6}
 \end{figure}
 
-As can be seen from Fig.~\ref{fig6}, almost all model predictions simulate the roundness degree properly. The deep neural network has a mean squared error (MSE) of 0.029 and a mean error of 0.017. For more detail, the histogram of absolute difference is shown in Fig. ~ \ Ref {fig7}. The 91 \% show a difference of less than 0.05 and 65 \% of less than 0.02.
+As can be seen from Fig.~\ref{fig6}, almost all model predictions simulate the roundness degree properly. The deep neural network has a mean squared error (MSE) of 0.029 and a mean error of 0.017. For more detail, the histogram of absolute difference is shown in Fig.~\ref{fig7}. The 91\% shows a difference of less than 0.05 and 65 \% of less than 0.02.
 
 
 \begin{figure}[htbp]
@@ -508,20 +509,20 @@ As can be seen from Fig.~\ref{fig6}, almost all model predictions simulate the r
 \label{fig7}
 \end{figure}
 
-To test the deep neural network we have reserved a set of 180 images from the database which were chosen randomly. Fig.~\ref{fig8} shows the results of prediciton for test set. The MSE is 0.0011 and mean error is 0.019.
+To test the deep neural network we have reserved a set of 180 images from the database which were chosen randomly. Fig.~\ref{fig8} shows the results of estimation for test set. The MSE is 0.0011 and mean error is 0.019.
 
-The fitting of the deep neural network is  is accurate for 91 \% of cases, since a difference of less than 0.05 is very acceptable in geological studies. Furthermore the mean error 0.019 of the test images confirm an accurate prediction.
+The fitting of the deep neural network is  is accurate for 91\% of cases, since a difference of less than 0.05 is very acceptable in geological studies. Furthermore the mean error 0.019 of the test images confirm an accurate prediction.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.3]{fig8.png}}
-\caption{Resultado de al red neuronal profunda de las imágenes de prueba}
+\caption{Result of deep neural network for test set}
 \label{fig8}
 \end{figure}
 
 \section{Conclusions}
-This work describes the implementation of a deep neural network to estimate the roundness of sedimentary rocks.We use two approaches, curvature and frequency analysis. The input data are PC1 of the coefficients of elliptical Fourier and the target data are the curvature of the main corners of contour. Using these two approaches, we developed an invariant method to scale, rotation, and translation. Based on several architecture, it is concluded that the deep neural network with 6 layers, with 40 neurons, is the most appropriate to prediction roundness degree. 
+This work describes the implementation of a deep neural network to estimate the roundness of sedimentary rocks. We use two approaches, curvature and frequency analysis. The input data are PC1 of the coefficients of elliptical Fourier and the target data are the curvature of the main corners of the contour. Using these two approaches, we developed an invariant method to scale, rotation, and translation. Based on several architectures, it is concluded that the deep neural network with 6 layers, with 40 neurons, is the most appropriate to prediction roundness degree. 
 
-The deep neural network was trained and tested using 1125 images of real rocks from some geological phenomena. The fitting of the network shows that 91 \% of the training data have a difference of less than 0.05. On the other hand, the MSE of the test data was 0.0011 and the mean error was 0.019, a highly acceptable difference in the geological field. The deep neural network model, proposed in this manuscript, can easily be used by readers. The model is freely distributed and available in the repository https://github.com/Gamalielmch/DNN\_roundness.
+The deep neural network was trained and tested using 1125 images of real rocks from some geological phenomena. The fitting of the network shows that 91 \% of the training data have a difference of less than 0.05. On the other hand, the MSE of the test data was 0.0011 and the mean error was 0.019, a highly acceptable difference in the geological field. The deep neural network model, proposed in this manuscript, can be easily used by readers. The model is freely distributed and available in the repository https://github.com/Gamalielmch/DNN\_roundness.
 
 
 % use section* for acknowledgment
