@@ -504,7 +504,7 @@ Results of analysis reveal that the deep neural network with 29 layers, single i
 The ReLU activation function was chosen for hidden layers because the gradient of the Sigmoid and the TanH function can disappear with each iteration, which would affect the error propagation. The output layer consists of single neuron with linear activation function because the degree of roundness is a real number. Deep neural network training was performed in Python v3.7.3 using the Jupyter Notebook v5.7.8 platform, using the keras and sklearn libraries \cite{b13}. The result of the training is shown in Fig.~\ref{fig6}.
 
 \begin{figure}[htbp]
-	\centerline{\includegraphics[scale=0.2]{fig7.png}}
+	\centerline{\includegraphics[scale=0.35]{fig7.png}}
 	\caption{Absolute differences Histogram. Diference between the predicted value of the neural network and the roundness measured by the Zheng and Hryciw algorithm}
 	\label{fig7}
 \end{figure}
@@ -513,7 +513,7 @@ The ReLU activation function was chosen for hidden layers because the gradient o
 As can be seen from Fig.~\ref{fig6}, almost all model predictions simulate the roundness degree properly. The deep neural network has a mean squared error (MSE) of 6$E-4$ and a mean error of 6$E-3$. For more detail, the histogram of absolute difference is shown in Fig.~\ref{fig7}. The 98\% shows a difference of less than 0.05 and 79 \% of less than 0.02.
 
 \begin{figure}[htbp]
-	\centerline{\includegraphics[scale=0.2]{fig8.png}}
+	\centerline{\includegraphics[scale=0.35]{fig8.png}}
 	\caption{Absolute differences Histogram. Diference between the predicted value of the neural network and the roundness measured by the Zheng and Hryciw algorithm}
 	\label{fig8}
 \end{figure}
