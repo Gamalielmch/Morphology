@@ -13,15 +13,27 @@ I couldn't open auxiliary file Cap1_Introduccion.aux
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 I couldn't open auxiliary file Cap2_Cuerpo_tesis.aux
----line 139 of file tesis_ErikMejia.aux
+---line 109 of file tesis_ErikMejia.aux
  : \@input{Cap2_Cuerpo_tesis.aux
  :                              }
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 I couldn't open auxiliary file Cap3_Ecuaciones.aux
----line 248 of file tesis_ErikMejia.aux
+---line 215 of file tesis_ErikMejia.aux
  : \@input{Cap3_Ecuaciones.aux
  :                            }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+I couldn't open auxiliary file Cap4_Resultados.aux
+---line 252 of file tesis_ErikMejia.aux
+ : \@input{Cap4_Resultados.aux
+ :                            }
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+I couldn't open auxiliary file Cap5_Conclusiones.aux
+---line 259 of file tesis_ErikMejia.aux
+ : \@input{Cap5_Conclusiones.aux
+ :                              }
 I'm skipping whatever remains of this command
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -38,146 +50,51 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'field_info' (item size: 4) to 10560 items.
 Database file #1: tesis_ErikMejia-blx.bib
 Database file #2: bibliografia.bib
 Biblatex version: 3.13
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2689 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2693 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2693 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2693 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2699 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2699 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2699 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2703 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2703 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2703 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2703 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2703 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2703 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2707 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2707 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2707 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2713 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2713 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2713 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2717 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2717 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2717 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2717 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2717 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2717 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2757 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2757 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2757 of file biblatex.bst
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-Too many commas in name 1 of "Diepenbroek, Michael y Bartholom{\"{a}}, Alexander y Ibbeken, Hillert" for entry DIEPENBROEK1992
-while executing---line 2805 of file biblatex.bst
-You've used 29 entries,
+You've used 40 entries,
             6365 wiz_defined-function locations,
-            1445 strings with 33624 characters,
-and the built_in function-call counts, 173916 in all, are:
-= -- 11770
-> -- 3423
-< -- 973
-+ -- 3514
-- -- 1458
-* -- 13793
-:= -- 16984
+            1507 strings with 35091 characters,
+and the built_in function-call counts, 232523 in all, are:
+= -- 16121
+> -- 4213
+< -- 1302
++ -- 4655
+- -- 1557
+* -- 17542
+:= -- 22911
 add.period$ -- 0
-call.type$ -- 29
-change.case$ -- 541
-chr.to.int$ -- 50
-cite$ -- 56
-duplicate$ -- 16516
-empty$ -- 16717
-format.name$ -- 1780
-if$ -- 36952
+call.type$ -- 40
+change.case$ -- 714
+chr.to.int$ -- 42
+cite$ -- 78
+duplicate$ -- 22985
+empty$ -- 22187
+format.name$ -- 2429
+if$ -- 49299
 int.to.chr$ -- 0
-int.to.str$ -- 71
+int.to.str$ -- 100
 missing$ -- 0
-newline$ -- 1035
-num.names$ -- 1421
-pop$ -- 9448
+newline$ -- 1315
+num.names$ -- 1982
+pop$ -- 13205
 preamble$ -- 1
-purify$ -- 663
+purify$ -- 882
 quote$ -- 0
-skip$ -- 5679
+skip$ -- 7579
 stack$ -- 0
-substring$ -- 21402
-swap$ -- 4828
-text.length$ -- 786
-text.prefix$ -- 28
+substring$ -- 28652
+swap$ -- 6141
+text.length$ -- 1043
+text.prefix$ -- 43
 top$ -- 1
-type$ -- 974
+type$ -- 1348
 warning$ -- 0
-while$ -- 2016
+while$ -- 2880
 width$ -- 0
-write$ -- 1007
-(There were 51 error messages)
+write$ -- 1276
+(There were 5 error messages)

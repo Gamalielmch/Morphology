@@ -19,12 +19,13 @@
 \usepackage{epsfig}
 \usepackage{times}
 
+
 \renewcommand{\ttdefault}{cmtt}    
 
 %=============================================================================
 % Tamaño de papel
 %=============================================================================
-\setlength\paperheight{11in}
+\setlength\paperheight{11.3in}
 \setlength\paperwidth{8.5in}
 
 %=============================================================================
@@ -263,7 +264,7 @@
 % Una instrucción \subsection escribe una instrucción
 %       \contentsline{subsection}{TITLE}{PAGE} 
 % en el archivo .toc, donde TITLE indica el contenido 
-% y PAGE indica el número de página. Si las subsecciones
+% y PAGE indica el . Si las subsecciones
 % son numeradas, entonces TITLE será de la forma 
 %       \numberline{NUM}{HEADING}
 % donde NUM es el número producido por \thesubsection.  
@@ -372,8 +373,8 @@
   \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
   \addtolength{\textheight}{-30pt}       % -24-16
   \addtolength{\majorheadskip}{-30pt}    % -24-16
-  \addtolength{\headheight}{25 pt}       %  36+16   
-  \addtolength{\headsep}{-15pt}          % -12   
+  \addtolength{\headheight}{23 pt}       %  36+16   
+  \addtolength{\headsep}{-10pt}          % -12   
 %  \separatorpage{DISCARD THIS PAGE}
   \chapter*{#1}
   #5
@@ -702,25 +703,25 @@ Eléctrica} % Default is Electrical Engineering
       \centering
       \includegraphics[width=1.7in]{logoUAZnuevo.eps}\\
       \end{figure}
-     \vspace*{36pt}
+     \vspace*{30pt}
       {\bf\expandafter\uppercase\expandafter{\@title}} \\  
-     \vspace*{12pt}
+     \vspace*{8pt}
       {\bf\@author} \\ 
-     \vspace*{48pt}
+     \vspace*{36pt}
       \@doctype\ \\
       presentada a la \@department \\
       de acuerdo a los requerimientos de la Universidad 
       para obtener el título de \\
-     \vspace*{48pt}
+     \vspace*{36pt}
       {\bf\expandafter\uppercase\expandafter{\@degree}} \\
 %       \\[\@thesistitlemedskip]
-     \vspace*{48pt}
+     \vspace*{36pt}
       \small{Directores de tesis: \\ 
       \@advisortitle\ \@advisorname\ y 
       \@gradoasesor2\ \@nombreasesor2}\\
-     \vspace*{36pt}     
+     \vspace*{30pt}     
       \small{UNIDAD ACADÉMICA DE INGENIERÍA ELÉCTRICA \\
-      \vspace*{8pt}
+      \vspace*{6pt}
       Zacatecas, Zac.,} \@date \\
     \end{center}
   \end{titlepage}
@@ -1100,8 +1101,8 @@ presentado el \@date\ para obtener el título de:
     \def\sectionmark##1{}}
 \else                                                        % If one-sided
   \def\ps@thesis{
-    \def\@oddfoot{}\def\@evenfoot{}                          % No feet.
-    \def\@oddhead{\hbox{}\hfil\rm\thepage}                   % Heading.
+    \def\@oddfoot{\hbox{}\hfil\rm\thepage}\def\@evenfoot{}                          % No feet.
+    \def\@oddhead{}                   % Heading. \hbox{}\hfil\rm\thepage
     \def\chaptermark##1{}}
 \fi
 

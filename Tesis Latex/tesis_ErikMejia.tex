@@ -6,18 +6,28 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{amssymb,amsmath,amsfonts}
 \usepackage{color,graphicx,curves}
-\usepackage{subfigure}
+\usepackage[caption=false]{subfig}
 \usepackage{multirow,rotating}
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
 \usepackage{float}
-\usepackage[backend=bibtex,style=ieee,
-citestyle=authoryear-ibid,sorting=nty]{biblatex}
+\usepackage[backend=bibtex,sorting=nty]{biblatex}
 \addbibresource{bibliografia.bib}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage[margin=1.5cm]{graphicx,caption}
+\usepackage{threeparttable}
+\usepackage{lipsum}
+\usepackage{mathtools, nccmath}
+\usepackage{subcaption}
+\usepackage[none]{hyphenat}
+\usepackage[figuresleft]{rotating}
+%\usepackage[lmargin=25mm,rmargin=35mm,tmargin=35mm, bmargin=35mm,showframe]{geometry}
 
-
+\usepackage{setspace}
+\setstretch{1.8}
 % --DECLARACIÓN DE RUTA DE CARPETA DONDE SE ENCUENTRAN LAS FIGURAS--
-\graphicspath{{Figuras/}}
+\graphicspath{{Figuras/}}	
 
 % --------------OPCIONES DE IMPRESIÓN DE FIGURAS--------------------
 % Con la instrucción \psdraft se crea un espacio en blanco en donde van
@@ -34,12 +44,15 @@ citestyle=authoryear-ibid,sorting=nty]{biblatex}
 %\noappendixfigures
 \noappendixtables
 
-
+\setlength{\parskip}{3.5mm}
+\footskip 35pt
+\captionsetup{singlelinecheck = false, format= hang, justification=raggedright, font=footnotesize, labelsep=space}
 % ===================================================================
 % INICIA EL CONTENIDO DEL DOCUMENTO
 % ===================================================================
 
 \begin{document}
+\sloppy 
 % Para opción de tesis de licenciatura
 \thesis
 
@@ -56,7 +69,7 @@ citestyle=authoryear-ibid,sorting=nty]{biblatex}
 \carrera{Ingenier\'ia El\'ectrica}
 
 % Grado y nombre de asesores de tesis:
-\advisortitle{Dr.} \advisorname{Jos\'e de Jes\'us Villa Hern\'andez}
+\advisortitle{Dr.} \advisorname{Jos\'e de J\'esus Villa Hern\'andez}
 \gradoasesor2{Dr.} \nombreasesor2{Gamaliel Ch\'avez Moreno}
 
 % Fecha de solicitud de tema de tesis:
@@ -126,11 +139,12 @@ citestyle=authoryear-ibid,sorting=nty]{biblatex}
 \clearpage\pagenumbering{arabic}
 
 
+
 \include{Cap1_Introduccion}       % incluye al archivo introduccion.tex
 \include{Cap2_Cuerpo_tesis}       % incluye al archivo cuerpo_tesis.tex%
 \include{Cap3_Ecuaciones}         % incluye al archivo Ecuaciones.tex
-%\include{Cap4_Introd_referencias} % incluye al archivo Ecuaciones.tex
-%\include{Conclusiones}            % incluye al archivo Conclusiones.tex
+\include{Cap4_Resultados} % incluye al archivo Ecuaciones.tex
+\include{Cap5_Conclusiones}            % incluye al archivo Conclusiones.tex
 
 % ---------------------INTRODUCCIÓN DE APÉNDICES--------------------
 % usar \begin{appendix}..\end{appendix} para sólo un apéndice

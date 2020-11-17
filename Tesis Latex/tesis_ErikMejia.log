@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  18 JUN 2020 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  17 NOV 2020 16:52
 entering extended mode
 **./tesis_ErikMejia.tex
 (tesis_ErikMejia.tex
@@ -230,36 +230,71 @@ I'll try to recover; but if the error is serious,
 you'd better type `E' or `X' now and fix your file.
 
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\s
-ubfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip66
-\subfigcapskip=\skip67
-\subfigcaptopadj=\dimen148
-\subfigbottomskip=\skip68
-\subfigcapmargin=\dimen149
-\subfiglabelskip=\skip69
-\c@subfigure=\count279
-\c@lofdepth=\count280
-\c@subtable=\count281
-\c@lotdepth=\count282
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subf
+ig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfigure\s
-ubfigure.cfg")
-\subfig@top=\skip70
-\subfig@bottom=\skip71
+Package subfig Warning: Your document class has a bad definition
+ of \endfigure, most likely
+ \let\endfigure=\end@float
+ which has now been changed to
+ \def\endfigure{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endfigure.
+ Please complain to your document class author.
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endtable, most likely
+ \let\endtable=\end@float
+ which has now been changed to
+ \def\endtable{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endtable.
+ Please complain to your document class author.
+
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
+tion3.sty"
+Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
+\captionmargin=\dimen148
+\captionmargin@=\dimen149
+\captionwidth=\dimen150
+\caption@tempdima=\dimen151
+\caption@indent=\dimen152
+\caption@parindent=\dimen153
+\caption@hangindent=\dimen154
+\abovecaptionskip=\skip66
+\belowcaptionskip=\skip67
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \singlespa
+ce \centering #1\ \ #2 on input line 1120.
+)
+\c@KVtest=\count279
+\sf@farskip=\skip68
+\sf@captopadj=\dimen155
+\sf@capskip=\skip69
+\sf@nearskip=\skip70
+\c@subfigure=\count280
+\c@subfigure@save=\count281
+\c@lofdepth=\count282
+\c@subtable=\count283
+\c@subtable@save=\count284
+\c@lotdepth=\count285
+\sf@top=\skip71
+\sf@bottom=\skip72
 )
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\mu
 ltirow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip72
-\multirow@cntb=\count283
-\multirow@dima=\skip73
-\bigstrutjot=\dimen150
+\multirow@colwidth=\skip73
+\multirow@cntb=\count286
+\multirow@dima=\skip74
+\bigstrutjot=\dimen156
 )
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ro
 tating.sty"
@@ -269,9 +304,9 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 .sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count284
-\rotFPtop=\skip74
-\rotFPbot=\skip75
+\c@r@tfl@t=\count287
+\rotFPtop=\skip75
+\rotFPbot=\skip76
 \rot@float@box=\box49
 \rot@mess@toks=\toks28
 )
@@ -338,9 +373,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 voptions.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen151
-\Hy@linkcounter=\count285
-\Hy@pagecounter=\count286
+\@linkdim=\dimen157
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd
 1enc.def"
@@ -356,7 +391,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count287
+\Hy@SavedSpaceFactor=\count290
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -364,7 +399,7 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count288
+\c@Hy@tempcnt=\count291
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty
 "
@@ -372,7 +407,7 @@ Package hyperref Info: Bookmarks ON on input line 4717.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen152
+\XeTeXLinkMargin=\dimen158
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bi
 tset.sty"
@@ -383,9 +418,9 @@ c\bigintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count289
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
+\Fld@menulength=\count292
+\Field@Width=\dimen159
+\Fld@charsize=\dimen160
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -400,9 +435,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 atbegshi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count290
-\c@Item=\count291
-\c@Hfootnote=\count292
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -415,8 +450,8 @@ tveryend.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count293
-\c@bookmark@seq@number=\count294
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilech
 eck\rerunfilecheck.sty"
@@ -429,12 +464,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip76
+\Hy@SectionHShift=\skip77
 )
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float
 .sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count295
+\c@float@type=\count298
 \float@exts=\toks29
 \float@box=\box50
 \@float@everytoks=\toks30
@@ -447,72 +482,72 @@ Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\et
 oolbox.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count296
+\etb@tempcnta=\count299
 )
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logr
 eq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count297
+\lrq@indent=\count300
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logr
 eq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count298
-\c@listtotal=\count299
-\c@listcount=\count300
-\c@liststart=\count301
-\c@liststop=\count302
-\c@citecount=\count303
-\c@citetotal=\count304
-\c@multicitecount=\count305
-\c@multicitetotal=\count306
-\c@instcount=\count307
-\c@maxnames=\count308
-\c@minnames=\count309
-\c@maxitems=\count310
-\c@minitems=\count311
-\c@citecounter=\count312
-\c@maxcitecounter=\count313
-\c@savedcitecounter=\count314
-\c@uniquelist=\count315
-\c@uniquename=\count316
-\c@refsection=\count317
-\c@refsegment=\count318
-\c@maxextratitle=\count319
-\c@maxextratitleyear=\count320
-\c@maxextraname=\count321
-\c@maxextradate=\count322
-\c@maxextraalpha=\count323
-\c@abbrvpenalty=\count324
-\c@highnamepenalty=\count325
-\c@lownamepenalty=\count326
-\c@maxparens=\count327
-\c@parenlevel=\count328
-\blx@tempcnta=\count329
-\blx@tempcntb=\count330
-\blx@tempcntc=\count331
-\blx@maxsection=\count332
-\blx@maxsegment@0=\count333
-\blx@notetype=\count334
-\blx@parenlevel@text=\count335
-\blx@parenlevel@foot=\count336
-\blx@sectionciteorder@0=\count337
-\blx@entrysetcounter=\count338
-\labelnumberwidth=\skip77
-\labelalphawidth=\skip78
-\biblabelsep=\skip79
-\bibitemsep=\skip80
-\bibnamesep=\skip81
-\bibinitsep=\skip82
-\bibparsep=\skip83
-\bibhang=\skip84
+\c@tabx@nest=\count301
+\c@listtotal=\count302
+\c@listcount=\count303
+\c@liststart=\count304
+\c@liststop=\count305
+\c@citecount=\count306
+\c@citetotal=\count307
+\c@multicitecount=\count308
+\c@multicitetotal=\count309
+\c@instcount=\count310
+\c@maxnames=\count311
+\c@minnames=\count312
+\c@maxitems=\count313
+\c@minitems=\count314
+\c@citecounter=\count315
+\c@maxcitecounter=\count316
+\c@savedcitecounter=\count317
+\c@uniquelist=\count318
+\c@uniquename=\count319
+\c@refsection=\count320
+\c@refsegment=\count321
+\c@maxextratitle=\count322
+\c@maxextratitleyear=\count323
+\c@maxextraname=\count324
+\c@maxextradate=\count325
+\c@maxextraalpha=\count326
+\c@abbrvpenalty=\count327
+\c@highnamepenalty=\count328
+\c@lownamepenalty=\count329
+\c@maxparens=\count330
+\c@parenlevel=\count331
+\blx@tempcnta=\count332
+\blx@tempcntb=\count333
+\blx@tempcntc=\count334
+\blx@maxsection=\count335
+\blx@maxsegment@0=\count336
+\blx@notetype=\count337
+\blx@parenlevel@text=\count338
+\blx@parenlevel@foot=\count339
+\blx@sectionciteorder@0=\count340
+\blx@entrysetcounter=\count341
+\labelnumberwidth=\skip78
+\labelalphawidth=\skip79
+\biblabelsep=\skip80
+\bibitemsep=\skip81
+\bibnamesep=\skip82
+\bibinitsep=\skip83
+\bibparsep=\skip84
+\bibhang=\skip85
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language78
-\c@mincomprange=\count339
-\c@maxcomprange=\count340
-\c@mincompwidth=\count341
+\c@mincomprange=\count342
+\c@maxcomprange=\count343
+\c@mincompwidth=\count344
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -520,92 +555,90 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 x-dm.def"
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count342
-\c@savedafterword=\count343
-\c@annotator=\count344
-\c@savedannotator=\count345
-\c@author=\count346
-\c@savedauthor=\count347
-\c@bookauthor=\count348
-\c@savedbookauthor=\count349
-\c@commentator=\count350
-\c@savedcommentator=\count351
-\c@editor=\count352
-\c@savededitor=\count353
-\c@editora=\count354
-\c@savededitora=\count355
-\c@editorb=\count356
-\c@savededitorb=\count357
-\c@editorc=\count358
-\c@savededitorc=\count359
-\c@foreword=\count360
-\c@savedforeword=\count361
-\c@holder=\count362
-\c@savedholder=\count363
-\c@introduction=\count364
-\c@savedintroduction=\count365
-\c@namea=\count366
-\c@savednamea=\count367
-\c@nameb=\count368
-\c@savednameb=\count369
-\c@namec=\count370
-\c@savednamec=\count371
-\c@translator=\count372
-\c@savedtranslator=\count373
-\c@shortauthor=\count374
-\c@savedshortauthor=\count375
-\c@shorteditor=\count376
-\c@savedshorteditor=\count377
-\c@labelname=\count378
-\c@savedlabelname=\count379
-\c@institution=\count380
-\c@savedinstitution=\count381
-\c@lista=\count382
-\c@savedlista=\count383
-\c@listb=\count384
-\c@savedlistb=\count385
-\c@listc=\count386
-\c@savedlistc=\count387
-\c@listd=\count388
-\c@savedlistd=\count389
-\c@liste=\count390
-\c@savedliste=\count391
-\c@listf=\count392
-\c@savedlistf=\count393
-\c@location=\count394
-\c@savedlocation=\count395
-\c@organization=\count396
-\c@savedorganization=\count397
-\c@origlocation=\count398
-\c@savedoriglocation=\count399
-\c@origpublisher=\count400
-\c@savedorigpublisher=\count401
-\c@publisher=\count402
-\c@savedpublisher=\count403
-\c@language=\count404
-\c@savedlanguage=\count405
-\c@origlanguage=\count406
-\c@savedoriglanguage=\count407
-\c@pageref=\count408
-\c@savedpageref=\count409
-\shorthandwidth=\skip85
-\shortjournalwidth=\skip86
-\shortserieswidth=\skip87
-\shorttitlewidth=\skip88
-\shortauthorwidth=\skip89
-\shorteditorwidth=\skip90
-\locallabelnumberwidth=\skip91
-\locallabelalphawidth=\skip92
-\localshorthandwidth=\skip93
-\localshortjournalwidth=\skip94
-\localshortserieswidth=\skip95
-\localshorttitlewidth=\skip96
-\localshortauthorwidth=\skip97
-\localshorteditorwidth=\skip98
+\c@afterword=\count345
+\c@savedafterword=\count346
+\c@annotator=\count347
+\c@savedannotator=\count348
+\c@author=\count349
+\c@savedauthor=\count350
+\c@bookauthor=\count351
+\c@savedbookauthor=\count352
+\c@commentator=\count353
+\c@savedcommentator=\count354
+\c@editor=\count355
+\c@savededitor=\count356
+\c@editora=\count357
+\c@savededitora=\count358
+\c@editorb=\count359
+\c@savededitorb=\count360
+\c@editorc=\count361
+\c@savededitorc=\count362
+\c@foreword=\count363
+\c@savedforeword=\count364
+\c@holder=\count365
+\c@savedholder=\count366
+\c@introduction=\count367
+\c@savedintroduction=\count368
+\c@namea=\count369
+\c@savednamea=\count370
+\c@nameb=\count371
+\c@savednameb=\count372
+\c@namec=\count373
+\c@savednamec=\count374
+\c@translator=\count375
+\c@savedtranslator=\count376
+\c@shortauthor=\count377
+\c@savedshortauthor=\count378
+\c@shorteditor=\count379
+\c@savedshorteditor=\count380
+\c@labelname=\count381
+\c@savedlabelname=\count382
+\c@institution=\count383
+\c@savedinstitution=\count384
+\c@lista=\count385
+\c@savedlista=\count386
+\c@listb=\count387
+\c@savedlistb=\count388
+\c@listc=\count389
+\c@savedlistc=\count390
+\c@listd=\count391
+\c@savedlistd=\count392
+\c@liste=\count393
+\c@savedliste=\count394
+\c@listf=\count395
+\c@savedlistf=\count396
+\c@location=\count397
+\c@savedlocation=\count398
+\c@organization=\count399
+\c@savedorganization=\count400
+\c@origlocation=\count401
+\c@savedoriglocation=\count402
+\c@origpublisher=\count403
+\c@savedorigpublisher=\count404
+\c@publisher=\count405
+\c@savedpublisher=\count406
+\c@language=\count407
+\c@savedlanguage=\count408
+\c@origlanguage=\count409
+\c@savedoriglanguage=\count410
+\c@pageref=\count411
+\c@savedpageref=\count412
+\shorthandwidth=\skip86
+\shortjournalwidth=\skip87
+\shortserieswidth=\skip88
+\shorttitlewidth=\skip89
+\shortauthorwidth=\skip90
+\shorteditorwidth=\skip91
+\locallabelnumberwidth=\skip92
+\locallabelalphawidth=\skip93
+\localshorthandwidth=\skip94
+\localshortjournalwidth=\skip95
+\localshortserieswidth=\skip96
+\localshorttitlewidth=\skip97
+\localshortauthorwidth=\skip98
+\localshorteditorwidth=\skip99
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -631,32 +664,20 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
 blatex.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count410
-\c@textcitetotal=\count411
-\c@textcitemaxnames=\count412
-\c@biburlbigbreakpenalty=\count413
-\c@biburlbreakpenalty=\count414
-\c@biburlnumpenalty=\count415
-\c@biburlucpenalty=\count416
-\c@biburllcpenalty=\count417
+\c@textcitecount=\count413
+\c@textcitetotal=\count414
+\c@textcitemaxnames=\count415
+\c@biburlbigbreakpenalty=\count416
+\c@biburlbreakpenalty=\count417
+\c@biburlnumpenalty=\count418
+\c@biburlucpenalty=\count419
+\c@biburllcpenalty=\count420
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count418
+\c@smartand=\count421
 )
-Package biblatex Info: Trying to load bibliography style 'ieee'...
-Package biblatex Info: ... file 'ieee.bbx' found.
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-ie
-ee\ieee.bbx"
-File: ieee.bbx 2020/02/26 v1.3b biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
-x\numeric-comp.bbx"
-File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -669,22 +690,26 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
 x\standard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count419
-\c@bbx:relatedtotal=\count420
-))))
-Package biblatex Info: Trying to load citation style 'authoryear-ibid'...
-Package biblatex Info: ... file 'authoryear-ibid.cbx' found.
+\c@bbx:relatedcount=\count422
+\c@bbx:relatedtotal=\count423
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cb
-x\authoryear-ibid.cbx"
-File: authoryear-ibid.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+x\numeric.cbx"
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -693,73 +718,270 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 blatex.cfg"
 File: biblatex.cfg 
 ))
-\@quotelevel=\count421
-\@quotereset=\count422
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\ti
+tlesec.sty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip100
+\aftertitleunit=\skip101
+\ttl@plus=\dimen161
+\ttl@minus=\dimen162
+\ttl@toksa=\toks31
+\titlewidth=\dimen163
+\titlewidthlast=\dimen164
+\titlewidthfirst=\dimen165
+)
+
+! LaTeX Error: Option clash for package graphicx.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \usepackage
+                {threeparttable}
+The package graphicx has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [margin=1.5cm]
+Adding the global options:
+  ,margin=1.5cm
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
 
 
-Package biblatex Warning: Conflicting options.
-(biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
-(biblatex)                Setting 'uniquename=init' on input line 42.
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
+tion.sty"
+Package: caption 2020/09/02 v3.5a Customizing captions (AR)
 
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count424
+\c@continuedfloat=\count425
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/threepartta
+ble\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box53
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lips
+um.sty"
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\ex
+pl3.sty"
+Package: expl3 2020-05-15 L3 programming layer (loader) 
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l
 3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count423
-\l__pdf_internal_box=\box52
-) (tesis_ErikMejia.aux (Cap1_Introduccion.aux)
-(Cap2_Cuerpo_tesis.aux) (Cap3_Ecuaciones.aux))
+\l__kernel_color_stack_int=\count426
+\l__pdf_internal_box=\box54
+))
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/
+xparse\xparse.sty"
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/
+xparse\xparse-generic.tex"
+\l__xparse_current_arg_int=\count427
+\g__xparse_grabber_int=\count428
+\l__xparse_m_args_int=\count429
+\l__xparse_v_nesting_int=\count430
+))
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lips
+um.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\m
+athtools.sty"
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.
+sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count431
+\calc@Bcount=\count432
+\calc@Adimen=\dimen166
+\calc@Bdimen=\dimen167
+\calc@Askip=\skip102
+\calc@Bskip=\skip103
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count433
+\calc@Cskip=\skip104
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\m
+hsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count434
+\l_MT_multwidth_dim=\dimen168
+\origjot=\skip105
+\l_MT_shortvdotswithinadjustabove_dim=\dimen169
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen170
+\l_MT_above_intertext_sep=\dimen171
+\l_MT_below_intertext_sep=\dimen172
+\l_MT_above_shortintertext_sep=\dimen173
+\l_MT_below_shortintertext_sep=\dimen174
+\xmathstrut@box=\box55
+\xmathstrut@dim=\dimen175
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ncctools\nc
+cmath.sty"
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen176
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\sub
+caption.sty"
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+
+
+! Package subcaption Error: This package can't be used in cooperation
+(subcaption)                with the subfig package.
+
+See the subcaption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \subcaption@CheckCompatibility
+                                   
+If you do not understand this error, please take a closer look
+at the documentation of the `subcaption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyphenat\hy
+phenat.sty"
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language79
+LaTeX Info: Redefining \_ on input line 43.
+)
+
+! LaTeX Error: Option clash for package rotating.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 
+     
+The package rotating has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [figuresleft]
+Adding the global options:
+  ,figuresleft
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+
+("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\se
+tspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+
+
+! LaTeX Error: Command \singlespace already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.494 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \doublespace already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.546 }
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.28 \setstretch{1.8}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\@quotelevel=\count435
+\@quotereset=\count436
+(tesis_ErikMejia.aux (Cap1_Introduccion.aux) (Cap2_Cuerpo_tesis.aux)
+(Cap3_Ecuaciones.aux) (Cap4_Resultados.aux) (Cap5_Conclusiones.aux))
 \openout1 = `tesis_ErikMejia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
 \supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count424
-\scratchdimen=\dimen155
-\scratchbox=\box53
-\nofMPsegments=\count425
-\nofMParguments=\count426
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count427
-\MPscratchDim=\dimen156
-\MPnumerator=\count428
-\makeMPintoPDFobject=\count429
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count437
+\scratchdimen=\dimen177
+\scratchbox=\box56
+\nofMPsegments=\count438
+\nofMParguments=\count439
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count440
+\MPscratchDim=\dimen178
+\MPnumerator=\count441
+\makeMPintoPDFobject=\count442
+\everyMPtoPDFconversion=\toks33
 )
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pk
 g\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfe
-xt.sty"
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 )
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 42.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 54.
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
 meref.sty"
@@ -773,11 +995,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 tring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count430
+\c@section@level=\count443
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
  (tesis_ErikMejia.out) (tesis_ErikMejia.out)
 \@outlinefile=\write4
 \openout4 = `tesis_ErikMejia.out'.
@@ -800,11 +1022,11 @@ Package biblatex Info: Data encoding 'latin1' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis_ErikMejia.bbl' found.
  (tesis_ErikMejia.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
 
 
-LaTeX Warning: File `logoUAZnuevo.eps' not found on input line 86.
+LaTeX Warning: File `logoUAZnuevo.eps' not found on input line 99.
 
 Package epstopdf Info: Source file: <logoUAZnuevo.eps>
 (epstopdf)             Output file: <logoUAZnuevo-eps-converted-to.pdf>
@@ -812,13 +1034,13 @@ Package epstopdf Info: Source file: <logoUAZnuevo.eps>
 (epstopdf)                    size: 59590 bytes
 (epstopdf)             Command: <epstopdf --outfile=logoUAZnuevo-eps-converted-
 to.pdf logoUAZnuevo.eps>
-(epstopdf)             \includegraphics on input line 86.
+(epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
-<logoUAZnuevo-eps-converted-to.pdf, id=99, 149.358pt x 134.30174pt>
+<logoUAZnuevo-eps-converted-to.pdf, id=119, 149.358pt x 134.30174pt>
 File: logoUAZnuevo-eps-converted-to.pdf Graphic file (type pdf)
 <use logoUAZnuevo-eps-converted-to.pdf>
 Package pdftex.def Info: logoUAZnuevo-eps-converted-to.pdf  used on input line 
-86.
+99.
 (pdftex.def)             Requested size: 122.85876pt x 110.4765pt.
 [1
 
@@ -836,24 +1058,37 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 ...ptico y redes neuronales}{28}{section.3.1}
+                                                  % [1
+
+])
 \tf@toc=\write5
 \openout5 = `tesis_ErikMejia.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.114 \tableofcontents
-                       [1
+ [2]
+(tesis_ErikMejia.lof
+Underfull \hbox (badness 1565) in paragraph at lines 19--19
+ [][] [][]\T1/ptm/m/n/12 Una rep-re-sentación sim-pli-fi-cada de la forma, re-d
+ondez y ru-gosi-dad en 3 
+ []
 
-] (tesis_ErikMejia.lof)
+[3
+
+] [4]
+Underfull \hbox (badness 1565) in paragraph at lines 63--63
+ [][] [][]\T1/ptm/m/n/12 Arquitectura fi-nal de la red neu-ronal para pre-de-ci
+r la re-dondez de ro-cas 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `tesis_ErikMejia.lof'.
 
- [2
-
-]
+ [5]
 \openout2 = `Cap1_Introduccion.aux'.
 
  (Cap1_Introduccion.tex
@@ -862,218 +1097,631 @@ Cap\IeC {\'\i }tulo 1. Introducci\'on
 
 
 
-]
-<figuras/fig1.png, id=201, 1485.75075pt x 1332.77925pt>
+] [2]
+<figuras/fig1.png, id=296, 1485.75075pt x 1332.77925pt>
 File: figuras/fig1.png Graphic file (type png)
 <use figuras/fig1.png>
-Package pdftex.def Info: figuras/fig1.png  used on input line 15.
+Package pdftex.def Info: figuras/fig1.png  used on input line 28.
 (pdftex.def)             Requested size: 297.14488pt x 266.55113pt.
- [2] [3pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1.1}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.22 
-      <./figuras/fig1.png>] [4] [5]) [6]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.29 ...opuestas por Barrett \cite{BARRETT1980}. }
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[3 <./figuras/fig1.png>] [4] [5] [6]) [7]
 \openout2 = `Cap2_Cuerpo_tesis.aux'.
 
  (Cap2_Cuerpo_tesis.tex
 Cap\IeC {\'\i }tulo 2. Marco Te\'orico
-<figuras/geologia.png, id=257, 354.72525pt x 253.54726pt>
-File: figuras/geologia.png Graphic file (type png)
-<use figuras/geologia.png>
-Package pdftex.def Info: figuras/geologia.png  used on input line 7.
-(pdftex.def)             Requested size: 354.72438pt x 253.54662pt.
-[7
+<figuras/fig2.jpg, id=348, 443.40656pt x 316.93407pt>
+File: figuras/fig2.jpg Graphic file (type jpg)
+<use figuras/fig2.jpg>
+Package pdftex.def Info: figuras/fig2.jpg  used on input line 7.
+(pdftex.def)             Requested size: 354.72572pt x 253.54759pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.8 ... atmósfera; c) biosfera; d) tierra sólida.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8
 
 
 
 ]
-<Figuras/composicion_tierra.png, id=263, 301.72725pt x 301.72725pt>
-File: Figuras/composicion_tierra.png Graphic file (type png)
-<use Figuras/composicion_tierra.png>
-Package pdftex.def Info: Figuras/composicion_tierra.png  used on input line 15.
+<figuras/fig3.jpg, id=356, 722.7pt x 542.025pt>
+File: figuras/fig3.jpg Graphic file (type jpg)
+<use figuras/fig3.jpg>
+Package pdftex.def Info: figuras/fig3.jpg  used on input line 17.
+(pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
 
-(pdftex.def)             Requested size: 301.7265pt x 301.7265pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.18 	\caption{Estructura en capas de la Tierra.}
+                                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.18 
-      <./figuras/geologia.png>] [9pdfTeX warning (ext4): destination with the s
-ame identifier (name{figure.2.2}) has been already used, duplicate ignored
+[9 <./figuras/fig2.jpg>]
+Underfull \hbox (badness 1728) in paragraph at lines 26--27
+[]\T1/ptm/m/n/12 Los geól-o-gos div-i-den las ro-cas en tres grandes gru-pos: í
+gneas, sed-i-men-ta-rias y
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.24 
-      <./Figuras/composicion_tierra.png>]
-<Figuras/tiposderocas.png, id=272, 347.49825pt x 145.7445pt>
-File: Figuras/tiposderocas.png Graphic file (type png)
-<use Figuras/tiposderocas.png>
-Package pdftex.def Info: Figuras/tiposderocas.png  used on input line 27.
-(pdftex.def)             Requested size: 382.24922pt x 160.31944pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-3}) has been already used, duplicate ignored
+[10 <./figuras/fig3.jpg>]
+<figuras/fig4.jpg, id=367, 1156.32pt x 546.24075pt>
+File: figuras/fig4.jpg Graphic file (type jpg)
+<use figuras/fig4.jpg>
+Package pdftex.def Info: figuras/fig4.jpg  used on input line 30.
+(pdftex.def)             Requested size: 462.5198pt x 218.49243pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.32 
-      <./Figuras/tiposderocas.png>]
-<Figuras/rocasedimentaria.png, id=278, 354.72525pt x 266.1945pt>
-File: Figuras/rocasedimentaria.png Graphic file (type png)
-<use Figuras/rocasedimentaria.png>
-Package pdftex.def Info: Figuras/rocasedimentaria.png  used on input line 38.
-(pdftex.def)             Requested size: 390.19897pt x 292.81485pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-4}) has been already used, duplicate ignored
+Overfull \hbox (10.8323pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.43 
-      <./Figuras/rocasedimentaria.png>]
-<Figuras/ciclo_rocas.png, id=283, 354.72525pt x 365.56575pt>
-File: Figuras/ciclo_rocas.png Graphic file (type png)
-<use Figuras/ciclo_rocas.png>
-Package pdftex.def Info: Figuras/ciclo_rocas.png  used on input line 48.
-(pdftex.def)             Requested size: 390.19897pt x 402.12357pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-5}) has been already used, duplicate ignored
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.31 ...tion{Ejemplos de los tres tipos de rocas.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.53 
-      <./Figuras/ciclo_rocas.png>] [13]
-<Figuras/procesosRocas.png, id=292, 245.718pt x 312.56775pt>
-File: Figuras/procesosRocas.png Graphic file (type png)
-<use Figuras/procesosRocas.png>
-Package pdftex.def Info: Figuras/procesosRocas.png  used on input line 62.
-(pdftex.def)             Requested size: 270.29062pt x 343.82556pt.
- [14] [15pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2.6}) has been already used, duplicate ignored
+[11 <./figuras/fig4.jpg>] [12]
+<figuras/fig6.jpg, id=377, 468.24937pt x 482.55281pt>
+File: figuras/fig6.jpg Graphic file (type jpg)
+<use figuras/fig6.jpg>
+Package pdftex.def Info: figuras/fig6.jpg  used on input line 56.
+(pdftex.def)             Requested size: 398.01384pt x 410.17181pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.67 
-      <./Figuras/procesosRocas.png>]
-<Figuras/rocasSedimentariasDetriticas.png, id=301, 354.72525pt x 186.09525pt>
-File: Figuras/rocasSedimentariasDetriticas.png Graphic file (type png)
-<use Figuras/rocasSedimentariasDetriticas.png>
-Package pdftex.def Info: Figuras/rocasSedimentariasDetriticas.png  used on inpu
-t line 72.
-(pdftex.def)             Requested size: 390.19897pt x 204.70538pt.
-<Figuras/rocasSedimentariasQuimicas.png, id=302, 354.72525pt x 186.09525pt>
-File: Figuras/rocasSedimentariasQuimicas.png Graphic file (type png)
-<use Figuras/rocasSedimentariasQuimicas.png>
-Package pdftex.def Info: Figuras/rocasSedimentariasQuimicas.png  used on input 
-line 80.
-(pdftex.def)             Requested size: 390.19897pt x 204.70538pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-7}) has been already used, duplicate ignored
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.57 	\caption{Ciclo de las rocas.}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.83 
-      <./Figuras/rocasSedimentariasDetriticas.png>] [17pdfTeX warning (ext4): d
-estination with the same identifier (name{figure.2.8}) has been already used, d
-uplicate ignored
+[13 <./figuras/fig6.jpg>] [14] [15]
+<figuras/fig7.jpg, id=393, 331.2375pt x 437.83575pt>
+File: figuras/fig7.jpg Graphic file (type jpg)
+<use figuras/fig7.jpg>
+Package pdftex.def Info: figuras/fig7.jpg  used on input line 71.
+(pdftex.def)             Requested size: 281.55319pt x 372.16216pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.89 
-      <./Figuras/rocasSedimentariasQuimicas.png>]
-<Figuras/Forma,redondez,rugosidad.png, id=313, 287.8755pt x 258.36525pt>
-File: Figuras/Forma,redondez,rugosidad.png Graphic file (type png)
-<use Figuras/Forma,redondez,rugosidad.png>
-Package pdftex.def Info: Figuras/Forma,redondez,rugosidad.png  used on input li
-ne 97.
-(pdftex.def)             Requested size: 287.87479pt x 258.36461pt.
- [18]
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.72 ...e sedimentos. Compactación y cementación.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16 <./figuras/fig7.jpg>]
+<figuras/fig9.jpg, id=398, 770.88pt x 403.5075pt>
+File: figuras/fig9.jpg Graphic file (type jpg)
+<use figuras/fig9.jpg>
+Package pdftex.def Info: figuras/fig9.jpg  used on input line 80.
+(pdftex.def)             Requested size: 385.43906pt x 201.75325pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.81 	\caption{Rocas sedimentarias detríticas.}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17]
+<figuras/fig10.jpg, id=405, 903.375pt x 472.76625pt>
+File: figuras/fig10.jpg Graphic file (type jpg)
+<use figuras/fig10.jpg>
+Package pdftex.def Info: figuras/fig10.jpg  used on input line 91.
+(pdftex.def)             Requested size: 361.3436pt x 189.10315pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.92 	\caption{Rocas sedimentarias químicas.}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[18 <./figuras/fig9.jpg>] [19 <./figuras/fig10.jpg>]
+<Figuras/fig11.png, id=418, 359.84438pt x 322.95656pt>
+File: Figuras/fig11.png Graphic file (type png)
+<use Figuras/fig11.png>
+Package pdftex.def Info: Figuras/fig11.png  used on input line 110.
+(pdftex.def)             Requested size: 251.88934pt x 226.06804pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.111 ...rar su independencia \cite{BARRETT1980}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[20]
 File: figuras/fig1.png Graphic file (type png)
 <use figuras/fig1.png>
-Package pdftex.def Info: figuras/fig1.png  used on input line 105.
+Package pdftex.def Info: figuras/fig1.png  used on input line 120.
 (pdftex.def)             Requested size: 297.14488pt x 266.55113pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-9}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.108 
-       <./Figuras/Forma,redondez,rugosidad.png>] [20pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.2.10}) has been already used, dup
-licate ignored
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.121 ...opuestas por Barrett \cite{BARRETT1980}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.119 L
-       as siguientes métricas representan las formas más comunes para medir ...
-] [21]
-<figuras/wadellRoundness.png, id=363, 474.77374pt x 190.7125pt>
-File: figuras/wadellRoundness.png Graphic file (type png)
-<use figuras/wadellRoundness.png>
-Package pdftex.def Info: figuras/wadellRoundness.png  used on input line 171.
-(pdftex.def)             Requested size: 284.86644pt x 114.42838pt.
- [22]
-<figuras/krumbeinRoundness.png, id=375, 853.1875pt x 500.87125pt>
-File: figuras/krumbeinRoundness.png Graphic file (type png)
-<use figuras/krumbeinRoundness.png>
-Package pdftex.def Info: figuras/krumbeinRoundness.png  used on input line 177.
+[21 <./Figuras/fig11.png>] [22] [23] [24] [25]
+<figuras/fig12.png, id=494, 268.00125pt x 324.0105pt>
+File: figuras/fig12.png Graphic file (type png)
+<use figuras/fig12.png>
+Package pdftex.def Info: figuras/fig12.png  used on input line 186.
+(pdftex.def)             Requested size: 160.80197pt x 194.40779pt.
 
-(pdftex.def)             Requested size: 426.59271pt x 250.435pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-11}) has been already used, duplicate ignored
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.187 ...or y Pettijohn \cite{muller1967methods}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.189 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.2.12}) has been already used, duplicate ignored
+<figuras/fig13.png, id=497, 511.9125pt x 300.52275pt>
+File: figuras/fig13.png Graphic file (type png)
+<use figuras/fig13.png>
+Package pdftex.def Info: figuras/fig13.png  used on input line 196.
+(pdftex.def)             Requested size: 358.3363pt x 210.36447pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.197 ...puestas por Krumbein\cite{Krumbein1941}.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.189 \end{equation}
-                     <./figuras/wadellRoundness.png> <./figuras/krumbeinRoundne
-ss.png>]) [24]
+[26 <./figuras/fig12.png>]) [27 <./figuras/fig13.png>]
 \openout2 = `Cap3_Ecuaciones.aux'.
 
  (Cap3_Ecuaciones.tex
 Cap\IeC {\'\i }tulo 3. Modelo y propuesta de Investigaci\'on
-<figuras/modeloInvestigacion.png, id=397, 362.5545pt x 142.131pt>
-File: figuras/modeloInvestigacion.png Graphic file (type png)
-<use figuras/modeloInvestigacion.png>
-Package pdftex.def Info: figuras/modeloInvestigacion.png  used on input line 16
-.
-(pdftex.def)             Requested size: 362.55362pt x 142.13063pt.
-[25
+<figuras/diagramaFlujoTrabajo.png, id=515, 1188.44pt x 463.7325pt>
+File: figuras/diagramaFlujoTrabajo.png Graphic file (type png)
+<use figuras/diagramaFlujoTrabajo.png>
+Package pdftex.def Info: figuras/diagramaFlujoTrabajo.png  used on input line 1
+3.
+(pdftex.def)             Requested size: 1188.43712pt x 463.73135pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.14 ...sando Fourier Elíptico y redes neuronales}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Float too large for page by 59.28154pt on input line 16.
+
+[28
+
+
+
+] [29 <./figuras/diagramaFlujoTrabajo.png>] [30]
+<Figuras/codigoCadena.png, id=535, 486.01575pt x 186.09525pt>
+File: Figuras/codigoCadena.png Graphic file (type png)
+<use Figuras/codigoCadena.png>
+Package pdftex.def Info: Figuras/codigoCadena.png  used on input line 38.
+(pdftex.def)             Requested size: 486.01456pt x 186.09477pt.
+
+Overfull \hbox (34.32706pt too wide) in paragraph at lines 38--39
+ [][] 
+ []
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.39 ...na de un contorno cerrado \cite{Kuhl1982}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[31 <./Figuras/codigoCadena.png>] [32] [33]
+<figuras/fig3_1.png, id=568, 1156.32pt x 344.487pt>
+File: figuras/fig3_1.png Graphic file (type png)
+<use figuras/fig3_1.png>
+Package pdftex.def Info: figuras/fig3_1.png  used on input line 112.
+(pdftex.def)             Requested size: 485.6511pt x 144.68355pt.
+
+Overfull \hbox (33.9636pt too wide) in paragraph at lines 112--113
+ [][] 
+ []
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.113 ...a obtener el mayor círculo circunscrito.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figuras/fig3_2.png, id=570, 647.41875pt x 344.487pt>
+File: figuras/fig3_2.png Graphic file (type png)
+<use figuras/fig3_2.png>
+Package pdftex.def Info: figuras/fig3_2.png  used on input line 121.
+(pdftex.def)             Requested size: 271.91402pt x 144.68355pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.122 ...a partícula utilizando Fourier Elíptico.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[34 <./figuras/fig3_1.png> <./figuras/fig3_2.png>]
+<figuras/fig3_3.png, id=577, 1128.6165pt x 309.5565pt>
+File: figuras/fig3_3.png Graphic file (type png)
+<use figuras/fig3_3.png>
+Package pdftex.def Info: figuras/fig3_3.png  used on input line 130.
+(pdftex.def)             Requested size: 474.0157pt x 130.01283pt.
+
+Overfull \hbox (22.3282pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.131 ...ara aproximar las esquinas con círculos.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[35 <./figuras/fig3_3.png>]
+<figuras/redNeuronal.jpg, id=586, 426.84468pt x 217.5628pt>
+File: figuras/redNeuronal.jpg Graphic file (type jpg)
+<use figuras/redNeuronal.jpg>
+Package pdftex.def Info: figuras/redNeuronal.jpg  used on input line 150.
+(pdftex.def)             Requested size: 341.47621pt x 174.05048pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.151 ...rona artificial análogo a una biológica.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figuras/ANN.png, id=587, 713.66624pt x 377.61075pt>
+File: figuras/ANN.png Graphic file (type png)
+<use figuras/ANN.png>
+Package pdftex.def Info: figuras/ANN.png  used on input line 159.
+(pdftex.def)             Requested size: 356.83224pt x 188.8049pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.160 ...itectura de una red neuronal artificial.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[36 <./figuras/redNeuronal.jpg>]
+<figuras/Sigmoid.png, id=594, 578.16pt x 361.35pt>
+File: figuras/Sigmoid.png Graphic file (type png)
+<use figuras/Sigmoid.png>
+Package pdftex.def Info: figuras/Sigmoid.png  used on input line 174.
+(pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.175 	\caption{Función de activación Sigmoide.}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[37 <./figuras/ANN.png>] [38 <./figuras/Sigmoid.png>]
+<figuras/TanH.png, id=610, 578.16pt x 361.35pt>
+File: figuras/TanH.png Graphic file (type png)
+<use figuras/TanH.png>
+Package pdftex.def Info: figuras/TanH.png  used on input line 197.
+(pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.198 ...ción de activación Tangente Hiperbólico.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[39 <./figuras/TanH.png>]
+<figuras/ReLU.png, id=619, 578.16pt x 361.35pt>
+File: figuras/ReLU.png Graphic file (type png)
+<use figuras/ReLU.png>
+Package pdftex.def Info: figuras/ReLU.png  used on input line 210.
+(pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.211 ...vación ReLU (Unidad Lineal Rectificada).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figuras/PReLU.png, id=623, 578.16pt x 361.35pt>
+File: figuras/PReLU.png Graphic file (type png)
+<use figuras/PReLU.png>
+Package pdftex.def Info: figuras/PReLU.png  used on input line 225.
+(pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.226 ...nidad Lineal Rectificada Parametrizada).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[40 <./figuras/ReLU.png>]
+<figuras/ELU.png, id=634, 578.16pt x 361.35pt>
+File: figuras/ELU.png Graphic file (type png)
+<use figuras/ELU.png>
+Package pdftex.def Info: figuras/ELU.png  used on input line 238.
+(pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.239 ...ivación ELU (Unidad Lineal Exponencial).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[41 <./figuras/PReLU.png>] [42 <./figuras/ELU.png>]) [43] [44]
+\openout2 = `Cap4_Resultados.aux'.
+
+
+(Cap4_Resultados.tex
+Cap\IeC {\'\i }tulo 4. Resultados y discusiones
+<figuras/sphertrainingComparition.png, id=663, 1445.4pt x 722.7pt>
+File: figuras/sphertrainingComparition.png Graphic file (type png)
+<use figuras/sphertrainingComparition.png>
+Package pdftex.def Info: figuras/sphertrainingComparition.png  used on input li
+ne 17.
+(pdftex.def)             Requested size: 361.34912pt x 180.67455pt.
+<figuras/sphertestComparition.png, id=664, 1445.4pt x 722.7pt>
+File: figuras/sphertestComparition.png Graphic file (type png)
+<use figuras/sphertestComparition.png>
+Package pdftex.def Info: figuras/sphertestComparition.png  used on input line 2
+1.
+(pdftex.def)             Requested size: 361.34912pt x 180.67455pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.22 ...esfericidad de la imagen (color naranja).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[45
 
 
 
 ]
-<Figuras/codigoCadena.png, id=404, 486.01575pt x 186.09525pt>
-File: Figuras/codigoCadena.png Graphic file (type png)
-<use Figuras/codigoCadena.png>
-Package pdftex.def Info: Figuras/codigoCadena.png  used on input line 40.
-(pdftex.def)             Requested size: 486.01456pt x 186.09477pt.
+<figuras/spherHistogramaErrorTrain.png, id=669, 1445.4pt x 433.62pt>
+File: figuras/spherHistogramaErrorTrain.png Graphic file (type png)
+<use figuras/spherHistogramaErrorTrain.png>
+Package pdftex.def Info: figuras/spherHistogramaErrorTrain.png  used on input l
+ine 32.
+(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
 
-Overfull \hbox (34.32706pt too wide) in paragraph at lines 40--41
+Overfull \hbox (25.29597pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-}) has been already used, duplicate ignored
+<figuras/spherHistogramaErrorTest.png, id=670, 1445.4pt x 433.62pt>
+File: figuras/spherHistogramaErrorTest.png Graphic file (type png)
+<use figuras/spherHistogramaErrorTest.png>
+Package pdftex.def Info: figuras/spherHistogramaErrorTest.png  used on input li
+ne 36.
+(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.43 
-      <./figuras/modeloInvestigacion.png>] [27pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.3.2}) has been already used, duplicate 
-ignored
+Overfull \hbox (28.29597pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.68 P
-      ara que este método obtenga la invarianza a la escala, rotación y tras...
- <./Figuras/codigoCadena.png>]) [28] [29] (referencias.tex
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.37 ... cada una de las diferencias se presentó.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[46 <./figuras/sphertrainingComparition.png> <./figuras/sphertestComparition.pn
+g>] [47 <./figuras/spherHistogramaErrorTrain.png> <./figuras/spherHistogramaErr
+orTest.png>]
+Underfull \hbox (badness 1609) in paragraph at lines 51--52
+[]\T1/ptm/m/n/12 Dentro de la ex-per-i-mentación para en-con-trar la ar-qui-tec
+-tura de red neu-ronal que
+ []
+
+[48] [49]
+<figuras/arqRedFinal.png, id=699, 455.301pt x 304.13625pt>
+File: figuras/arqRedFinal.png Graphic file (type png)
+<use figuras/arqRedFinal.png>
+Package pdftex.def Info: figuras/arqRedFinal.png  used on input line 67.
+(pdftex.def)             Requested size: 273.1827pt x 182.48315pt.
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.68 ...e a la cantidad de neuronas en cada capa.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figuras/roundtrainingComparition.png, id=701, 768.471pt x 389.65575pt>
+File: figuras/roundtrainingComparition.png Graphic file (type png)
+<use figuras/roundtrainingComparition.png>
+Package pdftex.def Info: figuras/roundtrainingComparition.png  used on input li
+ne 80.
+(pdftex.def)             Requested size: 345.80875pt x 175.34346pt.
+<figuras/roundtestComparition.png, id=702, 767.86874pt x 391.4625pt>
+File: figuras/roundtestComparition.png Graphic file (type png)
+<use figuras/roundtestComparition.png>
+Package pdftex.def Info: figuras/roundtestComparition.png  used on input line 8
+4.
+(pdftex.def)             Requested size: 345.53773pt x 176.1565pt.
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.85 ...esfericidad de la imagen (color naranja).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[50 <./figuras/arqRedFinal.png>]
+<figuras/roundhistogramaErrorTrain.png, id=707, 1445.4pt x 433.62pt>
+File: figuras/roundhistogramaErrorTrain.png Graphic file (type png)
+<use figuras/roundhistogramaErrorTrain.png>
+Package pdftex.def Info: figuras/roundhistogramaErrorTrain.png  used on input l
+ine 95.
+(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
+
+Overfull \hbox (28.29597pt too wide) in paragraph at lines 95--96
+ [][] 
+ []
+
+<figuras/roundhistogramaErrorTest.png, id=708, 1445.4pt x 433.62pt>
+File: figuras/roundhistogramaErrorTest.png Graphic file (type png)
+<use figuras/roundhistogramaErrorTest.png>
+Package pdftex.def Info: figuras/roundhistogramaErrorTest.png  used on input li
+ne 99.
+(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
+
+Overfull \hbox (28.29597pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.100 ...cada una de las diferencias se presentó.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[51 <./figuras/roundtrainingComparition.png> <./figuras/roundtestComparition.pn
+g>]) [52 <./figuras/roundhistogramaErrorTrain.png> <./figuras/roundhistogramaEr
+rorTest.png>]
+\openout2 = `Cap5_Conclusiones.aux'.
+
+ (Cap5_Conclusiones.tex
+Cap\IeC {\'\i }tulo 5. Conclusiones
+[53
+
+
+
+]) [54] (referencias.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 .
 
@@ -1120,45 +1768,93 @@ l.3 \printbibliography[title={Referencias}]
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[30
 
-
-]
-Overfull \hbox (1.05353pt too wide) in paragraph at lines 3--3
-[][]\T1/ptm/m/n/12 W. C. Krum-bein and L. L. Sloss, \T1/ptm/m/it/12 Stratig-ra-
-phy and sed-i-men-ta-tion\T1/ptm/m/n/12 , 5. LWW, 1951, vol. 71. 
+Underfull \hbox (badness 3557) in paragraph at lines 3--3
+[]\T1/ptm/m/n/12 Sam jr. Boggs. \T1/ptm/m/it/12 Petrol-ogy of sed-i-men-tary ro
+cks\T1/ptm/m/n/12 . Vol. â3. 2013, Ñ.30. \T1/ptm/m/sc/12 isbn\T1/ptm/m/n/12 :
  []
 
-[31]
-Overfull \hbox (7.89241pt too wide) in paragraph at lines 3--3
-[][]\T1/ptm/m/n/12 R. Toy, P. M. Peiris, K. B. Ghaghada, and E. Karathana-sis, 
-``Shap-ing can-cer nanomedicine:
+! Misplaced alignment tab character &.
+<argument> Computers &
+                       Geosciences
+l.3 \printbibliography[title={Referencias}]
+                                           
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 3--3
+\T1/ptm/m/n/12 deep net-work learn-ing by ex-po-nen-tial lin-ear units (elus)''
+. In: \T1/ptm/m/it/12 arXiv preprint
+ []
+
+[55
+
+
+] [56]
+Underfull \hbox (badness 1577) in paragraph at lines 3--3
+\T1/ptm/m/it/12 Fred-er-ick K. Lut-gens, Den-nis Tasa-Ciencias de la Tierra_- U
+na In-tro-duc-cion a
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 3--3
+\T1/ptm/m/n/12 of De-tri-tal Min-er-als By Im-age Anal-y-sis: Sed-i-ment Trans-
+port, Shape Ef-fects,
+ []
+
+[57]
+Underfull \hbox (badness 1436) in paragraph at lines 3--3
+[]\T1/ptm/m/n/12 Jürgen H Schön. \T1/ptm/m/it/12 Phys-i-cal prop-er-ties of roc
+ks: Fun-da-men-tals and prin-ci-ples of
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 3--3
+[]\T1/ptm/m/n/12 GW Sta-chowiak. ``Nu-mer-i-cal char-ac-ter-i-za-tion of wear p
+ar-ti-cles mor-phol-ogy and
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 3--3
+\T1/ptm/m/n/12 an-gu-lar-ity of par-ti-cles and sur-faces''. In: \T1/ptm/m/it/1
+2 Tri-bol-ogy In-ter-na-tional \T1/ptm/m/n/12 31.1-3 (1998),
+ []
+
+[58]
+Underfull \hbox (badness 1082) in paragraph at lines 3--3
+\T1/ptm/m/n/12 in As-sem-blies by Com-pu-ta-tional Ge-om-e-try''. In: \T1/ptm/m
+/it/12 Jour-nal of Com-put-ing in Civil
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
- [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (tesis_ErikMejia.aux (Cap1_Introduccion.aux) (Cap2_Cuerpo_tesis.aux)
-(Cap3_Ecuaciones.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+(Cap3_Ecuaciones.aux) (Cap4_Resultados.aux) (Cap5_Conclusiones.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `tesis_ErikMejia.out' has not changed.
-(rerunfilecheck)             Checksum: F3EE417F61B69904DA50D1F34B8271E0;1704.
+(rerunfilecheck)             Checksum: 27D35F1AF90824ACB3413B1C2A2C9D32;2136.
 Package logreq Info: Writing requests to 'tesis_ErikMejia.run.xml'.
 \openout1 = `tesis_ErikMejia.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 154.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  )
 (\end occurred when \iftrue on line 154 was incomplete) 
 Here is how much of TeX's memory you used:
- 14998 strings out of 480799
- 261443 string characters out of 2892516
- 724305 words of memory out of 3000000
- 30590 multiletter control sequences out of 15000+200000
- 568592 words of font info for 63 fonts, out of 3000000 for 9000
+ 17889 strings out of 480799
+ 321287 string characters out of 2892516
+ 888004 words of memory out of 3000000
+ 33329 multiletter control sequences out of 15000+200000
+ 575761 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,7n,61p,3117b,1316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,10n,49p,3138b,1452s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\HeavyRain350\
 AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Use
 rs/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
@@ -1176,9 +1872,9 @@ ers/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
 .pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on tesis_ErikMejia.pdf (35 pages, 3734202 bytes).
+Output written on tesis_ErikMejia.pdf (65 pages, 3185507 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 205 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 

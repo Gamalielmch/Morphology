@@ -1,0 +1,106 @@
+\chapter{Resultados y discusiones}
+
+El dataset utilizado consta de 1125 partículas. Para caracterizar las propiedades de esfericidad y redondez, se creó una red específica para cada propiedad, debido a que el rango de los armónicos de la serie de Fourier Elíptico son diferentes para cada una de ellas.
+
+\section{Esfericidad}
+
+La arquitectura de la red neuronal para el caso de la esfericidad consiste en una capa de entrada con 100 neuronas y función de activación leaky ReLU, 9 capas ocultas con 100 neuronas y también con función de activación leaky ReLU, por último, la capa de salida que consta de una sola neurona y, con función de activación Lineal debido a que se trabaja en una regresión, para optimizar los pesos de la red neuronal se utilizó RMSprop junto a la función de error MSE.
+
+Como se había comentado en el capítulo 2, la caracterización de la esfericidad es muy sencillo hacerlo por medio de Fourier Elíptico, ya que no se requieren más de los 5 primeros armónicos para hacerlo, de hecho, se utilizaron solamente los primeros 3, ya que se obtuvieron excelentes resultados, los cuales se muestran a continuación.
+
+Resultados de clasificar la esfericidad utilizando las imágenes de entrenamiento y las de prueba.
+
+\begin{figure}[H]
+	\centering
+	\subfloat[ Contraste de los resultados de la red neuronal contra la esfericidad real, conjunto de entrenamiento.]{%
+		\includegraphics[scale=.25]{figuras/sphertrainingComparition.png}%
+	}
+	
+	\subfloat[ Contraste de los resultados de la red neuronal contra la esfericidad real, conjunto de pruebas.]{%
+		\includegraphics[scale=.25]{figuras/sphertestComparition.png}
+	}
+	\caption{Clasificación de la redondez usando los conjuntos de entrenamiento y de pruebas. El eje horizontal representa el número de la imagen que se esta analizando, el eje vertical representa el contraste del valor obtenido por la red neuronal (color azul) contra el valor real de esfericidad de la imagen (color naranja).}
+	\label{fig:SpComp}
+\end{figure}
+
+Debido a que estamos trabajando con valores continuos (predicción/regresión), la manera para medir el error de la red neuronal se hace en base a histogramas, el error promedio y el error cuadrático medio.
+
+\begin{figure}[H]
+	\centering
+	\subfloat[ Histograma de los errores del conjunto de entrenamiento.]{%
+		\includegraphics[scale=.33]{figuras/spherHistogramaErrorTrain.png}%
+	}
+	
+	\subfloat[ Histograma de los errores del conjunto de prueba.]{%
+		\includegraphics[scale=.33]{figuras/spherHistogramaErrorTest.png}
+	}
+	\caption{ Medición del error de la red neuronal utilizando la diferencia relativa. El eje horizontal representa la diferencia que hay entre el valor obtenido por la red neuronal y el valor real, el eje vertical representa la frecuencia con que cada una de las diferencias se presentó.}
+	\label{fig:histErrSpher}
+\end{figure}
+
+En la Figura~\ref{fig:histErrSpher}, se puede apreciar que la distribución de los errores esta bastante comprimida en el eje horizontal, llevándonos a que nuestro proceso conjunto entre redes neuronales y los armónicos de Fourier Elíptico generan un \(92.8\%\) de confianza con \(\pm 0.05\) de error para el conjunto de pruebas, lo cual que el \(92.8\%\) de las imágenes los va clasificar entre un intervalo \(\pm 0.05\) al real. En la Figura~\ref{fig:SpComp} se puede observar claramente que el error no es representativo en el conjunto de pruebas en contraste con el valor.
+
+%Los resultados de H{\^a}ru{\c{t}}a \cite{haructa2011elliptic} obtiene una \(R^2=0.6159\) lo cual quiere decir que solo explica una pequeña parte de la variabilidad de los datos, en cambio la \(R^2\) obtenida en este trabajo para la esfericidad fue de \(0.7945\), lo cual nos indica que este modelo entiende mejor la variabilidad de los datos con respecto a los resultados reportados por H{\^a}ru{\c{t}}a.
+
+\section{Redondez}
+%% Primera parte, se ingresaron las 4 series de armónicos concatenadas 40 armónicos, muchas capas y muchas neuronas
+%% Segunda parte, se ingresaron las 4 series de armónicos pero solo del 5 al 40, muchas capas y muchas neuronas
+%% Tercera parte, se obtuvieron el pca de las 4 series de armónicos, y se mandaba el primero, el segundo y el tercer principal component
+%% Cuarta parte, se hizo forward selection and backward elimination, se ingresaban las mejores 60 características
+%% Quinta parte, normalización de los datos, donde se obtenía la maginitud en X y en Y en cada armónico.
+Dentro de la experimentación para encontrar la arquitectura de red neuronal que nos diera mejores resultados para el caso de la redondez, se pasó por un sin fin de arquitecturas con diferentes cantidades de entradas, además de normalizaciones o reducciones de dimensionalidad de estas, y encontrando que no se desempeñaban muy bien. A continuación se va a describir cada una de estás 5 etapas, cabe destacar que en cada una se utilizó la estandarización z-score a las entradas antes de entrenar o probar la red neuronal.
+
+La primera etapa, se intentó utilizar arquitecturas de entre 10 a 20 capas, en las cuales cada capa contenía de 100 a 200 neuronas, todas con la misma cantidad, utilizando los 40 armónicos de la serie de Fourier Elíptico. El entrenamiento era bueno y se percibía el sobreajuste, al momento de probar la red, los resultados eran fatales, llegando a dar un MSE de 0.5.
+
+Al observar este problemas, se decidió reducir la cantidad de armónicos del 5 al 40, siendo 140 entradas para la red, para eliminar la información de la Forma General o esfericidad, las capas y el número de neuronas seguía en el mismo rango que la etapa anterior, entrenamiento muy bueno, pero con mucho sobreajuste; las pruebas seguían siendo malas, pero eran un poco mejor que la primera etapa, con un MSE de 0.3. 
+
+Al ver que no había una mejora, se utilizó el PCA de los datos de entrada. La reducción de dimensionalidad que aplica el PCA suponía una ventaja abismal para conocer cuales de las características son las más importantes, el problema que solo el 45\% era descrito por el primer componente principal, 75\% con el primero y el segundo componente principal, y el 90\% con los 3 primeros componentes principales. Al menos se lograba reducir 1 dimensión. Al momento de hacer entrenar la red, esta lograba acomodarse sin sobreajustarse, pero, las pruebas no daban un buen resultado todavía, MSE de 0.2.
+
+Después del PCA, se propusó utilizar los métodos de selección de características \textit{Forward Selection} y \textit{Backward Elimination}, con la finalidad de obtener las mejores características de las 160 que tenemos. Al hacer varias pruebas, se llegó que la mejor cantidad de características eran 60, por lo que se procedió a entrenar la red con dichas características, y posteriormente a probarlas. El entrenamiento presentaba un poco de sobreajuste, pero de todos modos, las pruebas fueron bastante aceptables, llegando a obtener un MSE de 0.015, muy cercana al resultado de la arquitectura final. La arquitectura siguió siendo la misma que la primera etapa.
+
+Como paso extra, se intentó normalizar los datos de entrada de la red de manera que las entradas que tuvieran un valor muy pequeño se escalara y tuvieran un mayor impacto en la red, en este caso, se eliminó el primer armónico ya que Fourier Elíptico normaliza los demás armónicos en base a este y se convierten en una señal con un valor muy muy pequeño. La normalización consiste en obtener la normalización z-score de la magnitud de X y de Y del armónico en cuestión, siendo 78 entradas. La arquitectura utilizada fue una red neuronal de 2,3,4 y 5 capas, en el entrenamiento todas daban un resultado muy similar, muy sobreajustado, pero a la hora de probar fue mucho peor que los resultados obtenidos con \textit{Forward Selection} y \textit{Backward Elimination}, siendo un MSE de 0.3.
+ 
+Después de experimentar mucho con diversas arquitecturas, se llegó a la conclusión que las primeras arquitecturas eran demasiado exageradas para predecir el problema, por lo que se optó por reducir la cantidad de capas y la cantidad de neuronas en cada una, utilizando las series de coeficientes del armónico 3 al 40, llegando a la arquitectura final de la red neuronal para el caso de la redondez que se puede ver en la Figura~\ref{fig:arqNeuronalFinal}, consiste en una capa de entrada con 148 neuronas y función de activación Sigmoide; 4 capas ocultas con diferentes cantidades de neuronas (siempre una cantidad menor que la capa anterior), y también con función de activación Sigmoide; por último, la capa de salida que consta de una sola neurona y, con función de activación Sigmoide.
+
+\begin{figure}[H]
+	\centering 
+	\includegraphics[scale=.6]{figuras/arqRedFinal.png}
+	\caption{Arquitectura final de la red neuronal para predecir la redondez de rocas sedimentarias. El superíndice corresponde a la cantidad de neuronas en cada capa.}
+	\label{fig:arqNeuronalFinal}
+\end{figure}
+
+A pesar que la función Sigmoide padece del problema del desvanecimiento del gradiente, se ajusta bastante bien a este problema porque los rangos de salida esperados están entre 0 y 1, siendo el mismo rango de valores que la función, carecería de sentido si el valor esperado estuviese en un rango mucho más alto.
+
+En contraste a la esfericidad, la caracterización de la redondez resulta ser más complejo debido a que se tiene que analizar un rango de armónico mucho más amplio, para este caso se analizo el rango del 3 al 40, ya que fue el rango con el que se han obtenido los mejores resultados, los cuales se muestran en la Figura~\ref{fig:RnComp}.
+
+\begin{figure}[H]
+	\centering
+	\subfloat[ Contraste de los resultados de la red neuronal contra la redondez real, conjunto de entrenamiento.]{%
+		\includegraphics[scale=.45]{figuras/roundtrainingComparition.png}%
+	}
+	
+	\subfloat[ Contraste de los resultados de la red neuronal contra la redondez real, conjunto de pruebas.]{%
+		\includegraphics[scale=.45]{figuras/roundtestComparition.png}
+	}
+	\caption{ Clasificación de la redondez usando los conjuntos de entrenamiento y de pruebas. El eje horizontal representa el número de la imagen que se esta analizando, el eje vertical representa el contraste del valor obtenido por la red neuronal (color azul) contra el valor real de esfericidad de la imagen (color naranja).}
+	\label{fig:RnComp}
+\end{figure}
+
+Debido a que estamos trabajando con valores continuos (predicción/regresión), la manera para medir el error de la red neuronal se hace en base a histogramas, el error promedio y el error cuadrático medio.
+
+\begin{figure}[H]
+	\centering
+	\subfloat[ Histograma de los errores del conjunto de entrenamiento.]{%
+		\includegraphics[scale=.33]{figuras/roundhistogramaErrorTrain.png}
+	}
+	
+	\subfloat[ Histograma de los errores del conjunto de prueba.]{%
+		\includegraphics[scale=.33]{figuras/roundhistogramaErrorTest.png}
+	}
+	\caption{ Medición del error de la red neuronal utilizando la diferencia relativa. El eje horizontal representa la diferencia que hay entre el valor obtenido por la red neuronal y el valor real, el eje vertical representa la frecuencia con que cada una de las diferencias se presentó.}
+	\label{fig:histErrRound}
+\end{figure}
+
+En la Figura~\ref{fig:histErrRound}b, se puede apreciar que la distribución de los errores esta bastante comprimida en el eje horizontal, llevándonos a que nuestro proceso conjunto entre redes neuronales y los armónicos de Fourier Elíptico, la diferencia relativa tiene una varianza de 0.0102 en el conjunto de pruebas, lo cual quiere decir que esta varianza es bastante aceptable y no se considera que el error es muy grande a la hora de predecir el grado de redondez. En la Figura~\ref{fig:RnComp} se puede observar que el error del conjunto de prueba es un poco representativo pero sigue tendiendo a adaptarse al valor real.
+
+%En los resultados mostrados de Zheng \cite{Zheng2016} obtiene una confiabilidad de el \(98\%\) con una exactitud de \(\pm 0.05\) que comparados con los resultados obtenidos en nuestra investigación se alejan bastante del rango de exactitud obtenido (\(42.4\%\)). A pesar de ello, trabajar en conjunto con Redes neuronales y Fourier Elíptico resulta ser más rápido para obtener el grado de redondez que el algoritmo propuesto por Zheng.
