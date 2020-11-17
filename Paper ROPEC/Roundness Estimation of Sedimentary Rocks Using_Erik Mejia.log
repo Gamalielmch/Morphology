@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  7 OCT 2020 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  11 OCT 2020 13:42
 entering extended mode
-**./ROPEC20_english.tex
-(ROPEC20_english.tex
+**"./Roundness Estimation of Sedimentary Rocks Using_Erik Mejia.tex"
+("Roundness Estimation of Sedimentary Rocks Using_Erik Mejia.tex"
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-05-15> (IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -393,8 +393,8 @@ s
 \f@nch@O@erf=\skip67
 \f@nch@O@olf=\skip68
 \f@nch@O@orf=\skip69
-) (ROPEC20_english.aux)
-\openout1 = `ROPEC20_english.aux'.
+) ("Roundness Estimation of Sedimentary Rocks Using_Erik Mejia.aux")
+\openout1 = `"Roundness Estimation of Sedimentary Rocks Using_Erik Mejia.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 341.
 LaTeX Font Info:    ... okay on input line 341.
@@ -410,7 +410,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 341.
 LaTeX Font Info:    ... okay on input line 341.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 341.
 LaTeX Font Info:    ... okay on input line 341.
-
 -- Lines per column: 56 (exact).
 
 ("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
@@ -513,48 +512,47 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <fig2.png, id=17, 393.72093pt x 429.85594pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 422.
+Package pdftex.def Info: fig2.png  used on input line 421.
 (pdftex.def)             Requested size: 157.48558pt x 171.93933pt.
  [2 <./fig2.png>]
 <fig3.png, id=30, 423.7431pt x 181.27725pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 444.
+Package pdftex.def Info: fig3.png  used on input line 443.
 (pdftex.def)             Requested size: 254.2478pt x 108.76718pt.
 <fig4.png, id=31, 285.4665pt x 151.0443pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 478.
+Package pdftex.def Info: fig4.png  used on input line 477.
 (pdftex.def)             Requested size: 171.2812pt x 90.62726pt.
- [3 <./fig3.png> <./fig4.png>]
-<fig5.png, id=37, 1022.01825pt x 909.99976pt>
+<fig5.png, id=32, 1022.01825pt x 909.99976pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 490.
+Package pdftex.def Info: fig5.png  used on input line 489.
 (pdftex.def)             Requested size: 255.50394pt x 227.49937pt.
+ [3 <./fig3.png> <./fig4.png>]
 <fig6.png, id=38, 768.471pt x 389.65575pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 506.
+Package pdftex.def Info: fig6.png  used on input line 505.
 (pdftex.def)             Requested size: 253.5962pt x 128.58679pt.
 <fig7.png, id=39, 740.7675pt x 245.718pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 514.
+Package pdftex.def Info: fig7.png  used on input line 513.
 (pdftex.def)             Requested size: 259.2725pt x 86.00258pt.
 <fig8.png, id=40, 729.32475pt x 249.93375pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 522.
+Package pdftex.def Info: fig8.png  used on input line 521.
 (pdftex.def)             Requested size: 255.26749pt x 87.47812pt.
- [4 <./fig5.png> <./fig6.png> <./fig7.png> <./fig8.png>]
-<fig9.png, id=48, 767.86874pt x 391.4625pt>
+<fig9.png, id=41, 767.86874pt x 391.4625pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 530.
+Package pdftex.def Info: fig9.png  used on input line 529.
 (pdftex.def)             Requested size: 253.39746pt x 129.18301pt.
-
-Underfull \hbox (badness 1735) in paragraph at lines 560--561
+ [4 <./fig5.png> <./fig6.png> <./fig7.png> <./fig8.png>]
+Underfull \hbox (badness 1735) in paragraph at lines 564--565
 []\T1/lmr/m/n/8 J. Moolayil. ``Learn Keras for Deep Neu-ral Net-works,''
  []
 
@@ -569,41 +567,43 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5 <./fig9.png>] (ROPEC20_english.aux) ) 
+[5 <./fig9.png>]
+("Roundness Estimation of Sedimentary Rocks Using_Erik Mejia.aux") ) 
 Here is how much of TeX's memory you used:
- 4808 strings out of 480799
- 81173 string characters out of 2892516
- 494097 words of memory out of 3000000
- 20695 multiletter control sequences out of 15000+200000
+ 4809 strings out of 480799
+ 81657 string characters out of 2892516
+ 494142 words of memory out of 3000000
+ 20696 multiletter control sequences out of 15000+200000
  743189 words of font info for 150 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 44i,11n,45p,1567b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/HeavyRain350/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/HeavyRain350/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/HeavyRain35
-0/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/
-HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc
-}{C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--ts1.enc}{C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/lm/lm-ec.enc}<C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/lm/lmbx9.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/HeavyRain350/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/HeavyRain350/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/HeavyRai
-n350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Use
-rs/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.p
-fb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmr10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmr12.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmr17.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/HeavyRain350/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/HeavyRain350/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/HeavyRa
-in350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Use
-rs/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.
-pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/lm/lmsy7.pfb>
-Output written on ROPEC20_english.pdf (5 pages, 922395 bytes).
+ 44i,11n,45p,1612b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/H
+eavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}
+{C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
+rm.enc}{C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-mathsy.enc}{C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathit.enc}{C:/Users/HeavyRain350/AppData/Local/Programs/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/HeavyRain350/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/HeavyRain350/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Users/HeavyRain350/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Hea
+vyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><
+C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+mex10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/lm/lmmi10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/lm/lmmi7.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/HeavyRain350/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/HeavyRain350/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/HeavyRai
+n350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users
+/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb>
+<C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmri10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmri8.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/lm/lmsy10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
+Output written on "Roundness Estimation of Sedimentary Rocks Using_Erik Mejia.p
+df" (5 pages, 922806 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -383,7 +383,7 @@ jvillah@uaz.edu.mx}
 
 \begin{abstract}
 
-Sedimentary rocks analysis is useful in geological science, economic sector, and risk evaluation. Roundness is a morphological parameter that provide information to characterize and classify sedimentary material.  Roundness degrees is estimated from the contour of the particle. Waddell (1932) proposed a remarkable method based on the measurement of particle's curvature.  This method is accurate; nevertheless, it is not invariant to scale and rotation. This problem can be solved by mapping the contour to the frequency-domain, however, spectral analysis is a difficult task. Based on these two approaches, we propose to use a deep neural network whose input is the elliptical Fourier spectrum and target is roundness proposed by Wadell. The training database consists of 623 real-rocks images from some geological phenomena. We have found the neural networks perform very well on the 94\% of rocks.
+Sedimentary rocks analysis is useful in geological science, economic sector, and risk evaluation. Roundness is a morphological parameter that provide information to characterize and classify sedimentary material.  Roundness degrees is estimated from the contour of the particle. Waddell (1932) proposed a remarkable method based on the measurement of particle's curvature.  This method is accurate; nevertheless, it is not invariant to scale and rotation. This problem can be solved by mapping the contour to the frequency-domain, however, spectral analysis is a difficult task. Based on these two approaches, we propose to use a deep neural network whose input is the elliptical Fourier spectrum and target is roundness proposed by Wadell. The training database consists of 623 real-rocks images from some geological phenomena. We have found the neural networks perform very well on the 88.8\% of rocks.
 \end{abstract}
 
 \IEEEpeerreviewmaketitle
@@ -411,11 +411,10 @@ In this work, we propose to use neural networks to estimate the roundness of sed
 In this section, we explain the concepts and mathematical expressions to estimate the roundness. The input variable to the neural network, elliptical Fourier, is described too.
 
 \subsection{Roundness}
-Roundness is a second-order property which is independent of the form. Roundness is related to the smoothness (or angularity) of particles. These variations are expressed in corners and edges. The degree of roundness can be estimated by two approaches: curvature and frequency contour analysis. Frequency analysis is described in section elliptical Fourier. The curvature approach was proposed Wadell \cite{b6}.  The curvature approach consists of finding the most significant curvatures in the contour. These curvatures are associated with the angularity of the particle. The smaller radius of curvature, the greater corner angle.  The more significant curvatures there are, the more angular the contour will be. An example is shown in Fig.~\ref{fig2}.
 
-Rounded corners can have different interactions with the enviroment like less resistance to a current fluid than the sharp ones. Roundness can be destroyed or disminished by fracturing and chipping, and if it has a high roundness degree, could be indicate gentle conditions the size, hardness and toughness of the particle was under \cite{b14}.
+Roundness is a textural characteristic resulting from various geological processes. Roundness is strongly defined during transport and deposition of sediments. Collisions, abrasion, friction, comminution, exposure time, and pathway are the main processes that determine the roundness of a particle. The detailed analysis enables inferences about the type of kinetic and mechanical interaction inter-particle \cite{b9}. Roundness can help discriminate between reworked and primary deposits, a common problem in sedimentology. Briefly, the roundness study enables determines the set of environmental conditions of each sediment \cite{b10}.
 
-Roundness is a second-order property which is independent of the form. Roundness is related to the smoothness (or angularity) of particles. These variations are expressed in corners and edges. The degree of roundness can be estimated by two approaches: curvature and frequency contour analysis. Frequency analysis is described in section elliptical Fourier. Wadell's procedure \cite{b6} consists of finding the corners and fitting of circles to them. The concept is clear; however the algorithm to estimate this roundness is not easy to implement. Zheng and Hryciw \cite{b7} developed an algorithm which has four main steps: (1) find the maximum inscribed circle, (2) noise reduction, (3) identify the corners, and (4) fit circles to the corners. An example is shown in Fig.~\ref{fig2}.
+Roundness is a second-order property which is independent of the form and surface texture. The roundness of a rcok is related to the smoothness (or angularity) of particles. These variations are expressed in corners and edges. The roundness of a partile can be estimated by two approaches: curvature and frequency contour analysis. Frequency analysis is described in section elliptical Fourier. The curvature approach was proposed Wadell \cite{b6}.  The curvature approach consists of finding the most significant curvatures in the contour. These curvatures are associated with the angularity of the particle. The smaller radius of curvature, the greater corner angle.  The more significant curvatures there are, the more angular the contour will be. An example is shown in Fig.~\ref{fig2}.
 
 
 \begin{figure}[htbp]
@@ -438,7 +437,7 @@ D_{g} = \sum_{n=0}^{N-1}{ \frac{r_{n}}{R}}, \label{eq1}
 Frequency analysis consists in obtaining the Fourier transform of the contour. In frequency, the three morphological characteristics are divided into frequency ranges. The low-frequency range is related to form, the medium-frequency range to roundness, and the high-frequency to roughness \cite{b8}. However, determining the limits of different morphological orders is not an easy task. It has been an unsolvable problem since the method was first proposed. To date, these limits are obtained empirically, with high uncertainty.
 
 
-Because the particle contour is closed, elliptical Fourier is used. The elliptical Fourier method was proposed by Kuhl \cite{b9} which consists in obtaining the Fourier coefficients directly from the chain code of the contour. The chain code approximates the contour by a sequence of lines consisting of eight directions, Fig.~\ref{fig3}.
+Because the particle contour is closed, elliptical Fourier is used. The elliptical Fourier method was proposed by Kuhl \cite{b11} which consists in obtaining the Fourier coefficients directly from the chain code of the contour. The chain code approximates the contour by a sequence of lines consisting of eight directions, Fig.~\ref{fig3}.
 
 \begin{figure}[htbp]
 \centerline{\includegraphics[scale=0.6]{fig3.png}}
@@ -466,12 +465,12 @@ c_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\cos{\fra
 d_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}], \label{eq5}
 \end{equation}
 
-These four series of coefficients can be expressed by circular phasors, one for each axis; however, they can be drawn by a single elliptical phasor, hence its name. The invariance to scale, rotation, and translation are reached by normalization and rotation of angle of the first ellipse to zero, the expressions to achieve this can be consulted in \cite{b9}. The elliptical Fourier is two dependent spectra. Dependence complicates the delimitation of frequency ranges corresponding to form and roundness.
+These four series of coefficients can be expressed by circular phasors, one for each axis; however, they can be drawn by a single elliptical phasor, hence its name. The invariance to scale, rotation, and translation are reached by normalization and rotation of angle of the first ellipse to zero, the expressions to achieve this can be consulted in \cite{b11}. The elliptical Fourier is two dependent spectra. Dependence complicates the delimitation of frequency ranges corresponding to form and roundness.
 
   
 \subsection{Using deep neural networks to determine form and roundness}\label{AA}
 
-A neural network is a type of machine learning which simulates the human learning mechanism. The neuron is the basic unit. A neural network contains a large number of neurons connected to each other. The connection between the neurons is known as synapse and its strength is determined by an external stimulus. In the artificial and biological neural network, the change in synaptic weight enables learning. The stimulus in artificial neural networks is provided by the training data containing input-output pairs of the function to be learned \cite{b10}. Neuron should be activated or not depending on whether it is relevant to the prediction. The function that performs this process is known as the activation function. The neural network is organized in layers. A layer consists of several neurons and has a specific order in relation to the others. The first layer receives the input data, the last layer provides the result. The intermediate layers are called hidden layers \cite{b11}.
+A neural network is a type of machine learning which simulates the human learning mechanism. The neuron is the basic unit. A neural network contains a large number of neurons connected to each other. The connection between the neurons is known as synapse and its strength is determined by an external stimulus. In the artificial and biological neural network, the change in synaptic weight enables learning. The stimulus in artificial neural networks is provided by the training data containing input-output pairs of the function to be learned \cite{b12}. Neuron should be activated or not depending on whether it is relevant to the prediction. The function that performs this process is known as the activation function. The neural network is organized in layers. A layer consists of several neurons and has a specific order in relation to the others. The first layer receives the input data, the last layer provides the result. The intermediate layers are called hidden layers \cite{b13}.
 
 
 \begin{figure}[htbp]
@@ -480,7 +479,7 @@ A neural network is a type of machine learning which simulates the human learnin
 	\label{fig4}
 \end{figure}
 
-A deep neural network consists of calculations carried out by many layers. Fig.~\ref{fig4} shows a deep neural network architecture with 4 hidden layers. The nodes of a layer are connected to the nodes of the previous and next layer. These types of networks are used to adjust complex models that requires a more sophisticated estimation \cite{b12}.
+A deep neural network consists of calculations carried out by many layers. Fig.~\ref{fig4} shows a deep neural network architecture with 4 hidden layers. The nodes of a layer are connected to the nodes of the previous and next layer. These types of networks are used to adjust complex models that requires a more sophisticated estimation \cite{b14}.
 
 To link curvatures and frequency approaches, we proposed using deep neural networks to estimate the roundness of sedimentary rocks. The input variable to the neural network are the range from 3 to 40 of coefficients a,b,c and d of the elliptical Fourier spectrum. We chose the spectrum as the input variable because it is invariant to scale, rotation, and translation. The degree of roundness obtained by the radius of the curvature (method described above) is used as the target value.
 
@@ -500,7 +499,7 @@ The architecture used for the neural network is: 6-layer neural network, the inp
 
 Results of analysis reveal that the deep neural network with 6 layers, single input and output layer and twenty seven hidden layers, is the most appropriate architecture to measure roundness dregree. 
 
-The Sigmoid activation function was chosen for all layers because the range of our output is in between 0 and 1, so, even if the Sigmoid suffers with the vanishing gradient problem, it is perfect because the outputs are defined when the gradient is more than 0, then, the error can be propagated properly among the network. Deep neural network training was performed in Python v3.7.3 using the Jupyter Notebook v5.7.8 platform, using the keras and sklearn libraries \cite{b13}. The result of the training is shown in Fig.~\ref{fig6}.
+The Sigmoid activation function was chosen for all layers because the range of our output is in between 0 and 1, so, even if the Sigmoid suffers with the vanishing gradient problem, it is perfect because the outputs are defined when the gradient is more than 0, then, the error can be propagated properly among the network. Deep neural network training was performed in Python v3.7.3 using the Jupyter Notebook v5.7.8 platform, using the keras and sklearn libraries \cite{b15}. The result of the training is shown in Fig.~\ref{fig6}.
 
 \begin{figure}[htbp]
 	\centerline{\includegraphics[scale=0.33]{fig6.png}}
@@ -553,12 +552,20 @@ The Author also extends thanks to Conacyt for Retention Grant No. 2019-000010-01
 \bibitem{b6} H. Wadell, ``Volume, shape, and roundness of rock particles,'' The Journal of Geology, vol. 40, pp. 443--451, 1932.
 \bibitem{b7} J. Zheng and R. D. Hryciw, ``Particle roundness and sphericity from images of assemblies by chart estimates and computer methods,'' Journal of Geotechnical and Geoenvironmental Engineering, vol. 142, pp. 1--15, 2016.
 \bibitem{b8} I. Charpentier,  D. Sarocchi  and L. A. Rodriguez, ``Particle shape analysis of volcanic clast samples with the Matlab tool MORPHEO,'' Computers and Geosciences, vol. 51, pp. 172--181, 2013.
-\bibitem{b9} F.P. Kuhl and C. R. Giardina, ``Elliptic Fourier features of a closed contour,'' Computer Graphics and Image Processing, vol. 18, pp. 236--258, 1982.
- \bibitem{b10} Charu C. Aggarwal, ``Neural Networks and Deep Learning,'' Materials \& design 28.6 (2007): 1747-1752.
-\bibitem{b11} W. Sha and K. L. Edwards, ``The use of artificial neural networks in materials science based research,'' Materials \& design 28.6 (2007): 1747-1752.
-\bibitem{b12} M.A. Nielsen, ``Neural networks and deep learning,'' Determination Press, 2015.
-\bibitem{b13} J. Moolayil. ``Learn Keras for Deep Neural Networks,'' Apress, 2019.
-\bibitem{b14} H. Wadell, ``Sphericity and roundness of rock particles. The Journal of Geology,'' vol. 41, no 3, pp. 310-331., 1933.
+
+\bibitem{b9} G. Moreno, F. Castillo, J.A. Montenegro, L. Borselli, L.A. Rodríguez and D- Sarocchi, ``Fourier Shape Analysis, FSA: Freeware for quantitative study of particle morphology. Journal of Volcanology and Geothermal Research,'' vol. 404, 2020.
+\bibitem{b10} H. Wadell, ``Sphericity and roundness of rock particles. The Journal of Geology,'' vol. 41, no 3, pp. 310-331., 1933.
+\bibitem{b11} F.P. Kuhl and C. R. Giardina, ``Elliptic Fourier features of a closed contour,'' Computer Graphics and Image Processing, vol. 18, pp. 236--258, 1982.
+\bibitem{b12} Charu C. Aggarwal, ``Neural Networks and Deep Learning,'' Materials \& design 28.6 (2007): 1747-1752.
+
+\bibitem{b13} W. Sha and K. L. Edwards, ``The use of artificial neural networks in materials science based research,'' Materials \& design 28.6 (2007): 1747-1752.
+
+\bibitem{b14} M.A. Nielsen, ``Neural networks and deep learning,'' Determination Press, 2015.
+\bibitem{b15} J. Moolayil. ``Learn Keras for Deep Neural Networks,'' Apress, 2019.
+
+
+
+
 
 \end{thebibliography}
 
