@@ -1,29 +1,31 @@
 \chapter{Modelo y propuesta de Investigación}
 
-\section{Modelo de Investigación de la estimación de parámetros morfológicos en rocas sedimentarias usando Fourier Elíptico y redes neuronales}
+\section{Modelo de Investigación para la estimación de parámetros morfológicos en rocas sedimentarias usando Fourier Elíptico y redes neuronales}
 
 En la Figura~\ref{fig:fig14} se describen las etapas de investigación, para después ser detalladas.
 
 \begin{itemize}
-	\item La primera etapa consiste en conseguir 1123 imágenes de todas las clases de esfericidad y redondez para poder entrenar de manera equitativa la red, y después probar con las imágenes de Krumbein (\cite{Krumbein1941}) y verificar los resultados.
+	\item La primera etapa consiste en conseguir 1123 imágenes de todas las clases de esfericidad y redondez para poder entrenar de manera balanceada la red, y después probar con las imágenes de Krumbein (\cite{Krumbein1941}) para verificar las mediciones.
+	
 	\item La segunda etapa se obtiene el valor de redondez y esfericidad de cada una de las imágenes de entrenamiento con los métodos propuestos.
-	\item La tercera etapa se saca el valor de las constantes de los primeros 40 armónicos de la serie de Fourier Elíptico de cada una de las imágenes de entrenamiento, aparte, relacionar estos armónicos con su valor de esfericidad y redondez.
+	\item La tercera etapa consiste en calcular los primeros 40 armónicos de la serie de Fourier elíptico de cada una de las imágenes de entrenamiento y relacionar estos armónicos con su valor de esfericidad y redondez.
 	\begin{figure}[hbtp]
 		\centering 
 		\includegraphics[angle=90,origin=c,scale=.55]{figuras/diagramaFlujoTrabajo.png}
 		\caption{Modelo metodológico de la estimación de parámetros morfológicos en rocas sedimentarias usando Fourier Elíptico y redes neuronales}
 		\label{fig:fig14}
 	\end{figure}
-	\item La cuarta etapa consiste entrenar las 2 redes neuronales, la que va a clasificar la esfericidad, y la que va a clasificar la redondez, con los valores de entrada que será los armónicos de Fourier Elíptico y su respectiva salida.
-	\item Una vez entrenada cada red, obtener los armónicos de Fourier Elíptico de las imágenes de prueba.
-	\item La última etapa es clasificar las imágenes de prueba y observar los resultados.
+	\item La cuarta etapa consiste entrenar las 2 redes neuronales, la que clasifica la esfericidad, y la de la redondez, con los valores de entrada que serán los armónicos de Fourier Elíptico  y la su respectiva salida.
+	\item Una vez entrenadas las redes, se prueban utilizando armónicos de Fourier Elíptico del conjunto de imágenes de prueba.
+	
+	\item La última etapa es medir el error y clasificar las imágenes de prueba y observar los resultados.
 \end{itemize}
 
 \section{Fourier Elíptico}
 
-Los coeficientes de Fourier han sido muy utilizados para caracterizar contornos cerrados. Fourier Elíptico es una manera simple de obtener los coeficientes de Fourier del código de cadena de un contorno cerrado. Los coeficientes resultantes son invariantes a la escala, rotación y traslación.
+El análisis de Fourier ha sido utilizado para caracterizar contornos cerrados. Fourier Elíptico es una extensión de Fourier clásico el cual simplifica la estimación de los coeficientes a través del código de cadena del contorno cerrado. Los coeficientes correspondientes a la magnitud son invariantes a la escala, rotación y traslación.
 
-El código de cadena es el primer paso en Fourier Elíptico, fue descrito inicialmente por Freeman\cite{freeman1974computer}, aproximando un contorno cerrado por una secuencia en partes con 8 posibles valores. El código de un contorno es la cadena \(V\) de longitud \(K\):
+El código de cadena es el primer paso, inicialmente  descrito por Freeman\cite{freeman1974computer}, aproximando un contorno cerrado por una secuencia de trayectorias con 8 posibles valores. El código de un contorno es la cadena \(V\) de longitud \(K\):
 \begin{equation}
 	V = a_1a_2a_3...a_K,
 \end{equation}
@@ -35,12 +37,12 @@ En la Figura~\ref{fig:fig15} se puede observar como un contorno cerrado separado
 \end{equation}
 \begin{figure}[H]
 	\centering 
-	\includegraphics[scale=1]{codigoCadena.png}
+	\includegraphics[scale=1]{figuras/codigoCadena.png}
 	\caption{Representación gráfica del código de cadena de un contorno cerrado \cite{Kuhl1982}}
 	\label{fig:fig15}
 \end{figure}
 
-Debido a que el cambio en el código de cadena esa constante y no varía, los coeficientes pueden ser encontrados más fácilmente. Por lo que los coeficientes de la componente \(x\) son:
+Debido a que el cambio en el código de cadena esa constante, los coeficientes pueden ser encontrados más fácilmente. Por lo que los coeficientes de la componente \(x\) son:
 \begin{equation}
 	a_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta x_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}]
 \end{equation}
@@ -49,16 +51,16 @@ Debido a que el cambio en el código de cadena esa constante y no varía, los coef
 \end{equation}
 donde, la K es el número de píxeles del contorno, \(T\) el período fundamental, \(\Delta x_p\) el cambio en el eje de las x, \(\Delta t_p\) el cambio en el tiempo.
 
-Con eso obtendríamos los coeficientes de la componente \(x\), pero como una imagen es una señal en dos dimensiones necesitamos también obtener los coeficientes de la componente \(y\).
+Con eso obtendríamos los coeficientes de la componente \(x\), pero como una imagen es una señal en dos dimensiones, además el cambio de la \(x\) no siempre sera igual al cambio en las \(y\), necesitamos también obtener los coeficientes de la componente \(y\).
 \begin{equation}
 	c_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\cos{\frac{2n\pi t_p}{T}} - \cos{\frac{2n\pi t_{p-1}}{T}}]
 \end{equation}
 \begin{equation}
 	d_n = \frac{T}{2n^2\pi^2}\sum_{p = 1}^{K}\frac{\Delta y_p}{\Delta t_p}[\sin{\frac{2n\pi t_p}{T}} - \sin{\frac{2n\pi t_{p-1}}{T}}]
 \end{equation}
-Con eso ya se tendría los coeficientes necesarios, debido a que el cambio de la \(x\) no siempre sera igual al cambio en las \(y\), Fourier Elíptico generaría elipses en vez de círculos como el método tradicional.
+Las cuatro expresiones anteriores conforman los coeficientes de Fourier elíptico. Cabe notar que su nombre se debe a que genera fasores elípticos en lugar de circulares como el método tradicional.
 
-Para que este método obtenga la invarianza a la escala, rotación y traslación, es necesario aplicar una normalización y ajustar los ángulos en los que va a iniciar cada elipse, para que independientemente la escala, rotación y traslación que tenga el contorno cerrado, siempre de el mismo resultado.
+Para que este método obtenga la invarianza a la escala, rotación y traslación, es necesario aplicar una normalización y ajustar los ángulos en los que va a iniciar cada elipse, para que independientemente de estas tres características del contorno cerrado siempre de el mismo resultado. La expresión para normalizar es la siguiente
 \begin{equation}
 	E_p = ((A_0-x_p)^2 + (C_0-y_p)^2)^\frac{1}{2}
 \end{equation}
@@ -100,12 +102,12 @@ Al iniciar el cálculo de los coeficientes, se tendría que obtener \(E_1\), \(\th
 	1c^{**}_n & 1d^{**}_n
 	\end{bmatrix}
 \end{equation}
-El resultado de la ecuación 3.11 nos daría los coeficientes \(a,b,c,d\) para el \(n\) armónico que se está calculando. Siendo invariante a la escala, rotación y traslación. Para más información, consultar \cite{Kuhl1982}.
+El resultado de la ecuación 3.11 nos daría los coeficientes \(a,b,c,d\) para el \(n\) armónico que se está calculando. Siendo invariante a la escala, rotación y traslación. Los detalles pueden ser consultados en \cite{Kuhl1982}.
 \section{Algoritmo para estimar la redondez}
 
-Debido a que el término de redondez es de segundo orden, por lo tanto más complejo, se propuso utilizar el algoritmo de Zheng \cite{Zheng2016}. Basado en la propuesta de Wadell \cite{Wadell1935} consiste en identificar círculos en cada una de las esquinas y que se ajusten a ellas. Resulta complejo debido a que el número de esquinas varía de partícula a partícula.
+El término de redondez es una característica morfológica más compleja que la forma. Se dice que es de segundo orden porque esta superpuesta a la forma, esto la hace independiente. Como mencionamos anteriormente, la redondez se medirá mediante la métrica propuesta de Wadell \cite{Wadell1935} que consiste en identificar las principales curvaturas (esquinas) del contorno. El concepto es simple pero su algoritmo es complejo debido a que el número y grado de curvatura depende del tamaño del contorno. Proponemos utilizar el algoritmo desarrollado por Zheng \cite{Zheng2016} el cual detallamos en seguida. 
 
- Iniciamos obteniendo el radio del máximo círculo circunscrito de la partícula: el paso a) es tener nuestra imagen de la partícula en binario, en el paso b) es transformar nuestra imagen en un mapa de distancias euclidianas, una matriz que nos indica que tan retirado esta un píxel de un contorno cerrado, entre más distancia alla, más valor va a tener; y por último, en el paso c), agarramos el píxel más retirado del contorno de la partícula como el centro del círculo, y su valor en la matriz del paso b) será el radio. En la Figura~\ref{fig:circunFlujo} se observan estos pasos antes mencionados.
+El primer bloque consiste en obtener el radio del máximo círculo circunscrito de la partícula. Siguiendo la Figura~\ref{fig:circunFlujo}, el paso a) es tener nuestra imagen de la partícula en binario, en el paso b) es transformar nuestra imagen en un mapa de distancias euclidianas, una matriz que nos indica que tan retirado esta un píxel de un contorno cerrado, entre más distancia, mayor será el valor; y por último, en el paso c), seleccionamos el píxel más retirado del contorno de la partícula como el centro del círculo, b) y su distancia euclidiana será el radio. 
 
 \begin{figure}[H]
 	\centering 
@@ -132,15 +134,15 @@ En la figura~\ref{fig:suavFourier}, se observa el suavizado generado por Fourier
 	\label{fig:flujoCirculos}
 \end{figure}
 
-En la Figura~\ref{fig:circunFlujo} se muestra como obtener los círculos. (a) tenemos el contorno de la partícula; (b) remarcamos las posibles partes del contorno que podrían ser esquinas utilizando geometría computacional; (c) en base a discriminar las regiones por medio de la curvatura y longitud que poseén, se seleccionan las esquinas y se aproxima un círculo para representarlas.
+En la Figura~\ref{fig:circunFlujo} se muestra como obtener los círculos. (a) tenemos el contorno de la partícula; (b) remarcamos las  partes del contorno que podrían ser esquinas utilizando geometría computacional; (c) se discriminan regiones segúns su curvatura y longitud, así se seleccionan las esquinas y se ajusta un círculo (radio de curvatura) para representarlas.
 \begin{equation}
 	\label{eqn:roundness}
 	\frac{\sum{\frac{r}{R}}}{N} = \text{Grado de redondez}
 \end{equation}
-Una vez obtenido lo anterior, se pasa a calcular el grado de redondez, la fórmula~\ref{eqn:roundness}. La parte del numerador es el promedio de los radios de todos los círculos de las esquinas entre el radio del círculo circunscrito más grande en la partícula, obteniendo un valor que esta entre 0 y 1, como se describe en el artículo de Zheng y Hryciw \cite{Zheng2016}.
+Una vez obtenido lo anterior, se pasa a calcular el grado de redondez usando la ecuación ~\ref{eqn:roundness}. El numerador es el promedio de los radios de todos los círculos de las esquinas y el denominador corresponde al radio del círculo circunscrito más grande en la partícula. El resultado de está relación es un valor entre 0 y 1, como se describe en el artículo de Zheng y Hryciw \cite{Zheng2016}.
 
-Solo existe un pequeño problema con este algoritmo, se tiene que ajustar ciertos problemas para que pueda funcionar de manera correcta con todas las partículas ya que no es invariante a la escala, lo que ocasionaría en que se obtenga un grado de redondez diferente al real dependiendo de la escala de cada partícula, solo hay que tener mucho cuidado con estos parámetros.
-
+El mayor inconveniente con este algoritmo es que tres parámetros dependen del tamaño de la partícula. Un valor mal seleccionado puede producir un error considerable en estimación de la redondez. Los mismo autores sugieren un método para sintonizar estos parámetros, sin embargo, en muchos casos se tiene que realizar una corrección manual. Esto reduce el número de imágenes en las que puede funcionar de manera no supervisada.
+ 
 \section{Redes neuronales}
 
 Una red neuronal artificial es un tipo de algoritmo de \textit{Machine Learning} el cual trata de simular el comportamiento del cerebro, al cual le llega una entrada, por medio de neuronas que se activan o no, se obtiene un resultado.
@@ -167,7 +169,7 @@ En la Figura~\ref{fig:arqRedNeuronal} se observa la arquitectura de una red neur
 
 \subsection{Funciones de Activación}
 
-Las funciones de activación tienen como objetivo el acotar los valores de salida de una neurona a un cierto rango de valores. La selección de las funciones de activación dependerá del problema con el cual se este manejando. Existen funciones lineales y no lineales, solamente que las lineales tienen un uso exclusivo unicamente cuando el problema se trate de regresión, y solamente en la capa de salida.
+Las funciones de activación tienen como objetivo el acotar los valores de salida de una neurona a un cierto rango de valores. La selección de las funciones de activación dependerá del problema con el cual se este manejando. Existen funciones lineales y no lineales. Las lineales tienen un uso exclusivo, cuando el problema se trata de regresión y solamente en la capa de salida.
 
 \begin{figure}[H]
 	\centering 
@@ -180,7 +182,7 @@ Las funciones de activación tienen como objetivo el acotar los valores de salida
 	\label{eqn:sigmoid}
 	g(x)= \sigma(x)= \frac{1}{1+e^{-x}} \;\;\;\;\;\;\;\; g'(x)= \sigma(x)(1-\sigma(x))
 \end{equation} 
-La primer función de activación que surgió fue la Sigmoide, representada en la Figura ~\ref{fig:sigmoid} y expresada por la función \(g(x)\) y su derivada \(g'(x)\) ~\ref{eqn:sigmoid}. Utilizada principalmente para clasificar un conjunto de datos en 2 clases. La utilización de ella se ha visto mermada porque presenta 2 grandes problemas a la hora de utilizarla como función de activación en las capas ocultas:
+La primer función de activación que surgió fue la Sigmoide, representada en la Figura ~\ref{fig:sigmoid} y expresada por la función \(g(x)\) y su derivada \(g'(x)\) ~\ref{eqn:sigmoid}. Utilizada principalmente para clasificar un conjunto de datos en 2 clases. La utilización de ella se ha visto mermada porque presenta dos grandes problemas cuando se utiliza como función de activación en las capas ocultas:
 
 \begin{itemize}
 	\item Asimetría positiva
@@ -188,7 +190,7 @@ La primer función de activación que surgió fue la Sigmoide, representada en la F
 	\item Utilización de la función exponencial es costoso.
 \end{itemize}
 
-La asimetría positiva provoca que el gradiente se vuelva muy ineficiente a la hora de buscar el mínimo, debido a que solo puede tomar direcciones totalmente negativas o totalmente positivas,haciendo como una especie de zigzag hasta encontrar el punto mínimo. El desvanecimiento del gradiente se puede observar en la Figura ~\ref{fig:sigmoid}, ya que, a medida que los valores de x van incrementando, el valor de la derivada va teniendo a 0, provocando que no haya una retroalimentación a la hora de retropropagar hacia atrás, terminando en que se la red neuronal deje de aprender ya que sus pesos no se van a ir actualizando.
+La asimetría positiva provoca que el gradiente se vuelva ineficiente en la búsqueda del mínimo, debido a que sólo puede tomar direcciones totalmente negativas o totalmente positivas, haciendo como una especie de zigzag hasta encontrar el punto mínimo. El desvanecimiento del gradiente se puede observar en la Figura ~\ref{fig:sigmoid}, ya que, a medida que los valores de x van incrementando, el valor de la derivada va teniendo a 0, provocando que no haya una retroalimentación a la hora de retropropagar hacia atrás, terminando en que se la red neuronal deje de aprender ya que sus pesos no se van a ir actualizando.
 
 La función se puede seguir usando en la capa de salida pero solo sí el problema lo requiere. Las funciones posteriores trataron de eliminar estos problemas antes mencionados
 

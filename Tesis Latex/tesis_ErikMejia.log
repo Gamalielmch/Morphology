@@ -1,57 +1,49 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.9)  17 NOV 2020 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.19)  24 NOV 2020 22:57
 entering extended mode
-**./tesis_ErikMejia.tex
-(tesis_ErikMejia.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-05-15> (uaztesis.cls
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inpute
-nc.sty"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tesis_ErikMejia.tex
+(./tesis_ErikMejia.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./uaztesis.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latin1
-.def"
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
-ssymb.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\am
-sfonts.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
-math.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
-text.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
-gen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks17
 \ex@=\dimen134
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
-bsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen135
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\ams
-opn.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count167
@@ -74,57 +66,49 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count174
 \dspbrk@lvl=\count175
-\tag@help=\toks19
+\tag@help=\toks18
 \row@=\count176
 \column@=\count177
 \maxfields@=\count178
-\andhelp@=\toks20
+\andhelp@=\toks19
 \eqnshift@=\dimen137
 \alignsep@=\dimen138
 \tagshift@=\dimen139
 \tagwidth@=\dimen140
 \totwidth@=\dimen141
 \lineht@=\dimen142
-\@envbody=\toks21
+\@envbody=\toks20
 \multlinegap=\skip48
 \multlinetaggap=\skip49
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\co
-lor.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
-g\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-de
-f\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
-aphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ke
-yval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks22
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gr
-aphics.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tr
-ig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cf
-g\graphics.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -132,8 +116,7 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen143
 \Gin@req@width=\dimen144
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/curves\curv
-es.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/curves/curves.sty
 Package: curves 2017/08/25 1.55 Curves for LaTeX picture environment
 \;sc=\count179
 \;scp=\count180
@@ -162,26 +145,24 @@ Package: curves 2017/08/25 1.55 Curves for LaTeX picture environment
 \;ucd=\skip60
 \;csbox=\box47
 \;pt=\box48
-\;strline=\toks24
-\m;ssingcoord=\toks25
-\;negdash=\toks26
-\;oddcoord=\toks27
+\;strline=\toks23
+\m;ssingcoord=\toks24
+\;negdash=\toks25
+\;oddcoord=\toks26
 \;wc=\count193
 \;X=\skip61
 \;Y=\skip62
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ep
-sfig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen145
 \epsfysize=\dimen146
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\time
-s.sty"
-Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 Usando m\'argenes y defaults de Tesis de maestr\IeC {\'\i }a
-(withe12.sty
+(./withe12.sty
 Style Option `mythe12' v1.0 <24 May 00>
 \majorheadskip=\skip63
 \@appendlen=\skip64
@@ -207,31 +188,14 @@ Style Option `mythe12' v1.0 <24 May 00>
 \c@currentminute=\count276
 \@testday=\count277
 \c@theorem=\count278
-)
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\t
-ocbibind.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)
-Runaway argument?
-{\newcommand {\bibsection }{\t@cb@bchapsec } \renewenvironment {thebi\ETC.
-! File ended while scanning use of \@secondoftwo.
-<inserted text> 
-                \par 
-l.7 \usepackage
-               {amssymb,amsmath,amsfonts}
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subf
-ig.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
 
@@ -256,10 +220,9 @@ Package subfig Warning: Your document class has a bad definition
  can't take effect on \endtable.
  Please complain to your document class author.
 
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
-tion3.sty"
-Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen148
 \captionmargin@=\dimen149
 \captionwidth=\dimen150
@@ -272,7 +235,7 @@ Package: caption3 2020/08/30 v2.0 caption3 kernel (AR)
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \singlespa
-ce \centering #1\ \ #2 on input line 1120.
+ce \centering #1\ \ #2 on input line 1082.
 )
 \c@KVtest=\count279
 \sf@farskip=\skip68
@@ -288,177 +251,150 @@ ce \centering #1\ \ #2 on input line 1120.
 \sf@top=\skip71
 \sf@bottom=\skip72
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\mu
-ltirow.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip73
 \multirow@cntb=\count286
 \multirow@dima=\skip74
 \bigstrutjot=\dimen156
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\ro
-tating.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen
-.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count287
 \rotFPtop=\skip75
 \rotFPbot=\skip76
 \rot@float@box=\box49
-\rot@mess@toks=\toks28
+\rot@mess@toks=\toks27
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fonten
-c.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
 2.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pt
-m.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hy
-perref.sty"
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\l
-txcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ift
-ex.sty"
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\
-pdftexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr
-\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys
-\kvsetkeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinek
-eys\kvdefinekeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape
-\pdfescape.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hyc
-olor.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro
-\letltxmacro.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\aux
-hook.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\k
-voptions.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen157
 \Hy@linkcounter=\count288
 \Hy@pagecounter=\count289
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd
-1enc.def"
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\i
-ntcalc.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\
-etexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count290
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+\pdfmajorversion=\count291
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count291
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count292
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty
-"
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen158
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bi
-tset.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcal
-c\bigintcalc.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count292
+\Fld@menulength=\count293
 \Field@Width=\dimen159
 \Fld@charsize=\dimen160
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\
-atbegshi.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hp
-dftex.def"
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\a
-tveryend.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilech
-eck\rerunfilecheck.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecou
-nter\uniquecounter.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -466,74 +402,69 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip77
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float
-.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count298
-\float@exts=\toks29
+\c@float@type=\count299
+\float@exts=\toks28
 \float@box=\box50
-\@float@everytoks=\toks30
+\@float@everytoks=\toks29
 \@floatcapt=\box51
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
-blatex.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\et
-oolbox.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
+\etb@tempcnta=\count300
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logr
-eq.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count300
+\lrq@indent=\count301
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logr
-eq.def"
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count301
-\c@listtotal=\count302
-\c@listcount=\count303
-\c@liststart=\count304
-\c@liststop=\count305
-\c@citecount=\count306
-\c@citetotal=\count307
-\c@multicitecount=\count308
-\c@multicitetotal=\count309
-\c@instcount=\count310
-\c@maxnames=\count311
-\c@minnames=\count312
-\c@maxitems=\count313
-\c@minitems=\count314
-\c@citecounter=\count315
-\c@maxcitecounter=\count316
-\c@savedcitecounter=\count317
-\c@uniquelist=\count318
-\c@uniquename=\count319
-\c@refsection=\count320
-\c@refsegment=\count321
-\c@maxextratitle=\count322
-\c@maxextratitleyear=\count323
-\c@maxextraname=\count324
-\c@maxextradate=\count325
-\c@maxextraalpha=\count326
-\c@abbrvpenalty=\count327
-\c@highnamepenalty=\count328
-\c@lownamepenalty=\count329
-\c@maxparens=\count330
-\c@parenlevel=\count331
-\blx@tempcnta=\count332
-\blx@tempcntb=\count333
-\blx@tempcntc=\count334
-\blx@maxsection=\count335
-\blx@maxsegment@0=\count336
-\blx@notetype=\count337
-\blx@parenlevel@text=\count338
-\blx@parenlevel@foot=\count339
-\blx@sectionciteorder@0=\count340
-\blx@entrysetcounter=\count341
+\c@tabx@nest=\count302
+\c@listtotal=\count303
+\c@listcount=\count304
+\c@liststart=\count305
+\c@liststop=\count306
+\c@citecount=\count307
+\c@citetotal=\count308
+\c@multicitecount=\count309
+\c@multicitetotal=\count310
+\c@instcount=\count311
+\c@maxnames=\count312
+\c@minnames=\count313
+\c@maxitems=\count314
+\c@minitems=\count315
+\c@citecounter=\count316
+\c@maxcitecounter=\count317
+\c@savedcitecounter=\count318
+\c@uniquelist=\count319
+\c@uniquename=\count320
+\c@refsection=\count321
+\c@refsegment=\count322
+\c@maxextratitle=\count323
+\c@maxextratitleyear=\count324
+\c@maxextraname=\count325
+\c@maxextradate=\count326
+\c@maxextraalpha=\count327
+\c@abbrvpenalty=\count328
+\c@highnamepenalty=\count329
+\c@lownamepenalty=\count330
+\c@maxparens=\count331
+\c@parenlevel=\count332
+\blx@tempcnta=\count333
+\blx@tempcntb=\count334
+\blx@tempcntc=\count335
+\blx@maxsection=\count336
+\blx@maxsegment@0=\count337
+\blx@notetype=\count338
+\blx@parenlevel@text=\count339
+\blx@parenlevel@foot=\count340
+\blx@sectionciteorder@0=\count341
+\blx@entrysetcounter=\count342
 \labelnumberwidth=\skip78
 \labelalphawidth=\skip79
 \biblabelsep=\skip80
@@ -544,87 +475,86 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \bibhang=\skip85
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\blx@langwohyphens=\language78
-\c@mincomprange=\count342
-\c@maxcomprange=\count343
-\c@mincompwidth=\count344
+\blx@langwohyphens=\language85
+\c@mincomprange=\count343
+\c@maxcomprange=\count344
+\c@mincompwidth=\count345
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bl
-x-dm.def"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count345
-\c@savedafterword=\count346
-\c@annotator=\count347
-\c@savedannotator=\count348
-\c@author=\count349
-\c@savedauthor=\count350
-\c@bookauthor=\count351
-\c@savedbookauthor=\count352
-\c@commentator=\count353
-\c@savedcommentator=\count354
-\c@editor=\count355
-\c@savededitor=\count356
-\c@editora=\count357
-\c@savededitora=\count358
-\c@editorb=\count359
-\c@savededitorb=\count360
-\c@editorc=\count361
-\c@savededitorc=\count362
-\c@foreword=\count363
-\c@savedforeword=\count364
-\c@holder=\count365
-\c@savedholder=\count366
-\c@introduction=\count367
-\c@savedintroduction=\count368
-\c@namea=\count369
-\c@savednamea=\count370
-\c@nameb=\count371
-\c@savednameb=\count372
-\c@namec=\count373
-\c@savednamec=\count374
-\c@translator=\count375
-\c@savedtranslator=\count376
-\c@shortauthor=\count377
-\c@savedshortauthor=\count378
-\c@shorteditor=\count379
-\c@savedshorteditor=\count380
-\c@labelname=\count381
-\c@savedlabelname=\count382
-\c@institution=\count383
-\c@savedinstitution=\count384
-\c@lista=\count385
-\c@savedlista=\count386
-\c@listb=\count387
-\c@savedlistb=\count388
-\c@listc=\count389
-\c@savedlistc=\count390
-\c@listd=\count391
-\c@savedlistd=\count392
-\c@liste=\count393
-\c@savedliste=\count394
-\c@listf=\count395
-\c@savedlistf=\count396
-\c@location=\count397
-\c@savedlocation=\count398
-\c@organization=\count399
-\c@savedorganization=\count400
-\c@origlocation=\count401
-\c@savedoriglocation=\count402
-\c@origpublisher=\count403
-\c@savedorigpublisher=\count404
-\c@publisher=\count405
-\c@savedpublisher=\count406
-\c@language=\count407
-\c@savedlanguage=\count408
-\c@origlanguage=\count409
-\c@savedoriglanguage=\count410
-\c@pageref=\count411
-\c@savedpageref=\count412
+\c@afterword=\count346
+\c@savedafterword=\count347
+\c@annotator=\count348
+\c@savedannotator=\count349
+\c@author=\count350
+\c@savedauthor=\count351
+\c@bookauthor=\count352
+\c@savedbookauthor=\count353
+\c@commentator=\count354
+\c@savedcommentator=\count355
+\c@editor=\count356
+\c@savededitor=\count357
+\c@editora=\count358
+\c@savededitora=\count359
+\c@editorb=\count360
+\c@savededitorb=\count361
+\c@editorc=\count362
+\c@savededitorc=\count363
+\c@foreword=\count364
+\c@savedforeword=\count365
+\c@holder=\count366
+\c@savedholder=\count367
+\c@introduction=\count368
+\c@savedintroduction=\count369
+\c@namea=\count370
+\c@savednamea=\count371
+\c@nameb=\count372
+\c@savednameb=\count373
+\c@namec=\count374
+\c@savednamec=\count375
+\c@translator=\count376
+\c@savedtranslator=\count377
+\c@shortauthor=\count378
+\c@savedshortauthor=\count379
+\c@shorteditor=\count380
+\c@savedshorteditor=\count381
+\c@labelname=\count382
+\c@savedlabelname=\count383
+\c@institution=\count384
+\c@savedinstitution=\count385
+\c@lista=\count386
+\c@savedlista=\count387
+\c@listb=\count388
+\c@savedlistb=\count389
+\c@listc=\count390
+\c@savedlistc=\count391
+\c@listd=\count392
+\c@savedlistd=\count393
+\c@liste=\count394
+\c@savedliste=\count395
+\c@listf=\count396
+\c@savedlistf=\count397
+\c@location=\count398
+\c@savedlocation=\count399
+\c@organization=\count400
+\c@savedorganization=\count401
+\c@origlocation=\count402
+\c@savedoriglocation=\count403
+\c@origpublisher=\count404
+\c@savedorigpublisher=\count405
+\c@publisher=\count406
+\c@savedpublisher=\count407
+\c@language=\count408
+\c@savedlanguage=\count409
+\c@origlanguage=\count410
+\c@savedoriglanguage=\count411
+\c@pageref=\count412
+\c@savedpageref=\count413
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -642,15 +572,13 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bl
-x-compat.def"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bl
-x-bibtex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
 File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 
 
@@ -660,44 +588,39 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
-blatex.def"
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count413
-\c@textcitetotal=\count414
-\c@textcitemaxnames=\count415
-\c@biburlbigbreakpenalty=\count416
-\c@biburlbreakpenalty=\count417
-\c@biburlnumpenalty=\count418
-\c@biburlucpenalty=\count419
-\c@biburllcpenalty=\count420
+\c@textcitecount=\count414
+\c@textcitetotal=\count415
+\c@textcitemaxnames=\count416
+\c@biburlbigbreakpenalty=\count417
+\c@biburlbreakpenalty=\count418
+\c@biburlnumpenalty=\count419
+\c@biburlucpenalty=\count420
+\c@biburllcpenalty=\count421
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count421
+\c@smartand=\count422
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
-x\numeric.bbx"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bb
-x\standard.bbx"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count422
-\c@bbx:relatedtotal=\count423
+\c@bbx:relatedcount=\count423
+\c@bbx:relatedtotal=\count424
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cb
-x\numeric.cbx"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
 File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -714,19 +637,17 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\bi
-blatex.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\ti
-tlesec.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box52
 \beforetitleunit=\skip100
 \aftertitleunit=\skip101
 \ttl@plus=\dimen161
 \ttl@minus=\dimen162
-\ttl@toksa=\toks31
+\ttl@toksa=\toks30
 \titlewidth=\dimen163
 \titlewidthlast=\dimen164
 \titlewidthfirst=\dimen165
@@ -749,83 +670,68 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\cap
-tion.sty"
-Package: caption 2020/09/02 v3.5a Customizing captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count424
-\c@continuedfloat=\count425
+\c@caption@flags=\count425
+\c@continuedfloat=\count426
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
-)
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/threepartta
-ble\threeparttable.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box53
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lips
-um.sty"
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\ex
-pl3.sty"
-Package: expl3 2020-05-15 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l
-3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count426
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count427
 \l__pdf_internal_box=\box54
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/
-xparse\xparse.sty"
-Package: xparse 2020-05-15 L3 Experimental document command parser
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/
-xparse\xparse-generic.tex"
-\l__xparse_current_arg_int=\count427
-\g__xparse_grabber_int=\count428
-\l__xparse_m_args_int=\count429
-\l__xparse_v_nesting_int=\count430
-))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count428
+\g__xparse_grabber_int=\count429
+\l__xparse_m_args_int=\count430
+\l__xparse_v_nesting_int=\count431
+)
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lips
-um.ltd.tex"
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\m
-athtools.sty"
-Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.
-sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count431
-\calc@Bcount=\count432
+\calc@Acount=\count432
+\calc@Bcount=\count433
 \calc@Adimen=\dimen166
 \calc@Bdimen=\dimen167
 \calc@Askip=\skip102
 \calc@Bskip=\skip103
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count433
+\calc@Ccount=\count434
 \calc@Cskip=\skip104
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\m
-hsetup.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count434
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count435
 \l_MT_multwidth_dim=\dimen168
 \origjot=\skip105
 \l_MT_shortvdotswithinadjustabove_dim=\dimen169
@@ -834,17 +740,13 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \l_MT_below_intertext_sep=\dimen172
 \l_MT_above_shortintertext_sep=\dimen173
 \l_MT_below_shortintertext_sep=\dimen174
-\xmathstrut@box=\box55
-\xmathstrut@dim=\dimen175
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ncctools\nc
-cmath.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/ncctools/nccmath.sty
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
-\NCC@fracrulewidth=\dimen176
+\NCC@fracrulewidth=\dimen175
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\sub
-caption.sty"
-Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
 
 
 ! Package subcaption Error: This package can't be used in cooperation
@@ -854,7 +756,7 @@ See the subcaption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \subcaption@CheckCompatibility
+l.62 \subcaption@CheckCompatibility
                                    
 If you do not understand this error, please take a closer look
 at the documentation of the `subcaption' package, especially the
@@ -862,11 +764,9 @@ section about errors.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-)
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyphenat\hy
-phenat.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language79
+\langwohyphens=\language86
 LaTeX Info: Redefining \_ on input line 43.
 )
 
@@ -887,9 +787,7 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/setspace\se
-tspace.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 
 
@@ -932,10 +830,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\@quotelevel=\count435
-\@quotereset=\count436
-(tesis_ErikMejia.aux (Cap1_Introduccion.aux) (Cap2_Cuerpo_tesis.aux)
-(Cap3_Ecuaciones.aux) (Cap4_Resultados.aux) (Cap5_Conclusiones.aux))
+\@quotelevel=\count436
+\@quotereset=\count437
+(./tesis_ErikMejia.aux (./Cap1_Introduccion.aux) (./Cap2_Cuerpo_tesis.aux)
+(./Cap3_Ecuaciones.aux) (./Cap4_Resultados.aux) (./Cap5_Conclusiones.aux))
 \openout1 = `tesis_ErikMejia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -955,60 +853,58 @@ LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
-\supp-pdf.mkii"
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count437
-\scratchdimen=\dimen177
-\scratchbox=\box56
-\nofMPsegments=\count438
-\nofMParguments=\count439
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count440
-\MPscratchDim=\dimen178
-\MPnumerator=\count441
-\makeMPintoPDFobject=\count442
-\everyMPtoPDFconversion=\toks33
-)
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pk
-g\epstopdf-base.sty"
+\scratchcounter=\count438
+\scratchdimen=\dimen176
+\scratchbox=\box55
+\nofMPsegments=\count439
+\nofMParguments=\count440
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count441
+\MPscratchDim=\dimen177
+\MPnumerator=\count442
+\makeMPintoPDFobject=\count443
+\everyMPtoPDFconversion=\toks32
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box57
+\AtBeginShipoutBox=\box56
 Package hyperref Info: Link coloring OFF on input line 54.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\na
-meref.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\re
-fcount.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitles
-tring\gettitlestring.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count443
+\c@section@level=\count444
 )
 LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
 LaTeX Info: Redefining \nameref on input line 54.
- (tesis_ErikMejia.out) (tesis_ErikMejia.out)
+
+(./tesis_ErikMejia.out) (./tesis_ErikMejia.out)
 \@outlinefile=\write4
 \openout4 = `tesis_ErikMejia.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lb
-x\english.lbx"
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'latin1' detected.
@@ -1021,7 +917,8 @@ Package biblatex Info: Data encoding 'latin1' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis_ErikMejia.bbl' found.
- (tesis_ErikMejia.bbl)
+
+(./tesis_ErikMejia.bbl)
 Package biblatex Info: Reference section=0 on input line 54.
 Package biblatex Info: Reference segment=0 on input line 54.
 
@@ -1030,13 +927,13 @@ LaTeX Warning: File `logoUAZnuevo.eps' not found on input line 99.
 
 Package epstopdf Info: Source file: <logoUAZnuevo.eps>
 (epstopdf)             Output file: <logoUAZnuevo-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-11 10:00:15
+(epstopdf)                    date: 2020-08-20 11:04:28
 (epstopdf)                    size: 59590 bytes
-(epstopdf)             Command: <epstopdf --outfile=logoUAZnuevo-eps-converted-
-to.pdf logoUAZnuevo.eps>
+(epstopdf)             Command: <repstopdf --outfile=logoUAZnuevo-eps-converted
+-to.pdf logoUAZnuevo.eps>
 (epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
-<logoUAZnuevo-eps-converted-to.pdf, id=119, 149.358pt x 134.30174pt>
+<logoUAZnuevo-eps-converted-to.pdf, id=120, 149.358pt x 134.30174pt>
 File: logoUAZnuevo-eps-converted-to.pdf Graphic file (type pdf)
 <use logoUAZnuevo-eps-converted-to.pdf>
 Package pdftex.def Info: logoUAZnuevo-eps-converted-to.pdf  used on input line 
@@ -1045,24 +942,22 @@ Package pdftex.def Info: logoUAZnuevo-eps-converted-to.pdf  used on input line
 [1
 
 
-{C:/Users/HeavyRain350/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lo
-goUAZnuevo-eps-converted-to.pdf>] (tesis_ErikMejia.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logoUAZnuevo-eps-convert
+ed-to.pdf>] (./tesis_ErikMejia.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
-sa.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
-sb.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...ptico y redes neuronales}{28}{section.3.1}
+l.43 ...ptico y redes neuronales}{29}{section.3.1}
                                                   % [1
 
 ])
@@ -1070,7 +965,7 @@ l.43 ...ptico y redes neuronales}{28}{section.3.1}
 \openout5 = `tesis_ErikMejia.toc'.
 
  [2]
-(tesis_ErikMejia.lof
+(./tesis_ErikMejia.lof
 Underfull \hbox (badness 1565) in paragraph at lines 19--19
  [][] [][]\T1/ptm/m/n/12 Una rep-re-sentación sim-pli-fi-cada de la forma, re-d
 ondez y ru-gosi-dad en 3 
@@ -1079,26 +974,26 @@ ondez y ru-gosi-dad en 3
 [3
 
 ] [4]
-Underfull \hbox (badness 1565) in paragraph at lines 63--63
+Underfull \hbox (badness 1062) in paragraph at lines 63--63
  [][] [][]\T1/ptm/m/n/12 Arquitectura fi-nal de la red neu-ronal para pre-de-ci
-r la re-dondez de ro-cas 
+r la re-dondez de ro-cas1 
  []
 
 )
 \tf@lof=\write6
 \openout6 = `tesis_ErikMejia.lof'.
 
- [5]
+ [5] [6]
 \openout2 = `Cap1_Introduccion.aux'.
 
- (Cap1_Introduccion.tex
+ (./Cap1_Introduccion.tex
 Cap\IeC {\'\i }tulo 1. Introducci\'on
 [1
 
 
 
 ] [2]
-<figuras/fig1.png, id=296, 1485.75075pt x 1332.77925pt>
+<figuras/fig1.png, id=302, 1485.75075pt x 1332.77925pt>
 File: figuras/fig1.png Graphic file (type png)
 <use figuras/fig1.png>
 Package pdftex.def Info: figuras/fig1.png  used on input line 28.
@@ -1118,9 +1013,9 @@ and I'll forget about whatever was undefined.
 [3 <./figuras/fig1.png>] [4] [5] [6]) [7]
 \openout2 = `Cap2_Cuerpo_tesis.aux'.
 
- (Cap2_Cuerpo_tesis.tex
+ (./Cap2_Cuerpo_tesis.tex
 Cap\IeC {\'\i }tulo 2. Marco Te\'orico
-<figuras/fig2.jpg, id=348, 443.40656pt x 316.93407pt>
+<figuras/fig2.jpg, id=355, 443.40656pt x 316.93407pt>
 File: figuras/fig2.jpg Graphic file (type jpg)
 <use figuras/fig2.jpg>
 Package pdftex.def Info: figuras/fig2.jpg  used on input line 7.
@@ -1141,7 +1036,7 @@ and I'll forget about whatever was undefined.
 
 
 ]
-<figuras/fig3.jpg, id=356, 722.7pt x 542.025pt>
+<figuras/fig3.jpg, id=363, 722.7pt x 542.025pt>
 File: figuras/fig3.jpg Graphic file (type jpg)
 <use figuras/fig3.jpg>
 Package pdftex.def Info: figuras/fig3.jpg  used on input line 17.
@@ -1165,7 +1060,7 @@ gneas, sed-i-men-ta-rias y
  []
 
 [10 <./figuras/fig3.jpg>]
-<figuras/fig4.jpg, id=367, 1156.32pt x 546.24075pt>
+<figuras/fig4.jpg, id=374, 1156.32pt x 546.24075pt>
 File: figuras/fig4.jpg Graphic file (type jpg)
 <use figuras/fig4.jpg>
 Package pdftex.def Info: figuras/fig4.jpg  used on input line 30.
@@ -1187,7 +1082,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [11 <./figuras/fig4.jpg>] [12]
-<figuras/fig6.jpg, id=377, 468.24937pt x 482.55281pt>
+<figuras/fig6.jpg, id=385, 468.24937pt x 482.55281pt>
 File: figuras/fig6.jpg Graphic file (type jpg)
 <use figuras/fig6.jpg>
 Package pdftex.def Info: figuras/fig6.jpg  used on input line 56.
@@ -1205,7 +1100,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [13 <./figuras/fig6.jpg>] [14] [15]
-<figuras/fig7.jpg, id=393, 331.2375pt x 437.83575pt>
+<figuras/fig7.jpg, id=400, 331.2375pt x 437.83575pt>
 File: figuras/fig7.jpg Graphic file (type jpg)
 <use figuras/fig7.jpg>
 Package pdftex.def Info: figuras/fig7.jpg  used on input line 71.
@@ -1223,7 +1118,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [16 <./figuras/fig7.jpg>]
-<figuras/fig9.jpg, id=398, 770.88pt x 403.5075pt>
+<figuras/fig9.jpg, id=405, 770.88pt x 403.5075pt>
 File: figuras/fig9.jpg Graphic file (type jpg)
 <use figuras/fig9.jpg>
 Package pdftex.def Info: figuras/fig9.jpg  used on input line 80.
@@ -1241,7 +1136,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [17]
-<figuras/fig10.jpg, id=405, 903.375pt x 472.76625pt>
+<figuras/fig10.jpg, id=412, 903.375pt x 472.76625pt>
 File: figuras/fig10.jpg Graphic file (type jpg)
 <use figuras/fig10.jpg>
 Package pdftex.def Info: figuras/fig10.jpg  used on input line 91.
@@ -1259,10 +1154,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [18 <./figuras/fig9.jpg>] [19 <./figuras/fig10.jpg>]
-<Figuras/fig11.png, id=418, 359.84438pt x 322.95656pt>
-File: Figuras/fig11.png Graphic file (type png)
-<use Figuras/fig11.png>
-Package pdftex.def Info: Figuras/fig11.png  used on input line 110.
+<figuras/fig11.png, id=425, 359.84438pt x 322.95656pt>
+File: figuras/fig11.png Graphic file (type png)
+<use figuras/fig11.png>
+Package pdftex.def Info: figuras/fig11.png  used on input line 110.
 (pdftex.def)             Requested size: 251.88934pt x 226.06804pt.
 
 ! Undefined control sequence.
@@ -1293,17 +1188,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[21 <./Figuras/fig11.png>] [22] [23] [24] [25]
-<figuras/fig12.png, id=494, 268.00125pt x 324.0105pt>
+[21 <./figuras/fig11.png>] [22] [23] [24] [25]
+<figuras/fig12.png, id=502, 268.00125pt x 324.0105pt>
 File: figuras/fig12.png Graphic file (type png)
 <use figuras/fig12.png>
-Package pdftex.def Info: figuras/fig12.png  used on input line 186.
+Package pdftex.def Info: figuras/fig12.png  used on input line 188.
 (pdftex.def)             Requested size: 160.80197pt x 194.40779pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.187 ...or y Pettijohn \cite{muller1967methods}.}
+l.189 ...or y Pettijohn \cite{muller1967methods}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1311,15 +1206,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figuras/fig13.png, id=497, 511.9125pt x 300.52275pt>
+[26]
+<figuras/fig13.png, id=512, 511.9125pt x 300.52275pt>
 File: figuras/fig13.png Graphic file (type png)
 <use figuras/fig13.png>
-Package pdftex.def Info: figuras/fig13.png  used on input line 196.
+Package pdftex.def Info: figuras/fig13.png  used on input line 198.
 (pdftex.def)             Requested size: 358.3363pt x 210.36447pt.
+
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.197 ...puestas por Krumbein\cite{Krumbein1941}.}
+l.199 ...puestas por Krumbein\cite{Krumbein1941}.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1327,21 +1224,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[26 <./figuras/fig12.png>]) [27 <./figuras/fig13.png>]
+[27 <./figuras/fig12.png> <./figuras/fig13.png>]) [28]
 \openout2 = `Cap3_Ecuaciones.aux'.
 
- (Cap3_Ecuaciones.tex
+ (./Cap3_Ecuaciones.tex
 Cap\IeC {\'\i }tulo 3. Modelo y propuesta de Investigaci\'on
-<figuras/diagramaFlujoTrabajo.png, id=515, 1188.44pt x 463.7325pt>
+<figuras/diagramaFlujoTrabajo.png, id=527, 1188.44pt x 463.7325pt>
 File: figuras/diagramaFlujoTrabajo.png Graphic file (type png)
 <use figuras/diagramaFlujoTrabajo.png>
 Package pdftex.def Info: figuras/diagramaFlujoTrabajo.png  used on input line 1
-3.
+4.
 (pdftex.def)             Requested size: 1188.43712pt x 463.73135pt.
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.14 ...sando Fourier Elíptico y redes neuronales}
+l.15 ...sando Fourier Elíptico y redes neuronales}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1350,27 +1247,27 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Float too large for page by 59.28154pt on input line 16.
+LaTeX Warning: Float too large for page by 59.28154pt on input line 17.
 
-[28
+[29
 
 
 
-] [29 <./figuras/diagramaFlujoTrabajo.png>] [30]
-<Figuras/codigoCadena.png, id=535, 486.01575pt x 186.09525pt>
-File: Figuras/codigoCadena.png Graphic file (type png)
-<use Figuras/codigoCadena.png>
-Package pdftex.def Info: Figuras/codigoCadena.png  used on input line 38.
+] [30 <./figuras/diagramaFlujoTrabajo.png>] [31]
+<figuras/codigoCadena.png, id=548, 486.01575pt x 186.09525pt>
+File: figuras/codigoCadena.png Graphic file (type png)
+<use figuras/codigoCadena.png>
+Package pdftex.def Info: figuras/codigoCadena.png  used on input line 40.
 (pdftex.def)             Requested size: 486.01456pt x 186.09477pt.
 
-Overfull \hbox (34.32706pt too wide) in paragraph at lines 38--39
+Overfull \hbox (34.32706pt too wide) in paragraph at lines 40--41
  [][] 
  []
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.39 ...na de un contorno cerrado \cite{Kuhl1982}}
+l.41 ...na de un contorno cerrado \cite{Kuhl1982}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1378,21 +1275,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[31 <./Figuras/codigoCadena.png>] [32] [33]
-<figuras/fig3_1.png, id=568, 1156.32pt x 344.487pt>
+[32 <./figuras/codigoCadena.png>] [33] [34]
+<figuras/fig3_1.png, id=581, 1156.32pt x 344.487pt>
 File: figuras/fig3_1.png Graphic file (type png)
 <use figuras/fig3_1.png>
-Package pdftex.def Info: figuras/fig3_1.png  used on input line 112.
+Package pdftex.def Info: figuras/fig3_1.png  used on input line 114.
 (pdftex.def)             Requested size: 485.6511pt x 144.68355pt.
 
-Overfull \hbox (33.9636pt too wide) in paragraph at lines 112--113
+Overfull \hbox (33.9636pt too wide) in paragraph at lines 114--115
  [][] 
  []
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.113 ...a obtener el mayor círculo circunscrito.}
+l.115 ...a obtener el mayor círculo circunscrito.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1400,15 +1297,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figuras/fig3_2.png, id=570, 647.41875pt x 344.487pt>
+<figuras/fig3_2.png, id=583, 647.41875pt x 344.487pt>
 File: figuras/fig3_2.png Graphic file (type png)
 <use figuras/fig3_2.png>
-Package pdftex.def Info: figuras/fig3_2.png  used on input line 121.
+Package pdftex.def Info: figuras/fig3_2.png  used on input line 123.
 (pdftex.def)             Requested size: 271.91402pt x 144.68355pt.
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.122 ...a partícula utilizando Fourier Elíptico.}
+l.124 ...a partícula utilizando Fourier Elíptico.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1416,21 +1313,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34 <./figuras/fig3_1.png> <./figuras/fig3_2.png>]
-<figuras/fig3_3.png, id=577, 1128.6165pt x 309.5565pt>
+[35 <./figuras/fig3_1.png>]
+<figuras/fig3_3.png, id=589, 1128.6165pt x 309.5565pt>
 File: figuras/fig3_3.png Graphic file (type png)
 <use figuras/fig3_3.png>
-Package pdftex.def Info: figuras/fig3_3.png  used on input line 130.
+Package pdftex.def Info: figuras/fig3_3.png  used on input line 132.
 (pdftex.def)             Requested size: 474.0157pt x 130.01283pt.
 
-Overfull \hbox (22.3282pt too wide) in paragraph at lines 130--131
+Overfull \hbox (22.3282pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.131 ...ara aproximar las esquinas con círculos.}
+l.133 ...ara aproximar las esquinas con círculos.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1438,17 +1335,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[35 <./figuras/fig3_3.png>]
-<figuras/redNeuronal.jpg, id=586, 426.84468pt x 217.5628pt>
+[36 <./figuras/fig3_2.png> <./figuras/fig3_3.png>]
+<figuras/redNeuronal.jpg, id=599, 426.84468pt x 217.5628pt>
 File: figuras/redNeuronal.jpg Graphic file (type jpg)
 <use figuras/redNeuronal.jpg>
-Package pdftex.def Info: figuras/redNeuronal.jpg  used on input line 150.
+Package pdftex.def Info: figuras/redNeuronal.jpg  used on input line 152.
 (pdftex.def)             Requested size: 341.47621pt x 174.05048pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.151 ...rona artificial análogo a una biológica.}
+l.153 ...rona artificial análogo a una biológica.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1456,15 +1353,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figuras/ANN.png, id=587, 713.66624pt x 377.61075pt>
+[37]
+<figuras/ANN.png, id=605, 713.66624pt x 377.61075pt>
 File: figuras/ANN.png Graphic file (type png)
 <use figuras/ANN.png>
-Package pdftex.def Info: figuras/ANN.png  used on input line 159.
+Package pdftex.def Info: figuras/ANN.png  used on input line 161.
 (pdftex.def)             Requested size: 356.83224pt x 188.8049pt.
+
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.160 ...itectura de una red neuronal artificial.}
+l.162 ...itectura de una red neuronal artificial.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1472,17 +1371,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[36 <./figuras/redNeuronal.jpg>]
-<figuras/Sigmoid.png, id=594, 578.16pt x 361.35pt>
+[38 <./figuras/redNeuronal.jpg> <./figuras/ANN.png>]
+<figuras/Sigmoid.png, id=613, 578.16pt x 361.35pt>
 File: figuras/Sigmoid.png Graphic file (type png)
 <use figuras/Sigmoid.png>
-Package pdftex.def Info: figuras/Sigmoid.png  used on input line 174.
+Package pdftex.def Info: figuras/Sigmoid.png  used on input line 176.
 (pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.175 	\caption{Función de activación Sigmoide.}
+l.177 	\caption{Función de activación Sigmoide.}
                                                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1490,17 +1389,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[37 <./figuras/ANN.png>] [38 <./figuras/Sigmoid.png>]
-<figuras/TanH.png, id=610, 578.16pt x 361.35pt>
+[39 <./figuras/Sigmoid.png>]
+<figuras/TanH.png, id=623, 578.16pt x 361.35pt>
 File: figuras/TanH.png Graphic file (type png)
 <use figuras/TanH.png>
-Package pdftex.def Info: figuras/TanH.png  used on input line 197.
+Package pdftex.def Info: figuras/TanH.png  used on input line 199.
 (pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.198 ...ción de activación Tangente Hiperbólico.}
+l.200 ...ción de activación Tangente Hiperbólico.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1508,17 +1407,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[39 <./figuras/TanH.png>]
-<figuras/ReLU.png, id=619, 578.16pt x 361.35pt>
+[40]
+<figuras/ReLU.png, id=630, 578.16pt x 361.35pt>
 File: figuras/ReLU.png Graphic file (type png)
 <use figuras/ReLU.png>
-Package pdftex.def Info: figuras/ReLU.png  used on input line 210.
+Package pdftex.def Info: figuras/ReLU.png  used on input line 212.
 (pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.211 ...vación ReLU (Unidad Lineal Rectificada).}
+l.213 ...vación ReLU (Unidad Lineal Rectificada).}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1526,15 +1425,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figuras/PReLU.png, id=623, 578.16pt x 361.35pt>
+[41 <./figuras/TanH.png>]
+<figuras/PReLU.png, id=640, 578.16pt x 361.35pt>
 File: figuras/PReLU.png Graphic file (type png)
 <use figuras/PReLU.png>
-Package pdftex.def Info: figuras/PReLU.png  used on input line 225.
+Package pdftex.def Info: figuras/PReLU.png  used on input line 227.
 (pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
+
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.226 ...nidad Lineal Rectificada Parametrizada).}
+l.228 ...nidad Lineal Rectificada Parametrizada).}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1542,17 +1443,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[40 <./figuras/ReLU.png>]
-<figuras/ELU.png, id=634, 578.16pt x 361.35pt>
+[42 <./figuras/relu.png>]
+<figuras/ELU.png, id=652, 578.16pt x 361.35pt>
 File: figuras/ELU.png Graphic file (type png)
 <use figuras/ELU.png>
-Package pdftex.def Info: figuras/ELU.png  used on input line 238.
+Package pdftex.def Info: figuras/ELU.png  used on input line 240.
 (pdftex.def)             Requested size: 346.89867pt x 216.81168pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.239 ...ivación ELU (Unidad Lineal Exponencial).}
+l.241 ...ivación ELU (Unidad Lineal Exponencial).}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1560,66 +1461,34 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[41 <./figuras/PReLU.png>] [42 <./figuras/ELU.png>]) [43] [44]
+[43 <./figuras/PReLU.png>] [44 <./figuras/ELU.png>]) [45] [46]
 \openout2 = `Cap4_Resultados.aux'.
 
 
-(Cap4_Resultados.tex
+(./Cap4_Resultados.tex
 Cap\IeC {\'\i }tulo 4. Resultados y discusiones
-<figuras/sphertrainingComparition.png, id=663, 1445.4pt x 722.7pt>
-File: figuras/sphertrainingComparition.png Graphic file (type png)
-<use figuras/sphertrainingComparition.png>
-Package pdftex.def Info: figuras/sphertrainingComparition.png  used on input li
-ne 17.
-(pdftex.def)             Requested size: 361.34912pt x 180.67455pt.
-<figuras/sphertestComparition.png, id=664, 1445.4pt x 722.7pt>
-File: figuras/sphertestComparition.png Graphic file (type png)
-<use figuras/sphertestComparition.png>
-Package pdftex.def Info: figuras/sphertestComparition.png  used on input line 2
-1.
-(pdftex.def)             Requested size: 361.34912pt x 180.67455pt.
-! Undefined control sequence.
-\setstretch ...ef \baselinestretch {#1}\@currsize 
-                                                  
-l.22 ...esfericidad de la imagen (color naranja).}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[45
+[47
 
 
 
 ]
-<figuras/spherHistogramaErrorTrain.png, id=669, 1445.4pt x 433.62pt>
-File: figuras/spherHistogramaErrorTrain.png Graphic file (type png)
-<use figuras/spherHistogramaErrorTrain.png>
-Package pdftex.def Info: figuras/spherHistogramaErrorTrain.png  used on input l
-ine 32.
-(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
-
-Overfull \hbox (25.29597pt too wide) in paragraph at lines 32--33
- [][] 
- []
-
-<figuras/spherHistogramaErrorTest.png, id=670, 1445.4pt x 433.62pt>
-File: figuras/spherHistogramaErrorTest.png Graphic file (type png)
-<use figuras/spherHistogramaErrorTest.png>
-Package pdftex.def Info: figuras/spherHistogramaErrorTest.png  used on input li
-ne 36.
-(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
-
-Overfull \hbox (28.29597pt too wide) in paragraph at lines 36--37
- [][] 
- []
+<figuras/sphertrainingComparition.png, id=688, 1445.4pt x 722.7pt>
+File: figuras/sphertrainingComparition.png Graphic file (type png)
+<use figuras/sphertrainingComparition.png>
+Package pdftex.def Info: figuras/sphertrainingComparition.png  used on input li
+ne 19.
+(pdftex.def)             Requested size: 361.34912pt x 180.67455pt.
+<figuras/sphertestComparition.png, id=689, 1445.4pt x 722.7pt>
+File: figuras/sphertestComparition.png Graphic file (type png)
+<use figuras/sphertestComparition.png>
+Package pdftex.def Info: figuras/sphertestComparition.png  used on input line 2
+3.
+(pdftex.def)             Requested size: 361.34912pt x 180.67455pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.37 ... cada una de las diferencias se presentó.}
+l.24 ...esfericidad de la imagen (color naranja).}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1627,25 +1496,53 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[46 <./figuras/sphertrainingComparition.png> <./figuras/sphertestComparition.pn
-g>] [47 <./figuras/spherHistogramaErrorTrain.png> <./figuras/spherHistogramaErr
-orTest.png>]
-Underfull \hbox (badness 1609) in paragraph at lines 51--52
-[]\T1/ptm/m/n/12 Dentro de la ex-per-i-mentación para en-con-trar la ar-qui-tec
--tura de red neu-ronal que
+[48]
+<figuras/spherHistogramaErrorTrain.png, id=697, 1445.4pt x 433.62pt>
+File: figuras/spherHistogramaErrorTrain.png Graphic file (type png)
+<use figuras/spherHistogramaErrorTrain.png>
+Package pdftex.def Info: figuras/spherHistogramaErrorTrain.png  used on input l
+ine 34.
+(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
+
+Overfull \hbox (25.29597pt too wide) in paragraph at lines 34--35
+ [][] 
  []
 
-[48] [49]
-<figuras/arqRedFinal.png, id=699, 455.301pt x 304.13625pt>
+<figuras/spherHistogramaErrorTest.png, id=698, 1445.4pt x 433.62pt>
+File: figuras/spherHistogramaErrorTest.png Graphic file (type png)
+<use figuras/spherHistogramaErrorTest.png>
+Package pdftex.def Info: figuras/spherHistogramaErrorTest.png  used on input li
+ne 38.
+(pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
+
+Overfull \hbox (28.29597pt too wide) in paragraph at lines 38--39
+ [][] 
+ []
+
+! Undefined control sequence.
+\setstretch ...ef \baselinestretch {#1}\@currsize 
+                                                  
+l.39 ... cada una de las diferencias se presentó.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[49 <./figuras/sphertrainingComparition.png> <./figuras/sphertestComparition.pn
+g>] [50 <./figuras/spherHistogramaErrorTrain.png> <./figuras/spherHistogramaErr
+orTest.png>] [51] [52]
+<figuras/arqRedFinal.png, id=726, 455.301pt x 304.13625pt>
 File: figuras/arqRedFinal.png Graphic file (type png)
 <use figuras/arqRedFinal.png>
-Package pdftex.def Info: figuras/arqRedFinal.png  used on input line 67.
+Package pdftex.def Info: figuras/arqRedFinal.png  used on input line 69.
 (pdftex.def)             Requested size: 273.1827pt x 182.48315pt.
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.68 ...e a la cantidad de neuronas en cada capa.}
+l.71 ...e a la cantidad de neuronas en cada capa.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1653,22 +1550,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figuras/roundtrainingComparition.png, id=701, 768.471pt x 389.65575pt>
+[53 <./figuras/arqRedFinal.png>]
+<figuras/roundtrainingComparition.png, id=734, 768.471pt x 389.65575pt>
 File: figuras/roundtrainingComparition.png Graphic file (type png)
 <use figuras/roundtrainingComparition.png>
 Package pdftex.def Info: figuras/roundtrainingComparition.png  used on input li
-ne 80.
+ne 83.
 (pdftex.def)             Requested size: 345.80875pt x 175.34346pt.
-<figuras/roundtestComparition.png, id=702, 767.86874pt x 391.4625pt>
+<figuras/roundtestComparition.png, id=735, 767.86874pt x 391.4625pt>
 File: figuras/roundtestComparition.png Graphic file (type png)
 <use figuras/roundtestComparition.png>
 Package pdftex.def Info: figuras/roundtestComparition.png  used on input line 8
-4.
+7.
 (pdftex.def)             Requested size: 345.53773pt x 176.1565pt.
+
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.85 ...esfericidad de la imagen (color naranja).}
+l.88 ...esfericidad de la imagen (color naranja).}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1676,33 +1575,40 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[50 <./figuras/arqRedFinal.png>]
-<figuras/roundhistogramaErrorTrain.png, id=707, 1445.4pt x 433.62pt>
+
+Underfull \hbox (badness 2401) in paragraph at lines 92--93
+\T1/ptm/m/n/12 y el er-ror cuadrático medio. Esto con-siderando que anal-izamos
+ val-ores con-tin-uos
+ []
+
+[54 <./figuras/roundtrainingComparition.png> <./figuras/roundtestComparition.pn
+g>]
+<figuras/roundhistogramaErrorTrain.png, id=748, 1445.4pt x 433.62pt>
 File: figuras/roundhistogramaErrorTrain.png Graphic file (type png)
 <use figuras/roundhistogramaErrorTrain.png>
 Package pdftex.def Info: figuras/roundhistogramaErrorTrain.png  used on input l
-ine 95.
+ine 98.
 (pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
 
-Overfull \hbox (28.29597pt too wide) in paragraph at lines 95--96
+Overfull \hbox (28.29597pt too wide) in paragraph at lines 98--99
  [][] 
  []
 
-<figuras/roundhistogramaErrorTest.png, id=708, 1445.4pt x 433.62pt>
+<figuras/roundhistogramaErrorTest.png, id=749, 1445.4pt x 433.62pt>
 File: figuras/roundhistogramaErrorTest.png Graphic file (type png)
 <use figuras/roundhistogramaErrorTest.png>
 Package pdftex.def Info: figuras/roundhistogramaErrorTest.png  used on input li
-ne 99.
+ne 102.
 (pdftex.def)             Requested size: 476.98347pt x 143.09503pt.
 
-Overfull \hbox (28.29597pt too wide) in paragraph at lines 99--100
+Overfull \hbox (28.29597pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
 ! Undefined control sequence.
 \setstretch ...ef \baselinestretch {#1}\@currsize 
                                                   
-l.100 ...cada una de las diferencias se presentó.}
+l.103 ...cada una de las diferencias se presentó.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1710,23 +1616,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[51 <./figuras/roundtrainingComparition.png> <./figuras/roundtestComparition.pn
-g>]) [52 <./figuras/roundhistogramaErrorTrain.png> <./figuras/roundhistogramaEr
-rorTest.png>]
+[55]) [56 <./figuras/roundhistogramaErrorTrain.png> <./figuras/roundhistogramaE
+rrorTest.png>]
 \openout2 = `Cap5_Conclusiones.aux'.
 
- (Cap5_Conclusiones.tex
+ (./Cap5_Conclusiones.tex
 Cap\IeC {\'\i }tulo 5. Conclusiones
-[53
+[57
 
 
 
-]) [54] (referencias.tex
+]) [58] (./referencias.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 .
 
-("C:\Users\HeavyRain350\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt
-.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
@@ -1792,10 +1696,10 @@ Underfull \hbox (badness 2951) in paragraph at lines 3--3
 . In: \T1/ptm/m/it/12 arXiv preprint
  []
 
-[55
+[59
 
 
-] [56]
+] [60]
 Underfull \hbox (badness 1577) in paragraph at lines 3--3
 \T1/ptm/m/it/12 Fred-er-ick K. Lut-gens, Den-nis Tasa-Ciencias de la Tierra_- U
 na In-tro-duc-cion a
@@ -1807,7 +1711,7 @@ Underfull \hbox (badness 3635) in paragraph at lines 3--3
 port, Shape Ef-fects,
  []
 
-[57]
+[61]
 Underfull \hbox (badness 1436) in paragraph at lines 3--3
 []\T1/ptm/m/n/12 Jürgen H Schön. \T1/ptm/m/it/12 Phys-i-cal prop-er-ties of roc
 ks: Fun-da-men-tals and prin-ci-ples of
@@ -1825,7 +1729,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 3--3
 2 Tri-bol-ogy In-ter-na-tional \T1/ptm/m/n/12 31.1-3 (1998),
  []
 
-[58]
+[62]
 Underfull \hbox (badness 1082) in paragraph at lines 3--3
 \T1/ptm/m/n/12 in As-sem-blies by Com-pu-ta-tional Ge-om-e-try''. In: \T1/ptm/m
 /it/12 Jour-nal of Com-put-ing in Civil
@@ -1833,48 +1737,45 @@ Underfull \hbox (badness 1082) in paragraph at lines 3--3
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
- [59]
+ [63]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
- (tesis_ErikMejia.aux (Cap1_Introduccion.aux) (Cap2_Cuerpo_tesis.aux)
-(Cap3_Ecuaciones.aux) (Cap4_Resultados.aux) (Cap5_Conclusiones.aux))
+ (./tesis_ErikMejia.aux (./Cap1_Introduccion.aux)
+(./Cap2_Cuerpo_tesis.aux) (./Cap3_Ecuaciones.aux) (./Cap4_Resultados.aux)
+(./Cap5_Conclusiones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `tesis_ErikMejia.out' has not changed.
-(rerunfilecheck)             Checksum: 27D35F1AF90824ACB3413B1C2A2C9D32;2136.
+(rerunfilecheck)             Checksum: 13239F2CB368A1885C5B98459ED27BF2;2138.
 Package logreq Info: Writing requests to 'tesis_ErikMejia.run.xml'.
 \openout1 = `tesis_ErikMejia.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
- )
-(\end occurred when \iftrue on line 154 was incomplete) 
+ ) 
 Here is how much of TeX's memory you used:
- 17889 strings out of 480799
- 321287 string characters out of 2892516
- 888004 words of memory out of 3000000
- 33329 multiletter control sequences out of 15000+200000
- 575761 words of font info for 68 fonts, out of 3000000 for 9000
+ 17794 strings out of 481239
+ 309266 string characters out of 5920377
+ 884439 words of memory out of 5000000
+ 32492 multiletter control sequences out of 15000+600000
+ 575761 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,10n,49p,3138b,1452s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\HeavyRain350\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk>{C:/Use
-rs/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
-C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmex10.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/HeavyRain350/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HeavyRain35
-0/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/HeavyRain350/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/HeavyRain350/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Us
-ers/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
-.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmr8a.pfb><C:/Users/HeavyRain350/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on tesis_ErikMejia.pdf (65 pages, 3185507 bytes).
+ 41i,10n,49p,3068b,1452s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on tesis_ErikMejia.pdf (70 pages, 3122353 bytes).
 PDF statistics:
- 892 PDF objects out of 1000 (max. 8388607)
- 205 named destinations out of 1000 (max. 500000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 755 compressed objects within 8 object streams
+ 210 named destinations out of 1000 (max. 500000)
  398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
