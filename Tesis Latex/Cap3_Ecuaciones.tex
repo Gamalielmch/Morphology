@@ -5,10 +5,10 @@
 En la Figura~\ref{fig:fig14} se describen las etapas de investigación, para después ser detalladas.
 
 \begin{itemize}
-	\item La primera etapa consiste en conseguir 1123 imágenes de todas las clases de esfericidad y redondez para poder entrenar de manera balanceada la red, y después probar con las imágenes de Krumbein (\cite{Krumbein1941}) para verificar las mediciones.
+	\item La primera etapa consiste en conseguir 1123 imágenes de todas las clases de esfericidad y redondez para poder entrenar de manera balanceada la red, y después probar con las imágenes de Krumbein \cite{Krumbein1941} para verificar las mediciones.
 	
 	\item La segunda etapa se obtiene el valor de redondez y esfericidad de cada una de las imágenes de entrenamiento con los métodos propuestos.
-	\item La tercera etapa consiste en calcular los primeros 40 armónicos de la serie de Fourier elíptico de cada una de las imágenes de entrenamiento y relacionar estos armónicos con su valor de esfericidad y redondez.
+	\item La tercera etapa consiste en calcular los primeros 40 armónicos de la serie de Fourier Elíptico de cada una de las imágenes de entrenamiento y relacionar estos armónicos con su valor de esfericidad y redondez.
 	\begin{figure}[hbtp]
 		\centering 
 		\includegraphics[angle=90,origin=c,scale=.55]{figuras/diagramaFlujoTrabajo.png}
@@ -145,7 +145,7 @@ El mayor inconveniente con este algoritmo es que tres parámetros dependen del ta
  
 \section{Redes neuronales}
 
-Una red neuronal artificial es un tipo de algoritmo de \textit{Machine Learning} el cual trata de simular el comportamiento del cerebro, al cual le llega una entrada, por medio de neuronas que se activan o no, se obtiene un resultado.
+Una red neuronal artificial es un tipo de algoritmo de \textit{Machine Learning} el cual trata de simular el comportamiento del cerebro, al cual le llega una entrada, por medio de neuronas que se activan o no, se obtiene un resultado \cite{aggarwal2018neural}.
 
 \begin{figure}[H]
 	\centering 
@@ -154,7 +154,7 @@ Una red neuronal artificial es un tipo de algoritmo de \textit{Machine Learning}
 	\label{fig:estructuraNeurona}
 \end{figure}
 
-La neurona es la unidad básica, posee dos tareas las cuales son combinar entrada y producir la señal de activación, siendo un nodo en un grafo dirigido (Red neuronal artificial). La conexión entre 2 neuronas es conocida como la sinapsis y su fuerza esta determinada por el estímulo externo. 
+La neurona es la unidad básica, posee dos tareas las cuales son combinar entrada y producir la señal de activación, siendo un nodo en un grafo dirigido (Red neuronal artificial). La conexión entre 2 neuronas es conocida como la sinapsis y su fuerza esta determinada por el estímulo externo \cite{aggarwal2018neural}. 
 
 \begin{figure}[H]
 	\centering 
@@ -169,7 +169,7 @@ En la Figura~\ref{fig:arqRedNeuronal} se observa la arquitectura de una red neur
 
 \subsection{Funciones de Activación}
 
-Las funciones de activación tienen como objetivo el acotar los valores de salida de una neurona a un cierto rango de valores. La selección de las funciones de activación dependerá del problema con el cual se este manejando. Existen funciones lineales y no lineales. Las lineales tienen un uso exclusivo, cuando el problema se trata de regresión y solamente en la capa de salida.
+Las funciones de activación tienen como objetivo el acotar los valores de salida de una neurona a un cierto rango de valores. La selección de las funciones de activación dependerá del problema con el cual se este manejando. Existen funciones lineales y no lineales. Las lineales tienen un uso exclusivo, cuando el problema se trata de regresión y solamente en la capa de salida \cite{ding2018activation}.
 
 \begin{figure}[H]
 	\centering 
@@ -190,7 +190,7 @@ La primer función de activación que surgió fue la Sigmoide, representada en la F
 	\item Utilización de la función exponencial es costoso.
 \end{itemize}
 
-La asimetría positiva provoca que el gradiente se vuelva ineficiente en la búsqueda del mínimo, debido a que sólo puede tomar direcciones totalmente negativas o totalmente positivas, haciendo como una especie de zigzag hasta encontrar el punto mínimo. El desvanecimiento del gradiente se puede observar en la Figura ~\ref{fig:sigmoid}, ya que, a medida que los valores de x van incrementando, el valor de la derivada va teniendo a 0, provocando que no haya una retroalimentación a la hora de retropropagar hacia atrás, terminando en que se la red neuronal deje de aprender ya que sus pesos no se van a ir actualizando.
+La asimetría positiva provoca que el gradiente se vuelva ineficiente en la búsqueda del mínimo, debido a que sólo puede tomar direcciones totalmente negativas o totalmente positivas, haciendo como una especie de zigzag hasta encontrar el punto mínimo. El desvanecimiento del gradiente se puede observar en la Figura ~\ref{fig:sigmoid}, ya que, a medida que los valores de x van incrementando, el valor de la derivada va teniendo a 0, provocando que no haya una retroalimentación a la hora de retropropagar hacia atrás, terminando en que se la red neuronal deje de aprender ya que sus pesos no se van a ir actualizando \cite{aggarwal2018neural,ding2018activation}.
 
 La función se puede seguir usando en la capa de salida pero solo sí el problema lo requiere. Las funciones posteriores trataron de eliminar estos problemas antes mencionados
 
@@ -205,7 +205,7 @@ La función se puede seguir usando en la capa de salida pero solo sí el problema 
 	\label{eqn:tanh}
 	g(x)= \tanh{x}=\frac{e^x - e^{-x}}{e^x + e^{-x}} \;\;\;\;\;\;\;\; g'(x)= 1 - \tanh^2{x}=\frac{4}{(e^x+e^{-x})^2}
 \end{equation} 
-La siguiente función que surgió fue la Tangente Hiperbólico (TanH), introducida por LeCun en 1991, representada en la Figura~\ref{fig:tanh}, expresada junto con su derivada en la Ecuación~\ref{eqn:tanh}. Al observar los problemas que presentaba la función Sigmoide, lo que se trataba de encontrar con la función TanH era eliminarlos, sin embargo, solo fue capaz de solucionar el problema de la asimetría positiva centrando los datos de -1 a 1, para que el descenso del gradiente fuera más eficiente. Sigue presentando los problemas de desvanecimiento del gradiente conforme los valores de \(x\) son más grandes, y sigue existiendo el alto costo por usar la función exponencial.
+La siguiente función que surgió fue la Tangente Hiperbólico (TanH), introducida por LeCun en 1991, representada en la Figura~\ref{fig:tanh}, expresada junto con su derivada en la Ecuación~\ref{eqn:tanh}. Al observar los problemas que presentaba la función Sigmoide, lo que se trataba de encontrar con la función TanH era eliminarlos, sin embargo, solo fue capaz de solucionar el problema de la asimetría positiva centrando los datos de -1 a 1, para que el descenso del gradiente fuera más eficiente. Sigue presentando los problemas de desvanecimiento del gradiente conforme los valores de \(x\) son más grandes, y sigue existiendo el alto costo por usar la función exponencial \cite{ding2018activation}.
 
 \begin{figure}[H]
 	\centering 
@@ -218,7 +218,7 @@ La siguiente función que surgió fue la Tangente Hiperbólico (TanH), introducida 
 	\label{eqn:relu}
 	g(x)= max(0,x) \;\;\;\;\;\;\;\; g'(x)= u(x)
 \end{equation} 
-La función ReLU o Unidad Lineal Rectificada fue introducida por Vinod Nair en 2010 \cite{nair2010rectified}, representada en la Figura~\ref{fig:relu}, expresada junto a su derivada en la Ecuación~\ref{eqn:relu}, la función \(u(x)\) es el escalón unitario. Nació para atacar el problema del desvanecimiento del gradiente, pero sigue conservando, en una menor magnitud, que las otras 2 funciones. Sigue poseyendo el problema de la asimetría positiva por no centrar los datos, y se corre el riesgo de que partes de la red neuronal se desconecten si la función empieza a enviar puros ceros, pero tiene la ventaja de que tiene un costo bastante bajo.
+La función ReLU o Unidad Lineal Rectificada fue introducida por Vinod Nair en 2010 \cite{nair2010rectified}, representada en la Figura~\ref{fig:relu}, expresada junto a su derivada en la Ecuación~\ref{eqn:relu}, la función \(u(x)\) es el escalón unitario. Nació para atacar el problema del desvanecimiento del gradiente, pero sigue conservando, en una menor magnitud, que las otras 2 funciones. Sigue poseyendo el problema de la asimetría positiva por no centrar los datos, y se corre el riesgo de que partes de la red neuronal se desconecten si la función empieza a enviar puros ceros, pero tiene la ventaja de que tiene un costo bastante bajo \cite{ding2018activation}.
 
 Fue muy popular años más tarde de su nacimiento, pero por los problemas que siguieron existiendo se trató de buscar una variante la cual controlara o eliminara por completo los problemas, son las siguientes 2 funciones de activación.
 
@@ -233,7 +233,7 @@ Fue muy popular años más tarde de su nacimiento, pero por los problemas que sigu
 	\label{eqn:prelu}
 	g(x)= max(\alpha x,x) \;\;\;\;\;\;\;\; g'(x) = \alpha + (1-\alpha)u(x)
 \end{equation} 
-La función PReLU o Unidad Lineal Rectificada Parametrizada fue introducida por Xiangyu Zhang en el año 2015 \cite{he2015delving}, representada en la Figura~\ref{fig:prelu}, expresada junto a su derivada en la Ecuación~\ref{eqn:prelu}. El parámetro \(\alpha\) es un coeficiente que va irse adaptando y aprendiendo a lo largo del proceso de aprendizaje de la red neuronal, promoviendo la rapidez del aprendizaje. Ataca principalmente el desvanecimiento del gradiente, ya que la derivada no sería cero, y estaría habiendo retroalimentación en la red, evitando que se desconecten partes de la misma, como a su vez logra reducir la asimetría positiva. La función Leaky ReLU es un caso particular de está función en la cual se igual \(\alpha\) a una constante.
+La función PReLU o Unidad Lineal Rectificada Parametrizada fue introducida por Xiangyu Zhang en el año 2015 \cite{he2015delving}, representada en la Figura~\ref{fig:prelu}, expresada junto a su derivada en la Ecuación~\ref{eqn:prelu}. El parámetro \(\alpha\) es un coeficiente que va irse adaptando y aprendiendo a lo largo del proceso de aprendizaje de la red neuronal, promoviendo la rapidez del aprendizaje. Ataca principalmente el desvanecimiento del gradiente, ya que la derivada no sería cero, y estaría habiendo retroalimentación en la red, evitando que se desconecten partes de la misma, como a su vez logra reducir la asimetría positiva. La función Leaky ReLU es un caso particular de está función en la cual se iguala \(\alpha\) a un valor específico, regularmente es .1 \cite{ding2018activation}.
 
 \begin{figure}[H]
 	\centering 
@@ -256,15 +256,11 @@ La función PReLU o Unidad Lineal Rectificada Parametrizada fue introducida por X
 	e^x & x<0
 	\end{cases}
 \end{equation} 
-Por último, se tiene la función ELU o Unidad Lineal Exponencial introducido por Djork-Arne Clevert en 2016 \cite{clevert2015fast}. Una gran mejora a comparación de ReLU, ya que no sufre del problema de que se desconecten partes de la red, ataca de mejor manera la asimetría positiva, mejora la velocidad de aprendizaje de la red neuronal, a pesar de utilizar la función exponencial y aumentar el tiempo de procesamiento, es un buen trato por obtener una buena función de activación.
+Por último, se tiene la función ELU o Unidad Lineal Exponencial introducido por Djork-Arne Clevert en 2016 \cite{clevert2015fast}. Una gran mejora a comparación de ReLU, ya que no sufre del problema de que se desconecten partes de la red, ataca de mejor manera la asimetría positiva, mejora la velocidad de aprendizaje de la red neuronal, a pesar de utilizar la función exponencial y aumentar el tiempo de procesamiento, es un buen trato por obtener una buena función de activación \cite{ding2018activation}.
 
-Para este trabajo, se tomaron en cuenta las funciones PReLU y ELU por ser las más confiables y las que poseen menos problemas, solamente para las capas ocultas. La capa de salida se tomó en cuenta una función lineal de la esfericidad, para verlo como un problema de regresión; y para la redondez, se tomó en cuenta la función Softmax para verlo como un problema de clasificación. 
+Para este trabajo, se tomaron en cuenta las funciones PReLU y ELU por ser las más confiables y las que poseen menos problemas, solamente para las capas ocultas; pero, para el caso de la redondez se usó la función sigmoide como se describe en el capítulo 4. La capa de salida se tomó en cuenta una función lineal de la esfericidad, para verlo como un problema de regresión al igual que para la redondez. 
 
-La función Softmax transforma la salida en probabilidades de semejanza que puede tener el sujeto en cuestión a cada una de las clases que se tienen, de esta manera, la clase con mayor probabilidad, sería la clase definida para ese sujeto.
-
-
-
-Los pesos de cada conexión entre neuronas se actualiza al final de cada época, ese valor esta definido por una función optimizadora que se necesita una velocidad de aprendizaje o \textit{"learning rate"} y una función de error que calcula que tan errónea fue la salida de la red neuronal con respecto al valor original, si la velocidad de aprendizaje es muy alta, nunca va a encontrar el punto mínimo debido a que siempre se lo va a pasar y regresar una y otra vez, si el valor es muy pequeño, la función tardaría demasiado en llegar y quizás nunca converja.
+Los pesos de cada conexión entre neuronas se actualiza al final de cada época, ese valor esta definido por una función optimizadora que se necesita una velocidad de aprendizaje o \textit{"learning rate"} y una función de error que calcula que tan errónea fue la salida de la red neuronal con respecto al valor original, si la velocidad de aprendizaje es muy alta, nunca va a encontrar el punto mínimo debido a que siempre se lo va a pasar y regresar una y otra vez, si el valor es muy pequeño, la función tardaría demasiado en llegar y quizás nunca converja \cite{aggarwal2018neural}.
 
 Actualmente existen funciones las cuales se les puede asignar un valor de aprendizaje alto pero a su vez asignar un valor de caída del aprendizaje, haciendo que en las época iniciales sea muy rápido pero su velocidad vaya bajando gradualmente para ayudar en la convergencia. Tal es el caso de la función RMSprop, que se describen en las siguientes ecuaciones: %~\ref{eqn:rmsprop} están sus ecuaciones.
 \begin{equation}

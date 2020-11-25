@@ -1,6 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Lista de Figuras}{iii}{chapter*.3}%
+\contentsline {chapter}{Lista de figuras}{iii}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}{ {Introducci\'on}}}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -36,24 +36,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.7}M\'etodos para obtener la redondez}{24}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Clasificaci\'on de redondez de rocas sedimentarias}{26}{section.2.8}%
+\contentsline {section}{\numberline {2.8}Clasificaci\'on de redondez de rocas sedimentarias}{25}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}{ {Modelo y propuesta de Investigaci\'on}}}{29}{chapter.3}%
+\contentsline {chapter}{\numberline {3}{ {Modelo y propuesta de Investigaci\'on}}}{28}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Modelo de Investigaci\'on para la estimaci\'on de par\'ametros morfol\'ogicos en rocas sedimentarias usando Fourier El\IeC {\'\i }ptico y redes neuronales}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Modelo de Investigaci\'on para la estimaci\'on de par\'ametros morfol\'ogicos en rocas sedimentarias usando Fourier El\IeC {\'\i }ptico y redes neuronales}{28}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Fourier El\IeC {\'\i }ptico}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Fourier El\IeC {\'\i }ptico}{30}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Algoritmo para estimar la redondez}{34}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Algoritmo para estimar la redondez}{33}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Redes neuronales}{37}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Redes neuronales}{36}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Funciones de Activaci\'on}{39}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Funciones de Activaci\'on}{38}{subsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}{ {Resultados y discusiones}}}{47}{chapter.4}%
+\contentsline {chapter}{\numberline {4}{ {Resultados y discusiones}}}{45}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Esfericidad}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Esfericidad}{46}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Redondez}{51}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Redondez}{49}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}{ {Conclusiones}}}{57}{chapter.5}%
+\contentsline {chapter}{\numberline {5}{ {Conclusiones}}}{55}{chapter.5}%

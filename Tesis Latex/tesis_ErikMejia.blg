@@ -19,19 +19,19 @@ I couldn't open auxiliary file Cap2_Cuerpo_tesis.aux
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 I couldn't open auxiliary file Cap3_Ecuaciones.aux
----line 215 of file tesis_ErikMejia.aux
+---line 257 of file tesis_ErikMejia.aux
  : \@input{Cap3_Ecuaciones.aux
  :                            }
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 I couldn't open auxiliary file Cap4_Resultados.aux
----line 252 of file tesis_ErikMejia.aux
+---line 324 of file tesis_ErikMejia.aux
  : \@input{Cap4_Resultados.aux
  :                            }
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 22 items.
 I couldn't open auxiliary file Cap5_Conclusiones.aux
----line 259 of file tesis_ErikMejia.aux
+---line 337 of file tesis_ErikMejia.aux
  : \@input{Cap5_Conclusiones.aux
  :                              }
 I'm skipping whatever remains of this command
@@ -50,51 +50,51 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'field_info' (item size: 4) to 10560 items.
+Reallocating 'field_info' (item size: 4) to 10699 items.
 Database file #1: tesis_ErikMejia-blx.bib
 Database file #2: bibliografia.bib
 Biblatex version: 3.13
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 40 entries,
+You've used 41 entries,
             6365 wiz_defined-function locations,
-            1507 strings with 35091 characters,
-and the built_in function-call counts, 232523 in all, are:
-= -- 16121
-> -- 4213
-< -- 1302
-+ -- 4655
-- -- 1557
-* -- 17542
-:= -- 22911
+            1510 strings with 35225 characters,
+and the built_in function-call counts, 230956 in all, are:
+= -- 16484
+> -- 4023
+< -- 1067
++ -- 4782
+- -- 1466
+* -- 16543
+:= -- 23259
 add.period$ -- 0
-call.type$ -- 40
-change.case$ -- 714
+call.type$ -- 41
+change.case$ -- 629
 chr.to.int$ -- 42
-cite$ -- 78
-duplicate$ -- 22985
-empty$ -- 22187
-format.name$ -- 2429
-if$ -- 49299
+cite$ -- 80
+duplicate$ -- 22869
+empty$ -- 22145
+format.name$ -- 2376
+if$ -- 48740
 int.to.chr$ -- 0
-int.to.str$ -- 100
+int.to.str$ -- 104
 missing$ -- 0
-newline$ -- 1315
-num.names$ -- 1982
-pop$ -- 13205
+newline$ -- 1272
+num.names$ -- 1921
+pop$ -- 13620
 preamble$ -- 1
-purify$ -- 882
+purify$ -- 845
 quote$ -- 0
-skip$ -- 7579
+skip$ -- 7264
 stack$ -- 0
-substring$ -- 28652
-swap$ -- 6141
-text.length$ -- 1043
-text.prefix$ -- 43
+substring$ -- 29362
+swap$ -- 5662
+text.length$ -- 838
+text.prefix$ -- 4
 top$ -- 1
-type$ -- 1348
+type$ -- 1382
 warning$ -- 0
-while$ -- 2880
+while$ -- 2902
 width$ -- 0
-write$ -- 1276
+write$ -- 1232
 (There were 5 error messages)

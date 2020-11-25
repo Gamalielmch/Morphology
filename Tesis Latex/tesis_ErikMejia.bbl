@@ -16,72 +16,374 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
-  \entry{Altuhafi2013}{article}{}
-    \name{author}{3}{}{%
-      {{hash=AF}{%
-         family={Altuhafi},
-         familyi={A\bibinitperiod},
-         given={F.},
-         giveni={F\bibinitperiod},
+\datalist[entry]{none/global//global/global}
+  \entry{Lutgens2005}{book}{}
+    \name{author}{2}{}{%
+      {{hash=LFK}{%
+         family={Lutgens},
+         familyi={L\bibinitperiod},
+         given={Frederick\bibnamedelima K.},
+         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
-      {{hash=OC}{%
-         family={O'Sullivan},
-         familyi={O\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=CI}{%
-         family={Cavarretta},
-         familyi={C\bibinitperiod},
-         given={I.},
-         giveni={I\bibinitperiod},
+      {{hash=TEJ}{%
+         family={Tarbuck},
+         familyi={T\bibinitperiod},
+         given={Edward\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
-    \keyw{Particles,Sand,Shape,Size}
-    \strng{namehash}{AFOCCI1}
-    \strng{fullhash}{AFOCCI1}
+    \strng{namehash}{LFKTEJ1}
+    \strng{fullhash}{LFKTEJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{abstract}{%
-    Sand response depends on particle morphology (size and shape). In
-  geotechnical research and practice, size is typically assessed by sieve
-  analysis and particle shapes are qualitatively described. Technological
-  developments mean that digital images of sand particles can easily be
-  obtained, enabling shape to be quantified. The complexity associated with
-  many digital image analysis algorithms seems to have restricted their use to
-  fundamental research studies. This study introduces a pragmatic approach for
-  quantitative shape analysis that has the potential to be broadly adopted in
-  geotechnical engineering research and practice. The approach generates three
-  shape measures (convexity, sphericity, and aspect ratio) that can easily be
-  calculated from digital images. Following an analysis of these shape measures
-  and the imaging method used here, a database of 36 sands, including many of
-  the sands commonly used in geotechnical research, is presented. The
-  subjective nature of qualitative description is clear from the discrepancies
-  that were found in published shape assessments of these sands. Convexity,
-  sphericity, and aspect ratio data for each of the 36 sands are presented. The
-  relevance of these parameters to geotechnical engineering is established by
-  comparing them with widely used qualitative descriptions. {\textcopyright}
-  2013 American Society of Civil Engineers.%
-    }
-    \verb{doi}
-    \verb 10.1061/(ASCE)GT.1943-5606.0000855
-    \endverb
-    \field{issn}{10900241}
-    \field{number}{8}
-    \field{pages}{1290\bibrangedash 1307}
-    \field{title}{{Analysis of an image-based method to quantify the size and
-  shape of sand particles}}
-    \field{volume}{139}
+    \field{isbn}{9788483226902}
+    \field{pages}{258}
+    \field{title}{{(Spanish Edition) Edward J. Tarbuck, Frederick K. Lutgens,
+  Dennis Tasa-Ciencias de la Tierra{\_} Una Introduccion a la Geologia Fisica
+  with CDROM-Pearson Educacion (2006)}}
     \verb{file}
     \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/morfologia/Morphology/references/altuhafi2013.pdf:pdf
+    \verb e/Tesis/Papers tentativos/Ciencias de la Tierra Una Introduccion a la
+    \verb  Geologia Fisica with CDROM by Edward J. Tarbuck, Frederick K. Lutgen
+    \verb s, Dennis Tasa (z-lib.org).pdf:pdf
     \endverb
-    \field{journaltitle}{Journal of Geotechnical and Geoenvironmental
-  Engineering}
+    \field{year}{2005}
+  \endentry
+
+  \entry{schon2015physical}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJH}{%
+         family={Sch{\"o}n},
+         familyi={S\bibinitperiod},
+         given={J{\"u}rgen\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SJH1}
+    \strng{fullhash}{SJH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Physical properties of rocks: Fundamentals and principles of
+  petrophysics}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Boggs2013}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BSj}{%
+         family={Boggs},
+         familyi={B\bibinitperiod},
+         given={Sam\bibnamedelima jr.},
+         giveni={S\bibinitperiod\bibinitdelim j\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSj1}
+    \strng{fullhash}{BSj1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780521897167}
+    \field{pages}{с.30}
+    \field{title}{{Petrology of sedimentary rocks}}
+    \field{volume}{№3}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/Libros/Petrology{\_}of{\_}Sedimentary{\_}Rock.pdf:pdf
+    \endverb
     \field{year}{2013}
+  \endentry
+
+  \entry{Rodriguez2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RJM}{%
+         family={Rodriguez},
+         familyi={R\bibinitperiod},
+         given={Juan\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Edesk{\"{a}}r},
+         familyi={E\bibinitperiod},
+         given={Tommy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Knutsson},
+         familyi={K\bibinitperiod},
+         given={Sven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Image analysis,Particle shape,Quantities}
+    \strng{namehash}{RJMETKS1}
+    \strng{fullhash}{RJMETKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    It has been shown in the early 20th century that particle shape has an
+  influence on geotechnical properties. Even if this is known, there has been
+  only minor progress in explaining the processes behind its performance and
+  has only partly implemented in practical geotechnical analysis. This
+  literature review covers different methods and techniques used to determine
+  the geometrical shape of the particles. Particle shape could be classifying
+  in three categories; sphericity-the overall particle shape and similitude
+  with a sphere, roundness-the description of the particle's corners and
+  roughness-the surface texture of the particle. The categories are scale
+  dependent and the major scale is to sphericity while the minor belongs to
+  roughness. The overview has shown that there is no agreement on the usage of
+  the descriptors and is not clear which descriptor is the best. One problem
+  has been in a large scale classify shape properties. Image analysis seems
+  according to the review to be a promising tool, it has advantages as low time
+  consumption or repeatability. But the resolution in the processed image needs
+  to be considered since it influences descriptors such as e.g. the perimeter.
+  Shape definitions and its potential role in soil mechanics are discussed.
+  {\textcopyright} 2013 EJGE.%
+    }
+    \field{issn}{10893032}
+    \field{pages}{169\bibrangedash 198}
+    \field{title}{{Particle shape quantities and measurement techniques-A
+  review}}
+    \field{volume}{18 A}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/morfologia/Morphology/references/review.pdf:pdf
+    \endverb
+    \field{journaltitle}{Electronic Journal of Geotechnical Engineering}
+    \field{year}{2013}
+  \endentry
+
+  \entry{tucker2009sedimentary}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TME}{%
+         family={Tucker},
+         familyi={T\bibinitperiod},
+         given={Maurice\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley Sons}%
+    }
+    \strng{namehash}{TME1}
+    \strng{fullhash}{TME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Sedimentary petrology: an introduction to the origin of
+  sedimentary rocks}
+    \field{year}{2009}
+  \endentry
+
+  \entry{DIEPENBROEK1992}{article}{}
+    \name{author}{1}{}{%
+      {{hash=yBAyIHDM}{%
+         prefix={y\bibnamedelima Bartholom{\"{a}} Alexander\bibnamedelima y},
+         prefixi={y\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
+  A\bibinitperiod\bibinitdelim y\bibinitperiod},
+         family={Ibbeken\bibnamedelima Hillert},
+         familyi={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Diepenbroek\bibnamedelima Michael},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IHDMyBAy1}
+    \strng{fullhash}{IHDMyBAy1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Numerous methods for roundness measurement have been developed. None,
+  however, has been generally accepted, because of conceptual and practical
+  deficiencies. Modern image processing and Fourier grain shape analysis have
+  eliminated the practical shortcomings, but the conceptual ones remained.
+  Single, higher harmonics of the Fourier series, for example, fail to serve as
+  reliable equivalents for roundness evaluation. The concept outlined in this
+  paper recognizes three criteria for the evaluation of roundness. (1) All
+  curvatures, convex as well as concave or plane elements, must be considered.
+  (2) The positions of morphological elements are significant because salient
+  parts of a particle are more easily abraded than protected ones.
+  Consequently, the curvatures have to be weighted by their relative position
+  on the particle. (3) Positions and curvatures of morphological elements have
+  to be compared with the particle's ultimate abraded shape, which is assumed
+  to be an ellipsoid. The ellipsoid reflects the aspect of form or sphericity.
+  The distinction between sphericity and roundness is retained because there is
+  no evidence that sphericity changes significantly during transport. The
+  measurement is based on the outline of a particle's maximum projection plane,
+  which is transformed to a Fourier series. Roundness data are derived from the
+  complete amplitude spectrum. The aspect of sphericity is eliminated by
+  subtracting the amplitude spectrum of the best approximating ellipse from the
+  spectrum of the empirical shape. The residual amplitudes are normalized and
+  summed. In a final step the resulting values are rescaled. This guarantees
+  reasonable boundaries and a normal distribution of roundness values. The
+  procedure is automated and its efficiency permits the calculation of large
+  samples. Tests on fluvial and coastal gravel populations demonstrate that the
+  method is sensitive to abrasional wear during all stages of roundness.
+  Copyright {\textcopyright} 1992, Wiley Blackwell. All rights reserved%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1365-3091.1992.tb02125.x
+    \endverb
+    \field{issn}{13653091}
+    \field{number}{3}
+    \field{pages}{411\bibrangedash 422}
+    \field{title}{{How round is round? A new approach to the topic roundness by
+  Fourier grain shape analysis}}
+    \field{volume}{39}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/diepenbroek1992.pdf:pdf
+    \endverb
+    \field{journaltitle}{Sedimentology}
+    \field{year}{1992}
+  \endentry
+
+  \entry{da2009shape}{book}{}
+    \name{author}{2}{}{%
+      {{hash=dFCL}{%
+         prefix={da},
+         prefixi={d\bibinitperiod},
+         family={Fontoura\bibnamedelima Costa},
+         familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Luciano},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CJRM}{%
+         family={Cesar\bibnamedelima Jr},
+         familyi={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Roberto\bibnamedelima Marcondes},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press, Inc.}%
+    }
+    \strng{namehash}{FCLdCJRM1}
+    \strng{fullhash}{FCLdCJRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Shape classification and analysis: theory and practice}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Shah2011}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SS}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Samar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yaling},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Jinming},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Adhesion kinetics,Brownian dynamics,Immersed finite element
+  method,Nanomedicine,Nanorod}
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSLYHWGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    One of the major challenges in nanomedicine is to improve nanoparticle cell
+  selectivity and adhesion efficiency through designing functionalized
+  nanoparticles of controlled sizes, shapes, and material compositions. Recent
+  data on cylindrically shaped filomicelles are beginning to show that
+  nonspherical particles remarkably improved the biological properties over
+  spherical counterpart. Despite these exciting advances, non-spherical
+  particles have not been widely used in nanomedicine applications due to the
+  lack of fundamental understanding of shape effect on targeting efficiency.
+  This paper intends to investigate the shape-dependent adhesion kinetics of
+  non-spherical nanoparticles through computational modeling. The
+  ligand-receptor binding kinetics is coupled with Brownian dynamics to study
+  the dynamic delivery process of nanorods under various vascular flow
+  conditions. The influences of nanoparticle shape, ligand density, and shear
+  rate on adhesion probability are studied. Nanorods are observed to contact
+  and adhere to the wall much easier than their spherical counterparts under
+  the same configuration due to their tumbling motion. The binding probability
+  of a nanorod under a shear rate of 8 s -1 is found to be three times higher
+  than that of a nanosphere with the same volume. The particle binding
+  probability decreases with increased flow shear rate and channel height. The
+  Brownian motion is found to largely enhance nanoparticle binding. Results
+  from this study contribute to the fundamental understanding and knowledge on
+  how particle shape affects the transport and targeting efficiency of
+  nanocarriers, which will provide mechanistic insights on the design of
+  shape-specific nanomedicine for targeted drug delivery applications.
+  Copyright {\textcopyright} 2011 American Scientific Publishers All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1166/jnn.2011.3536
+    \endverb
+    \field{issn}{15334880}
+    \field{number}{2}
+    \field{pages}{919\bibrangedash 928}
+    \field{title}{{Modeling particle shape-dependent dynamics in nanomedicine}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/morfologia/Morphology/references/Modeling Particle Shape-Depe
+    \verb ndent Dynamics in Nanomedicine.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Nanoscience and Nanotechnology}
+    \field{year}{2011}
+  \endentry
+
+  \entry{toy2014shaping}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TR}{%
+         family={Toy},
+         familyi={T\bibinitperiod},
+         given={Randall},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PPM}{%
+         family={Peiris},
+         familyi={P\bibinitperiod},
+         given={Pubudu\bibnamedelima M},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GKB}{%
+         family={Ghaghada},
+         familyi={G\bibinitperiod},
+         given={Ketan\bibnamedelima B},
+         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Karathanasis},
+         familyi={K\bibinitperiod},
+         given={Efstathios},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Future Medicine}%
+    }
+    \strng{namehash}{TR+1}
+    \strng{fullhash}{TRPPMGKBKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{121\bibrangedash 134}
+    \field{title}{Shaping cancer nanomedicine: the effect of particle shape on
+  the in vivo journey of nanoparticles}
+    \field{volume}{9}
+    \field{journaltitle}{Nanomedicine}
+    \field{year}{2014}
   \endentry
 
   \entry{BARRETT1980}{article}{}
@@ -97,8 +399,6 @@
     \strng{fullhash}{BPJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
     \field{abstract}{%
     An attempt was made to distinguish aspects of the shape of rock particles,
   and to discover by analysis and empirical considerations the most appropriate
@@ -171,8 +471,6 @@
     \strng{fullhash}{BSJPK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
     \field{abstract}{%
     Shape is a fundamental property of all objects, including sedimentary
   particles, but it remains one of the most difficult to characterize and
@@ -212,228 +510,96 @@
     \field{year}{2008}
   \endentry
 
-  \entry{Boggs2013}{book}{}
+  \entry{M.C.Powers1953}{article}{}
     \name{author}{1}{}{%
-      {{hash=BSj}{%
-         family={Boggs},
-         familyi={B\bibinitperiod},
-         given={Sam\bibnamedelima jr.},
-         giveni={S\bibinitperiod\bibinitdelim j\bibinitperiod},
+      {{hash=M}{%
+         family={{M. C. Powers}},
+         familyi={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{BSj1}
-    \strng{fullhash}{BSj1}
+    \keyw{Society for Sedimentary Geology}
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{isbn}{9780521897167}
-    \field{pages}{с.30}
-    \field{title}{{Petrology of sedimentary rocks}}
-    \field{volume}{№3}
+    \field{abstract}{%
+    A new roundness scale is proposed. This scale is defined by six roundness
+  classes. Two sets of clay models were prepared to characterize each roundness
+  class. One set shows a high sphericity, the other a low sphericity.
+  Photographs of these models are used to determine the roundness of a particle
+  by comparison.%
+    }
+    \verb{doi}
+    \verb 10.1306/d4269567-2b26-11d7-8648000102c1865d
+    \endverb
+    \field{issn}{1527-1404}
+    \field{number}{2}
+    \field{pages}{117\bibrangedash 119}
+    \field{title}{{A New Roundness Scale for Sedimentary Particles}}
+    \field{volume}{Vol. 23}
     \verb{file}
     \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/Libros/Petrology{\_}of{\_}Sedimentary{\_}Rock.pdf:pdf
+    \verb e/Tesis/A NEW ROUNDNESS SCALE FOR SEDIMENTARY PARTICLE.pdf:pdf
     \endverb
-    \field{year}{2013}
+    \field{journaltitle}{SEPM Journal of Sedimentary Research}
+    \field{year}{1953}
   \endentry
 
-  \entry{chavez2020method}{article}{}
-    \name{author}{4}{}{%
-      {{hash=CGM}{%
-         family={Ch{\'a}vez},
-         familyi={C\bibinitperiod},
-         given={G\bibnamedelima Moreno},
-         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=VJ}{%
-         family={Villa},
-         familyi={V\bibinitperiod},
-         given={Jes{\'u}s},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=SD}{%
-         family={Sarocchi},
-         familyi={S\bibinitperiod},
-         given={D},
-         giveni={D},
-      }}%
-      {{hash=GRE}{%
-         family={Gonz{\'a}lez-Ram{\'\i}rez},
-         familyi={G\bibinithyphendelim R\bibinitperiod},
-         given={Efr{\'e}n},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{CGM+1}
-    \strng{fullhash}{CGMVJSDGRE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{pages}{104451}
-    \field{title}{A method and software solution for classifying clast
-  roundness based on the radon transform}
-    \field{volume}{138}
-    \field{journaltitle}{Computers & Geosciences}
-    \field{year}{2020}
-  \endentry
-
-  \entry{clevert2015fast}{article}{}
-    \name{author}{3}{}{%
-      {{hash=CDA}{%
-         family={Clevert},
-         familyi={C\bibinitperiod},
-         given={Djork-Arn{\'e}},
-         giveni={D\bibinithyphendelim A\bibinitperiod},
-      }}%
-      {{hash=UT}{%
-         family={Unterthiner},
-         familyi={U\bibinitperiod},
-         given={Thomas},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=HS}{%
-         family={Hochreiter},
-         familyi={H\bibinitperiod},
-         given={Sepp},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CDAUTHS1}
-    \strng{fullhash}{CDAUTHS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{title}{Fast and accurate deep network learning by exponential linear
-  units (elus)}
-    \field{journaltitle}{arXiv preprint arXiv:1511.07289}
-    \field{year}{2015}
-  \endentry
-
-  \entry{da2009shape}{book}{}
-    \name{author}{2}{}{%
-      {{hash=dFCL}{%
-         prefix={da},
-         prefixi={d\bibinitperiod},
-         family={Fontoura\bibnamedelima Costa},
-         familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
-         given={Luciano},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=CJRM}{%
-         family={Cesar\bibnamedelima Jr},
-         familyi={C\bibinitperiod\bibinitdelim J\bibinitperiod},
-         given={Roberto\bibnamedelima Marcondes},
-         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {CRC Press, Inc.}%
-    }
-    \strng{namehash}{FCLdCJRM1}
-    \strng{fullhash}{FCLdCJRM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{title}{Shape classification and analysis: theory and practice}
-    \field{year}{2009}
-  \endentry
-
-  \entry{freeman1974computer}{article}{}
+  \entry{Wadell1935}{article}{}
     \name{author}{1}{}{%
-      {{hash=FH}{%
-         family={Freeman},
-         familyi={F\bibinitperiod},
-         given={Herbert},
+      {{hash=WH}{%
+         family={Wadell},
+         familyi={W\bibinitperiod},
+         given={Hakon},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WH1}
+    \strng{fullhash}{WH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The present paper deals with the fundamental principles, conceptions, and
+  ideas upon which some new sedimentological research methods are based.%
+    }
+    \verb{doi}
+    \verb 10.1086/624298
+    \endverb
+    \field{issn}{0022-1376}
+    \field{number}{3}
+    \field{pages}{250\bibrangedash 280}
+    \field{title}{{Volume, Shape, and Roundness of Quartz Particles}}
+    \field{volume}{43}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/Papers tentativos/wadell1935.pdf:pdf
+    \endverb
+    \field{journaltitle}{The Journal of Geology}
+    \field{year}{1935}
+  \endentry
+
+  \entry{wadell1933sphericity}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WH}{%
+         family={Wadell},
+         familyi={W\bibinitperiod},
+         given={Hakon},
          giveni={H\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {ACM New York, NY, USA}%
+      {University of Chicago Press}%
     }
-    \strng{namehash}{FH1}
-    \strng{fullhash}{FH1}
+    \strng{namehash}{WH1}
+    \strng{fullhash}{WH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{number}{1}
-    \field{pages}{57\bibrangedash 97}
-    \field{title}{Computer processing of line-drawing images}
-    \field{volume}{6}
-    \field{journaltitle}{ACM Computing Surveys (CSUR)}
-    \field{year}{1974}
-  \endentry
-
-  \entry{haructa2011elliptic}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HO}{%
-         family={H{\^a}ru{\c{t}}a},
-         familyi={H\bibinitperiod},
-         given={Ovidiu},
-         giveni={O\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HO1}
-    \strng{fullhash}{HO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{number}{1}
-    \field{pages}{99\bibrangedash 117}
-    \field{title}{Elliptic Fourier analysis of crown shapes in Quercus petraea
-  trees}
-    \field{volume}{54}
-    \field{journaltitle}{Annals of Forest Research}
-    \field{year}{2011}
-  \endentry
-
-  \entry{he2015delving}{inproceedings}{}
-    \name{author}{4}{}{%
-      {{hash=HK}{%
-         family={He},
-         familyi={H\bibinitperiod},
-         given={Kaiming},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=ZX}{%
-         family={Zhang},
-         familyi={Z\bibinitperiod},
-         given={Xiangyu},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Ren},
-         familyi={R\bibinitperiod},
-         given={Shaoqing},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SJ}{%
-         family={Sun},
-         familyi={S\bibinitperiod},
-         given={Jian},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HK+1}
-    \strng{fullhash}{HKZXRSSJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{booktitle}{Proceedings of the IEEE international conference on
-  computer vision}
-    \field{pages}{1026\bibrangedash 1034}
-    \field{title}{Delving deep into rectifiers: Surpassing human-level
-  performance on imagenet classification}
-    \field{year}{2015}
+    \field{number}{3}
+    \field{pages}{310\bibrangedash 331}
+    \field{title}{Sphericity and roundness of rock particles}
+    \field{volume}{41}
+    \field{journaltitle}{The Journal of Geology}
+    \field{year}{1933}
   \endentry
 
   \entry{Hryciw2016}{article}{}
@@ -461,8 +627,6 @@
     \strng{fullhash}{HRDZJSK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
     \field{abstract}{%
     Soil particle roundness (R) and sphericity (S) are two important intrinsic
   properties that govern a soil's mechanical behavior. Although R and S have
@@ -499,180 +663,6 @@
     \field{year}{2016}
   \endentry
 
-  \entry{DIEPENBROEK1992}{article}{}
-    \name{author}{1}{}{%
-      {{hash=yBAyIHDM}{%
-         prefix={y\bibnamedelima Bartholom{\"{a}} Alexander\bibnamedelima y},
-         prefixi={y\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
-  A\bibinitperiod\bibinitdelim y\bibinitperiod},
-         family={Ibbeken\bibnamedelima Hillert},
-         familyi={I\bibinitperiod\bibinitdelim H\bibinitperiod},
-         given={Diepenbroek\bibnamedelima Michael},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{IHDMyBAy1}
-    \strng{fullhash}{IHDMyBAy1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{I}
-    \field{sortinithash}{I}
-    \field{abstract}{%
-    Numerous methods for roundness measurement have been developed. None,
-  however, has been generally accepted, because of conceptual and practical
-  deficiencies. Modern image processing and Fourier grain shape analysis have
-  eliminated the practical shortcomings, but the conceptual ones remained.
-  Single, higher harmonics of the Fourier series, for example, fail to serve as
-  reliable equivalents for roundness evaluation. The concept outlined in this
-  paper recognizes three criteria for the evaluation of roundness. (1) All
-  curvatures, convex as well as concave or plane elements, must be considered.
-  (2) The positions of morphological elements are significant because salient
-  parts of a particle are more easily abraded than protected ones.
-  Consequently, the curvatures have to be weighted by their relative position
-  on the particle. (3) Positions and curvatures of morphological elements have
-  to be compared with the particle's ultimate abraded shape, which is assumed
-  to be an ellipsoid. The ellipsoid reflects the aspect of form or sphericity.
-  The distinction between sphericity and roundness is retained because there is
-  no evidence that sphericity changes significantly during transport. The
-  measurement is based on the outline of a particle's maximum projection plane,
-  which is transformed to a Fourier series. Roundness data are derived from the
-  complete amplitude spectrum. The aspect of sphericity is eliminated by
-  subtracting the amplitude spectrum of the best approximating ellipse from the
-  spectrum of the empirical shape. The residual amplitudes are normalized and
-  summed. In a final step the resulting values are rescaled. This guarantees
-  reasonable boundaries and a normal distribution of roundness values. The
-  procedure is automated and its efficiency permits the calculation of large
-  samples. Tests on fluvial and coastal gravel populations demonstrate that the
-  method is sensitive to abrasional wear during all stages of roundness.
-  Copyright {\textcopyright} 1992, Wiley Blackwell. All rights reserved%
-    }
-    \verb{doi}
-    \verb 10.1111/j.1365-3091.1992.tb02125.x
-    \endverb
-    \field{issn}{13653091}
-    \field{number}{3}
-    \field{pages}{411\bibrangedash 422}
-    \field{title}{{How round is round? A new approach to the topic roundness by
-  Fourier grain shape analysis}}
-    \field{volume}{39}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/diepenbroek1992.pdf:pdf
-    \endverb
-    \field{journaltitle}{Sedimentology}
-    \field{year}{1992}
-  \endentry
-
-  \entry{kaye1978specification}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KB}{%
-         family={Kaye},
-         familyi={K\bibinitperiod},
-         given={BH},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{KB1}
-    \strng{fullhash}{KB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{1}
-    \field{pages}{1\bibrangedash 16}
-    \field{title}{Specification of the ruggedness and/or texture of a fine
-  particle profile by its fractal dimension}
-    \field{volume}{21}
-    \field{journaltitle}{Powder Technology}
-    \field{year}{1978}
-  \endentry
-
-  \entry{Krumbein1941}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KWC}{%
-         family={Krumbein},
-         familyi={K\bibinitperiod},
-         given={W\bibnamedelima C},
-         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \keyw{Society for Sedimentary Geology}
-    \strng{namehash}{KWC1}
-    \strng{fullhash}{KWC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{2}
-    \field{pages}{64\bibrangedash 72}
-    \field{title}{{OF S E D I M E N T A R Y}}
-    \field{volume}{11}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/morfologia/Morphology/references/MEASUREMENT AND GEOLOGICAL S
-    \verb IGNIFICANCE OF SHAPE.pdf:pdf
-    \endverb
-    \field{year}{1941}
-  \endentry
-
-  \entry{krumbein1951stratigraphy}{book}{}
-    \name{author}{2}{}{%
-      {{hash=KWC}{%
-         family={Krumbein},
-         familyi={K\bibinitperiod},
-         given={William\bibnamedelima Christian},
-         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=SLL}{%
-         family={Sloss},
-         familyi={S\bibinitperiod},
-         given={Laurence\bibnamedelima Louis},
-         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {LWW}%
-    }
-    \strng{namehash}{KWCSLL1}
-    \strng{fullhash}{KWCSLL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{5}
-    \field{title}{Stratigraphy and sedimentation}
-    \field{volume}{71}
-    \field{year}{1951}
-  \endentry
-
-  \entry{krynine19561}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KPD}{%
-         family={Krynine},
-         familyi={K\bibinitperiod},
-         given={Paul\bibnamedelima D},
-         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Society for Sedimentary Geology}%
-    }
-    \strng{namehash}{KPD1}
-    \strng{fullhash}{KPD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{2}
-    \field{title}{1. Uniformitarianism is a Dangerous Doctrine}
-    \field{volume}{26}
-    \field{journaltitle}{Journal of Sedimentary Research}
-    \field{year}{1956}
-  \endentry
-
   \entry{Kuhl1982}{misc}{}
     \name{author}{2}{}{%
       {{hash=KFP}{%
@@ -692,8 +682,6 @@
     \strng{fullhash}{KFPGCR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
     \field{abstract}{%
     A direct procedure for obtaining the Fourier coefficients of a
   chain-encoded contour is presented. Advantages of the procedure are that it
@@ -722,187 +710,6 @@
     \field{year}{1982}
   \endentry
 
-  \entry{leavers2000use}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LVF}{%
-         family={Leavers},
-         familyi={L\bibinitperiod},
-         given={Violet\bibnamedelima F},
-         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{LVF1}
-    \strng{fullhash}{LVF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{number}{12}
-    \field{pages}{1411\bibrangedash 1423}
-    \field{title}{Use of the two-dimensional Radon transform to generate a
-  taxonomy of shape for the characterization of abrasive powder particles}
-    \field{volume}{22}
-    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}
-    \field{year}{2000}
-  \endentry
-
-  \entry{Lutgens2005}{book}{}
-    \name{author}{2}{}{%
-      {{hash=LFK}{%
-         family={Lutgens},
-         familyi={L\bibinitperiod},
-         given={Frederick\bibnamedelima K.},
-         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=TEJ}{%
-         family={Tarbuck},
-         familyi={T\bibinitperiod},
-         given={Edward\bibnamedelima J.},
-         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LFKTEJ1}
-    \strng{fullhash}{LFKTEJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{isbn}{9788483226902}
-    \field{pages}{258}
-    \field{title}{{(Spanish Edition) Edward J. Tarbuck, Frederick K. Lutgens,
-  Dennis Tasa-Ciencias de la Tierra{\_} Una Introduccion a la Geologia Fisica
-  with CDROM-Pearson Educacion (2006)}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/Papers tentativos/Ciencias de la Tierra Una Introduccion a la
-    \verb  Geologia Fisica with CDROM by Edward J. Tarbuck, Frederick K. Lutgen
-    \verb s, Dennis Tasa (z-lib.org).pdf:pdf
-    \endverb
-    \field{year}{2005}
-  \endentry
-
-  \entry{M.C.Powers1953}{article}{}
-    \name{author}{1}{}{%
-      {{hash=M}{%
-         family={{M. C. Powers}},
-         familyi={M\bibinitperiod},
-      }}%
-    }
-    \keyw{Society for Sedimentary Geology}
-    \strng{namehash}{M1}
-    \strng{fullhash}{M1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{abstract}{%
-    A new roundness scale is proposed. This scale is defined by six roundness
-  classes. Two sets of clay models were prepared to characterize each roundness
-  class. One set shows a high sphericity, the other a low sphericity.
-  Photographs of these models are used to determine the roundness of a particle
-  by comparison.%
-    }
-    \verb{doi}
-    \verb 10.1306/d4269567-2b26-11d7-8648000102c1865d
-    \endverb
-    \field{issn}{1527-1404}
-    \field{number}{2}
-    \field{pages}{117\bibrangedash 119}
-    \field{title}{{A New Roundness Scale for Sedimentary Particles}}
-    \field{volume}{Vol. 23}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/A NEW ROUNDNESS SCALE FOR SEDIMENTARY PARTICLE.pdf:pdf
-    \endverb
-    \field{journaltitle}{SEPM Journal of Sedimentary Research}
-    \field{year}{1953}
-  \endentry
-
-  \entry{muller1967methods}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MG}{%
-         family={M{\"u}ller},
-         familyi={M\bibinitperiod},
-         given={German},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Schweizerbart'sche Verlagsbuchhandlung}%
-    }
-    \strng{namehash}{MG1}
-    \strng{fullhash}{MG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Methods in sedimentary petrology}
-    \field{year}{1967}
-  \endentry
-
-  \entry{nair2010rectified}{inproceedings}{}
-    \name{author}{2}{}{%
-      {{hash=NV}{%
-         family={Nair},
-         familyi={N\bibinitperiod},
-         given={Vinod},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=HGE}{%
-         family={Hinton},
-         familyi={H\bibinitperiod},
-         given={Geoffrey\bibnamedelima E},
-         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NVHGE1}
-    \strng{fullhash}{NVHGE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{booktitle}{ICML}
-    \field{title}{Rectified linear units improve restricted boltzmann machines}
-    \field{year}{2010}
-  \endentry
-
-  \entry{orford1983use}{article}{}
-    \name{author}{2}{}{%
-      {{hash=OJ}{%
-         family={Orford},
-         familyi={O\bibinitperiod},
-         given={JD},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=WW}{%
-         family={Whalley},
-         familyi={W\bibinitperiod},
-         given={WB},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Wiley Online Library}%
-    }
-    \strng{namehash}{OJWW1}
-    \strng{fullhash}{OJWW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{number}{5}
-    \field{pages}{655\bibrangedash 668}
-    \field{title}{The use of the fractal dimension to quantify the morphology
-  of irregular-shaped particles}
-    \field{volume}{30}
-    \field{journaltitle}{Sedimentology}
-    \field{year}{1983}
-  \endentry
-
   \entry{rafferty2011geological}{book}{}
     \true{moreauthor}
     \true{morelabelname}
@@ -921,10 +728,254 @@
     \strng{fullhash}{RJP+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
     \field{title}{Geological Sciences}
     \field{year}{2011}
+  \endentry
+
+  \entry{Wadell1932}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WH}{%
+         family={Wadell},
+         familyi={W\bibinitperiod},
+         given={Hakon},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WH1}
+    \strng{fullhash}{WH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The present paper deals with the fundamental principles, conceptions, and
+  ideas upon which some new sedimentological research methods are based. CR -
+  Copyright {}{\#}169; 1932 The University of Chicago Press%
+    }
+    \verb{doi}
+    \verb 10.1086/623964
+    \endverb
+    \field{issn}{0022-1376}
+    \field{number}{5}
+    \field{pages}{443\bibrangedash 451}
+    \field{title}{{Volume, Shape, and Roundness of Rock Particles}}
+    \field{volume}{40}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/morfologia/Morphology/references/wadell1932.pdf:pdf
+    \endverb
+    \field{journaltitle}{The Journal of Geology}
+    \field{year}{1932}
+  \endentry
+
+  \entry{Altuhafi2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AF}{%
+         family={Altuhafi},
+         familyi={A\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={O'Sullivan},
+         familyi={O\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CI}{%
+         family={Cavarretta},
+         familyi={C\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \keyw{Particles,Sand,Shape,Size}
+    \strng{namehash}{AFOCCI1}
+    \strng{fullhash}{AFOCCI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Sand response depends on particle morphology (size and shape). In
+  geotechnical research and practice, size is typically assessed by sieve
+  analysis and particle shapes are qualitatively described. Technological
+  developments mean that digital images of sand particles can easily be
+  obtained, enabling shape to be quantified. The complexity associated with
+  many digital image analysis algorithms seems to have restricted their use to
+  fundamental research studies. This study introduces a pragmatic approach for
+  quantitative shape analysis that has the potential to be broadly adopted in
+  geotechnical engineering research and practice. The approach generates three
+  shape measures (convexity, sphericity, and aspect ratio) that can easily be
+  calculated from digital images. Following an analysis of these shape measures
+  and the imaging method used here, a database of 36 sands, including many of
+  the sands commonly used in geotechnical research, is presented. The
+  subjective nature of qualitative description is clear from the discrepancies
+  that were found in published shape assessments of these sands. Convexity,
+  sphericity, and aspect ratio data for each of the 36 sands are presented. The
+  relevance of these parameters to geotechnical engineering is established by
+  comparing them with widely used qualitative descriptions. {\textcopyright}
+  2013 American Society of Civil Engineers.%
+    }
+    \verb{doi}
+    \verb 10.1061/(ASCE)GT.1943-5606.0000855
+    \endverb
+    \field{issn}{10900241}
+    \field{number}{8}
+    \field{pages}{1290\bibrangedash 1307}
+    \field{title}{{Analysis of an image-based method to quantify the size and
+  shape of sand particles}}
+    \field{volume}{139}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/morfologia/Morphology/references/altuhafi2013.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Geotechnical and Geoenvironmental
+  Engineering}
+    \field{year}{2013}
+  \endentry
+
+  \entry{tickell1939examination}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=TFG}{%
+         family={Tickell},
+         familyi={T\bibinitperiod},
+         given={Frederick\bibnamedelima George},
+         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {H. Milford, Oxford university press}%
+    }
+    \strng{namehash}{TFG+1}
+    \strng{fullhash}{TFG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Examination of fragmental rocks}
+    \field{year}{1939}
+  \endentry
+
+  \entry{Santamarina2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJC}{%
+         family={Santamarina},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CGC}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={G.\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJCCGC1}
+    \strng{fullhash}{SJCCGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This manuscript reviews particle shape, its development in fine-grained
+  soils (particle size D{\textless}∼10$\mu$m) and coarse-grained soils
+  (D{\textgreater}∼100$\mu$m), shape characterization, and the role of
+  particle shape on fabric formation and macroscale soil properties.
+  Shape-dependent microscale mechanisms are hypothesized to explain previously
+  published studies as well as new soil behaviour data. Particle shape emerges
+  as a significant parameter that needs to be properly characterized and
+  documented.%
+    }
+    \field{isbn}{0727732641}
+    \field{pages}{604\bibrangedash 617}
+    \field{title}{{Soil behaviour: The role of particle shape}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/morfologia/Morphology/references/Soil behaviour. The role of
+    \verb particle shape.pdf:pdf
+    \endverb
+    \field{journaltitle}{Advances in Geotechnical Engineering: The Skempton
+  Conference - Proceedings of a Three Day Conference on Advances in
+  Geotechnical Engineering, organised by the Institution of Civil Engineers}
+    \field{year}{2004}
+  \endentry
+
+  \entry{krumbein1951stratigraphy}{book}{}
+    \name{author}{2}{}{%
+      {{hash=KWC}{%
+         family={Krumbein},
+         familyi={K\bibinitperiod},
+         given={William\bibnamedelima Christian},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SLL}{%
+         family={Sloss},
+         familyi={S\bibinitperiod},
+         given={Laurence\bibnamedelima Louis},
+         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {LWW}%
+    }
+    \strng{namehash}{KWCSLL1}
+    \strng{fullhash}{KWCSLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{title}{Stratigraphy and sedimentation}
+    \field{volume}{71}
+    \field{year}{1951}
+  \endentry
+
+  \entry{krynine19561}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KPD}{%
+         family={Krynine},
+         familyi={K\bibinitperiod},
+         given={Paul\bibnamedelima D},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Society for Sedimentary Geology}%
+    }
+    \strng{namehash}{KPD1}
+    \strng{fullhash}{KPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{title}{1. Uniformitarianism is a Dangerous Doctrine}
+    \field{volume}{26}
+    \field{journaltitle}{Journal of Sedimentary Research}
+    \field{year}{1956}
+  \endentry
+
+  \entry{sneed1958pebbles}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SED}{%
+         family={Sneed},
+         familyi={S\bibinitperiod},
+         given={Edmund\bibnamedelima D},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FRL}{%
+         family={Folk},
+         familyi={F\bibinitperiod},
+         given={Robert\bibnamedelima L},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of Chicago Press}%
+    }
+    \strng{namehash}{SEDFRL1}
+    \strng{fullhash}{SEDFRL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{114\bibrangedash 150}
+    \field{title}{Pebbles in the lower Colorado River, Texas a study in
+  particle morphogenesis}
+    \field{volume}{66}
+    \field{journaltitle}{The Journal of Geology}
+    \field{year}{1958}
   \endentry
 
   \entry{Resentini2018}{article}{}
@@ -952,8 +1003,6 @@
     \strng{fullhash}{RAASGE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
     \field{abstract}{%
     In this article we develop a mathematical method based on image analysis to
   measure the textural properties of heavy minerals in fluvial, eolian-dune,
@@ -1001,110 +1050,60 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Rodriguez2013}{article}{}
-    \name{author}{3}{}{%
-      {{hash=RJM}{%
-         family={Rodriguez},
-         familyi={R\bibinitperiod},
-         given={Juan\bibnamedelima M.},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=ET}{%
-         family={Edesk{\"{a}}r},
-         familyi={E\bibinitperiod},
-         given={Tommy},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Knutsson},
+  \entry{kaye1978specification}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KB}{%
+         family={Kaye},
          familyi={K\bibinitperiod},
-         given={Sven},
-         giveni={S\bibinitperiod},
+         given={BH},
+         giveni={B\bibinitperiod},
       }}%
     }
-    \keyw{Image analysis,Particle shape,Quantities}
-    \strng{namehash}{RJMETKS1}
-    \strng{fullhash}{RJMETKS1}
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KB1}
+    \strng{fullhash}{KB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{abstract}{%
-    It has been shown in the early 20th century that particle shape has an
-  influence on geotechnical properties. Even if this is known, there has been
-  only minor progress in explaining the processes behind its performance and
-  has only partly implemented in practical geotechnical analysis. This
-  literature review covers different methods and techniques used to determine
-  the geometrical shape of the particles. Particle shape could be classifying
-  in three categories; sphericity-the overall particle shape and similitude
-  with a sphere, roundness-the description of the particle's corners and
-  roughness-the surface texture of the particle. The categories are scale
-  dependent and the major scale is to sphericity while the minor belongs to
-  roughness. The overview has shown that there is no agreement on the usage of
-  the descriptors and is not clear which descriptor is the best. One problem
-  has been in a large scale classify shape properties. Image analysis seems
-  according to the review to be a promising tool, it has advantages as low time
-  consumption or repeatability. But the resolution in the processed image needs
-  to be considered since it influences descriptors such as e.g. the perimeter.
-  Shape definitions and its potential role in soil mechanics are discussed.
-  {\textcopyright} 2013 EJGE.%
-    }
-    \field{issn}{10893032}
-    \field{pages}{169\bibrangedash 198}
-    \field{title}{{Particle shape quantities and measurement techniques-A
-  review}}
-    \field{volume}{18 A}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/morfologia/Morphology/references/review.pdf:pdf
-    \endverb
-    \field{journaltitle}{Electronic Journal of Geotechnical Engineering}
-    \field{year}{2013}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 16}
+    \field{title}{Specification of the ruggedness and/or texture of a fine
+  particle profile by its fractal dimension}
+    \field{volume}{21}
+    \field{journaltitle}{Powder Technology}
+    \field{year}{1978}
   \endentry
 
-  \entry{Santamarina2004}{article}{}
+  \entry{orford1983use}{article}{}
     \name{author}{2}{}{%
-      {{hash=SJC}{%
-         family={Santamarina},
-         familyi={S\bibinitperiod},
-         given={J.\bibnamedelima C.},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=OJ}{%
+         family={Orford},
+         familyi={O\bibinitperiod},
+         given={JD},
+         giveni={J\bibinitperiod},
       }}%
-      {{hash=CGC}{%
-         family={Cho},
-         familyi={C\bibinitperiod},
-         given={G.\bibnamedelima C.},
-         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=WW}{%
+         family={Whalley},
+         familyi={W\bibinitperiod},
+         given={WB},
+         giveni={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SJCCGC1}
-    \strng{fullhash}{SJCCGC1}
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{OJWW1}
+    \strng{fullhash}{OJWW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    This manuscript reviews particle shape, its development in fine-grained
-  soils (particle size D{\textless}∼10$\mu$m) and coarse-grained soils
-  (D{\textgreater}∼100$\mu$m), shape characterization, and the role of
-  particle shape on fabric formation and macroscale soil properties.
-  Shape-dependent microscale mechanisms are hypothesized to explain previously
-  published studies as well as new soil behaviour data. Particle shape emerges
-  as a significant parameter that needs to be properly characterized and
-  documented.%
-    }
-    \field{isbn}{0727732641}
-    \field{pages}{604\bibrangedash 617}
-    \field{title}{{Soil behaviour: The role of particle shape}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/morfologia/Morphology/references/Soil behaviour. The role of
-    \verb particle shape.pdf:pdf
-    \endverb
-    \field{journaltitle}{Advances in Geotechnical Engineering: The Skempton
-  Conference - Proceedings of a Three Day Conference on Advances in
-  Geotechnical Engineering, organised by the Institution of Civil Engineers}
-    \field{year}{2004}
+    \field{number}{5}
+    \field{pages}{655\bibrangedash 668}
+    \field{title}{The use of the fractal dimension to quantify the morphology
+  of irregular-shaped particles}
+    \field{volume}{30}
+    \field{journaltitle}{Sedimentology}
+    \field{year}{1983}
   \endentry
 
   \entry{sarocchi201117}{article}{}
@@ -1141,8 +1140,6 @@
     \strng{fullhash}{SDSRMJSR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
     \field{number}{1-4}
     \field{pages}{40\bibrangedash 56}
     \field{title}{The 17 July 1999 block-and-ash flow (BAF) at Colima Volcano:
@@ -1152,140 +1149,30 @@
     \field{year}{2011}
   \endentry
 
-  \entry{schon2015physical}{book}{}
+  \entry{leavers2000use}{article}{}
     \name{author}{1}{}{%
-      {{hash=SJH}{%
-         family={Sch{\"o}n},
-         familyi={S\bibinitperiod},
-         given={J{\"u}rgen\bibnamedelima H},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{SJH1}
-    \strng{fullhash}{SJH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{Physical properties of rocks: Fundamentals and principles of
-  petrophysics}
-    \field{year}{2015}
-  \endentry
-
-  \entry{Shah2011}{article}{}
-    \name{author}{4}{}{%
-      {{hash=SS}{%
-         family={Shah},
-         familyi={S\bibinitperiod},
-         given={Samar},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=LY}{%
-         family={Liu},
+      {{hash=LVF}{%
+         family={Leavers},
          familyi={L\bibinitperiod},
-         given={Yaling},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=HW}{%
-         family={Hu},
-         familyi={H\bibinitperiod},
-         given={Walter},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Gao},
-         familyi={G\bibinitperiod},
-         given={Jinming},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \keyw{Adhesion kinetics,Brownian dynamics,Immersed finite element
-  method,Nanomedicine,Nanorod}
-    \strng{namehash}{SS+1}
-    \strng{fullhash}{SSLYHWGJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    One of the major challenges in nanomedicine is to improve nanoparticle cell
-  selectivity and adhesion efficiency through designing functionalized
-  nanoparticles of controlled sizes, shapes, and material compositions. Recent
-  data on cylindrically shaped filomicelles are beginning to show that
-  nonspherical particles remarkably improved the biological properties over
-  spherical counterpart. Despite these exciting advances, non-spherical
-  particles have not been widely used in nanomedicine applications due to the
-  lack of fundamental understanding of shape effect on targeting efficiency.
-  This paper intends to investigate the shape-dependent adhesion kinetics of
-  non-spherical nanoparticles through computational modeling. The
-  ligand-receptor binding kinetics is coupled with Brownian dynamics to study
-  the dynamic delivery process of nanorods under various vascular flow
-  conditions. The influences of nanoparticle shape, ligand density, and shear
-  rate on adhesion probability are studied. Nanorods are observed to contact
-  and adhere to the wall much easier than their spherical counterparts under
-  the same configuration due to their tumbling motion. The binding probability
-  of a nanorod under a shear rate of 8 s -1 is found to be three times higher
-  than that of a nanosphere with the same volume. The particle binding
-  probability decreases with increased flow shear rate and channel height. The
-  Brownian motion is found to largely enhance nanoparticle binding. Results
-  from this study contribute to the fundamental understanding and knowledge on
-  how particle shape affects the transport and targeting efficiency of
-  nanocarriers, which will provide mechanistic insights on the design of
-  shape-specific nanomedicine for targeted drug delivery applications.
-  Copyright {\textcopyright} 2011 American Scientific Publishers All rights
-  reserved.%
-    }
-    \verb{doi}
-    \verb 10.1166/jnn.2011.3536
-    \endverb
-    \field{issn}{15334880}
-    \field{number}{2}
-    \field{pages}{919\bibrangedash 928}
-    \field{title}{{Modeling particle shape-dependent dynamics in nanomedicine}}
-    \field{volume}{11}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/morfologia/Morphology/references/Modeling Particle Shape-Depe
-    \verb ndent Dynamics in Nanomedicine.pdf:pdf
-    \endverb
-    \field{journaltitle}{Journal of Nanoscience and Nanotechnology}
-    \field{year}{2011}
-  \endentry
-
-  \entry{sneed1958pebbles}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SED}{%
-         family={Sneed},
-         familyi={S\bibinitperiod},
-         given={Edmund\bibnamedelima D},
-         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=FRL}{%
-         family={Folk},
-         familyi={F\bibinitperiod},
-         given={Robert\bibnamedelima L},
-         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+         given={Violet\bibnamedelima F},
+         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {University of Chicago Press}%
+      {IEEE}%
     }
-    \strng{namehash}{SEDFRL1}
-    \strng{fullhash}{SEDFRL1}
+    \strng{namehash}{LVF1}
+    \strng{fullhash}{LVF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{number}{2}
-    \field{pages}{114\bibrangedash 150}
-    \field{title}{Pebbles in the lower Colorado River, Texas a study in
-  particle morphogenesis}
-    \field{volume}{66}
-    \field{journaltitle}{The Journal of Geology}
-    \field{year}{1958}
+    \field{number}{12}
+    \field{pages}{1411\bibrangedash 1423}
+    \field{title}{Use of the two-dimensional Radon transform to generate a
+  taxonomy of shape for the characterization of abrasive powder particles}
+    \field{volume}{22}
+    \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}
+    \field{year}{2000}
   \endentry
 
   \entry{stachowiak1998numerical}{article}{}
@@ -1304,8 +1191,6 @@
     \strng{fullhash}{SG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
     \field{number}{1-3}
     \field{pages}{139\bibrangedash 157}
     \field{title}{Numerical characterization of wear particles morphology and
@@ -1315,193 +1200,116 @@
     \field{year}{1998}
   \endentry
 
-  \entry{tickell1939examination}{article}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=TFG}{%
-         family={Tickell},
-         familyi={T\bibinitperiod},
-         given={Frederick\bibnamedelima George},
-         giveni={F\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {H. Milford, Oxford university press}%
-    }
-    \strng{namehash}{TFG+1}
-    \strng{fullhash}{TFG+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{Examination of fragmental rocks}
-    \field{year}{1939}
-  \endentry
-
-  \entry{toy2014shaping}{article}{}
+  \entry{chavez2020method}{article}{}
     \name{author}{4}{}{%
-      {{hash=TR}{%
-         family={Toy},
-         familyi={T\bibinitperiod},
-         given={Randall},
-         giveni={R\bibinitperiod},
+      {{hash=CGM}{%
+         family={Ch{\'a}vez},
+         familyi={C\bibinitperiod},
+         given={G\bibnamedelima Moreno},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
-      {{hash=PPM}{%
-         family={Peiris},
-         familyi={P\bibinitperiod},
-         given={Pubudu\bibnamedelima M},
-         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      {{hash=VJ}{%
+         family={Villa},
+         familyi={V\bibinitperiod},
+         given={Jes{\'u}s},
+         giveni={J\bibinitperiod},
       }}%
-      {{hash=GKB}{%
-         family={Ghaghada},
-         familyi={G\bibinitperiod},
-         given={Ketan\bibnamedelima B},
-         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+      {{hash=SD}{%
+         family={Sarocchi},
+         familyi={S\bibinitperiod},
+         given={D},
+         giveni={D},
       }}%
-      {{hash=KE}{%
-         family={Karathanasis},
-         familyi={K\bibinitperiod},
-         given={Efstathios},
+      {{hash=GRE}{%
+         family={Gonz{\'a}lez-Ram{\'\i}rez},
+         familyi={G\bibinithyphendelim R\bibinitperiod},
+         given={Efr{\'e}n},
          giveni={E\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Future Medicine}%
+      {Elsevier}%
     }
-    \strng{namehash}{TR+1}
-    \strng{fullhash}{TRPPMGKBKE1}
+    \strng{namehash}{CGM+1}
+    \strng{fullhash}{CGMVJSDGRE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
+    \field{pages}{104451}
+    \field{title}{A method and software solution for classifying clast
+  roundness based on the radon transform}
+    \field{volume}{138}
+    \field{journaltitle}{Computers & Geosciences}
+    \field{year}{2020}
+  \endentry
+
+  \entry{muller1967methods}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MG}{%
+         family={M{\"u}ller},
+         familyi={M\bibinitperiod},
+         given={German},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Schweizerbart'sche Verlagsbuchhandlung}%
+    }
+    \strng{namehash}{MG1}
+    \strng{fullhash}{MG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Methods in sedimentary petrology}
+    \field{year}{1967}
+  \endentry
+
+  \entry{Krumbein1941}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KWC}{%
+         family={Krumbein},
+         familyi={K\bibinitperiod},
+         given={W\bibnamedelima C},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Society for Sedimentary Geology}
+    \strng{namehash}{KWC1}
+    \strng{fullhash}{KWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{64\bibrangedash 72}
+    \field{title}{{OF S E D I M E N T A R Y}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
+    \verb e/Tesis/morfologia/Morphology/references/MEASUREMENT AND GEOLOGICAL S
+    \verb IGNIFICANCE OF SHAPE.pdf:pdf
+    \endverb
+    \field{year}{1941}
+  \endentry
+
+  \entry{freeman1974computer}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FH}{%
+         family={Freeman},
+         familyi={F\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM New York, NY, USA}%
+    }
+    \strng{namehash}{FH1}
+    \strng{fullhash}{FH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
     \field{number}{1}
-    \field{pages}{121\bibrangedash 134}
-    \field{title}{Shaping cancer nanomedicine: the effect of particle shape on
-  the in vivo journey of nanoparticles}
-    \field{volume}{9}
-    \field{journaltitle}{Nanomedicine}
-    \field{year}{2014}
-  \endentry
-
-  \entry{tucker2009sedimentary}{book}{}
-    \name{author}{1}{}{%
-      {{hash=TME}{%
-         family={Tucker},
-         familyi={T\bibinitperiod},
-         given={Maurice\bibnamedelima E},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {John Wiley Sons}%
-    }
-    \strng{namehash}{TME1}
-    \strng{fullhash}{TME1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{Sedimentary petrology: an introduction to the origin of
-  sedimentary rocks}
-    \field{year}{2009}
-  \endentry
-
-  \entry{wadell1933sphericity}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WH}{%
-         family={Wadell},
-         familyi={W\bibinitperiod},
-         given={Hakon},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {University of Chicago Press}%
-    }
-    \strng{namehash}{WH1}
-    \strng{fullhash}{WH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{number}{3}
-    \field{pages}{310\bibrangedash 331}
-    \field{title}{Sphericity and roundness of rock particles}
-    \field{volume}{41}
-    \field{journaltitle}{The Journal of Geology}
-    \field{year}{1933}
-  \endentry
-
-  \entry{Wadell1935}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WH}{%
-         family={Wadell},
-         familyi={W\bibinitperiod},
-         given={Hakon},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WH1}
-    \strng{fullhash}{WH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{abstract}{%
-    The present paper deals with the fundamental principles, conceptions, and
-  ideas upon which some new sedimentological research methods are based.%
-    }
-    \verb{doi}
-    \verb 10.1086/624298
-    \endverb
-    \field{issn}{0022-1376}
-    \field{number}{3}
-    \field{pages}{250\bibrangedash 280}
-    \field{title}{{Volume, Shape, and Roundness of Quartz Particles}}
-    \field{volume}{43}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/Papers tentativos/wadell1935.pdf:pdf
-    \endverb
-    \field{journaltitle}{The Journal of Geology}
-    \field{year}{1935}
-  \endentry
-
-  \entry{Wadell1932}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WH}{%
-         family={Wadell},
-         familyi={W\bibinitperiod},
-         given={Hakon},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WH1}
-    \strng{fullhash}{WH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{abstract}{%
-    The present paper deals with the fundamental principles, conceptions, and
-  ideas upon which some new sedimentological research methods are based. CR -
-  Copyright {}{\#}169; 1932 The University of Chicago Press%
-    }
-    \verb{doi}
-    \verb 10.1086/623964
-    \endverb
-    \field{issn}{0022-1376}
-    \field{number}{5}
-    \field{pages}{443\bibrangedash 451}
-    \field{title}{{Volume, Shape, and Roundness of Rock Particles}}
-    \field{volume}{40}
-    \verb{file}
-    \verb :C$\backslash$:/Users/HeavyRain350/Desktop/academico/MCPI/3er Semestr
-    \verb e/Tesis/morfologia/Morphology/references/wadell1932.pdf:pdf
-    \endverb
-    \field{journaltitle}{The Journal of Geology}
-    \field{year}{1932}
+    \field{pages}{57\bibrangedash 97}
+    \field{title}{Computer processing of line-drawing images}
+    \field{volume}{6}
+    \field{journaltitle}{ACM Computing Surveys (CSUR)}
+    \field{year}{1974}
   \endentry
 
   \entry{Zheng2016}{article}{}
@@ -1523,8 +1331,6 @@
     \strng{fullhash}{ZJHRD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{Z}
-    \field{sortinithash}{Z}
     \field{abstract}{%
     The use of computational geometry methods for determining soil roundness
   (R) and sphericity (S) were evaluated and extended to particles segmented
@@ -1557,6 +1363,157 @@
     \endverb
     \field{journaltitle}{Journal of Computing in Civil Engineering}
     \field{year}{2016}
+  \endentry
+
+  \entry{aggarwal2018neural}{book}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=ACC}{%
+         family={Aggarwal},
+         familyi={A\bibinitperiod},
+         given={Charu\bibnamedelima C},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{ACC+1}
+    \strng{fullhash}{ACC+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Neural networks and deep learning}
+    \field{year}{2018}
+  \endentry
+
+  \entry{ding2018activation}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=DB}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=QH}{%
+         family={Qian},
+         familyi={Q\bibinitperiod},
+         given={Huimin},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DBQHZJ1}
+    \strng{fullhash}{DBQHZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 Chinese Control And Decision Conference (CCDC)}
+    \field{pages}{1836\bibrangedash 1841}
+    \field{title}{Activation functions and their characteristics in deep neural
+  networks}
+    \field{year}{2018}
+  \endentry
+
+  \entry{nair2010rectified}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=NV}{%
+         family={Nair},
+         familyi={N\bibinitperiod},
+         given={Vinod},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HGE}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey\bibnamedelima E},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NVHGE1}
+    \strng{fullhash}{NVHGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ICML}
+    \field{title}{Rectified linear units improve restricted boltzmann machines}
+    \field{year}{2010}
+  \endentry
+
+  \entry{he2015delving}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiangyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Shaoqing},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HK+1}
+    \strng{fullhash}{HKZXRSSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE international conference on
+  computer vision}
+    \field{pages}{1026\bibrangedash 1034}
+    \field{title}{Delving deep into rectifiers: Surpassing human-level
+  performance on imagenet classification}
+    \field{year}{2015}
+  \endentry
+
+  \entry{clevert2015fast}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CDA}{%
+         family={Clevert},
+         familyi={C\bibinitperiod},
+         given={Djork-Arn{\'e}},
+         giveni={D\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=UT}{%
+         family={Unterthiner},
+         familyi={U\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hochreiter},
+         familyi={H\bibinitperiod},
+         given={Sepp},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CDAUTHS1}
+    \strng{fullhash}{CDAUTHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fast and accurate deep network learning by exponential linear
+  units (elus)}
+    \field{journaltitle}{arXiv preprint arXiv:1511.07289}
+    \field{year}{2015}
   \endentry
 \enddatalist
 \endinput
